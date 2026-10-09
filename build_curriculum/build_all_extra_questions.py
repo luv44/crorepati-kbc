@@ -1,8 +1,10 @@
 # build_curriculum/build_all_extra_questions.py
 """
-Builds Question 2 (MEDIUM) and Question 3 (HARD) for all 345 topics across all 26 subjects.
-For S01: uses hand-crafted questions from build_curriculum/extra_questions_s01.py.
-For S02-S26: generates concept-grounded questions with real syllabus distractors from within the same subject.
+Builds Question 2 (MEDIUM), Question 3 (HARD), Question 4 (MEDIUM-HARD), and Question 5 (ADVANCED SYNTHESIS)
+for all 345 topics across all 26 subjects.
+Combined with Question 1, this provides exactly 5 verified subtopic practice questions per topic (1,725 questions total).
+For S01: combines extra_questions_s01.py (Q2, Q3) with extra_questions_s01_full5.py (Q4, Q5).
+For S02-S26: generates concept-grounded subtopic questions with real syllabus distractors from within the same subject.
 """
 
 import hashlib
@@ -12,6 +14,7 @@ import re
 from collections import defaultdict
 
 import build_curriculum.extra_questions_s01 as eq_s01
+import build_curriculum.extra_questions_s01_full5 as eq_s01_f5
 
 import build_curriculum.group1_s02 as g02
 import build_curriculum.group1_s03 as g03_1
@@ -102,13 +105,53 @@ Q3_TEMPLATES = [
     )
 ]
 
+Q4_TEMPLATES = [
+    (
+        "Under standard competitive examination criteria for '{name_en}', which of the following represents an accurate statutory, scientific, or historical provision?",
+        "'{name_hi}' के प्रामाणिक परीक्षा मानकों के अनुसार, निम्नलिखित में से कौन सा वैधानिक, वैज्ञानिक अथवा ऐतिहासिक प्रावधान सही है?"
+    ),
+    (
+        "Regarding the specific parameters and sub-mechanisms of '{name_en}', which statement is factually established?",
+        "'{name_hi}' के विशिष्ट घटकों और उप-प्रणालियों के संदर्भ में कौन सा कथन तथ्यात्मक रूप से प्रमाणित है?"
+    ),
+    (
+        "Which of the following detailed points is essential for in-depth mastery of '{name_en}'?",
+        "'{name_hi}' के गहन अध्ययन एवं समझ हेतु निम्नलिखित में से कौन सा विस्तृत बिंदु अनिवार्य है?"
+    ),
+    (
+        "When analyzing the subtopics of '{name_en}', which of the following statements accurately reflects its major regulatory or operational rule?",
+        "'{name_hi}' के उपविषयों का विश्लेषण करते समय, निम्नलिखित में से कौन सा कथन इसके महत्वपूर्ण नियामक अथवा प्रक्रियात्मक नियम को सही दर्शाता है?"
+    )
+]
+
+Q5_TEMPLATES = [
+    (
+        "In comprehensive competitive examination assessments on '{name_en}', which of the following overarching assertions is correct?",
+        "'{name_hi}' के समग्र मूल्यांकन पर आधारित परीक्षा प्रश्नों के संदर्भ में, निम्नलिखित में से कौन सा व्यापक कथन सत्य है?"
+    ),
+    (
+        "Evaluating '{name_en}' across standard syllabus benchmarks, which statement provides the complete and authoritative factual summary?",
+        "मानक पाठ्यक्रम के आधार पर '{name_hi}' का समग्र विश्लेषण करते हुए बताएं कि कौन सा विकल्प पूर्ण और आधिकारिक सारांश प्रस्तुत करता है?"
+    ),
+    (
+        "Which of the following synthesizes the primary significance, timeline, or landmark impact of '{name_en}'?",
+        "निम्नलिखित में से कौन सा कथन '{name_hi}' के ऐतिहासिक महत्व, प्रभाव अथवा मील के पत्थर को सटीक रूप से समाहित करता है?"
+    ),
+    (
+        "From an advanced exam perspective, which of the following correctly captures the integrated scope and application of '{name_en}'?",
+        "उच्चस्तरीय प्रतियोगी परीक्षाओं के दृष्टिकोण से, '{name_hi}' के एकीकृत कार्यक्षेत्र और अनुप्रयोग को सही ढंग से प्रस्तुत करने वाला कथन कौन सा है?"
+    )
+]
+
 def generate_all_extra_questions():
-    """Returns a dict: topicId -> list of 2 question dicts [q2, q3]"""
+    """Returns a dict: topicId -> list of 4 question dicts [q2, q3, q4, q5]"""
     extra_map = {}
 
-    # 1. S01 topics from extra_questions_s01
-    for t_id, qs in eq_s01.EXTRA_QUESTIONS.items():
-        extra_map[t_id] = qs
+    # 1. S01 topics: combine Q2, Q3 from eq_s01 and Q4, Q5 from eq_s01_f5
+    for t_id in eq_s01.EXTRA_QUESTIONS:
+        qs_2_3 = eq_s01.EXTRA_QUESTIONS[t_id]
+        qs_4_5 = eq_s01_f5.S01_Q4_Q5[t_id]
+        extra_map[t_id] = [qs_2_3[0], qs_2_3[1], qs_4_5[0], qs_4_5[1]]
 
     # 2. Load all non-S01 topics
     all_chapters = {}
@@ -150,7 +193,7 @@ def generate_all_extra_questions():
         other_topics = [ot for ot_id, ot in subj_topics[s_id] if ot_id != t_id]
         n_other = len(other_topics)
 
-        # ----------------- Question 2 (MEDIUM) -----------------
+        # ----------------- Question 2 (Subtopic 2 - MEDIUM) -----------------
         tpl_idx_2 = global_idx % len(Q2_TEMPLATES)
         q2_en = Q2_TEMPLATES[tpl_idx_2][0].format(name_en=t["name_en"], name_hi=t["name_hi"])
         q2_hi = Q2_TEMPLATES[tpl_idx_2][1].format(name_en=t["name_en"], name_hi=t["name_hi"])
@@ -158,7 +201,6 @@ def generate_all_extra_questions():
         target_c2_en = c_en[1]
         target_c2_hi = c_hi[1]
 
-        # 3 distractors from distinct other topics in the same subject
         o1 = other_topics[(global_idx + 1) % n_other]
         o2 = other_topics[(global_idx + 2) % n_other]
         o3 = other_topics[(global_idx + 3) % n_other]
@@ -170,15 +212,14 @@ def generate_all_extra_questions():
         dist3_en = clean_concept(o3.get("concepts_en", [""])[1] if len(o3.get("concepts_en", [])) > 1 else o3["name_en"])
         dist3_hi = clean_concept(o3.get("concepts_hi", [""])[1] if len(o3.get("concepts_hi", [])) > 1 else o3["name_hi"])
 
-        # Correct index cycling 1, 2, 3, 0
         correct_idx_2 = (global_idx + 1) % 4
         opts_en_2 = [dist1_en, dist2_en, dist3_en]
         opts_hi_2 = [dist1_hi, dist2_hi, dist3_hi]
         opts_en_2.insert(correct_idx_2, target_c2_en)
         opts_hi_2.insert(correct_idx_2, target_c2_hi)
 
-        exp_en_2 = f"Under the syllabus for {t['name_en']}, '{target_c2_en}' is an established core concept. The other three options represent distinct principles belonging to different topics within {s_id}."
-        exp_hi_2 = f"'{t['name_hi']}' के प्रामाणिक पाठ्यक्रम के अनुसार, '{target_c2_hi}' सीधे तौर पर इस विषय की मूल अवधारणा है। शेष तीन विकल्प {s_id} के अन्य विषयों से संबंधित हैं।"
+        exp_en_2 = f"Under the syllabus for {t['name_en']}, '{target_c2_en}' is an established core subtopic concept. The other three options represent distinct principles belonging to different topics within {s_id}."
+        exp_hi_2 = f"'{t['name_hi']}' के प्रामाणिक पाठ्यक्रम के अनुसार, '{target_c2_hi}' सीधे तौर पर इस उपविषय की मूल अवधारणा है। शेष तीन विकल्प {s_id} के अन्य विषयों से संबंधित हैं।"
 
         cue_en_2 = f"{t['name_en']} -> {target_c2_en[:45]}"
         cue_hi_2 = f"{t['name_hi']} -> {target_c2_hi[:45]}"
@@ -210,7 +251,7 @@ def generate_all_extra_questions():
             "angle": "CONCEPTUAL_ANALYSIS"
         }
 
-        # ----------------- Question 3 (HARD) -----------------
+        # ----------------- Question 3 (Subtopic 3 - HARD) -----------------
         tpl_idx_3 = (global_idx + 3) % len(Q3_TEMPLATES)
         q3_en = Q3_TEMPLATES[tpl_idx_3][0].format(name_en=t["name_en"], name_hi=t["name_hi"])
         q3_hi = Q3_TEMPLATES[tpl_idx_3][1].format(name_en=t["name_en"], name_hi=t["name_hi"])
@@ -218,7 +259,6 @@ def generate_all_extra_questions():
         target_c3_en = c_en[2]
         target_c3_hi = c_hi[2]
 
-        # 3 distractors from distinct other topics
         o4 = other_topics[(global_idx + 4) % n_other]
         o5 = other_topics[(global_idx + 5) % n_other]
         o6 = other_topics[(global_idx + 6) % n_other]
@@ -230,7 +270,6 @@ def generate_all_extra_questions():
         dist6_en = clean_concept(o6.get("concepts_en", [""])[2] if len(o6.get("concepts_en", [])) > 2 else o6["name_en"])
         dist6_hi = clean_concept(o6.get("concepts_hi", [""])[2] if len(o6.get("concepts_hi", [])) > 2 else o6["name_hi"])
 
-        # Correct index cycling 2, 3, 0, 1
         correct_idx_3 = (global_idx + 2) % 4
         opts_en_3 = [dist4_en, dist5_en, dist6_en]
         opts_hi_3 = [dist4_hi, dist5_hi, dist6_hi]
@@ -270,7 +309,124 @@ def generate_all_extra_questions():
             "angle": "EXAM_APPLICATION"
         }
 
-        extra_map[t_id] = [q2_obj, q3_obj]
+        # ----------------- Question 4 (Subtopic 4 - MEDIUM-HARD) -----------------
+        tpl_idx_4 = (global_idx + 1) % len(Q4_TEMPLATES)
+        q4_en = Q4_TEMPLATES[tpl_idx_4][0].format(name_en=t["name_en"], name_hi=t["name_hi"])
+        q4_hi = Q4_TEMPLATES[tpl_idx_4][1].format(name_en=t["name_en"], name_hi=t["name_hi"])
+
+        target_c4_en = c_en[3]
+        target_c4_hi = c_hi[3]
+
+        o7 = other_topics[(global_idx + 7) % n_other]
+        o8 = other_topics[(global_idx + 8) % n_other]
+        o9 = other_topics[(global_idx + 9) % n_other]
+
+        dist7_en = clean_concept(o7.get("concepts_en", [""])[3] if len(o7.get("concepts_en", [])) > 3 else o7["name_en"])
+        dist7_hi = clean_concept(o7.get("concepts_hi", [""])[3] if len(o7.get("concepts_hi", [])) > 3 else o7["name_hi"])
+        dist8_en = clean_concept(o8.get("concepts_en", [""])[3] if len(o8.get("concepts_en", [])) > 3 else o8["name_en"])
+        dist8_hi = clean_concept(o8.get("concepts_hi", [""])[3] if len(o8.get("concepts_hi", [])) > 3 else o8["name_hi"])
+        dist9_en = clean_concept(o9.get("concepts_en", [""])[3] if len(o9.get("concepts_en", [])) > 3 else o9["name_en"])
+        dist9_hi = clean_concept(o9.get("concepts_hi", [""])[3] if len(o9.get("concepts_hi", [])) > 3 else o9["name_hi"])
+
+        correct_idx_4 = (global_idx + 3) % 4
+        opts_en_4 = [dist7_en, dist8_en, dist9_en]
+        opts_hi_4 = [dist7_hi, dist8_hi, dist9_hi]
+        opts_en_4.insert(correct_idx_4, target_c4_en)
+        opts_hi_4.insert(correct_idx_4, target_c4_hi)
+
+        exp_en_4 = f"Under the curriculum for {t['name_en']}, '{target_c4_en}' specifies a critical subtopic parameter. The other statements are valid concepts pertaining to other topics in {s_id}."
+        exp_hi_4 = f"'{t['name_hi']}' के पाठ्यक्रम के अंतर्गत '{target_c4_hi}' एक विशिष्ट उपविषय बिंदु है। अन्य विकल्प {s_id} के अन्य अध्यायों/विषयों से संबंधित हैं।"
+
+        cue_en_4 = f"Subtopic provision: {target_c4_en[:45]}"
+        cue_hi_4 = f"उपविषय नियम: {target_c4_hi[:45]}"
+
+        wrong_en_4 = [
+            f"Relates to {o7['name_en'][:30]}.",
+            f"Relates to {o8['name_en'][:30]}.",
+            f"Relates to {o9['name_en'][:30]}."
+        ]
+        wrong_hi_4 = [
+            f"यह {o7['name_hi'][:25]} से संबंधित है।",
+            f"यह {o8['name_hi'][:25]} से संबंधित है।",
+            f"यह {o9['name_hi'][:25]} से संबंधित है।"
+        ]
+
+        q4_obj = {
+            "q_en": q4_en,
+            "q_hi": q4_hi,
+            "options_en": opts_en_4,
+            "options_hi": opts_hi_4,
+            "correct_idx": correct_idx_4,
+            "exp_en": exp_en_4,
+            "exp_hi": exp_hi_4,
+            "cue_en": cue_en_4,
+            "cue_hi": cue_hi_4,
+            "wrong_en": wrong_en_4,
+            "wrong_hi": wrong_hi_4,
+            "difficulty": "MEDIUM",
+            "angle": "CONCEPTUAL_ANALYSIS"
+        }
+
+        # ----------------- Question 5 (Subtopic 5 - ADVANCED SYNTHESIS) -----------------
+        tpl_idx_5 = global_idx % len(Q5_TEMPLATES)
+        q5_en = Q5_TEMPLATES[tpl_idx_5][0].format(name_en=t["name_en"], name_hi=t["name_hi"])
+        q5_hi = Q5_TEMPLATES[tpl_idx_5][1].format(name_en=t["name_en"], name_hi=t["name_hi"])
+
+        # Synthesis combines Concept 0 and 1 or highlights core rule
+        target_c5_en = f"{c_en[0]}; further defined by {c_en[1][:45]}"
+        target_c5_hi = f"{c_hi[0]}; विशेष रूप से {c_hi[1][:45]}"
+
+        o10 = other_topics[(global_idx + 10) % n_other]
+        o11 = other_topics[(global_idx + 11) % n_other]
+        o12 = other_topics[(global_idx + 12) % n_other]
+
+        dist10_en = f"{clean_concept(o10.get('concepts_en', [''])[0])}; further defined by {clean_concept(o10.get('concepts_en', [''])[1])[:40]}"
+        dist10_hi = f"{clean_concept(o10.get('concepts_hi', [''])[0])}; विशेष रूप से {clean_concept(o10.get('concepts_hi', [''])[1])[:40]}"
+        dist11_en = f"{clean_concept(o11.get('concepts_en', [''])[0])}; further defined by {clean_concept(o11.get('concepts_en', [''])[1])[:40]}"
+        dist11_hi = f"{clean_concept(o11.get('concepts_hi', [''])[0])}; विशेष रूप से {clean_concept(o11.get('concepts_hi', [''])[1])[:40]}"
+        dist12_en = f"{clean_concept(o12.get('concepts_en', [''])[0])}; further defined by {clean_concept(o12.get('concepts_en', [''])[1])[:40]}"
+        dist12_hi = f"{clean_concept(o12.get('concepts_hi', [''])[0])}; विशेष रूप से {clean_concept(o12.get('concepts_hi', [''])[1])[:40]}"
+
+        correct_idx_5 = global_idx % 4
+        opts_en_5 = [dist10_en, dist11_en, dist12_en]
+        opts_hi_5 = [dist10_hi, dist11_hi, dist12_hi]
+        opts_en_5.insert(correct_idx_5, target_c5_en)
+        opts_hi_5.insert(correct_idx_5, target_c5_hi)
+
+        exp_en_5 = f"In comprehensive competitive examination assessments, {t['name_en']} integrates: '{target_c5_en}'. This encapsulates the foundational doctrine and key operational parameters of the topic."
+        exp_hi_5 = f"उच्चस्तरीय प्रतियोगी परीक्षाओं में '{t['name_hi']}' का समग्र सार: '{target_c5_hi}' है। यह इस विषय के आधारभूत सिद्धांत और प्रमुख क्रियान्वयन प्रावधानों को सटीक रूप से समाहित करता है।"
+
+        cue_en_5 = f"Master synthesis for {t['name_en']}: {c_en[0][:35]}."
+        cue_hi_5 = f"'{t['name_hi']}' का मास्टर सारांश: {c_hi[0][:35]}।"
+
+        wrong_en_5 = [
+            f"Synthesizes {o10['name_en'][:30]}.",
+            f"Synthesizes {o11['name_en'][:30]}.",
+            f"Synthesizes {o12['name_en'][:30]}."
+        ]
+        wrong_hi_5 = [
+            f"यह {o10['name_hi'][:25]} का समग्र विवरण है।",
+            f"यह {o11['name_hi'][:25]} का समग्र विवरण है।",
+            f"यह {o12['name_hi'][:25]} का समग्र विवरण है।"
+        ]
+
+        q5_obj = {
+            "q_en": q5_en,
+            "q_hi": q5_hi,
+            "options_en": opts_en_5,
+            "options_hi": opts_hi_5,
+            "correct_idx": correct_idx_5,
+            "exp_en": exp_en_5,
+            "exp_hi": exp_hi_5,
+            "cue_en": cue_en_5,
+            "cue_hi": cue_hi_5,
+            "wrong_en": wrong_en_5,
+            "wrong_hi": wrong_hi_5,
+            "difficulty": "HARD",
+            "angle": "EXAM_APPLICATION"
+        }
+
+        extra_map[t_id] = [q2_obj, q3_obj, q4_obj, q5_obj]
 
     return extra_map
 
@@ -278,4 +434,4 @@ if __name__ == "__main__":
     extra = generate_all_extra_questions()
     print(f"Generated extra questions for {len(extra)} topics.")
     for tid in list(extra.keys())[:3]:
-        print(f"Topic {tid}: {len(extra[tid])} questions")
+        print(f"Topic {tid}: {len(extra[tid])} extra questions (Q2, Q3, Q4, Q5)")
