@@ -1,0 +1,2416 @@
+{
+  "version": "0.1.0",
+  "subjects": [
+    {
+      "id": "S01",
+      "title": "India Basics & Physical Geography",
+      "shortTitle": "S01 India Basics",
+      "titleHindi": "भारत का सामान्य परिचय एवं भौतिक भूगोल",
+      "color": "#174f46",
+      "chapters": [
+        {
+          "id": "S01-C01",
+          "title": "Geographical Location, Borders & Extremities",
+          "topics": [
+            {
+              "id": "S01-C01_T01",
+              "title": "Geographical Location, Borders & Extremities",
+              "titleHindi": "भौगोलिक अवस्थिति, सीमाएं एवं सुदूरतम बिंदु",
+              "subjectId": "S01",
+              "chapterId": "S01-C01",
+              "concepts": [
+                {
+                  "id": "concept_S01_S01-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 1,
+              "factCardIds": [
+                "FC_S01-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S01-C02",
+          "title": "Physiographic Divisions & Mountain Ranges",
+          "topics": [
+            {
+              "id": "S01-C02_T01",
+              "title": "Physiographic Divisions & Mountain Ranges",
+              "titleHindi": "भौतिक विभाजन एवं पर्वत श्रृंखलाएं",
+              "subjectId": "S01",
+              "chapterId": "S01-C02",
+              "concepts": [
+                {
+                  "id": "concept_S01_S01-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 1,
+              "factCardIds": [
+                "FC_S01-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S01-C03",
+          "title": "Drainage Systems, Rivers & Island Groups",
+          "topics": [
+            {
+              "id": "S01-C03_T01",
+              "title": "Drainage Systems, Rivers & Island Groups",
+              "titleHindi": "अपवाह तंत्र, नदियां एवं द्वीप समूह",
+              "subjectId": "S01",
+              "chapterId": "S01-C03",
+              "concepts": [
+                {
+                  "id": "concept_S01_S01-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 1,
+              "factCardIds": [
+                "FC_S01-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 5
+    },
+    {
+      "id": "S02",
+      "title": "Current Affairs & Contemporary Events",
+      "shortTitle": "S02 Current Affairs",
+      "titleHindi": "समसामयिक घटनाक्रम एवं राष्ट्रीय-अंतर्राष्ट्रीय मुद्दे",
+      "color": "#1b4d3e",
+      "chapters": [
+        {
+          "id": "S02-C01",
+          "title": "National Policies, Summits & Government Initiatives",
+          "topics": [
+            {
+              "id": "S02-C01_T01",
+              "title": "National Policies, Summits & Government Initiatives",
+              "titleHindi": "राष्ट्रीय नीतियां, शिखर सम्मेलन एवं सरकारी पहल",
+              "subjectId": "S02",
+              "chapterId": "S02-C01",
+              "concepts": [
+                {
+                  "id": "concept_S02_S02-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S02-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S02-C02",
+          "title": "International Bilateral Relations & Treaties",
+          "topics": [
+            {
+              "id": "S02-C02_T01",
+              "title": "International Bilateral Relations & Treaties",
+              "titleHindi": "द्विपक्षीय संबंध, संधियां एवं वैश्विक घटनाएं",
+              "subjectId": "S02",
+              "chapterId": "S02-C02",
+              "concepts": [
+                {
+                  "id": "concept_S02_S02-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S02-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S02-C03",
+          "title": "Science, Technology, Defence & Space Developments",
+          "topics": [
+            {
+              "id": "S02-C03_T01",
+              "title": "Science, Technology, Defence & Space Developments",
+              "titleHindi": "विज्ञान, प्रौद्योगिकी, रक्षा एवं अंतरिक्ष विकास",
+              "subjectId": "S02",
+              "chapterId": "S02-C03",
+              "concepts": [
+                {
+                  "id": "concept_S02_S02-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S02-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 3
+    },
+    {
+      "id": "S03",
+      "title": "Ancient Indian History & Archaeology",
+      "shortTitle": "S03 Ancient Indian History",
+      "titleHindi": "प्राचीन भारत का इतिहास एवं पुरातत्व",
+      "color": "#1e3a5f",
+      "chapters": [
+        {
+          "id": "S03-C01",
+          "title": "Prehistoric Periods & Indus Valley Civilization",
+          "topics": [
+            {
+              "id": "S03-C01_T01",
+              "title": "Prehistoric Periods & Indus Valley Civilization",
+              "titleHindi": "प्रागैतिहासिक काल एवं सिंधु घाटी सभ्यता",
+              "subjectId": "S03",
+              "chapterId": "S03-C01",
+              "concepts": [
+                {
+                  "id": "concept_S03_S03-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S03-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S03-C02",
+          "title": "Vedic Period, Upanishads & Mahajanapadas",
+          "topics": [
+            {
+              "id": "S03-C02_T01",
+              "title": "Vedic Period, Upanishads & Mahajanapadas",
+              "titleHindi": "वैदिक काल, उपनिषद एवं 16 महाजनपद",
+              "subjectId": "S03",
+              "chapterId": "S03-C02",
+              "concepts": [
+                {
+                  "id": "concept_S03_S03-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S03-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S03-C03",
+          "title": "Buddhism, Jainism & Religious Movements",
+          "topics": [
+            {
+              "id": "S03-C03_T01",
+              "title": "Buddhism, Jainism & Religious Movements",
+              "titleHindi": "बौद्ध धर्म, जैन धर्म एवं धार्मिक आंदोलन",
+              "subjectId": "S03",
+              "chapterId": "S03-C03",
+              "concepts": [
+                {
+                  "id": "concept_S03_S03-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S03-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S03-C04",
+          "title": "Mauryan Empire, Administration & Ashokan Edicts",
+          "topics": [
+            {
+              "id": "S03-C04_T01",
+              "title": "Mauryan Empire, Administration & Ashokan Edicts",
+              "titleHindi": "मौर्य साम्राज्य, प्रशासन एवं अशोक के अभिलेख",
+              "subjectId": "S03",
+              "chapterId": "S03-C04",
+              "concepts": [
+                {
+                  "id": "concept_S03_S03-C04_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S03-C04_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S03-C05",
+          "title": "Post-Mauryan, Guptas, Harsha & Sangam Dynasties",
+          "topics": [
+            {
+              "id": "S03-C05_T01",
+              "title": "Post-Mauryan, Guptas, Harsha & Sangam Dynasties",
+              "titleHindi": "मौर्योत्तर काल, गुप्त साम्राज्य, हर्ष एवं संगम राजवंश",
+              "subjectId": "S03",
+              "chapterId": "S03-C05",
+              "concepts": [
+                {
+                  "id": "concept_S03_S03-C05_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S03-C05_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 3
+    },
+    {
+      "id": "S04",
+      "title": "Medieval & Modern Indian History",
+      "shortTitle": "S04 Medieval",
+      "titleHindi": "मध्यकालीन एवं आधुनिक भारतीय इतिहास",
+      "color": "#2a4365",
+      "chapters": [
+        {
+          "id": "S04-C01",
+          "title": "Early Medieval India, Delhi Sultanate Dynasties",
+          "topics": [
+            {
+              "id": "S04-C01_T01",
+              "title": "Early Medieval India, Delhi Sultanate Dynasties",
+              "titleHindi": "पूर्व मध्यकालीन भारत एवं दिल्ली सल्तनत",
+              "subjectId": "S04",
+              "chapterId": "S04-C01",
+              "concepts": [
+                {
+                  "id": "concept_S04_S04-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S04-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S04-C02",
+          "title": "Mughal Empire: Polity, Economy & Architecture",
+          "topics": [
+            {
+              "id": "S04-C02_T01",
+              "title": "Mughal Empire: Polity, Economy & Architecture",
+              "titleHindi": "मुगल साम्राज्य: प्रशासन, अर्थव्यवस्था एवं स्थापत्य",
+              "subjectId": "S04",
+              "chapterId": "S04-C02",
+              "concepts": [
+                {
+                  "id": "concept_S04_S04-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S04-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S04-C03",
+          "title": "Vijayanagara Empire, Marathas & Regional Powers",
+          "topics": [
+            {
+              "id": "S04-C03_T01",
+              "title": "Vijayanagara Empire, Marathas & Regional Powers",
+              "titleHindi": "विजयनगर साम्राज्य, मराठा एवं क्षेत्रीय शक्तियां",
+              "subjectId": "S04",
+              "chapterId": "S04-C03",
+              "concepts": [
+                {
+                  "id": "concept_S04_S04-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S04-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S04-C04",
+          "title": "Advent of Europeans, British Expansion & Battles",
+          "topics": [
+            {
+              "id": "S04-C04_T01",
+              "title": "Advent of Europeans, British Expansion & Battles",
+              "titleHindi": "यूरोपीय आगमन, ब्रिटिश विस्तार एवं प्रमुख युद्ध",
+              "subjectId": "S04",
+              "chapterId": "S04-C04",
+              "concepts": [
+                {
+                  "id": "concept_S04_S04-C04_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S04-C04_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S04-C05",
+          "title": "Revolt of 1857 & Socio-Religious Reformers",
+          "topics": [
+            {
+              "id": "S04-C05_T01",
+              "title": "Revolt of 1857 & Socio-Religious Reformers",
+              "titleHindi": "1857 का विद्रोह एवं सामाजिक-धार्मिक सुधारक",
+              "subjectId": "S04",
+              "chapterId": "S04-C05",
+              "concepts": [
+                {
+                  "id": "concept_S04_S04-C05_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S04-C05_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S04-C06",
+          "title": "Indian National Movement & Independence (1885–1947)",
+          "topics": [
+            {
+              "id": "S04-C06_T01",
+              "title": "Indian National Movement & Independence (1885–1947)",
+              "titleHindi": "भारतीय राष्ट्रीय आंदोलन एवं स्वतंत्रता (1885-1947)",
+              "subjectId": "S04",
+              "chapterId": "S04-C06",
+              "concepts": [
+                {
+                  "id": "concept_S04_S04-C06_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S04-C06_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 3
+    },
+    {
+      "id": "S05",
+      "title": "Indian Polity & Constitutional Framework",
+      "shortTitle": "S05 Indian Polity",
+      "titleHindi": "भारतीय राजव्यवस्था एवं संवैधानिक ढांचा",
+      "color": "#2c5282",
+      "chapters": [
+        {
+          "id": "S05-C01",
+          "title": "Constitutional Evolution, Constituent Assembly & Preamble",
+          "topics": [
+            {
+              "id": "S05-C01_T01",
+              "title": "Constitutional Evolution, Constituent Assembly & Preamble",
+              "titleHindi": "संविधान निर्माण, संविधान सभा एवं प्रस्तावना",
+              "subjectId": "S05",
+              "chapterId": "S05-C01",
+              "concepts": [
+                {
+                  "id": "concept_S05_S05-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S05-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S05-C02",
+          "title": "Fundamental Rights, Directive Principles & Fundamental Duties",
+          "topics": [
+            {
+              "id": "S05-C02_T01",
+              "title": "Fundamental Rights, Directive Principles & Fundamental Duties",
+              "titleHindi": "मौलिक अधिकार, नीति-निर्देशक तत्व एवं मौलिक कर्तव्य",
+              "subjectId": "S05",
+              "chapterId": "S05-C02",
+              "concepts": [
+                {
+                  "id": "concept_S05_S05-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S05-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S05-C03",
+          "title": "Union Executive: President, PM & Council of Ministers",
+          "topics": [
+            {
+              "id": "S05-C03_T01",
+              "title": "Union Executive: President, PM & Council of Ministers",
+              "titleHindi": "केंद्रीय कार्यपालिका: राष्ट्रपति, प्रधानमंत्री एवं मंत्रिपरिषद",
+              "subjectId": "S05",
+              "chapterId": "S05-C03",
+              "concepts": [
+                {
+                  "id": "concept_S05_S05-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S05-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S05-C04",
+          "title": "Union Parliament & Integrated Judicial System",
+          "topics": [
+            {
+              "id": "S05-C04_T01",
+              "title": "Union Parliament & Integrated Judicial System",
+              "titleHindi": "संसद एवं एकीकृत न्यायपालिका (सुप्रीम कोर्ट/हाई कोर्ट)",
+              "subjectId": "S05",
+              "chapterId": "S05-C04",
+              "concepts": [
+                {
+                  "id": "concept_S05_S05-C04_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S05-C04_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 3
+    },
+    {
+      "id": "S06",
+      "title": "Governance, Panchayati Raj & Union Administration",
+      "shortTitle": "S06 Governance, Panchayati Raj",
+      "titleHindi": "शासन, पंचायती राज एवं केंद्र शासित प्रदेश प्रशासन",
+      "color": "#2b6cb0",
+      "chapters": [
+        {
+          "id": "S06-C01",
+          "title": "Panchayati Raj System (Part IX, 73rd Amendment)",
+          "topics": [
+            {
+              "id": "S06-C01_T01",
+              "title": "Panchayati Raj System (Part IX, 73rd Amendment)",
+              "titleHindi": "पंचायती राज संस्थाएं (भाग IX, 73वां संशोधन)",
+              "subjectId": "S06",
+              "chapterId": "S06-C01",
+              "concepts": [
+                {
+                  "id": "concept_S06_S06-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S06-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S06-C02",
+          "title": "Municipalities & Urban Local Bodies (Part IXA, 74th Amendment)",
+          "topics": [
+            {
+              "id": "S06-C02_T01",
+              "title": "Municipalities & Urban Local Bodies (Part IXA, 74th Amendment)",
+              "titleHindi": "नगर पालिकाएं एवं शहरी स्थानीय निकाय (भाग IXA)",
+              "subjectId": "S06",
+              "chapterId": "S06-C02",
+              "concepts": [
+                {
+                  "id": "concept_S06_S06-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S06-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S06-C03",
+          "title": "Administration of Union Territories & Special Areas",
+          "topics": [
+            {
+              "id": "S06-C03_T01",
+              "title": "Administration of Union Territories & Special Areas",
+              "titleHindi": "केंद्र शासित प्रदेश एवं अनुसूचित/जनजातीय क्षेत्र",
+              "subjectId": "S06",
+              "chapterId": "S06-C03",
+              "concepts": [
+                {
+                  "id": "concept_S06_S06-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S06-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S06-C04",
+          "title": "Constitutional & Statutory Bodies, Tribunals & CAG",
+          "topics": [
+            {
+              "id": "S06-C04_T01",
+              "title": "Constitutional & Statutory Bodies, Tribunals & CAG",
+              "titleHindi": "संवैधानिक व संविधिक निकाय, चुनाव आयोग एवं सीएजी",
+              "subjectId": "S06",
+              "chapterId": "S06-C04",
+              "concepts": [
+                {
+                  "id": "concept_S06_S06-C04_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S06-C04_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S07",
+      "title": "Indian Economy, Banking & Public Finance",
+      "shortTitle": "S07 Indian Economy, Banking",
+      "titleHindi": "भारतीय अर्थव्यवस्था, बैंकिंग एवं सार्वजनिक वित्त",
+      "color": "#319795",
+      "chapters": [
+        {
+          "id": "S07-C01",
+          "title": "National Income Accounting, GDP & Inflation Metrics",
+          "topics": [
+            {
+              "id": "S07-C01_T01",
+              "title": "National Income Accounting, GDP & Inflation Metrics",
+              "titleHindi": "राष्ट्रीय आय, जीडीपी एवं मुद्रास्फीति सूचकांक",
+              "subjectId": "S07",
+              "chapterId": "S07-C01",
+              "concepts": [
+                {
+                  "id": "concept_S07_S07-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S07-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S07-C02",
+          "title": "Reserve Bank of India, Monetary Policy & Banking Architecture",
+          "topics": [
+            {
+              "id": "S07-C02_T01",
+              "title": "Reserve Bank of India, Monetary Policy & Banking Architecture",
+              "titleHindi": "भारतीय रिज़र्व बैंक, मौद्रिक नीति एवं बैंकिंग संरचना",
+              "subjectId": "S07",
+              "chapterId": "S07-C02",
+              "concepts": [
+                {
+                  "id": "concept_S07_S07-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S07-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S07-C03",
+          "title": "Union Budget, Fiscal Policy, Taxation & GST",
+          "topics": [
+            {
+              "id": "S07-C03_T01",
+              "title": "Union Budget, Fiscal Policy, Taxation & GST",
+              "titleHindi": "केंद्रीय बजट, राजकोषीय नीति, कराधान एवं जीएसटी",
+              "subjectId": "S07",
+              "chapterId": "S07-C03",
+              "concepts": [
+                {
+                  "id": "concept_S07_S07-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S07-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S08",
+      "title": "World Geography & Physical Landforms",
+      "shortTitle": "S08 World Geography",
+      "titleHindi": "विश्व भूगोल एवं भौतिक भू-आकृतियां",
+      "color": "#285e61",
+      "chapters": [
+        {
+          "id": "S08-C01",
+          "title": "Interior of Earth, Plate Tectonics & Volcanism",
+          "topics": [
+            {
+              "id": "S08-C01_T01",
+              "title": "Interior of Earth, Plate Tectonics & Volcanism",
+              "titleHindi": "पृथ्वी की आंतरिक संरचना, प्लेट विवर्तनिकी एवं ज्वालामुखी",
+              "subjectId": "S08",
+              "chapterId": "S08-C01",
+              "concepts": [
+                {
+                  "id": "concept_S08_S08-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S08-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S08-C02",
+          "title": "Oceanography: Relief, Currents, Salinity & Tides",
+          "topics": [
+            {
+              "id": "S08-C02_T01",
+              "title": "Oceanography: Relief, Currents, Salinity & Tides",
+              "titleHindi": "समुद्र विज्ञान: समुद्री धाराएं, लवणता एवं ज्वार-भाटा",
+              "subjectId": "S08",
+              "chapterId": "S08-C02",
+              "concepts": [
+                {
+                  "id": "concept_S08_S08-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S08-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S08-C03",
+          "title": "Atmosphere, Pressure Belts, Winds & Climate Zones",
+          "topics": [
+            {
+              "id": "S08-C03_T01",
+              "title": "Atmosphere, Pressure Belts, Winds & Climate Zones",
+              "titleHindi": "वायुमंडल, वायुदाब पेटियां, पवनें एवं जलवायु क्षेत्र",
+              "subjectId": "S08",
+              "chapterId": "S08-C03",
+              "concepts": [
+                {
+                  "id": "concept_S08_S08-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S08-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S09",
+      "title": "Environment, Ecology & Biodiversity",
+      "shortTitle": "S09 Environment, Ecology",
+      "titleHindi": "पर्यावरण, पारिस्थितिकी एवं जैव विविधता",
+      "color": "#234e52",
+      "chapters": [
+        {
+          "id": "S09-C01",
+          "title": "Ecosystem Concepts, Food Webs & Ecological Pyramids",
+          "topics": [
+            {
+              "id": "S09-C01_T01",
+              "title": "Ecosystem Concepts, Food Webs & Ecological Pyramids",
+              "titleHindi": "पारिस्थितिकी तंत्र, खाद्य जाल एवं पारिस्थितिक पिरामिड",
+              "subjectId": "S09",
+              "chapterId": "S09-C01",
+              "concepts": [
+                {
+                  "id": "concept_S09_S09-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S09-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S09-C02",
+          "title": "Biodiversity, National Parks, Wildlife Sanctuaries & Ramsar Sites",
+          "topics": [
+            {
+              "id": "S09-C02_T01",
+              "title": "Biodiversity, National Parks, Wildlife Sanctuaries & Ramsar Sites",
+              "titleHindi": "जैव विविधता, राष्ट्रीय उद्यान, वन्यजीव अभयारण्य एवं रामसर स्थल",
+              "subjectId": "S09",
+              "chapterId": "S09-C02",
+              "concepts": [
+                {
+                  "id": "concept_S09_S09-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S09-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S09-C03",
+          "title": "Climate Change, Global Treaties & Environmental Legislation",
+          "topics": [
+            {
+              "id": "S09-C03_T01",
+              "title": "Climate Change, Global Treaties & Environmental Legislation",
+              "titleHindi": "जलवायु परिवर्तन, अंतर्राष्ट्रीय सम्मेलन एवं पर्यावरण कानून",
+              "subjectId": "S09",
+              "chapterId": "S09-C03",
+              "concepts": [
+                {
+                  "id": "concept_S09_S09-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S09-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S10",
+      "title": "General Science: Physics",
+      "shortTitle": "S10 General Science",
+      "titleHindi": "सामान्य विज्ञान: भौतिक विज्ञान",
+      "color": "#38a169",
+      "chapters": [
+        {
+          "id": "S10-C01",
+          "title": "Mechanics, Gravitation, Work, Power & Energy",
+          "topics": [
+            {
+              "id": "S10-C01_T01",
+              "title": "Mechanics, Gravitation, Work, Power & Energy",
+              "titleHindi": "यांत्रिकी, गुरुत्वाकर्षण, कार्य, शक्ति एवं ऊर्जा",
+              "subjectId": "S10",
+              "chapterId": "S10-C01",
+              "concepts": [
+                {
+                  "id": "concept_S10_S10-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S10-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S10-C02",
+          "title": "Wave Motion, Sound, Optics & Light Reflection/Refraction",
+          "topics": [
+            {
+              "id": "S10-C02_T01",
+              "title": "Wave Motion, Sound, Optics & Light Reflection/Refraction",
+              "titleHindi": "तरंग गति, ध्वनि, प्रकाशिकी एवं अपवर्तन/परावर्तन",
+              "subjectId": "S10",
+              "chapterId": "S10-C02",
+              "concepts": [
+                {
+                  "id": "concept_S10_S10-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S10-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S10-C03",
+          "title": "Heat, Thermodynamics, Electromagnetism & Modern Physics",
+          "topics": [
+            {
+              "id": "S10-C03_T01",
+              "title": "Heat, Thermodynamics, Electromagnetism & Modern Physics",
+              "titleHindi": "ऊष्मा, ऊष्मागतिकी, विद्युत, चुंबकत्व एवं आधुनिक भौतिकी",
+              "subjectId": "S10",
+              "chapterId": "S10-C03",
+              "concepts": [
+                {
+                  "id": "concept_S10_S10-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S10-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S11",
+      "title": "General Science: Chemistry",
+      "shortTitle": "S11 General Science",
+      "titleHindi": "सामान्य विज्ञान: रसायन विज्ञान",
+      "color": "#2f855a",
+      "chapters": [
+        {
+          "id": "S11-C01",
+          "title": "Atomic Structure, Chemical Bonding & Periodic Table",
+          "topics": [
+            {
+              "id": "S11-C01_T01",
+              "title": "Atomic Structure, Chemical Bonding & Periodic Table",
+              "titleHindi": "परमाणु संरचना, रासायनिक बंधन एवं आवर्त सारणी",
+              "subjectId": "S11",
+              "chapterId": "S11-C01",
+              "concepts": [
+                {
+                  "id": "concept_S11_S11-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S11-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S11-C02",
+          "title": "Acids, Bases, Salts, Metals, Non-Metals & Organic Compounds",
+          "topics": [
+            {
+              "id": "S11-C02_T01",
+              "title": "Acids, Bases, Salts, Metals, Non-Metals & Organic Compounds",
+              "titleHindi": "अम्ल, क्षार, लवण, धातु, अधातु एवं कार्बनिक यौगिक",
+              "subjectId": "S11",
+              "chapterId": "S11-C02",
+              "concepts": [
+                {
+                  "id": "concept_S11_S11-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S11-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S12",
+      "title": "General Science: Biology & Human Physiology",
+      "shortTitle": "S12 General Science",
+      "titleHindi": "सामान्य विज्ञान: जीव विज्ञान एवं मानव शरीर क्रिया विज्ञान",
+      "color": "#276749",
+      "chapters": [
+        {
+          "id": "S12-C01",
+          "title": "Cytology, Cell Organelles & Genetics",
+          "topics": [
+            {
+              "id": "S12-C01_T01",
+              "title": "Cytology, Cell Organelles & Genetics",
+              "titleHindi": "कोशिका विज्ञान, कोशिकांग एवं आनुवंशिकी",
+              "subjectId": "S12",
+              "chapterId": "S12-C01",
+              "concepts": [
+                {
+                  "id": "concept_S12_S12-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S12-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S12-C02",
+          "title": "Human Organ Systems: Circulatory, Nervous, Endocrine & Digestive",
+          "topics": [
+            {
+              "id": "S12-C02_T01",
+              "title": "Human Organ Systems: Circulatory, Nervous, Endocrine & Digestive",
+              "titleHindi": "मानव अंग तंत्र: परिसंचरण, तंत्रिका, अंतःस्रावी एवं पाचन",
+              "subjectId": "S12",
+              "chapterId": "S12-C02",
+              "concepts": [
+                {
+                  "id": "concept_S12_S12-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S12-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S12-C03",
+          "title": "Plant Anatomy, Photosynthesis & Plant Hormones",
+          "topics": [
+            {
+              "id": "S12-C03_T01",
+              "title": "Plant Anatomy, Photosynthesis & Plant Hormones",
+              "titleHindi": "पादप शारीरिकी, प्रकाश संश्लेषण एवं पादप हार्मोन",
+              "subjectId": "S12",
+              "chapterId": "S12-C03",
+              "concepts": [
+                {
+                  "id": "concept_S12_S12-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S12-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S12-C04",
+          "title": "Infectious Diseases, Pathogens, Vaccines & Nutrition",
+          "topics": [
+            {
+              "id": "S12-C04_T01",
+              "title": "Infectious Diseases, Pathogens, Vaccines & Nutrition",
+              "titleHindi": "संक्रामक रोग, रोगाणु, टीके, पोषण एवं विटामिन्स",
+              "subjectId": "S12",
+              "chapterId": "S12-C04",
+              "concepts": [
+                {
+                  "id": "concept_S12_S12-C04_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S12-C04_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S13",
+      "title": "Information Technology & Computer Science",
+      "shortTitle": "S13 Information Technology",
+      "titleHindi": "सूचना प्रौद्योगिकी एवं कंप्यूटर विज्ञान",
+      "color": "#744210",
+      "chapters": [
+        {
+          "id": "S13-C01",
+          "title": "Computer Fundamentals, Memory Hierarchy & Operating Systems",
+          "topics": [
+            {
+              "id": "S13-C01_T01",
+              "title": "Computer Fundamentals, Memory Hierarchy & Operating Systems",
+              "titleHindi": "कंप्यूटर मूल सिद्धांत, मेमोरी पदानुक्रम एवं ऑपरेटिंग सिस्टम",
+              "subjectId": "S13",
+              "chapterId": "S13-C01",
+              "concepts": [
+                {
+                  "id": "concept_S13_S13-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S13-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S13-C02",
+          "title": "Networking, OSI Model, TCP/IP & DNS Protocols",
+          "topics": [
+            {
+              "id": "S13-C02_T01",
+              "title": "Networking, OSI Model, TCP/IP & DNS Protocols",
+              "titleHindi": "नेटवर्किंग, ओएसआई मॉडल, टीसीपी/आईपी एवं डीएनएस",
+              "subjectId": "S13",
+              "chapterId": "S13-C02",
+              "concepts": [
+                {
+                  "id": "concept_S13_S13-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S13-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S13-C03",
+          "title": "Cybersecurity, Cryptography, Cloud Computing & AI Basics",
+          "topics": [
+            {
+              "id": "S13-C03_T01",
+              "title": "Cybersecurity, Cryptography, Cloud Computing & AI Basics",
+              "titleHindi": "साइबर सुरक्षा, क्रिप्टोग्राफी, क्लाउड एवं एआई",
+              "subjectId": "S13",
+              "chapterId": "S13-C03",
+              "concepts": [
+                {
+                  "id": "concept_S13_S13-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S13-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S14",
+      "title": "Space Science, Astronomy & Space Missions",
+      "shortTitle": "S14 Space Science, Astronomy",
+      "titleHindi": "अंतरिक्ष विज्ञान, खगोलिकी एवं अंतरिक्ष अन्वेषण",
+      "color": "#975a16",
+      "chapters": [
+        {
+          "id": "S14-C01",
+          "title": "The Solar System, Planetary Characteristics & The Sun",
+          "topics": [
+            {
+              "id": "S14-C01_T01",
+              "title": "The Solar System, Planetary Characteristics & The Sun",
+              "titleHindi": "सौरमंडल, ग्रहों की विशेषताएं एवं सूर्य संरचना",
+              "subjectId": "S14",
+              "chapterId": "S14-C01",
+              "concepts": [
+                {
+                  "id": "concept_S14_S14-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S14-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S14-C02",
+          "title": "Historic Space Missions: Apollo, Voyagers & Space Telescopes",
+          "topics": [
+            {
+              "id": "S14-C02_T01",
+              "title": "Historic Space Missions: Apollo, Voyagers & Space Telescopes",
+              "titleHindi": "ऐतिहासिक अंतरिक्ष मिशन: अपोलो, वॉयजर एवं हबल/जेम्स वेब",
+              "subjectId": "S14",
+              "chapterId": "S14-C02",
+              "concepts": [
+                {
+                  "id": "concept_S14_S14-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S14-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S14-C03",
+          "title": "ISRO Launch Vehicles, Chandrayaan, Mangalyaan & Gaganyaan",
+          "topics": [
+            {
+              "id": "S14-C03_T01",
+              "title": "ISRO Launch Vehicles, Chandrayaan, Mangalyaan & Gaganyaan",
+              "titleHindi": "इसरो प्रक्षेपण यान, चंद्रयान, मंगलयान एवं गगनयान",
+              "subjectId": "S14",
+              "chapterId": "S14-C03",
+              "concepts": [
+                {
+                  "id": "concept_S14_S14-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S14-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S15",
+      "title": "World History & Major Revolutions",
+      "shortTitle": "S15 World History",
+      "titleHindi": "विश्व इतिहास एवं प्रमुख क्रांतियां",
+      "color": "#b7791f",
+      "chapters": [
+        {
+          "id": "S15-C01",
+          "title": "Classical Civilizations: Mesopotamia, Egypt, Greece & Rome",
+          "topics": [
+            {
+              "id": "S15-C01_T01",
+              "title": "Classical Civilizations: Mesopotamia, Egypt, Greece & Rome",
+              "titleHindi": "प्राचीन विश्व सभ्यताएं: मेसोपोटामिया, मिस्र, यूनान व रोम",
+              "subjectId": "S15",
+              "chapterId": "S15-C01",
+              "concepts": [
+                {
+                  "id": "concept_S15_S15-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S15-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S15-C02",
+          "title": "Renaissance, Enlightenment, American & French Revolutions",
+          "topics": [
+            {
+              "id": "S15-C02_T01",
+              "title": "Renaissance, Enlightenment, American & French Revolutions",
+              "titleHindi": "पुनर्जागरण, प्रबोधन, अमेरिकी व फ्रांसीसी क्रांतियां",
+              "subjectId": "S15",
+              "chapterId": "S15-C02",
+              "concepts": [
+                {
+                  "id": "concept_S15_S15-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S15-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S15-C03",
+          "title": "World War I, Russian Revolution, World War II & Cold War",
+          "topics": [
+            {
+              "id": "S15-C03_T01",
+              "title": "World War I, Russian Revolution, World War II & Cold War",
+              "titleHindi": "प्रथम विश्व युद्ध, रूसी क्रांति, द्वितीय विश्व युद्ध एवं शीत युद्ध",
+              "subjectId": "S15",
+              "chapterId": "S15-C03",
+              "concepts": [
+                {
+                  "id": "concept_S15_S15-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S15-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S16",
+      "title": "International Organizations & Treaties",
+      "shortTitle": "S16 International Organizations",
+      "titleHindi": "अंतर्राष्ट्रीय संगठन एवं वैश्विक संधियां",
+      "color": "#c05621",
+      "chapters": [
+        {
+          "id": "S16-C01",
+          "title": "United Nations: Charter, General Assembly & Security Council",
+          "topics": [
+            {
+              "id": "S16-C01_T01",
+              "title": "United Nations: Charter, General Assembly & Security Council",
+              "titleHindi": "संयुक्त राष्ट्र संघ: चार्टर, महासभा एवं सुरक्षा परिषद",
+              "subjectId": "S16",
+              "chapterId": "S16-C01",
+              "concepts": [
+                {
+                  "id": "concept_S16_S16-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S16-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S16-C02",
+          "title": "Bretton Woods Institutions: World Bank Group & IMF Structure",
+          "topics": [
+            {
+              "id": "S16-C02_T01",
+              "title": "Bretton Woods Institutions: World Bank Group & IMF Structure",
+              "titleHindi": "ब्रेटन वुड्स संस्थाएं: विश्व बैंक समूह एवं आईएमएफ संरचना",
+              "subjectId": "S16",
+              "chapterId": "S16-C02",
+              "concepts": [
+                {
+                  "id": "concept_S16_S16-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S16-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S16-C03",
+          "title": "Global & Regional Blocs: G20, BRICS, ASEAN, SCO & WTO",
+          "topics": [
+            {
+              "id": "S16-C03_T01",
+              "title": "Global & Regional Blocs: G20, BRICS, ASEAN, SCO & WTO",
+              "titleHindi": "वैश्विक व क्षेत्रीय समूह: जी20, ब्रिक्स, आसियान, एससीओ व डब्ल्यूटीओ",
+              "subjectId": "S16",
+              "chapterId": "S16-C03",
+              "concepts": [
+                {
+                  "id": "concept_S16_S16-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S16-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S17",
+      "title": "Indian Art, Architecture & Cultural Heritage",
+      "shortTitle": "S17 Indian Art, Architecture",
+      "titleHindi": "भारतीय कला, स्थापत्य एवं सांस्कृतिक विरासत",
+      "color": "#9c4221",
+      "chapters": [
+        {
+          "id": "S17-C01",
+          "title": "Indian Temple Architecture: Nagara, Dravida & Vesara Styles",
+          "topics": [
+            {
+              "id": "S17-C01_T01",
+              "title": "Indian Temple Architecture: Nagara, Dravida & Vesara Styles",
+              "titleHindi": "भारतीय मंदिर स्थापत्य: नागर, द्रविड़ एवं वेसर शैलियां",
+              "subjectId": "S17",
+              "chapterId": "S17-C01",
+              "concepts": [
+                {
+                  "id": "concept_S17_S17-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S17-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S17-C02",
+          "title": "Classical Dances, Folk Forms, Music & UNESCO Heritage Sites",
+          "topics": [
+            {
+              "id": "S17-C02_T01",
+              "title": "Classical Dances, Folk Forms, Music & UNESCO Heritage Sites",
+              "titleHindi": "शास्त्रीय नृत्य, लोक कलाएं, संगीत एवं यूनेस्को धरोहर स्थल",
+              "subjectId": "S17",
+              "chapterId": "S17-C02",
+              "concepts": [
+                {
+                  "id": "concept_S17_S17-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S17-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S18",
+      "title": "World & Indian Literature",
+      "shortTitle": "S18 World",
+      "titleHindi": "विश्व एवं भारतीय साहित्य",
+      "color": "#7b341e",
+      "chapters": [
+        {
+          "id": "S18-C01",
+          "title": "Ancient Sanskrit Classics, Epics & Dramas (Kalidasa, Bhasa)",
+          "topics": [
+            {
+              "id": "S18-C01_T01",
+              "title": "Ancient Sanskrit Classics, Epics & Dramas (Kalidasa, Bhasa)",
+              "titleHindi": "प्राचीन संस्कृत महाकाव्य एवं नाटक (कालिदास, भास)",
+              "subjectId": "S18",
+              "chapterId": "S18-C01",
+              "concepts": [
+                {
+                  "id": "concept_S18_S18-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S18-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S18-C02",
+          "title": "Modern Indian Literature: Tagore, Premchand & Regional Maestros",
+          "topics": [
+            {
+              "id": "S18-C02_T01",
+              "title": "Modern Indian Literature: Tagore, Premchand & Regional Maestros",
+              "titleHindi": "आधुनिक भारतीय साहित्य: रवींद्रनाथ टैगोर, प्रेमचंद एवं साहित्यकार",
+              "subjectId": "S18",
+              "chapterId": "S18-C02",
+              "concepts": [
+                {
+                  "id": "concept_S18_S18-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S18-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S18-C03",
+          "title": "World Literary Masterpieces & Nobel Laureates in Literature",
+          "topics": [
+            {
+              "id": "S18-C03_T01",
+              "title": "World Literary Masterpieces & Nobel Laureates in Literature",
+              "titleHindi": "विश्व कालजयी कृतियां एवं साहित्य में नोबेल पुरस्कार विजेता",
+              "subjectId": "S18",
+              "chapterId": "S18-C03",
+              "concepts": [
+                {
+                  "id": "concept_S18_S18-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S18-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S19",
+      "title": "Sports, Games & International Championships",
+      "shortTitle": "S19 Sports, Games",
+      "titleHindi": "खेलकूद एवं अंतर्राष्ट्रीय प्रतियोगिताएं",
+      "color": "#553c9a",
+      "chapters": [
+        {
+          "id": "S19-C01",
+          "title": "Olympic Games, Commonwealth Games & Asian Games",
+          "topics": [
+            {
+              "id": "S19-C01_T01",
+              "title": "Olympic Games, Commonwealth Games & Asian Games",
+              "titleHindi": "ओलंपिक खेल, राष्ट्रमंडल खेल एवं एशियाई खेल",
+              "subjectId": "S19",
+              "chapterId": "S19-C01",
+              "concepts": [
+                {
+                  "id": "concept_S19_S19-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S19-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S19-C02",
+          "title": "Chess Regulations (FIDE), World Champions & Chess Olympiads",
+          "topics": [
+            {
+              "id": "S19-C02_T01",
+              "title": "Chess Regulations (FIDE), World Champions & Chess Olympiads",
+              "titleHindi": "शतरंज के नियम (FIDE), विश्व चैंपियन एवं शतरंज ओलंपियाड",
+              "subjectId": "S19",
+              "chapterId": "S19-C02",
+              "concepts": [
+                {
+                  "id": "concept_S19_S19-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S19-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S19-C03",
+          "title": "Cricket, Football World Cups, Tennis Grand Slams & Athletics",
+          "topics": [
+            {
+              "id": "S19-C03_T01",
+              "title": "Cricket, Football World Cups, Tennis Grand Slams & Athletics",
+              "titleHindi": "क्रिकेट, फीफा विश्व कप, टेनिस ग्रैंड स्लैम एवं एथलेटिक्स",
+              "subjectId": "S19",
+              "chapterId": "S19-C03",
+              "concepts": [
+                {
+                  "id": "concept_S19_S19-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S19-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S19-C04",
+          "title": "National Sports Awards (Khel Ratna, Arjuna) & Traditional Sports",
+          "topics": [
+            {
+              "id": "S19-C04_T01",
+              "title": "National Sports Awards (Khel Ratna, Arjuna) & Traditional Sports",
+              "titleHindi": "राष्ट्रीय खेल पुरस्कार (खेल रत्न, अर्जुन) एवं पारंपरिक खेल",
+              "subjectId": "S19",
+              "chapterId": "S19-C04",
+              "concepts": [
+                {
+                  "id": "concept_S19_S19-C04_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S19-C04_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S20",
+      "title": "Cinema, Theatre & Performing Arts",
+      "shortTitle": "S20 Cinema, Theatre",
+      "titleHindi": "सिनेमा, रंगमंच एवं प्रदर्शनकारी कलाएं",
+      "color": "#44337a",
+      "chapters": [
+        {
+          "id": "S20-C01",
+          "title": "Origins & Technical Milestones of World & Indian Cinema",
+          "topics": [
+            {
+              "id": "S20-C01_T01",
+              "title": "Origins & Technical Milestones of World & Indian Cinema",
+              "titleHindi": "विश्व एवं भारतीय सिनेमा की शुरुआत व तकनीकी विकास",
+              "subjectId": "S20",
+              "chapterId": "S20-C01",
+              "concepts": [
+                {
+                  "id": "concept_S20_S20-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S20-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S20-C02",
+          "title": "National Film Awards, Dadasaheb Phalke & Academy Awards (Oscars)",
+          "topics": [
+            {
+              "id": "S20-C02_T01",
+              "title": "National Film Awards, Dadasaheb Phalke & Academy Awards (Oscars)",
+              "titleHindi": "राष्ट्रीय फिल्म पुरस्कार, दादासाहेब फाल्के एवं ऑस्कर पुरस्कार",
+              "subjectId": "S20",
+              "chapterId": "S20-C02",
+              "concepts": [
+                {
+                  "id": "concept_S20_S20-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S20-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S21",
+      "title": "Awards, Honors & National/International Distinctions",
+      "shortTitle": "S21 Awards, Honors",
+      "titleHindi": "प्रमुख पुरस्कार, सम्मान एवं नागरिक अलंकरण",
+      "color": "#322659",
+      "chapters": [
+        {
+          "id": "S21-C01",
+          "title": "Bharat Ratna, Padma Awards & Wartime/Peacetime Gallantry Awards",
+          "topics": [
+            {
+              "id": "S21-C01_T01",
+              "title": "Bharat Ratna, Padma Awards & Wartime/Peacetime Gallantry Awards",
+              "titleHindi": "भारत रत्न, पद्म पुरस्कार एवं वीरता पुरस्कार (परमवीर चक्र आदि)",
+              "subjectId": "S21",
+              "chapterId": "S21-C01",
+              "concepts": [
+                {
+                  "id": "concept_S21_S21-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S21-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S21-C02",
+          "title": "Nobel Prizes: Will, Physics, Chemistry, Medicine, Peace & Economics",
+          "topics": [
+            {
+              "id": "S21-C02_T01",
+              "title": "Nobel Prizes: Will, Physics, Chemistry, Medicine, Peace & Economics",
+              "titleHindi": "नोबेल पुरस्कार: इतिहास, श्रेणियां एवं भारतीय नोबेल विजेता",
+              "subjectId": "S21",
+              "chapterId": "S21-C02",
+              "concepts": [
+                {
+                  "id": "concept_S21_S21-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S21-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S21-C03",
+          "title": "Literary & Scientific Honors: Jnanpith, Booker, Fields Medal, Abel",
+          "topics": [
+            {
+              "id": "S21-C03_T01",
+              "title": "Literary & Scientific Honors: Jnanpith, Booker, Fields Medal, Abel",
+              "titleHindi": "ज्ञानपीठ, साहित्य अकादमी, बुकर, फील्ड्स मेडल एवं एबेल पुरस्कार",
+              "subjectId": "S21",
+              "chapterId": "S21-C03",
+              "concepts": [
+                {
+                  "id": "concept_S21_S21-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S21-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S22",
+      "title": "World Religions, Philosophies & Mythologies",
+      "shortTitle": "S22 World Religions, Philosophies",
+      "titleHindi": "विश्व के प्रमुख धर्म, दर्शन एवं पौराणिक परंपराएं",
+      "color": "#702459",
+      "chapters": [
+        {
+          "id": "S22-C01",
+          "title": "Six Schools of Indian Philosophy (Shad-Darshanas) & Heterodox Systems",
+          "topics": [
+            {
+              "id": "S22-C01_T01",
+              "title": "Six Schools of Indian Philosophy (Shad-Darshanas) & Heterodox Systems",
+              "titleHindi": "भारतीय षड्-दर्शन (सांख्य, योग, न्याय आदि) एवं श्रमण परंपराएं",
+              "subjectId": "S22",
+              "chapterId": "S22-C01",
+              "concepts": [
+                {
+                  "id": "concept_S22_S22-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S22-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S22-C02",
+          "title": "World Religions (Buddhism, Christianity, Islam) & Classical Myths",
+          "topics": [
+            {
+              "id": "S22-C02_T01",
+              "title": "World Religions (Buddhism, Christianity, Islam) & Classical Myths",
+              "titleHindi": "विश्व धर्म, पवित्र ग्रंथ एवं शास्त्रीय पौराणिक कथाएं",
+              "subjectId": "S22",
+              "chapterId": "S22-C02",
+              "concepts": [
+                {
+                  "id": "concept_S22_S22-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S22-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S23",
+      "title": "Global Currencies, Trade & Commerce",
+      "shortTitle": "S23 Global Currencies, Trade",
+      "titleHindi": "वैश्विक मुद्राएं, व्यापार एवं वित्तीय प्रणालियां",
+      "color": "#521b41",
+      "chapters": [
+        {
+          "id": "S23-C01",
+          "title": "Indian Currency: Legal Tender, Demonetization & RBI Security Features",
+          "topics": [
+            {
+              "id": "S23-C01_T01",
+              "title": "Indian Currency: Legal Tender, Demonetization & RBI Security Features",
+              "titleHindi": "भारतीय मुद्रा: वैध मुद्रा, विमुद्रीकरण एवं सुरक्षा विशेषताएं",
+              "subjectId": "S23",
+              "chapterId": "S23-C01",
+              "concepts": [
+                {
+                  "id": "concept_S23_S23-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S23-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S23-C02",
+          "title": "Major World Currencies, Central Banks & Foreign Exchange Reserves",
+          "topics": [
+            {
+              "id": "S23-C02_T01",
+              "title": "Major World Currencies, Central Banks & Foreign Exchange Reserves",
+              "titleHindi": "विश्व की प्रमुख मुद्राएं, केंद्रीय बैंक एवं विदेशी मुद्रा भंडार",
+              "subjectId": "S23",
+              "chapterId": "S23-C02",
+              "concepts": [
+                {
+                  "id": "concept_S23_S23-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S23-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S23-C03",
+          "title": "International Trade Agreements, Balance of Payments & WTO Norms",
+          "topics": [
+            {
+              "id": "S23-C03_T01",
+              "title": "International Trade Agreements, Balance of Payments & WTO Norms",
+              "titleHindi": "अंतर्राष्ट्रीय व्यापार समझौते, भुगतान संतुलन एवं डब्ल्यूटीओ",
+              "subjectId": "S23",
+              "chapterId": "S23-C03",
+              "concepts": [
+                {
+                  "id": "concept_S23_S23-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S23-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S24",
+      "title": "Defence Forces, Paramilitary & Security Apparatus",
+      "shortTitle": "S24 Defence Forces, Paramilitary",
+      "titleHindi": "रक्षा बल, अर्धसैनिक बल एवं राष्ट्रीय सुरक्षा व्यवस्था",
+      "color": "#322659",
+      "chapters": [
+        {
+          "id": "S24-C01",
+          "title": "Indian Army, Navy, Air Force: Commands, Ranks & Tri-Services CDS",
+          "topics": [
+            {
+              "id": "S24-C01_T01",
+              "title": "Indian Army, Navy, Air Force: Commands, Ranks & Tri-Services CDS",
+              "titleHindi": "भारतीय थल, नौ व वायु सेना: कमान संरचना, पद एवं सीडीएस",
+              "subjectId": "S24",
+              "chapterId": "S24-C01",
+              "concepts": [
+                {
+                  "id": "concept_S24_S24-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S24-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S24-C02",
+          "title": "Central Armed Police Forces (BSF, CRPF, ITBP, CISF) & Intelligence Agencies",
+          "topics": [
+            {
+              "id": "S24-C02_T01",
+              "title": "Central Armed Police Forces (BSF, CRPF, ITBP, CISF) & Intelligence Agencies",
+              "titleHindi": "सीएपीएफ (बीएसएफ, सीआरपीएफ, आईटीबीपी आदि) एवं गुप्तचर संस्थाएं (IB, RAW)",
+              "subjectId": "S24",
+              "chapterId": "S24-C02",
+              "concepts": [
+                {
+                  "id": "concept_S24_S24-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S24-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S25",
+      "title": "Visual & Identification GK",
+      "shortTitle": "S25 Visual",
+      "titleHindi": "दृश्यात्मक एवं पहचान-आधारित सामान्य ज्ञान",
+      "color": "#1a365d",
+      "chapters": [
+        {
+          "id": "S25-C01",
+          "title": "National Emblems, Official Seals, State Animal/Bird/Floral Symbols",
+          "topics": [
+            {
+              "id": "S25-C01_T01",
+              "title": "National Emblems, Official Seals, State Animal/Bird/Floral Symbols",
+              "titleHindi": "राष्ट्रीय प्रतीक, राजकीय मुहरें, राज्य पशु/पक्षी/पुष्प",
+              "subjectId": "S25",
+              "chapterId": "S25-C01",
+              "concepts": [
+                {
+                  "id": "concept_S25_S25-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S25-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S25-C02",
+          "title": "Famous World & Indian Heritage Monuments, Architectural Icons",
+          "topics": [
+            {
+              "id": "S25-C02_T01",
+              "title": "Famous World & Indian Heritage Monuments, Architectural Icons",
+              "titleHindi": "प्रसिद्ध विश्व एवं भारतीय स्मारक तथा स्थापत्य प्रतीक",
+              "subjectId": "S25",
+              "chapterId": "S25-C02",
+              "concepts": [
+                {
+                  "id": "concept_S25_S25-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S25-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S25-C03",
+          "title": "Flags, Logos of Multilateral Agencies & Banknote Obverse/Reverse Motifs",
+          "topics": [
+            {
+              "id": "S25-C03_T01",
+              "title": "Flags, Logos of Multilateral Agencies & Banknote Obverse/Reverse Motifs",
+              "titleHindi": "राष्ट्रीय ध्वज, अंतर्राष्ट्रीय संगठनों के प्रतीक एवं नोटों के रूपांकन",
+              "subjectId": "S25",
+              "chapterId": "S25-C03",
+              "concepts": [
+                {
+                  "id": "concept_S25_S25-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S25-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "S26",
+      "title": "Metrology, SI Units, Physical Constants & Standard Measures",
+      "shortTitle": "S26 Metrology, SI Units, Physical Constants",
+      "titleHindi": "मापिकी, एसआई मात्रक, भौतिक नियतांक एवं मानक इकाइयां",
+      "color": "#174f46",
+      "chapters": [
+        {
+          "id": "S26-C01",
+          "title": "The Seven Base SI Units, Defining Constants & Redefinition (2019)",
+          "topics": [
+            {
+              "id": "S26-C01_T01",
+              "title": "The Seven Base SI Units, Defining Constants & Redefinition (2019)",
+              "titleHindi": "सात मूल एसआई मात्रक, सार्वत्रिक नियतांक एवं 2019 की पुनर्परिभाषा",
+              "subjectId": "S26",
+              "chapterId": "S26-C01",
+              "concepts": [
+                {
+                  "id": "concept_S26_S26-C01_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S26-C01_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S26-C02",
+          "title": "Derived SI Units with Special Names (Newton, Joule, Watt, Pascal)",
+          "topics": [
+            {
+              "id": "S26-C02_T01",
+              "title": "Derived SI Units with Special Names (Newton, Joule, Watt, Pascal)",
+              "titleHindi": "विशेष नामों वाले व्युत्पन्न एसआई मात्रक (न्यूटन, जूल, वाट आदि)",
+              "subjectId": "S26",
+              "chapterId": "S26-C02",
+              "concepts": [
+                {
+                  "id": "concept_S26_S26-C02_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S26-C02_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        },
+        {
+          "id": "S26-C03",
+          "title": "SI Decimal Prefixes (Quetta to Quecto) & Metric-Imperial Conversions",
+          "topics": [
+            {
+              "id": "S26-C03_T01",
+              "title": "SI Decimal Prefixes (Quetta to Quecto) & Metric-Imperial Conversions",
+              "titleHindi": "दशमलव उपसर्ग (क्वैटा से क्वेक्टो) एवं मीट्रिक रूपांतरण",
+              "subjectId": "S26",
+              "chapterId": "S26-C03",
+              "concepts": [
+                {
+                  "id": "concept_S26_S26-C03_T01_0",
+                  "title": "Fundamental principles and definitions"
+                }
+              ],
+              "questionCount": 0,
+              "factCardIds": [
+                "FC_S26-C03_T01"
+              ],
+              "videoLessonId": "",
+              "videoStatus": "PENDING",
+              "visualType": "DIAGRAM"
+            }
+          ]
+        }
+      ],
+      "questionCount": 2
+    }
+  ],
+  "packs": [
+    {
+      "id": "starter",
+      "title": "Starter High-Yield Pack",
+      "subjectId": "ALL",
+      "url": "/data/starter.json",
+      "sha256": "",
+      "size": 1024,
+      "questionCount": 59,
+      "version": "1.0.0"
+    }
+  ],
+  "counts": {
+    "questions": 59,
+    "factCards": 59,
+    "topics": 345,
+    "videos": 0
+  },
+  "builtAt": "2026-10-09T16:58:12.902428"
+}
