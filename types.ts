@@ -21,7 +21,7 @@ export interface Topic {
   concepts: { id: string; title: string }[]; questionCount: number; factCardIds: string[];
   videoLessonId: string; videoStatus: string; visualType: string;
 }
-export interface Chapter { id: string; title: string; topics: Topic[] }
+export interface Chapter { id: string; title: string; titleHindi?: string; topics: Topic[] }
 export interface Subject { id: string; title: string; shortTitle: string; titleHindi: string; color: string; chapters: Chapter[]; questionCount: number }
 export interface PackMeta { id: string; title: string; subjectId: string; chapterId?: string; url: string; sha256: string; size: number; questionCount: number; version: string }
 export interface Pack { id: string; questions: Question[]; factCards: FactCard[]; sources: Source[] }
