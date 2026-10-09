@@ -118,8 +118,18 @@ DATA["S18-C19aab9fd"] = [
     {
         "name_en": "Russian Realism: Leo Tolstoy (War and Peace, Anna Karenina) & Fyodor Dostoevsky (Crime and Punishment)",
         "name_hi": "रूसी यथार्थवाद: लियो टॉल्स्टॉय (वॉर एंड पीस, अन्ना कैरेनिना) एवं फ्योदोर दोस्तोयेव्स्की (क्राइम एंड पनिशमेंट)",
-        "concepts_en": ["Leo Tolstoy (1828-1910): Master of epic realism; 'War and Peace' (1869 - epic chronicling French invasion of Russia in 1812 under Napoleon, following Pierre Bezukhov, Prince Andrei Bolkonsky, Natasha Rostova); 'Anna Karenina' (1877 - 'Happy families are all alike; every unhappy family is unhappy in its own way', tragic love with Count Vronsky); 'The Kingdom of God Is Within You' (advocating Christian pacifism and non-violent resistance, deeply influencing Mahatma Gandhi)", "Fyodor Dostoevsky (1821-1881): Master of psychological existential realism; 'Crime and Punishment' (1866 - impoverished ex-student Rodion Raskolnikov murders pawnbroker Alyona Ivanovna to prove extraordinary man theory, redeemed by Sonya Marmeladov through Siberian exile); 'The Brothers Karamazov' (1880 - Dmitry, Ivan, Alyosha, 'The Grand Inquisitor', problem of evil and free will), 'Notes from Underground'"],
-        "concepts_hi": ["लियो टॉल्स्टॉय (1828-1910): महाकाव्यात्मक यथार्थवाद के सम्राट; 'वॉर एंड पीस' (1869 - 1812 में नेपोलियन के रूस पर आक्रमण की पृष्ठभूमि पर रचित विशाल उपन्यास; पात्र: पियरे बेज़ुखोव, नताशा रोस्तोवा); 'अन्ना कैरेनिना' (1877 - 'सभी सुखी परिवार एक जैसे होते हैं, पर दुखी परिवार अपने-अपने ढंग से दुखी'); 'द किंगडम ऑफ गॉड इज विदिन यू' (अहिंसा का दर्शन, जिसने महात्मा गांधी को गहराई से प्रभावित किया)", "फ्योदोर दोस्तोयेव्स्की (1821-1881): मनोवैज्ञानिक यथार्थवाद के शिखर; 'क्राइम एंड पनिशमेंट' (1866 - निर्धन छात्र रास्कोलनिकोव द्वारा एक लालची बुढ़िया की हत्या और उसके बाद अंतरात्मा के तीव्र पश्चाताप व सोन्या द्वारा आध्यात्मिक मुक्ति की कथा); 'द ब्रदर्स करमाज़ोव' (1880 - ईश्वर, पाप और नैतिक स्वतंत्रता पर गहन विमर्श)"],
+        "concepts_en": [
+            "Leo Tolstoy: 'War and Peace' (1869 epic chronicling French invasion of Russia under Napoleon)",
+            "Leo Tolstoy: 'Anna Karenina' and 'The Kingdom of God Is Within You' (deeply influencing Mahatma Gandhi)",
+            "Fyodor Dostoevsky: 'Crime and Punishment' (Rodion Raskolnikov and psychological guilt/redemption)",
+            "Fyodor Dostoevsky: 'The Brothers Karamazov' (The Grand Inquisitor, problem of evil and free will)"
+        ],
+        "concepts_hi": [
+            "लियो टॉल्स्टॉय: 'वॉर एंड पीस' (1812 में नेपोलियन के रूस पर आक्रमण का महाकाव्य)",
+            "लियो टॉल्स्टॉय: 'अन्ना कैरेनिना' एवं 'द किंगडम ऑफ गॉड इज विदिन यू' (महात्मा गांधी के अहिंसा दर्शन को प्रभावित किया)",
+            "फ्योदोर दोस्तोयेव्स्की: 'क्राइम एंड पनिशमेंट' (रास्कोलनिकोव का नैतिक अपराध एवं सोन्या द्वारा मुक्ति)",
+            "फ्योदोर दोस्तोयेव्स्की: 'द ब्रदर्स करमाज़ोव' (ग्रैंड इन्क्विजिटर, ईश्वर, पाप और नैतिक स्वतंत्रता पर विमर्श)"
+        ],
         "q_en": "In Fyodor Dostoevsky's psychological masterpiece 'Crime and Punishment' (1866), which impoverished former student commits a calculated murder of an old pawnbroker to test his 'Extraordinary Man' theory?",
         "q_hi": "फ्योदोर दोस्तोयेव्स्की के कालजयी मनोवैज्ञानिक उपन्यास 'क्राइम एंड पनिशमेंट' (1866) में वह निर्धन पूर्व छात्र कौन है, जो अपनी 'असाधारण मानव' (नेपोलियन) सिद्धांत की परीक्षा लेने हेतु एक वृद्ध सूदखोर महिला की हत्या कर देता है?",
         "options_en": ["Rodion Raskolnikov (रोडियन रास्कोलनिकोव)", "Pierre Bezukhov", "Ivan Karamazov", "Prince Myshkin"],

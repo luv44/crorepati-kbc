@@ -63,8 +63,18 @@ DATA["S17-C47d03ca3"] = [
     {
         "name_en": "Indian Classical Dances: 8 Sangeet Natak Akademi Recognitions & Natya Shastra Roots",
         "name_hi": "भारतीय शास्त्रीय नृत्य: संगीत नाटक अकादमी द्वारा मान्य 8 नृत्य एवं नाट्यशास्त्र के मूल सिद्धांत",
-        "concepts_en": ["Bharata Muni's Natya Shastra ('Fifth Veda'): Codifies Nritta (pure rhythmic movement), Nritya (expressive facial mime / Abhinaya), and Natya (dramatic storytelling); 9 Rasas (Navarasa)", "8 Classical Dances recognized by Sangeet Natak Akademi: 1. Bharatanatyam (Tamil Nadu - Ekaharya, fire dance), 2. Kathakali (Kerala - vibrant facial makeup, heroic mudras, Ramayana/Mahabharata drama), 3. Kathak (UP/North India - footwork/Tatkar, spins/Chakkars, Lucknow/Jaipur gharanas), 4. Odissi (Odisha - Tribhanga posture, Mahari/Gotipua traditions), 5. Kuchipudi (Andhra Pradesh - brass plate dance Tarangam), 6. Manipuri (Manipur - Raslila of Radha-Krishna, Pung Cholom), 7. Mohiniyattam (Kerala - Lasya feminine grace, white/gold Kasavu saree), 8. Sattriya (Assam - introduced by 15th-century Vaishnavite saint Srimanta Sankardev)", "(Ministry of Culture also includes Chhau as 9th)"],
-        "concepts_hi": ["भरत मुनि का नाट्यशास्त्र: नृत्त (ताल-लयबद्ध शारीरिक गति), नृत्य (भाव-भंगिमा व अभिनय) एवं नाट्य (कथा-नाटक); नवरस", "संगीत नाटक अकादमी द्वारा मान्य 8 शास्त्रीय नृत्य: 1. भरतनाट्यम (तमिलनाडु - एकल स्त्री नृत्य, अग्नि नृत्य), 2. कथकली (केरल - विशाल मुखौटे/रंग, कथानक अभिनय), 3. कथक (उत्तर प्रदेश - घुंघरू की थाप/तत्कार, चक्कर, लखनऊ व जयपुर घराना), 4. ओडिसी (ओडिशा - त्रिभंग मुद्रा, जगन्नाथ संस्कृति), 5. कुचिपुड़ी (आंध्र प्रदेश - पीतल की थाली पर नृत्य 'तरंगम'), 6. मणिपुरी (मणिपुर - रासलीला, पुंग चोलोम ढोल), 7. मोहिनीअट्टम (केरल - लास्य भाव, सफेद-सुनहरी जरी की कसावु साड़ी), 8. सत्रिया (असम - 15वीं सदी में वैष्णव संत श्रीमंत शंकरदेव द्वारा सत्रों में विकसित)"],
+        "concepts_en": [
+            "Bharata Muni's Natya Shastra: Codifies Nritta (pure rhythm), Nritya (expression/Abhinaya), Natya (drama), and Navarasa",
+            "Southern traditions: Bharatanatyam (Tamil Nadu), Kathakali and Mohiniyattam (Kerala), Kuchipudi (Andhra Pradesh)",
+            "Northern & Eastern styles: Kathak (UP/North India gharanas), Odissi (Tribhanga posture), Manipuri (Raslila)",
+            "Sattriya of Assam (introduced by 15th-century saint Srimanta Sankardev in Vaishnavite Satras)"
+        ],
+        "concepts_hi": [
+            "भरत मुनि का नाट्यशास्त्र: नृत्त (ताल-लय), नृत्य (भाव-अभिनय), नाट्य (कथा) एवं नवरस के मूल सिद्धांत",
+            "दक्षिण भारतीय परंपराएं: भरतनाट्यम (तमिलनाडु), कथकली एवं मोहिनीअट्टम (केरल), कुचिपुड़ी (आंध्र प्रदेश)",
+            "उत्तर व पूर्वी शैलियां: कथक (उत्तर भारत के घराने), ओडिसी (त्रिभंग मुद्रा), मणिपुरी (राधा-कृष्ण रासलीला)",
+            "सत्रिया नृत्य (असम - 15वीं सदी में वैष्णव संत श्रीमंत शंकरदेव द्वारा सत्रों में विकसित)"
+        ],
         "q_en": "Which Indian classical dance form, rooted in the Vaishnavite monasteries (Satras) of Assam, was founded and propagated by the revered 15th-century Bhakti saint Srimanta Sankardev?",
         "q_hi": "असम के वैष्णव मठों (सत्रों) में 15वीं शताब्दी के महान भक्ति संत श्रीमंत शंकरदेव द्वारा विकसित और प्रचारित शास्त्रीय नृत्य कौन सा है?",
         "options_en": ["Sattriya (सत्रिया नृत्य - असम)", "Kathakali", "Mohiniyattam", "Odissi"],
@@ -97,8 +107,18 @@ DATA["S17-C47d03ca3"] = [
     {
         "name_en": "Folk Dance & Theatre Traditions of India: Yakshagana, Nautanki, Bihu, Garba & Kalbelia",
         "name_hi": "भारत की लोक नृत्य एवं लोक नाट्य परंपराएं: यक्षगान, नौटंकी, बिहू, गरबा एवं कालबेलिया",
-        "concepts_en": ["Traditional Folk Theatres: Yakshagana (Karnataka - coastal dance-drama, elaborate headgear, Bhagavata narrator), Nautanki (Uttar Pradesh - musical operatic theatre, Nagada drum, Hathras/Kanpur styles), Tamasha (Maharashtra - Lavani dance), Bhavai (Gujarat/Rajasthan), Jatra (Bengal), Bhand Pather (Kashmir), Koodiyattam (Kerala - Sanskrit temple theatre, UNESCO Intangible Heritage)", "Folk Dances: Garba and Dandiya Raas (Gujarat - Navratri celebrations, inscribed on UNESCO Intangible Heritage in 2023), Bihu (Assam - Bohag/Rongali agricultural spring dance), Kalbelia (Rajasthan - snake-charmer community dance, UNESCO 2010), Ghoomar (Rajasthan - Bhil tribe roots), Bhangra and Giddha (Punjab), Chhau (tribal martial dance in Purulia, Seraikella, Mayurbhanj)"],
-        "concepts_hi": ["पारंपरिक लोक नाट्य: यक्षगान (कर्नाटक - तटीय नृत्य-नाटिका, विशाल पगड़ी, भागवत गायक), नौटंकी (उत्तर प्रदेश - संगीतबद्ध स्वांग, नगाड़ा वाद्य), तमाशा (महाराष्ट्र - लावणी नृत्य आधारित), भवई (गुजरात), जात्रा (पश्चिम बंगाल), भांड पाथेर (कश्मीर), कूडियाट्टम (केरल - संस्कृत नाट्य, यूनेस्को अमूर्त धरोहर)", "प्रमुख लोक नृत्य: गरबा (गुजरात - नवरात्रि में घट-दीप के चारों ओर नृत्य, 2023 में यूनेस्को अमूर्त सांस्कृतिक धरोहर सूची में शामिल), बिहू (असम - रोंगाली बिहू कृषि पर्व), कालबेलिया (राजस्थान - सपेरा समुदाय का नागिन नृत्य, यूनेस्को 2010), घूमर (राजस्थान), भांगड़ा व गिद्दा (पंजाब), छऊ (झारखंड, ओडिशा, प. बंगाल का मुखौटा युद्ध नृत्य)"],
+        "concepts_en": [
+            "Yakshagana (Karnataka - coastal dance-drama, elaborate headgear, Bhagavata narrator)",
+            "Folk Theatres: Nautanki (Uttar Pradesh), Tamasha (Maharashtra), Bhavai (Gujarat), Bhand Pather (Kashmir)",
+            "Garba and Dandiya Raas (Gujarat - inscribed on UNESCO Intangible Cultural Heritage in 2023)",
+            "Kalbelia (Rajasthan snake-charmer dance, UNESCO 2010), Bihu (Assam) and Chhau martial dance"
+        ],
+        "concepts_hi": [
+            "यक्षगान (कर्नाटक - तटीय नृत्य-नाटिका, भव्य पगड़ी, भागवत गायक)",
+            "लोक नाट्य: नौटंकी (उत्तर प्रदेश), तमाशा (महाराष्ट्र), भवई (गुजरात), भांड पाथेर (कश्मीर)",
+            "गरबा एवं डांडिया रास (गुजरात - 2023 में यूनेस्को अमूर्त सांस्कृतिक धरोहर में शामिल)",
+            "कालबेलिया (राजस्थान - सपेरा समुदाय, यूनेस्को 2010), बिहू (असम) एवं छऊ युद्ध नृत्य"
+        ],
         "q_en": "In December 2023, which famous traditional community folk dance of Gujarat, performed during the nine nights of the Navratri festival, was officially inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity?",
         "q_hi": "दिसंबर 2023 में गुजरात के किस प्रसिद्ध पारंपरिक लोक नृत्य को, जो नवरात्रि के पावन पर्व पर मां दुर्गा की आराधना हेतु किया जाता है, यूनेस्को की मानवता की अमूर्त सांस्कृतिक धरोहर सूची में शामिल किया गया?",
         "options_en": ["Garba of Gujarat (गुजरात का गरबा नृत्य)", "Ghoomar of Rajasthan", "Bihu of Assam", "Lavani of Maharashtra"],

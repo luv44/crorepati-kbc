@@ -114,8 +114,18 @@ DATA["S24-Cff6d924e"] = [
     {
         "name_en": "Assam Rifles (Sentinels of the North East) & Central Industrial Security Force (CISF)",
         "name_hi": "असम राइफल्स ('पूर्वोत्तर के प्रहरी') एवं केंद्रीय औद्योगिक सुरक्षा बल (CISF - हवाई अड्डा व मेट्रो सुरक्षा)",
-        "concepts_en": ["Assam Rifles: OLDEST paramilitary force in India, raised in 1835 as 'Cachar Levy' by the British to protect tea plantations; known as 'Sentinels of the North East' and 'Friends of the Hill People'; dual control structure: Administrative control under Ministry of Home Affairs (MHA), while Operational control is under the Indian Army (Ministry of Defence); primary role: Counter-insurgency in North-East and guarding the 1,643 km India-Myanmar border; headquarters at Laitkor, Shillong, Meghalaya", "Central Industrial Security Force (CISF): Raised on March 10, 1969; provides integrated security cover to over 350 critical infrastructure installations including nuclear power plants, space installations, sea ports, thermal plants, sensitive government buildings, all commercial civilian airports in India, and the Delhi Metro"],
-        "concepts_hi": ["असम राइफल्स: भारत का सबसे प्राचीन अर्द्धसैनिक बल; 1835 में अंग्रेजों द्वारा 'कछार लेवी' के नाम से चाय बागानों की सुरक्षा हेतु स्थापित; 'पूर्वोत्तर के प्रहरी' और 'पहाड़ी लोगों के मित्र' के रूप में विख्यात; दोहरा नियंत्रण: प्रशासनिक नियंत्रण गृह मंत्रालय (MHA) के पास और संचालन नियंत्रण थल सेना (रक्षा मंत्रालय) के पास; भारत-म्यांमार सीमा (1,643 किमी) का प्रहरी; मुख्यालय शिलांग (मेघालय)", "केंद्रीय औद्योगिक सुरक्षा बल (CISF): 10 मार्च 1969 को स्थापित; देश के 350 से अधिक संवेदनशील राष्ट्रीय प्रतिष्ठानों, परमाणु संयंत्रों, अंतरिक्ष केंद्रों, प्रमुख बंदरगाहों, देश के सभी नागरिक हवाई अड्डों एवं दिल्ली मेट्रो को सुरक्षा प्रदान करता है"],
+        "concepts_en": [
+            "Assam Rifles: Oldest paramilitary force in India (raised in 1835 as 'Cachar Levy', Sentinels of the North East)",
+            "Assam Rifles dual control: Administrative under MHA, Operational under Indian Army; guards India-Myanmar border (1,643 km)",
+            "CISF: Raised in 1969 to provide dedicated security to nuclear power, space, ports and critical industrial infrastructure",
+            "CISF Aviation Security: Guarantees specialized security cover to all commercial civilian airports in India and Delhi Metro"
+        ],
+        "concepts_hi": [
+            "असम राइफल्स: भारत का सबसे पुराना अर्द्धसैनिक बल (1835 में 'कछार लेवी' के रूप में स्थापित, 'पूर्वोत्तर का प्रहरी')",
+            "असम राइफल्स का दोहरा नियंत्रण: प्रशासनिक नियंत्रण गृह मंत्रालय, संचालन नियंत्रण थल सेना; भारत-म्यांमार सीमा का प्रहरी",
+            "सीआईएसएफ (CISF): 1969 में स्थापित; परमाणु, अंतरिक्ष, बंदरगाहों एवं संवेदनशील औद्योगिक प्रतिष्ठानों की सुरक्षा",
+            "सीआईएसएफ विमानन सुरक्षा: देश के सभी नागरिक वाणिज्यिक हवाई अड्डों एवं दिल्ली मेट्रो को विशेषज्ञ सुरक्षा कवर"
+        ],
         "q_en": "Which historic paramilitary force, originally raised in 1835 as the 'Cachar Levy', holds the distinction of being the OLDEST paramilitary force in India, celebrated as the 'Sentinels of the North East'?",
         "q_hi": "1835 में 'कछार लेवी' के रूप में स्थापित वह ऐतिहासिक अर्द्धसैनिक बल कौन सा है, जिसे भारत का सबसे पुराना अर्द्धसैनिक बल होने का गौरव प्राप्त है और जिसे 'पूर्वोत्तर का प्रहरी' कहा जाता है?",
         "options_en": ["Assam Rifles (असम राइफल्स - 1835 में स्थापित)", "Central Reserve Police Force (CRPF)", "Border Security Force (BSF)", "Indo-Tibetan Border Police (ITBP)"],
