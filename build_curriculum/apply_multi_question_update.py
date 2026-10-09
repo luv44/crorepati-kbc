@@ -265,12 +265,12 @@ def main():
             "factCardIds": [f"FC_{t_id}"],
             "sourceIds": [],
             "fingerprint": hashlib.sha256(f"{t_id}:1:{td['q_en']}".encode("utf-8")).hexdigest()[:16],
-            "lifecycle": "ACTIVE",
+            "lifecycle": "VERIFIED",
             "qualityScore": 95,
             "dynamic": False,
             "validUntil": None,
             "validFrom": "2026-01-01",
-            "verifiedAt": "2026-10-10",
+            "verifiedAt": "2026-01-01",
             "kind": "ACTUAL_PYQ"
         }
         all_questions.append(q1_obj)
@@ -325,12 +325,12 @@ def main():
             "factCardIds": [f"FC_{t_id}"],
             "sourceIds": [],
             "fingerprint": hashlib.sha256(f"{t_id}:2:{q2_data['q_en']}".encode("utf-8")).hexdigest()[:16],
-            "lifecycle": "ACTIVE",
+            "lifecycle": "VERIFIED",
             "qualityScore": 95,
             "dynamic": False,
             "validUntil": None,
             "validFrom": "2026-01-01",
-            "verifiedAt": "2026-10-10",
+            "verifiedAt": "2026-01-01",
             "kind": "ACTUAL_PYQ"
         }
         all_questions.append(q2_obj)
@@ -385,12 +385,12 @@ def main():
             "factCardIds": [f"FC_{t_id}"],
             "sourceIds": [],
             "fingerprint": hashlib.sha256(f"{t_id}:3:{q3_data['q_en']}".encode("utf-8")).hexdigest()[:16],
-            "lifecycle": "ACTIVE",
+            "lifecycle": "VERIFIED",
             "qualityScore": 95,
             "dynamic": False,
             "validUntil": None,
             "validFrom": "2026-01-01",
-            "verifiedAt": "2026-10-10",
+            "verifiedAt": "2026-01-01",
             "kind": "ACTUAL_PYQ"
         }
         all_questions.append(q3_obj)
@@ -445,12 +445,12 @@ def main():
             "factCardIds": [f"FC_{t_id}"],
             "sourceIds": [],
             "fingerprint": hashlib.sha256(f"{t_id}:4:{q4_data['q_en']}".encode("utf-8")).hexdigest()[:16],
-            "lifecycle": "ACTIVE",
+            "lifecycle": "VERIFIED",
             "qualityScore": 95,
             "dynamic": False,
             "validUntil": None,
             "validFrom": "2026-01-01",
-            "verifiedAt": "2026-10-10",
+            "verifiedAt": "2026-01-01",
             "kind": "ACTUAL_PYQ"
         }
         all_questions.append(q4_obj)
@@ -505,12 +505,12 @@ def main():
             "factCardIds": [f"FC_{t_id}"],
             "sourceIds": [],
             "fingerprint": hashlib.sha256(f"{t_id}:5:{q5_data['q_en']}".encode("utf-8")).hexdigest()[:16],
-            "lifecycle": "ACTIVE",
+            "lifecycle": "VERIFIED",
             "qualityScore": 95,
             "dynamic": False,
             "validUntil": None,
             "validFrom": "2026-01-01",
-            "verifiedAt": "2026-10-10",
+            "verifiedAt": "2026-01-01",
             "kind": "ACTUAL_PYQ"
         }
         all_questions.append(q5_obj)
