@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S05-Cd1fc9546-T5d2f806b",
+  "topicId": "S05-Cd1fc9546-T5d2f806b",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "भारतीय संविधान के अनुच्छेद 110(3) के अनुसार, यदि यह प्रश्न उठता है कि कोई विधेयक धन विधेयक है या नहीं, तो उस पर लोकसभा अध्यक्ष का निर्णय अंतिम होता है।",
+  "factCardIds": [
+    "FC_S05-Cd1fc9546-T5d2f806b"
+  ],
+  "learningObjectives": [
+    "concept_S05-Cd1fc9546-T5d2f806b_0",
+    "concept_S05-Cd1fc9546-T5d2f806b_1",
+    "concept_S05-Cd1fc9546-T5d2f806b_2",
+    "concept_S05-Cd1fc9546-T5d2f806b_3"
+  ],
+  "scenes": []
+}

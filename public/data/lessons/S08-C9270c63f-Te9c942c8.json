@@ -1,0 +1,18 @@
+{
+  "videoId": "vid_S08-C9270c63f-Te9c942c8",
+  "topicId": "S08-C9270c63f-Te9c942c8",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "मोहोरोविसिक असातत्य (Moho) पृथ्वी की बाहरी ठोस भूपर्पटी (क्रस्ट) और उसके नीचे स्थित सघन मेंटल परत के बीच का संक्रमण क्षेत्र है।",
+  "factCardIds": [
+    "FC_S08-C9270c63f-Te9c942c8"
+  ],
+  "learningObjectives": [
+    "concept_S08-C9270c63f-Te9c942c8_0",
+    "concept_S08-C9270c63f-Te9c942c8_1",
+    "concept_S08-C9270c63f-Te9c942c8_2",
+    "concept_S08-C9270c63f-Te9c942c8_3",
+    "concept_S08-C9270c63f-Te9c942c8_4"
+  ],
+  "scenes": []
+}

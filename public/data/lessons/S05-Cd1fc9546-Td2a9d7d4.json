@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S05-Cd1fc9546-Td2a9d7d4",
+  "topicId": "S05-Cd1fc9546-Td2a9d7d4",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "29 अगस्त 1947 को गठित 7 सदस्यीय प्रारूप समिति के अध्यक्ष डॉ. भीमराव अम्बेडकर थे, जिन्होंने भारत के संविधान का मसौदा तैयार किया।",
+  "factCardIds": [
+    "FC_S05-Cd1fc9546-Td2a9d7d4"
+  ],
+  "learningObjectives": [
+    "concept_S05-Cd1fc9546-Td2a9d7d4_0",
+    "concept_S05-Cd1fc9546-Td2a9d7d4_1",
+    "concept_S05-Cd1fc9546-Td2a9d7d4_2",
+    "concept_S05-Cd1fc9546-Td2a9d7d4_3"
+  ],
+  "scenes": []
+}

@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S06-C4397a951-Tcf748189",
+  "topicId": "S06-C4397a951-Tcf748189",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "लोक लेखा समिति (PAC), जिसमें 22 सदस्य (15 लोकसभा, 7 राज्यसभा) होते हैं, कैग (CAG) द्वारा प्रस्तुत लेखापरीक्षा रिपोर्टों की जांच करती है। कैग पीएसी का मित्र और मार्गदर्शक कहलाता है।",
+  "factCardIds": [
+    "FC_S06-C4397a951-Tcf748189"
+  ],
+  "learningObjectives": [
+    "concept_S06-C4397a951-Tcf748189_0",
+    "concept_S06-C4397a951-Tcf748189_1",
+    "concept_S06-C4397a951-Tcf748189_2",
+    "concept_S06-C4397a951-Tcf748189_3"
+  ],
+  "scenes": []
+}

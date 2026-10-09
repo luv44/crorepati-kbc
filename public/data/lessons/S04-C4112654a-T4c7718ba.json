@@ -1,0 +1,16 @@
+{
+  "videoId": "vid_S04-C4112654a-T4c7718ba",
+  "topicId": "S04-C4112654a-T4c7718ba",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "बक्सर के युद्ध के बाद अगस्त 1765 में रॉबर्ट क्लाइव और शाह आलम द्वितीय के बीच इलाहाबाद की संधि हुई, जिसने कंपनी को बंगाल, बिहार और उड़ीसा की दीवानी प्रदान की।",
+  "factCardIds": [
+    "FC_S04-C4112654a-T4c7718ba"
+  ],
+  "learningObjectives": [
+    "concept_S04-C4112654a-T4c7718ba_0",
+    "concept_S04-C4112654a-T4c7718ba_1",
+    "concept_S04-C4112654a-T4c7718ba_2"
+  ],
+  "scenes": []
+}

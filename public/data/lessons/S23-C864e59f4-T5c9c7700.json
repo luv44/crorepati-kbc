@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S23-C864e59f4-T5c9c7700",
+  "topicId": "S23-C864e59f4-T5c9c7700",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "सिक्का निर्माण अधिनियम के तहत एक रुपये का नोट भारत सरकार के वित्त मंत्रालय द्वारा जारी किया जाता है और इस पर वित्त सचिव के हस्ताक्षर होते हैं, जबकि अन्य सभी नोटों पर आरबीआई गवर्नर के हस्ताक्षर होते हैं।",
+  "factCardIds": [
+    "FC_S23-C864e59f4-T5c9c7700"
+  ],
+  "learningObjectives": [
+    "concept_S23-C864e59f4-T5c9c7700_0",
+    "concept_S23-C864e59f4-T5c9c7700_1",
+    "concept_S23-C864e59f4-T5c9c7700_2",
+    "concept_S23-C864e59f4-T5c9c7700_3"
+  ],
+  "scenes": []
+}

@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S08-C9270c63f-Ta60b7a9c",
+  "topicId": "S08-C9270c63f-Ta60b7a9c",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "हम्बोल्ट धारा (जिसे पेरू धारा भी कहा जाता है) दक्षिण अमेरिका के पश्चिमी तट के साथ उत्तर की ओर बहने वाली एक प्रसिद्ध ठंडी महासागरीय जलधारा है।",
+  "factCardIds": [
+    "FC_S08-C9270c63f-Ta60b7a9c"
+  ],
+  "learningObjectives": [
+    "concept_S08-C9270c63f-Ta60b7a9c_0",
+    "concept_S08-C9270c63f-Ta60b7a9c_1",
+    "concept_S08-C9270c63f-Ta60b7a9c_2",
+    "concept_S08-C9270c63f-Ta60b7a9c_3"
+  ],
+  "scenes": []
+}

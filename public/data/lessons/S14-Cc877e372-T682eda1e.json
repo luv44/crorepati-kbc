@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S14-Cc877e372-T682eda1e",
+  "topicId": "S14-Cc877e372-T682eda1e",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "आदित्य-एल1 सूर्य-पृथ्वी प्रणाली के लैग्रेंज बिंदु 1 (L1) के चारों ओर एक प्रभामंडल कक्षा (halo orbit) में स्थित है, जो पृथ्वी से लगभग 15 लाख किमी दूर बिना किसी ग्रहण के सूर्य का निरंतर दृश्य प्रदान करता है।",
+  "factCardIds": [
+    "FC_S14-Cc877e372-T682eda1e"
+  ],
+  "learningObjectives": [
+    "concept_S14-Cc877e372-T682eda1e_0",
+    "concept_S14-Cc877e372-T682eda1e_1",
+    "concept_S14-Cc877e372-T682eda1e_2",
+    "concept_S14-Cc877e372-T682eda1e_3"
+  ],
+  "scenes": []
+}

@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S03-Cf57dd5c3-T9f2b0316",
+  "topicId": "S03-Cf57dd5c3-T9f2b0316",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "समुद्रगुप्त के दरबारी कवि और महादंडनायक हरिषेण ने शुद्ध संस्कृत में चम्पू काव्य शैली में प्रयाग प्रशस्ति की रचना की थी।",
+  "factCardIds": [
+    "FC_S03-Cf57dd5c3-T9f2b0316"
+  ],
+  "learningObjectives": [
+    "concept_S03-Cf57dd5c3-T9f2b0316_0",
+    "concept_S03-Cf57dd5c3-T9f2b0316_1",
+    "concept_S03-Cf57dd5c3-T9f2b0316_2",
+    "concept_S03-Cf57dd5c3-T9f2b0316_3"
+  ],
+  "scenes": []
+}

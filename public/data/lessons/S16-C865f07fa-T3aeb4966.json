@@ -1,0 +1,16 @@
+{
+  "videoId": "vid_S16-C865f07fa-T3aeb4966",
+  "topicId": "S16-C865f07fa-T3aeb4966",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "S16 के आधिकारिक पाठ्यक्रम मानकों के अनुसार, यह विषय संघ लोक सेवा आयोग (UPSC), राज्य पीसीएस, एसएससी और केबीसी प्रारूप की परीक्षाओं में पूछा जाने वाला एक उच्च प्राथमिकता वाला विषय है।",
+  "factCardIds": [
+    "FC_S16-C865f07fa-T3aeb4966"
+  ],
+  "learningObjectives": [
+    "concept_S16-C865f07fa-T3aeb4966_0",
+    "concept_S16-C865f07fa-T3aeb4966_1",
+    "concept_S16-C865f07fa-T3aeb4966_2"
+  ],
+  "scenes": []
+}

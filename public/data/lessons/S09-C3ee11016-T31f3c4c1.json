@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S09-C3ee11016-T31f3c4c1",
+  "topicId": "S09-C3ee11016-T31f3c4c1",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "अक्टूबर 1981 में ओडिशा की चिल्का झील और राजस्थान के केवलादेव राष्ट्रीय उद्यान को भारत के प्रथम रामसर आर्द्रभूमि स्थलों के रूप में शामिल किया गया था।",
+  "factCardIds": [
+    "FC_S09-C3ee11016-T31f3c4c1"
+  ],
+  "learningObjectives": [
+    "concept_S09-C3ee11016-T31f3c4c1_0",
+    "concept_S09-C3ee11016-T31f3c4c1_1",
+    "concept_S09-C3ee11016-T31f3c4c1_2",
+    "concept_S09-C3ee11016-T31f3c4c1_3"
+  ],
+  "scenes": []
+}

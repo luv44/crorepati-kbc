@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S11-C7bd7bee9-Tca225dcd",
+  "topicId": "S11-C7bd7bee9-Tca225dcd",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "1913 में ब्रिटिश वैज्ञानिक हेनरी मोजले ने एक्स-रे स्पेक्ट्रम के माध्यम से सिद्ध किया कि तत्वों के मौलिक गुण उनके परमाणु भार के नहीं बल्कि परमाणु क्रमांक के आवर्ती फलन होते हैं।",
+  "factCardIds": [
+    "FC_S11-C7bd7bee9-Tca225dcd"
+  ],
+  "learningObjectives": [
+    "concept_S11-C7bd7bee9-Tca225dcd_0",
+    "concept_S11-C7bd7bee9-Tca225dcd_1",
+    "concept_S11-C7bd7bee9-Tca225dcd_2",
+    "concept_S11-C7bd7bee9-Tca225dcd_3"
+  ],
+  "scenes": []
+}

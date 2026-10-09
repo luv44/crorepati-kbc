@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S16-Cb8158434-T69643d61",
+  "topicId": "S16-Cb8158434-T69643d61",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "अंतर्राष्ट्रीय न्यायालय (ICJ) नीदरलैंड के द हेग में स्थित पीस पैलेस में स्थित है। यह संयुक्त राष्ट्र के छह प्रमुख अंगों में से एकमात्र ऐसा अंग है जो न्यूयॉर्क में स्थित नहीं है।",
+  "factCardIds": [
+    "FC_S16-Cb8158434-T69643d61"
+  ],
+  "learningObjectives": [
+    "concept_S16-Cb8158434-T69643d61_0",
+    "concept_S16-Cb8158434-T69643d61_1",
+    "concept_S16-Cb8158434-T69643d61_2",
+    "concept_S16-Cb8158434-T69643d61_3"
+  ],
+  "scenes": []
+}

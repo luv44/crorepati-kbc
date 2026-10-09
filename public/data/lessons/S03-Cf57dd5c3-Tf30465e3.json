@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S03-Cf57dd5c3-Tf30465e3",
+  "topicId": "S03-Cf57dd5c3-Tf30465e3",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "13वें शिलालेख में कलिंग युद्ध (261 ईसा पूर्व) के नरसंहार और सम्राट अशोक के हृदय परिवर्तन तथा धम्मघोष अपनाने का विस्तार से वर्णन है।",
+  "factCardIds": [
+    "FC_S03-Cf57dd5c3-Tf30465e3"
+  ],
+  "learningObjectives": [
+    "concept_S03-Cf57dd5c3-Tf30465e3_0",
+    "concept_S03-Cf57dd5c3-Tf30465e3_1",
+    "concept_S03-Cf57dd5c3-Tf30465e3_2",
+    "concept_S03-Cf57dd5c3-Tf30465e3_3"
+  ],
+  "scenes": []
+}

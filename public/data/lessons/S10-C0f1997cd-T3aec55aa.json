@@ -1,0 +1,16 @@
+{
+  "videoId": "vid_S10-C0f1997cd-T3aec55aa",
+  "topicId": "S10-C0f1997cd-T3aec55aa",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "ऑप्टिकल फाइबर पूर्ण आंतरिक परावर्तन (TIR) के सिद्धांत पर कार्य करते हैं, जहाँ प्रकाश किरणें उच्च अपवर्तनांक वाले कोर के भीतर बिना किसी ऊर्जा हानि के परावर्तित होती रहती हैं।",
+  "factCardIds": [
+    "FC_S10-C0f1997cd-T3aec55aa"
+  ],
+  "learningObjectives": [
+    "concept_S10-C0f1997cd-T3aec55aa_0",
+    "concept_S10-C0f1997cd-T3aec55aa_1",
+    "concept_S10-C0f1997cd-T3aec55aa_2"
+  ],
+  "scenes": []
+}

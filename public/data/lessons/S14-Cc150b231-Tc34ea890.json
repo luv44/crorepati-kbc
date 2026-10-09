@@ -1,0 +1,16 @@
+{
+  "videoId": "vid_S14-Cc150b231-Tc34ea890",
+  "topicId": "S14-Cc150b231-Tc34ea890",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "S14 के आधिकारिक पाठ्यक्रम मानकों के अनुसार, यह विषय संघ लोक सेवा आयोग (UPSC), राज्य पीसीएस, एसएससी और केबीसी प्रारूप की परीक्षाओं में पूछा जाने वाला एक उच्च प्राथमिकता वाला विषय है।",
+  "factCardIds": [
+    "FC_S14-Cc150b231-Tc34ea890"
+  ],
+  "learningObjectives": [
+    "concept_S14-Cc150b231-Tc34ea890_0",
+    "concept_S14-Cc150b231-Tc34ea890_1",
+    "concept_S14-Cc150b231-Tc34ea890_2"
+  ],
+  "scenes": []
+}

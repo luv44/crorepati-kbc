@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S19-C03e5a72a-T68a81807",
+  "topicId": "S19-C03e5a72a-T68a81807",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "बैरोन पियरे डी कुबर्टिन के प्रयासों से आधुनिक युग के पहले ओलंपिक खेल अप्रैल 1896 में ग्रीस की राजधानी एथेंस के पानाथिनाइको स्टेडियम में आयोजित किए गए थे।",
+  "factCardIds": [
+    "FC_S19-C03e5a72a-T68a81807"
+  ],
+  "learningObjectives": [
+    "concept_S19-C03e5a72a-T68a81807_0",
+    "concept_S19-C03e5a72a-T68a81807_1",
+    "concept_S19-C03e5a72a-T68a81807_2",
+    "concept_S19-C03e5a72a-T68a81807_3"
+  ],
+  "scenes": []
+}

@@ -1,0 +1,18 @@
+{
+  "videoId": "vid_S07-C81cde124-T323fe647",
+  "topicId": "S07-C81cde124-T323fe647",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "आरबीआई अधिनियम 1934 की धारा 45ZB के तहत मौद्रिक नीति समिति (MPC) में 6 सदस्य होते हैं (3 आरबीआई से, जिसमें गवर्नर अध्यक्ष होते हैं, और 3 केंद्र सरकार द्वारा नियुक्त)।",
+  "factCardIds": [
+    "FC_S07-C81cde124-T323fe647"
+  ],
+  "learningObjectives": [
+    "concept_S07-C81cde124-T323fe647_0",
+    "concept_S07-C81cde124-T323fe647_1",
+    "concept_S07-C81cde124-T323fe647_2",
+    "concept_S07-C81cde124-T323fe647_3",
+    "concept_S07-C81cde124-T323fe647_4"
+  ],
+  "scenes": []
+}

@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S03-Cf57dd5c3-T160839f2",
+  "topicId": "S03-Cf57dd5c3-T160839f2",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "सूर्य देव सविता को समर्पित गायत्री मंत्र ऋग्वेद के तीसरे मंडल (सूक्त 62, छंद 10) में मिलता है, जिसकी रचना ऋषि विश्वामित्र ने की थी।",
+  "factCardIds": [
+    "FC_S03-Cf57dd5c3-T160839f2"
+  ],
+  "learningObjectives": [
+    "concept_S03-Cf57dd5c3-T160839f2_0",
+    "concept_S03-Cf57dd5c3-T160839f2_1",
+    "concept_S03-Cf57dd5c3-T160839f2_2",
+    "concept_S03-Cf57dd5c3-T160839f2_3"
+  ],
+  "scenes": []
+}

@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S03-Cf57dd5c3-T80b6a594",
+  "topicId": "S03-Cf57dd5c3-T80b6a594",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "गुजरात के लोथल में पकी ईंटों से बना एक विशाल गोदीबाड़ा (डॉकयार्ड) खोजा गया, जो भोगवा नदी के माध्यम से खंभात की खाड़ी से जुड़ा हुआ था।",
+  "factCardIds": [
+    "FC_S03-Cf57dd5c3-T80b6a594"
+  ],
+  "learningObjectives": [
+    "concept_S03-Cf57dd5c3-T80b6a594_0",
+    "concept_S03-Cf57dd5c3-T80b6a594_1",
+    "concept_S03-Cf57dd5c3-T80b6a594_2",
+    "concept_S03-Cf57dd5c3-T80b6a594_3"
+  ],
+  "scenes": []
+}

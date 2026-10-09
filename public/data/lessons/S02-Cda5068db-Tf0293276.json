@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S02-Cda5068db-Tf0293276",
+  "topicId": "S02-Cda5068db-Tf0293276",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "पीएम गति शक्ति 7 इंजनों द्वारा संचालित है: सड़क, रेलवे, हवाई अड्डे, बंदरगाह, सार्वजनिक परिवहन, जलमार्ग और रसद अवसंरचना।",
+  "factCardIds": [
+    "FC_S02-Cda5068db-Tf0293276"
+  ],
+  "learningObjectives": [
+    "concept_S02-Cda5068db-Tf0293276_0",
+    "concept_S02-Cda5068db-Tf0293276_1",
+    "concept_S02-Cda5068db-Tf0293276_2",
+    "concept_S02-Cda5068db-Tf0293276_3"
+  ],
+  "scenes": []
+}

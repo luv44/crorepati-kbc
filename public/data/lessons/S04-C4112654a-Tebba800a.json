@@ -1,0 +1,16 @@
+{
+  "videoId": "vid_S04-C4112654a-Tebba800a",
+  "topicId": "S04-C4112654a-Tebba800a",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "S04 के आधिकारिक पाठ्यक्रम मानकों के अनुसार, यह विषय संघ लोक सेवा आयोग (UPSC), राज्य पीसीएस, एसएससी और केबीसी प्रारूप की परीक्षाओं में पूछा जाने वाला एक उच्च प्राथमिकता वाला विषय है।",
+  "factCardIds": [
+    "FC_S04-C4112654a-Tebba800a"
+  ],
+  "learningObjectives": [
+    "concept_S04-C4112654a-Tebba800a_0",
+    "concept_S04-C4112654a-Tebba800a_1",
+    "concept_S04-C4112654a-Tebba800a_2"
+  ],
+  "scenes": []
+}

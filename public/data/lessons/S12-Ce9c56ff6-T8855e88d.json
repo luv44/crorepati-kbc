@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S12-Ce9c56ff6-T8855e88d",
+  "topicId": "S12-Ce9c56ff6-T8855e88d",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "O-negative रक्त में लाल रक्त कोशिकाओं पर A और B एंटीजन तथा Rh कारक नहीं होते हैं, जिससे यह आपातकालीन स्थिति में किसी भी रक्त समूह के व्यक्ति को सुरक्षित रूप से दिया जा सकता है।",
+  "factCardIds": [
+    "FC_S12-Ce9c56ff6-T8855e88d"
+  ],
+  "learningObjectives": [
+    "concept_S12-Ce9c56ff6-T8855e88d_0",
+    "concept_S12-Ce9c56ff6-T8855e88d_1",
+    "concept_S12-Ce9c56ff6-T8855e88d_2",
+    "concept_S12-Ce9c56ff6-T8855e88d_3"
+  ],
+  "scenes": []
+}

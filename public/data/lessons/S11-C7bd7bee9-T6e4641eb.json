@@ -1,0 +1,18 @@
+{
+  "videoId": "vid_S11-C7bd7bee9-T6e4641eb",
+  "topicId": "S11-C7bd7bee9-T6e4641eb",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "बेकिंग सोडा का रासायनिक नाम सोडियम बाइकार्बोनेट या सोडियम हाइड्रोजन कार्बोनेट (NaHCO3) है। गर्म करने पर यह कार्बन डाइऑक्साइड गैस छोड़ता है जिससे खाद्य पदार्थ फूल जाते हैं।",
+  "factCardIds": [
+    "FC_S11-C7bd7bee9-T6e4641eb"
+  ],
+  "learningObjectives": [
+    "concept_S11-C7bd7bee9-T6e4641eb_0",
+    "concept_S11-C7bd7bee9-T6e4641eb_1",
+    "concept_S11-C7bd7bee9-T6e4641eb_2",
+    "concept_S11-C7bd7bee9-T6e4641eb_3",
+    "concept_S11-C7bd7bee9-T6e4641eb_4"
+  ],
+  "scenes": []
+}

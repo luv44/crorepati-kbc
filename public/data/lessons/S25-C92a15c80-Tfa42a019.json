@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S25-C92a15c80-Tfa42a019",
+  "topicId": "S25-C92a15c80-Tfa42a019",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "'सत्यमेव जयते' (सत्य की ही विजय होती है) मुंडक उपनिषद के मंत्र 3.1.6 से लिया गया है।",
+  "factCardIds": [
+    "FC_S25-C92a15c80-Tfa42a019"
+  ],
+  "learningObjectives": [
+    "concept_S25-C92a15c80-Tfa42a019_0",
+    "concept_S25-C92a15c80-Tfa42a019_1",
+    "concept_S25-C92a15c80-Tfa42a019_2",
+    "concept_S25-C92a15c80-Tfa42a019_3"
+  ],
+  "scenes": []
+}

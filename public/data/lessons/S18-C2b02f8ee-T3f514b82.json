@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S18-C2b02f8ee-T3f514b82",
+  "topicId": "S18-C2b02f8ee-T3f514b82",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "रबींद्रनाथ टैगोर को 1913 में उनकी उत्कृष्ट काव्यात्मक कृति 'गीतांजलि' के लिए साहित्य का नोबेल पुरस्कार दिया गया। वह यह सम्मान पाने वाले प्रथम एशियाई थे।",
+  "factCardIds": [
+    "FC_S18-C2b02f8ee-T3f514b82"
+  ],
+  "learningObjectives": [
+    "concept_S18-C2b02f8ee-T3f514b82_0",
+    "concept_S18-C2b02f8ee-T3f514b82_1",
+    "concept_S18-C2b02f8ee-T3f514b82_2",
+    "concept_S18-C2b02f8ee-T3f514b82_3"
+  ],
+  "scenes": []
+}

@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S05-Cd1fc9546-T27ca1ebe",
+  "topicId": "S05-Cd1fc9546-T27ca1ebe",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "डॉ. अम्बेडकर ने अनुच्छेद 32 (संवैधानिक उपचारों का अधिकार) को संविधान की आत्मा और हृदय बताया था, क्योंकि इसके तहत उच्चतम न्यायालय 5 प्रकार की रिट जारी करता है।",
+  "factCardIds": [
+    "FC_S05-Cd1fc9546-T27ca1ebe"
+  ],
+  "learningObjectives": [
+    "concept_S05-Cd1fc9546-T27ca1ebe_0",
+    "concept_S05-Cd1fc9546-T27ca1ebe_1",
+    "concept_S05-Cd1fc9546-T27ca1ebe_2",
+    "concept_S05-Cd1fc9546-T27ca1ebe_3"
+  ],
+  "scenes": []
+}

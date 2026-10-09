@@ -1,0 +1,19 @@
+{
+  "videoId": "vid_S25-C92a15c80-Tfe27a21d",
+  "topicId": "S25-C92a15c80-Tfe27a21d",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "₹100 के नए नोट के पृष्ठ भाग पर गुजरात के पाटन में स्थित 11वीं सदी की विश्व प्रसिद्ध बावड़ी 'रानी की वाव' का चित्र है, जिसे 2014 में यूनेस्को की विश्व धरोहर सूची में शामिल किया गया था।",
+  "factCardIds": [
+    "FC_S25-C92a15c80-Tfe27a21d"
+  ],
+  "learningObjectives": [
+    "concept_S25-C92a15c80-Tfe27a21d_0",
+    "concept_S25-C92a15c80-Tfe27a21d_1",
+    "concept_S25-C92a15c80-Tfe27a21d_2",
+    "concept_S25-C92a15c80-Tfe27a21d_3",
+    "concept_S25-C92a15c80-Tfe27a21d_4",
+    "concept_S25-C92a15c80-Tfe27a21d_5"
+  ],
+  "scenes": []
+}

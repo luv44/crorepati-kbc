@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S17-C0375a3bf-T6512a741",
+  "topicId": "S17-C0375a3bf-T6512a741",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "द्रविड़ स्थापत्य शैली में मंदिर परिसर के भव्य प्रवेश द्वार को 'गोपुरम' कहा जाता है, जबकि गर्भगृह के ऊपर स्थित पिरामिडनुमा मीनार को 'विमान' कहा जाता है।",
+  "factCardIds": [
+    "FC_S17-C0375a3bf-T6512a741"
+  ],
+  "learningObjectives": [
+    "concept_S17-C0375a3bf-T6512a741_0",
+    "concept_S17-C0375a3bf-T6512a741_1",
+    "concept_S17-C0375a3bf-T6512a741_2",
+    "concept_S17-C0375a3bf-T6512a741_3"
+  ],
+  "scenes": []
+}

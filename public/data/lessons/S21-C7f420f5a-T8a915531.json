@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S21-C7f420f5a-T8a915531",
+  "topicId": "S21-C7f420f5a-T8a915531",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "1954 में सर्वप्रथम तीन व्यक्तियों को भारत रत्न दिया गया: सी. राजगोपालाचारी, डॉ. सर्वपल्ली राधाकृष्णन और वैज्ञानिक डॉ. सी.वी. रमन। जवाहरलाल नेहरू को 1955 में भारत रत्न मिला था।",
+  "factCardIds": [
+    "FC_S21-C7f420f5a-T8a915531"
+  ],
+  "learningObjectives": [
+    "concept_S21-C7f420f5a-T8a915531_0",
+    "concept_S21-C7f420f5a-T8a915531_1",
+    "concept_S21-C7f420f5a-T8a915531_2",
+    "concept_S21-C7f420f5a-T8a915531_3"
+  ],
+  "scenes": []
+}

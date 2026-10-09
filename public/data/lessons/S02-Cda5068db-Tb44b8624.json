@@ -1,0 +1,18 @@
+{
+  "videoId": "vid_S02-Cda5068db-Tb44b8624",
+  "topicId": "S02-Cda5068db-Tb44b8624",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "चंद्रयान-3 के विक्रम लैंडर के लैंडिंग स्थल को आधिकारिक रूप से 'शिव शक्ति पॉइंट' नाम दिया गया, जबकि चंद्रयान-2 के प्रभाव स्थल को 'तिरंगा पॉइंट' कहा गया है।",
+  "factCardIds": [
+    "FC_S02-Cda5068db-Tb44b8624"
+  ],
+  "learningObjectives": [
+    "concept_S02-Cda5068db-Tb44b8624_0",
+    "concept_S02-Cda5068db-Tb44b8624_1",
+    "concept_S02-Cda5068db-Tb44b8624_2",
+    "concept_S02-Cda5068db-Tb44b8624_3",
+    "concept_S02-Cda5068db-Tb44b8624_4"
+  ],
+  "scenes": []
+}

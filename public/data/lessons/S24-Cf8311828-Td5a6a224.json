@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S24-Cf8311828-Td5a6a224",
+  "topicId": "S24-Cf8311828-Td5a6a224",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "अनुच्छेद 53(2) के अनुसार, संघ के रक्षा बलों की सर्वोच्च कमान राष्ट्रपति में निहित होगी और उसका प्रयोग विधि द्वारा विनियमित होगा।",
+  "factCardIds": [
+    "FC_S24-Cf8311828-Td5a6a224"
+  ],
+  "learningObjectives": [
+    "concept_S24-Cf8311828-Td5a6a224_0",
+    "concept_S24-Cf8311828-Td5a6a224_1",
+    "concept_S24-Cf8311828-Td5a6a224_2",
+    "concept_S24-Cf8311828-Td5a6a224_3"
+  ],
+  "scenes": []
+}

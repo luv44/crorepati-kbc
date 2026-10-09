@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S09-C3ee11016-Tf99f996d",
+  "topicId": "S09-C3ee11016-Tf99f996d",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "रेमंड लिंडमैन (1942) के नियम के अनुसार, एक पोषण स्तर से अगले स्तर पर केवल 10% ऊर्जा का स्थानांतरण होता है, जबकि 90% ऊर्जा श्वसन और चयापचय में खर्च होकर ऊष्मा के रूप में नष्ट हो जाती है।",
+  "factCardIds": [
+    "FC_S09-C3ee11016-Tf99f996d"
+  ],
+  "learningObjectives": [
+    "concept_S09-C3ee11016-Tf99f996d_0",
+    "concept_S09-C3ee11016-Tf99f996d_1",
+    "concept_S09-C3ee11016-Tf99f996d_2",
+    "concept_S09-C3ee11016-Tf99f996d_3"
+  ],
+  "scenes": []
+}

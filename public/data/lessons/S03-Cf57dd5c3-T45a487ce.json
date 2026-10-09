@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S03-Cf57dd5c3-T45a487ce",
+  "topicId": "S03-Cf57dd5c3-T45a487ce",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "बुद्ध ने ज्ञान प्राप्ति के उपरांत वाराणसी के निकट सारनाथ के मृगदाव (ऋषिपत्तन) में अपने पांच शिष्यों को प्रथम उपदेश दिया था।",
+  "factCardIds": [
+    "FC_S03-Cf57dd5c3-T45a487ce"
+  ],
+  "learningObjectives": [
+    "concept_S03-Cf57dd5c3-T45a487ce_0",
+    "concept_S03-Cf57dd5c3-T45a487ce_1",
+    "concept_S03-Cf57dd5c3-T45a487ce_2",
+    "concept_S03-Cf57dd5c3-T45a487ce_3"
+  ],
+  "scenes": []
+}

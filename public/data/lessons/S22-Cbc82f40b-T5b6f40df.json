@@ -1,0 +1,19 @@
+{
+  "videoId": "vid_S22-Cbc82f40b-T5b6f40df",
+  "topicId": "S22-Cbc82f40b-T5b6f40df",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "महर्षि अक्षपाद गौतम ने 'न्याय सूत्र' की रचना की और न्याय दर्शन की नींव रखी, जो अपने कठोर तर्कशास्त्र और प्रमाण-मीमांसा के लिए प्रसिद्ध है।",
+  "factCardIds": [
+    "FC_S22-Cbc82f40b-T5b6f40df"
+  ],
+  "learningObjectives": [
+    "concept_S22-Cbc82f40b-T5b6f40df_0",
+    "concept_S22-Cbc82f40b-T5b6f40df_1",
+    "concept_S22-Cbc82f40b-T5b6f40df_2",
+    "concept_S22-Cbc82f40b-T5b6f40df_3",
+    "concept_S22-Cbc82f40b-T5b6f40df_4",
+    "concept_S22-Cbc82f40b-T5b6f40df_5"
+  ],
+  "scenes": []
+}

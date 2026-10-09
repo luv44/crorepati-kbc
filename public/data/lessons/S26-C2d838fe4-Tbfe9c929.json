@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S26-C2d838fe4-Tbfe9c929",
+  "topicId": "S26-C2d838fe4-Tbfe9c929",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "20 मई 2019 को पेरिस में रखे भौतिक प्लैटिनम-इरीडियम सिलेंडर (IPK) को हटाकर किलोग्राम को प्लांक स्थिरांक (h = 6.62607015 × 10^-34 J·s) के सटीक मान द्वारा पुनर्परिभाषित किया गया।",
+  "factCardIds": [
+    "FC_S26-C2d838fe4-Tbfe9c929"
+  ],
+  "learningObjectives": [
+    "concept_S26-C2d838fe4-Tbfe9c929_0",
+    "concept_S26-C2d838fe4-Tbfe9c929_1",
+    "concept_S26-C2d838fe4-Tbfe9c929_2",
+    "concept_S26-C2d838fe4-Tbfe9c929_3"
+  ],
+  "scenes": []
+}

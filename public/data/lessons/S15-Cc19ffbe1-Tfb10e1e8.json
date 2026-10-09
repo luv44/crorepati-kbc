@@ -1,0 +1,17 @@
+{
+  "videoId": "vid_S15-Cc19ffbe1-Tfb10e1e8",
+  "topicId": "S15-Cc19ffbe1-Tfb10e1e8",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "भारतीय संविधान की प्रस्तावना में शामिल 'स्वतंत्रता, समानता और बंधुत्व' के मूल आदर्श 1789 की फ्रांसीसी क्रांति की देन हैं।",
+  "factCardIds": [
+    "FC_S15-Cc19ffbe1-Tfb10e1e8"
+  ],
+  "learningObjectives": [
+    "concept_S15-Cc19ffbe1-Tfb10e1e8_0",
+    "concept_S15-Cc19ffbe1-Tfb10e1e8_1",
+    "concept_S15-Cc19ffbe1-Tfb10e1e8_2",
+    "concept_S15-Cc19ffbe1-Tfb10e1e8_3"
+  ],
+  "scenes": []
+}

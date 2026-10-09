@@ -1,0 +1,18 @@
+{
+  "videoId": "vid_S06-C4397a951-T1c0849a9",
+  "topicId": "S06-C4397a951-T1c0849a9",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "73वें संविधान संशोधन अधिनियम, 1992 द्वारा संविधान में जोड़ी गई 11वीं अनुसूची में पंचायतों के अधिकार क्षेत्र में 29 कार्यात्मक विषय शामिल हैं।",
+  "factCardIds": [
+    "FC_S06-C4397a951-T1c0849a9"
+  ],
+  "learningObjectives": [
+    "concept_S06-C4397a951-T1c0849a9_0",
+    "concept_S06-C4397a951-T1c0849a9_1",
+    "concept_S06-C4397a951-T1c0849a9_2",
+    "concept_S06-C4397a951-T1c0849a9_3",
+    "concept_S06-C4397a951-T1c0849a9_4"
+  ],
+  "scenes": []
+}

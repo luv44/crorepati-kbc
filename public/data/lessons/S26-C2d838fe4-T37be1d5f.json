@@ -1,0 +1,19 @@
+{
+  "videoId": "vid_S26-C2d838fe4-T37be1d5f",
+  "topicId": "S26-C2d838fe4-T37be1d5f",
+  "status": "PROMPT_READY",
+  "targetDurationSec": 180,
+  "narrationHindi": "विद्युत धारिता का एसआई मात्रक फैराड (F) है। एक फैराड वह धारिता है जिसमें एक कूलॉम आवेश प्रवाहित होने पर एक वोल्ट का विभवांतर उत्पन्न होता है (1 F = 1 C/V)।",
+  "factCardIds": [
+    "FC_S26-C2d838fe4-T37be1d5f"
+  ],
+  "learningObjectives": [
+    "concept_S26-C2d838fe4-T37be1d5f_0",
+    "concept_S26-C2d838fe4-T37be1d5f_1",
+    "concept_S26-C2d838fe4-T37be1d5f_2",
+    "concept_S26-C2d838fe4-T37be1d5f_3",
+    "concept_S26-C2d838fe4-T37be1d5f_4",
+    "concept_S26-C2d838fe4-T37be1d5f_5"
+  ],
+  "scenes": []
+}
