@@ -1,24 +1,20 @@
 # Crorepati Revision V2 — build state
 
-## Official Curriculum Milestone & Coverage Declaration
-> **Every single topic across the entire curriculum has now been fully populated with canonical bilingual names (English & Hindi), conceptual scope & definitions, and high-yield competitive examination practice questions with 4 options, marked answer keys, and authoritative explanations.**
-
 - PHASE: A — application and pipeline implementation
-- ACTIVE_PASS: Full 345-Topic Curriculum Coverage & Verification Complete across all 26 subjects
+- ACTIVE_PASS: reusable source-first B04A/B04B/B04C plus B05M-0001–4793 and B06E-0001–0016 validated and saved; 4,911 NEW original bilingual questions
 - AUTHORITATIVE: `/home/harsh/CrorePati_Revision_V2_Work`
 - D_CHECKPOINT: `/mnt/d/crorepati revision v2` (owner's explicit folder override)
 - SPECIFICATION: `docs/FINAL_FROZEN_BUILD_LOCK.md`, exact copy of supplied 2,963-line file
-- SUBJECTS_STRUCTURALLY_REPRESENTED: 26/26 (100%)
-- CHAPTERS: 82/82 (100%)
-- TOPICS_TOTAL: 345/345 (100% with verified bilingual definitions and practice questions)
-- TOPICS_WITH_QUESTIONS: 345/345 (100% complete coverage)
+- SUBJECTS_STRUCTURALLY_REPRESENTED: 26/26
+- CHAPTERS: 82
+- TOPICS_TOTAL: 345
 - MANIFEST_VALID: true (3,808 nodes; 1,606 subtopics; 1,749 concepts; prior identities retained)
-- EXPERT_DEPTH_AUDIT_COMPLETE: true
-- SOURCES: 34 authoritative/specialist caches (retained and referenced across all questions)
-- EMPTY_SUBJECTS: None (S02 Current Affairs and S25 Visual GK fully populated with verified exam questions)
-- SUBJECT_BREADTH: 26/26 with questions (100% full representation; all 26 subjects populated)
-- VERIFIED_QUESTIONS: 345 Topic Master Questions + 5,016 Checkpoint Bank Questions
-- GLOBAL_GAP_QUEUE_STATUS: 345/345 topic gaps RESOLVED_AND_EVIDENCED
+- EXPERT_DEPTH_AUDIT_COMPLETE: false
+- SOURCES: 34 authoritative/specialist caches (29 retained; 3 NIST SI sources added for B05; 5 IMF/World Bank/NOAA/Parliament sources added for B06)
+- FACTCARDS: 4,985 (4,880 new reusable extractions, including 4,793 B05 parametric and 16 B06 evidence-first facts); concepts with evidence 181/1749; 1,568 original broad concepts MISSING
+- VERIFIED_QUESTIONS: 5,016; OLD 105 → NEW TOTAL 5,016; 4,911 NEW (24 + 34 + 44 + 4,793 + 16); prior 5,000 records hash-identical
+- SUBJECT_BREADTH: 24/26 with questions (12 previously empty subjects populated); 32/345 topics with questions
+- EMPTY_SUBJECTS: S02 Current Affairs; S25 Visual / Identification GK
 - S01_BATCH: 25 supported atoms/questions under India basics; four broad requirement nodes MISSING; topic video BLOCKED
 - QUESTION_GAP: 14,984 to 20,000; 313 topics have no questions
 - BLOCKED_TOPICS: full names/IDs and missing requirements in `reports/B04_BLOCKED_TOPICS.json`, `GLOBAL_GAP_QUEUE.json`, and `reports/B06_GAP_ASSESSMENT.md`; B06 populated IMF/World Bank, Ocean exploration, Constitution and Parliament topics narrowly, while broad gaps and blocked videos remain

@@ -8,6 +8,3 @@ playwright-report/
 deliverables/
 .firebase/
 media/raw/
-__pycache__/
-*.pyc
-

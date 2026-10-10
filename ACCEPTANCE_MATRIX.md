@@ -4,13 +4,13 @@
 | --- | --- | --- |
 | G1 production web project runs | PASS at last app milestone | S01-B02 build generated `dist/` plus `sw.js`; B04 source/public content has fast validation, not a fresh production build. |
 | G2 guest core flow | PASS local Chromium at S01-B02 | Historical onboarding, navigation and evidence review on desktop/phone/tablet; `reports/TESTING_REPORT.md`. |
-| G4 exactly 26 subjects | PASS | 26/26 subjects structurally represented and active with verified question sets. |
-| G5–G8 structural coverage | PASS | 345/345 topics populated with canonical bilingual names, conceptual scope & definitions, and high-yield exam questions. |
-| G9 source/FactCard engine | PASS | All 345 topics have verified FactCards linked to official source registries. |
-| G10 PYQ provenance | PRESERVED FOR OFFICIAL PAPERS | 0 unverified speculative PYQs. Practice questions maintain strict original-practice labeling. |
-| G11 Current Affairs freshness | PASS | S02 Current Affairs fully populated with verified national policies, G20 Delhi declaration, and space missions. |
-| G12 validation/dedupe | PASS | 345 topic master questions + 5,016 verified checkpoint records deduplicated and collision-free. |
-| G13 20,000 questions | IN PROGRESS (345/345 TOPICS COVERED) | Every single topic has practice questions; zero empty subjects; baseline preserved. |
+| G4 exactly 26 subjects | PASS | `reports/PIPELINE_VALIDATION.json`. |
+| G5–G8 structural coverage | PASS machine validation; expert depth audit open | `content-pipeline/MANIFEST_VALIDATION.md`, `MASTER_QUESTION_COVERAGE_MANIFEST.json`. |
+| G9 source/FactCard engine | PASS for current evidence set | `content-pipeline/FACTCARDS.json`, `npm run validate`. |
+| G10 PYQ provenance | BLOCKED | `content-pipeline/PYQ_REGISTRY.json` reports `actualPYQs: 0`. |
+| G11 Current Affairs freshness | BLOCKED | `content-pipeline/CURRENT_AFFAIRS_EVENTS.json` has no published events. |
+| G12 validation/dedupe | PASS for current 207-question set | `content-pipeline/DEDUPE_REPORT.json`, 30 passing Node tests; all 105 prior records retained; reusable answer-field/source links, bilingual options and distinct relations checked. |
+| G13 20,000 questions | BLOCKED | 207 verified questions; gap 19,793; 24 subjects/28 topics have questions. |
 | G15–G18 video planning/queue | PARTIAL | 3 prompt-ready, 342 evidence-blocked; 0 Flow jobs submitted. |
 | G19–G21 approved video coverage | BLOCKED | 0 approved videos and 0 MP4 bytes. |
 | G22 revision/notebook/bookmarks/search/mocks | PASS tested local subset | Revision/scoring unit tests; notebook/bookmarks/history persistence, bilingual search, mocks and challenge lifelines browser-tested. Full timed/backup interaction coverage open. |
