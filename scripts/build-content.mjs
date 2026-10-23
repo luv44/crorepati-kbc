@@ -132,6 +132,8 @@ export async function auditContent() {
     records: currentNews.items.length,
     publicationDates: [...new Set(currentNews.items.map(item => item.publicationDate))].sort(),
     links: currentNews.items.reduce((total, item) => total + item.links.length, 0),
+    bilingualOneMinuteAnalyses: currentNews.items.filter(item => item.analysis?.readTimeMinutes === 1 && item.analysis.keyPoints?.every(point => point.en && point.hi) && item.analysis.whatToRemember?.en && item.analysis.whatToRemember?.hi).length,
+    analysisKeyPoints: currentNews.items.reduce((total, item) => total + (item.analysis?.keyPoints?.length || 0), 0),
     bilingualMcqs: currentNews.items.reduce((total, item) => total + item.mcqs.length, 0),
     latestPublicationDate: currentNews.items.map(item => item.publicationDate).sort().at(-1) || null,
   };

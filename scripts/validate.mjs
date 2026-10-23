@@ -117,6 +117,12 @@ for (const item of currentNews.items) {
   assert(text(item.category?.en) && text(item.category?.hi), `news ${item.id} lacks bilingual category`);
   assert(text(item.title?.en) && text(item.title?.hi), `news ${item.id} lacks bilingual title`);
   assert(text(item.summary?.en) && text(item.summary?.hi), `news ${item.id} lacks bilingual summary`);
+  assert(item.analysis?.readTimeMinutes === 1, `news ${item.id} is missing its one-minute analysis marker`);
+  assert(Array.isArray(item.analysis?.keyPoints) && item.analysis.keyPoints.length >= 3, `news ${item.id} needs at least three analyzed key points`);
+  assert(item.analysis?.keyPoints?.every(point => text(point.en) && text(point.hi)), `news ${item.id} has incomplete bilingual key points`);
+  assert(new Set(item.analysis?.keyPoints?.map(point => normalized(point.en))).size === item.analysis?.keyPoints?.length, `news ${item.id} repeats English analyzed key points`);
+  assert(new Set(item.analysis?.keyPoints?.map(point => normalized(point.hi))).size === item.analysis?.keyPoints?.length, `news ${item.id} repeats Hindi analyzed key points`);
+  assert(text(item.analysis?.whatToRemember?.en) && text(item.analysis?.whatToRemember?.hi), `news ${item.id} lacks a bilingual recall focus`);
   assert(text(item.evidenceQuote) && text(item.evidenceLocator), `news ${item.id} lacks checked evidence excerpt`);
   assert(Array.isArray(item.links) && item.links.length > 0, `news ${item.id} has no source link`);
   for (const link of item.links || []) {

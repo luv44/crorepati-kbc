@@ -30,10 +30,14 @@ Exam views reuse canonical topic banks. Selecting an exam scopes every content t
 - publication and verification dates;
 - one or more checked HTTPS source links;
 - a retained evidence excerpt and locator;
-- bilingual title and summary;
+- a bilingual one-minute analysis with three checked key points and a recall focus;
+- a short story list organized by date and category;
+- a one-question-at-a-time daily quiz with Skip/Next, answer feedback, source access, and a result summary;
+- a saved-brief review strip stored with local progress;
+- offline reading through the precached Current Live feed;
 - bilingual MCQs with four options, answer, and short explanation, each answered by that displayed story.
 
-A date without a checked record displays `No verified news found`; the app does not synthesize missing events.
+These are original interactions informed by useful short-article and daily-quiz patterns in the referenced current-affairs app; no third-party article, question, or visual was copied. A date without a checked record displays `No verified news found`; the app does not synthesize missing events.
 
 ## Verification
 

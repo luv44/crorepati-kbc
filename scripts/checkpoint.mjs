@@ -15,6 +15,8 @@ const receipt = {
   topicsBelowTarget: checkpoint.topicsBelowTarget,
   examMappingsValid: examReport.allMappingsValid,
   currentNewsRecords: newsReport.records,
+  currentNewsOneMinuteAnalyses: newsReport.bilingualOneMinuteAnalyses,
+  currentNewsAnalysisKeyPoints: newsReport.analysisKeyPoints,
   currentNewsMcqs: newsReport.bilingualMcqs,
   questionsWithoutDirectSources: coverageReport.questionsWithoutDirectSources,
   factCardsWithoutResolvableSources: coverageReport.factCardsWithoutResolvableSources,

@@ -2,7 +2,7 @@
   "project": "Crorepati Revision",
   "updatedAt": "2026-10-23T00:00:00+05:30",
   "branchBaseline": "2e93cc1a981e7515787fe59ee9f33828fd65d636",
-  "milestone": "Exam-scoped catalogue and source-checked Current Live implemented; 40-per-topic gate remains open",
+  "milestone": "Exam-scoped catalogue and analyzed, source-checked Current Live implemented; 40-per-topic gate remains open",
   "counts": {
     "subjects": 26,
     "chapters": 82,
@@ -15,6 +15,8 @@
     "questionShortfall": 12075,
     "topicsAtTarget": 0,
     "currentNewsRecords": 3,
+    "currentNewsOneMinuteAnalyses": 3,
+    "currentNewsAnalysisKeyPoints": 9,
     "currentNewsLinks": 3,
     "currentNewsMcqs": 6
   },
@@ -26,11 +28,11 @@
   },
   "verification": {
     "examMapping": "PASS: 21/21 mappings, 5,806 resolved exam-topic memberships",
-    "currentNewsIntegrity": "PASS: 3 general-current-affairs stories were directly checked, dated, evidenced and linked; all 6 bilingual MCQs are answered by their displayed story; recruitment/result updates are excluded",
+    "currentNewsIntegrity": "PASS: 3 general-current-affairs stories have bilingual one-minute analyses, 9 checked key points, dates, retained evidence and official links; all 6 bilingual MCQs are answered by their displayed story; recruitment/result updates are excluded",
     "nodeTests": "PASS: 8/8",
-    "productionBuild": "PASS: TypeScript, Vite 1,602 modules, service worker generated",
+    "productionBuild": "PASS: TypeScript, Vite 1,602 modules, service worker crorepati-f1f7af14ff912bfa with 17 precached URLs",
     "httpSmoke": "PASS: app, exam data, Current Live data and transformed modules returned correct content types",
-    "browserE2E": "NOT_RUN: Playwright Chromium executable is not installed",
+    "browserE2E": "BLOCKED_AT_LAUNCH: all 9 scenarios were invoked, but the Playwright Chromium executable is not installed",
     "strictCoverage": "FAIL_EXPECTED: 12,075-question shortfall",
     "strictStaticSources": "BLOCKED: baseline source provenance debt and 28 invalid concept mappings"
   },

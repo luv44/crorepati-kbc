@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "savedAt": "2026-10-23T09:17:07.581Z",
-  "digest": "a4a6759cb589e3ca5db92a3061b5e013ea503db3a836539def0eb3c4417824df",
+  "savedAt": "2026-10-23T10:13:28.685Z",
+  "digest": "269a3055b6d012f93784b9916adbd3a33d2a44a6aad1736e446797c325a6d67b",
   "status": "IN_PROGRESS_SOURCE_REVIEW_REQUIRED",
   "currentQuestions": 1725,
   "targetTotal": 13800,
@@ -9,6 +9,8 @@
   "topicsBelowTarget": 345,
   "examMappingsValid": true,
   "currentNewsRecords": 3,
+  "currentNewsOneMinuteAnalyses": 3,
+  "currentNewsAnalysisKeyPoints": 9,
   "currentNewsMcqs": 6,
   "questionsWithoutDirectSources": 1725,
   "factCardsWithoutResolvableSources": 53,

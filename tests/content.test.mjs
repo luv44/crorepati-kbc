@@ -34,6 +34,8 @@ test('Current Live contains directly checked general current affairs with story-
   assert.match(audit.currentNews.policy, /directly checked/);
   assert.match(audit.currentNews.policy, /No verified news found/);
   assert.ok(audit.currentNews.items.length > 0);
+  assert.equal(audit.newsReport.bilingualOneMinuteAnalyses, audit.currentNews.items.length);
+  assert.ok(audit.newsReport.analysisKeyPoints >= audit.currentNews.items.length * 3);
   for (const item of audit.currentNews.items) {
     assert.match(item.publicationDate, /^\d{4}-\d{2}-\d{2}$/);
     assert.ok(item.evidenceQuote.length > 30);
@@ -45,6 +47,12 @@ test('Current Live contains directly checked general current affairs with story-
       assert.ok(url.hostname.endsWith('.gov.in') || url.hostname.endsWith('.nic.in'), url.hostname);
     }
     assert.ok(item.title.en && item.title.hi && item.summary.en && item.summary.hi);
+    assert.equal(item.analysis.readTimeMinutes, 1);
+    assert.ok(item.analysis.keyPoints.length >= 3);
+    assert.ok(item.analysis.keyPoints.every(point => point.en && point.hi));
+    assert.equal(new Set(item.analysis.keyPoints.map(point => point.en)).size, item.analysis.keyPoints.length);
+    assert.equal(new Set(item.analysis.keyPoints.map(point => point.hi)).size, item.analysis.keyPoints.length);
+    assert.ok(item.analysis.whatToRemember.en && item.analysis.whatToRemember.hi);
     assert.ok(item.mcqs.length > 0);
     for (const question of item.mcqs) {
       assert.ok(question.question.en && question.question.hi);
@@ -104,6 +112,12 @@ test('UI contains separate year/month/day controls, complete explanations and sa
   assert.match(library, /aria-label="News month"/);
   assert.match(library, /aria-label="News day"/);
   assert.match(library, /No verified news found/);
+  assert.match(library, /1-minute brief/);
+  assert.match(library, /Daily quiz/);
+  assert.match(library, /Save brief/);
+  assert.match(library, /offline reading/);
+  assert.match(library, /Skip this one/);
+  assert.match(library, /Next question/);
   assert.match(library, /target="_blank" rel="noopener noreferrer"/);
   assert.match(practice, /q\.wrongReasons\.length === q\.options\.length/);
   assert.match(practice, /Skip this one/);

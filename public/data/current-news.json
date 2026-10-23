@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "builtAt": "2026-10-23T00:00:00+05:30",
-  "policy": "Current Live contains general current affairs, not recruitment or result updates. Only records whose publication date and claim were directly checked against the linked publisher are included. Every MCQ must be answered by the displayed news record and retained evidence. A date without an included record must render the exact empty-state message: No verified news found.",
+  "policy": "Current Live contains directly checked general current affairs, not recruitment or result updates. Every story includes a bilingual one-minute analysis, retained evidence and an official link. Every MCQ must be answered by its displayed story and evidence. A date without an included record must render the exact empty-state message: No verified news found.",
   "items": [
     {
       "id": "NEWS-2026-10-22-INDIA-POLAND-TRADE",
@@ -89,7 +89,28 @@
         }
       ],
       "evidenceQuote": "The Prime Ministers recalled Prime Minister Modi’s landmark visit to Poland in August 2024, when the bilateral relationship was elevated to a Strategic Partnership and the India-Poland Action Plan for 2024-2028 was adopted. The Leaders set the target of doubling bilateral trade by 2030.",
-      "evidenceLocator": "Official PIB joint statement, Strategic Partnership and Trade, Economic Cooperation and Investment sections"
+      "evidenceLocator": "Official PIB joint statement, Strategic Partnership and Trade, Economic Cooperation and Investment sections",
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "The India–Poland relationship was elevated to a Strategic Partnership in August 2024.",
+            "hi": "भारत–पोलैंड संबंध को अगस्त 2024 में रणनीतिक साझेदारी का दर्जा दिया गया।"
+          },
+          {
+            "en": "The two countries adopted an Action Plan covering 2024–2028.",
+            "hi": "दोनों देशों ने 2024–2028 की अवधि के लिए कार्ययोजना अपनाई।"
+          },
+          {
+            "en": "Their leaders set a target to double bilateral trade by 2030.",
+            "hi": "दोनों देशों के नेताओं ने 2030 तक द्विपक्षीय व्यापार दोगुना करने का लक्ष्य रखा।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Connect the August 2024 Strategic Partnership with the 2024–2028 Action Plan and the 2030 trade target.",
+          "hi": "अगस्त 2024 की रणनीतिक साझेदारी को 2024–2028 की कार्ययोजना और 2030 के व्यापार लक्ष्य से जोड़कर याद रखें।"
+        }
+      }
     },
     {
       "id": "NEWS-2026-10-20-DEEPTHI-JEEVANJI-GOLD",
@@ -177,7 +198,28 @@
         }
       ],
       "evidenceQuote": "Deepthi Jeevanji has once again won Gold in the Women's 400m T20 at the Asian Para Games, defending her title with a phenomenal Games Record.",
-      "evidenceLocator": "Official PIB release, opening paragraph and quoted Prime Minister's Office post"
+      "evidenceLocator": "Official PIB release, opening paragraph and quoted Prime Minister's Office post",
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "Deepthi Jeevanji won gold in the Women's 400m T20 event at the Asian Para Games.",
+            "hi": "दीप्ति जीवनजी ने एशियाई पैरा खेलों की महिला 400 मीटर T20 स्पर्धा में स्वर्ण जीता।"
+          },
+          {
+            "en": "She defended her title rather than winning the event for the first time.",
+            "hi": "उन्होंने पहली बार यह स्पर्धा नहीं जीती, बल्कि अपना खिताब बरकरार रखा।"
+          },
+          {
+            "en": "Her improved performance produced a Games Record.",
+            "hi": "उनके बेहतर प्रदर्शन से खेल रिकॉर्ड बना।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Link the athlete with the 400m T20 event, gold medal, title defence and Games Record.",
+          "hi": "खिलाड़ी को 400 मीटर T20 स्पर्धा, स्वर्ण पदक, खिताब की रक्षा और खेल रिकॉर्ड से जोड़कर याद रखें।"
+        }
+      }
     },
     {
       "id": "NEWS-2026-10-15-RAMSAR-103",
@@ -265,7 +307,28 @@
         }
       ],
       "evidenceQuote": "India’s Ramsar site tally has reached 103, with the designation of Sukhna Wetland in Chandigarh and Sauj Jheel in Uttar Pradesh as the latest additions to the list.",
-      "evidenceLocator": "Official PIB release, opening paragraph"
+      "evidenceLocator": "Official PIB release, opening paragraph",
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "India's Ramsar Site tally reached 103 after two new designations.",
+            "hi": "दो नए स्थलों के नामांकन के बाद भारत के रामसर स्थलों की संख्या 103 हुई।"
+          },
+          {
+            "en": "Sukhna Wetland in Chandigarh was one of the two latest additions.",
+            "hi": "चंडीगढ़ का सुखना वेटलैंड दो नवीनतम स्थलों में से एक था।"
+          },
+          {
+            "en": "Sauj Jheel in Uttar Pradesh was the other latest addition.",
+            "hi": "उत्तर प्रदेश की सौज झील दूसरा नवीनतम स्थल था।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Remember the total of 103 and match Sukhna Wetland with Chandigarh and Sauj Jheel with Uttar Pradesh.",
+          "hi": "कुल संख्या 103 याद रखें और सुखना वेटलैंड को चंडीगढ़ तथा सौज झील को उत्तर प्रदेश से मिलाएँ।"
+        }
+      }
     }
   ]
 }

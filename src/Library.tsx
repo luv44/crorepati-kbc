@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Bookmark, CalendarDays, CheckCircle2, Search, Sparkles, Target } from 'lucide-react';
+import { ArrowRight, Bookmark, CalendarDays, CheckCircle2, Clock3, ListChecks, Newspaper, RotateCcw, Search, Sparkles, Target } from 'lucide-react';
 import { useStore } from './context';
 import { DownloadLink, Empty, PageHeading, useText } from './components';
 import { revisionQuestions, searchMatch, toggleBookmark } from './domain';
-import type { CurrentNewsMcq } from './types';
+import type { CurrentNewsItem, CurrentNewsMcq } from './types';
 
 export default function Library({ page }: { page: string }) {
   const { state, examQuestions: questions, facts, examSubjects, update } = useStore();
@@ -44,26 +44,145 @@ export default function Library({ page }: { page: string }) {
 }
 
 function CurrentLive() {
-  const { currentNews, state } = useStore();
+  const { currentNews, state, update, toast } = useStore();
   const text = useText();
-  const newest = [...currentNews.items].map(item => item.publicationDate).sort().at(-1) || new Date().toISOString().slice(0, 10);
+  const locale = state.profile.language === 'hi' ? 'hi-IN' : 'en-IN';
+  const verifiedDates = [...new Set(currentNews.items.map(item => item.publicationDate))].sort().reverse();
+  const newest = verifiedDates[0] || new Date().toISOString().slice(0, 10);
   const initial = newest.split('-').map(Number);
   const [year, setYear] = useState(initial[0]);
   const [month, setMonth] = useState(initial[1]);
   const [day, setDay] = useState(initial[2]);
+  const [view, setView] = useState<'brief' | 'quiz'>('brief');
+  const [selectedItemId, setSelectedItemId] = useState('');
   const years = [...new Set([new Date().getFullYear(), ...currentNews.items.map(item => Number(item.publicationDate.slice(0, 4)))])].sort((a, b) => b - a);
-  const monthNames = Array.from({ length: 12 }, (_, index) => new Date(2024, index, 1).toLocaleDateString(state.profile.language === 'hi' ? 'hi-IN' : 'en-IN', { month: 'long' }));
+  const monthNames = Array.from({ length: 12 }, (_, index) => new Date(2024, index, 1).toLocaleDateString(locale, { month: 'long' }));
   const daysInMonth = new Date(year, month, 0).getDate();
   const safeDay = Math.min(day, daysInMonth);
   const selectedDate = `${year}-${String(month).padStart(2, '0')}-${String(safeDay).padStart(2, '0')}`;
   const items = currentNews.items.filter(item => item.publicationDate === selectedDate);
-  const selectLatest = () => { const [nextYear, nextMonth, nextDay] = newest.split('-').map(Number); setYear(nextYear); setMonth(nextMonth); setDay(nextDay); };
-  return <><PageHeading eyebrow="DATED GENERAL CURRENT AFFAIRS · NO FILLER" title="Current Live">Choose a year, month and day. Only directly checked general-current-affairs stories and MCQs answered by those stories appear; an empty date is reported plainly.</PageHeading><section className="card current-date-panel" aria-label="Current news date selectors"><div className="current-date-heading"><div><span className="eyebrow">PUBLICATION DATE</span><h2>{new Date(`${selectedDate}T00:00:00`).toLocaleDateString(state.profile.language === 'hi' ? 'hi-IN' : 'en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</h2></div><button className="secondary" onClick={selectLatest}>Latest verified date</button></div><div className="date-selectors"><label>Year<select aria-label="News year" value={year} onChange={event => { setYear(Number(event.target.value)); setDay(current => Math.min(current, new Date(Number(event.target.value), month, 0).getDate())); }}>{years.map(value => <option key={value} value={value}>{value}</option>)}</select></label><label>Month<select aria-label="News month" value={month} onChange={event => { const value = Number(event.target.value); setMonth(value); setDay(current => Math.min(current, new Date(year, value, 0).getDate())); }}>{monthNames.map((name, index) => <option key={name} value={index + 1}>{name}</option>)}</select></label><label>Day<select aria-label="News day" value={safeDay} onChange={event => setDay(Number(event.target.value))}>{Array.from({ length: daysInMonth }, (_, index) => index + 1).map(value => <option key={value} value={value}>{value}</option>)}</select></label></div><p className="small muted"><CheckCircle2 size={16} /> Feed checked {new Date(currentNews.builtAt).toLocaleDateString('en-IN')} · publication dates are shown on every record.</p></section>{items.length ? <div className="current-news-list">{items.map(item => <article className="card current-news-card" key={item.id}><div className="news-meta"><span className="chip"><CalendarDays size={13} /> {text(item.category)} · Published {new Date(`${item.publicationDate}T00:00:00`).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}</span><span>Verified {new Date(`${item.verifiedAt}T00:00:00`).toLocaleDateString('en-IN')}</span></div><h2>{text(item.title)}</h2><p>{text(item.summary)}</p><details><summary>Checked source excerpt</summary><blockquote>{item.evidenceQuote}<cite>{item.evidenceLocator}</cite></blockquote></details><div className="source-list" aria-label="Verified news sources">{item.links.map(link => <a className="source-link" href={link.url} target="_blank" rel="noopener noreferrer" key={link.url}>{link.label} ↗</a>)}</div><section className="news-mcqs"><h3>Source-backed MCQs · स्रोत-आधारित प्रश्न</h3>{item.mcqs.map((question, index) => <NewsQuiz question={question} number={index + 1} key={question.id} />)}</section></article>)}</div> : <Empty title="No verified news found">No checked publication is stored for {selectedDate}. Nothing has been generated or inferred for this date.</Empty>}<section className="card current-policy"><h2>Verification rule</h2><p>{currentNews.policy}</p></section></>;
+  const selectedItem = items.find(item => item.id === selectedItemId) || items[0];
+  const dailyQuestions = items.flatMap(item => item.mcqs.map(question => ({ question, story: item })));
+  const savedItems = currentNews.items.filter(item => state.bookmarks.includes(item.id));
+
+  useEffect(() => {
+    setSelectedItemId(current => items.some(item => item.id === current) ? current : items[0]?.id || '');
+    setView('brief');
+  }, [selectedDate]);
+
+  const chooseDate = (date: string) => {
+    const [nextYear, nextMonth, nextDay] = date.split('-').map(Number);
+    setYear(nextYear);
+    setMonth(nextMonth);
+    setDay(nextDay);
+  };
+
+  return <>
+    <PageHeading eyebrow="DAILY GENERAL CURRENT AFFAIRS · OFFICIAL SOURCES" title="Current Live">Read a one-minute bilingual analysis, then answer only the questions supported by that story. Recruitment and result updates stay outside this feed.</PageHeading>
+    <section className="card current-date-panel" aria-label="Current news date selectors">
+      <div className="current-date-heading">
+        <div><span className="eyebrow">PUBLICATION DATE</span><h2>{new Date(`${selectedDate}T00:00:00`).toLocaleDateString(locale, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</h2></div>
+        <button className="secondary" onClick={() => chooseDate(newest)}>Latest verified date</button>
+      </div>
+      <div className="date-selectors">
+        <label>Year<select aria-label="News year" value={year} onChange={event => { setYear(Number(event.target.value)); setDay(current => Math.min(current, new Date(Number(event.target.value), month, 0).getDate())); }}>{years.map(value => <option key={value} value={value}>{value}</option>)}</select></label>
+        <label>Month<select aria-label="News month" value={month} onChange={event => { const value = Number(event.target.value); setMonth(value); setDay(current => Math.min(current, new Date(year, value, 0).getDate())); }}>{monthNames.map((name, index) => <option key={name} value={index + 1}>{name}</option>)}</select></label>
+        <label>Day<select aria-label="News day" value={safeDay} onChange={event => setDay(Number(event.target.value))}>{Array.from({ length: daysInMonth }, (_, index) => index + 1).map(value => <option key={value} value={value}>{value}</option>)}</select></label>
+      </div>
+      <div className="verified-date-strip" aria-label="Available verified dates">
+        <span>Verified days</span>
+        {verifiedDates.slice(0, 7).map(date => <button aria-pressed={date === selectedDate} onClick={() => chooseDate(date)} key={date}>{new Date(`${date}T00:00:00`).toLocaleDateString(locale, { day: 'numeric', month: 'short' })}</button>)}
+      </div>
+      {!!savedItems.length && <div className="saved-news-strip" aria-label="Saved current affairs briefs"><span><Bookmark size={14} fill="currentColor" />Saved for review</span>{savedItems.map(item => <button onClick={() => { chooseDate(item.publicationDate); setSelectedItemId(item.id); setView('brief'); }} key={item.id}>{text(item.category)} · {new Date(`${item.publicationDate}T00:00:00`).toLocaleDateString(locale, { day: 'numeric', month: 'short' })}</button>)}</div>}
+      <p className="small muted"><CheckCircle2 size={16} /> Feed checked {new Date(currentNews.builtAt).toLocaleDateString('en-IN')} · every story retains its publication date, excerpt and official link.</p>
+    </section>
+
+    {items.length ? <section className="current-live-workspace">
+      <div className="current-live-overview card">
+        <div><Newspaper size={22} /><strong>{items.length}</strong><span>{items.length === 1 ? 'checked story' : 'checked stories'}</span></div>
+        <div><Clock3 size={22} /><strong>1 min</strong><span>bilingual brief</span></div>
+        <div><ListChecks size={22} /><strong>{dailyQuestions.length}</strong><span>story-linked MCQs</span></div>
+      </div>
+      <div className="current-mode-row">
+        <div className="current-view-tabs" role="tablist" aria-label="Current Live mode">
+          <button role="tab" aria-selected={view === 'brief'} className={view === 'brief' ? 'active' : ''} onClick={() => setView('brief')}><Newspaper size={18} />1-minute brief</button>
+          <button role="tab" aria-selected={view === 'quiz'} className={view === 'quiz' ? 'active' : ''} onClick={() => setView('quiz')}><ListChecks size={18} />Daily quiz <span>{dailyQuestions.length}</span></button>
+        </div>
+        <span className="offline-ready"><CheckCircle2 size={16} />Cached with the app for offline reading</span>
+      </div>
+      {view === 'brief' && selectedItem && <div className="current-story-layout">
+        <nav className="current-story-list card" aria-label="Stories for selected date">
+          <p className="eyebrow">TODAY'S VERIFIED STORIES</p>
+          {items.map(item => <button className={item.id === selectedItem.id ? 'active' : ''} aria-current={item.id === selectedItem.id ? 'true' : undefined} onClick={() => setSelectedItemId(item.id)} key={item.id}><span>{text(item.category)}</span><strong>{text(item.title)}</strong><small>{item.mcqs.length} questions</small></button>)}
+        </nav>
+        <NewsBrief item={selectedItem} saved={state.bookmarks.includes(selectedItem.id)} onToggleSave={() => { update(current => toggleBookmark(current, selectedItem.id)); toast(state.bookmarks.includes(selectedItem.id) ? 'Brief removed from saved review.' : 'Brief saved for review.'); }} onStartQuiz={() => setView('quiz')} />
+      </div>}
+      {view === 'quiz' && <DailyNewsQuiz key={selectedDate} questions={dailyQuestions} onReview={() => setView('brief')} />}
+    </section> : <Empty title="No verified news found">No checked general-current-affairs story is stored for {selectedDate}. Nothing has been generated or inferred for this date.</Empty>}
+
+    <section className="card current-policy"><h2>Verification rule</h2><p>{currentNews.policy}</p></section>
+  </>;
 }
 
-function NewsQuiz({ question, number }: { question: CurrentNewsMcq; number: number }) {
+function NewsBrief({ item, saved, onToggleSave, onStartQuiz }: { item: CurrentNewsItem; saved: boolean; onToggleSave: () => void; onStartQuiz: () => void }) {
   const text = useText();
+  return <article className="card current-news-card current-brief">
+    <div className="news-meta"><span className="chip"><CalendarDays size={13} /> {text(item.category)} · Published {new Date(`${item.publicationDate}T00:00:00`).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}</span><span>Verified {new Date(`${item.verifiedAt}T00:00:00`).toLocaleDateString('en-IN')}</span></div>
+    <span className="reading-time"><Clock3 size={15} /> {item.analysis.readTimeMinutes}-minute analysis</span>
+    <div className="current-story-title"><h2>{text(item.title)}</h2><button className="secondary" aria-pressed={saved} onClick={onToggleSave}><Bookmark size={17} fill={saved ? 'currentColor' : 'none'} />{saved ? 'Saved' : 'Save brief'}</button></div>
+    <p className="news-lead">{text(item.summary)}</p>
+    <div className="news-analysis-grid">
+      <section><p className="eyebrow">KEY POINTS</p><ul>{item.analysis.keyPoints.map((point, index) => <li key={index}><span>{index + 1}</span><p>{text(point)}</p></li>)}</ul></section>
+      <aside><p className="eyebrow">WHAT TO REMEMBER</p><LightbulbCard>{text(item.analysis.whatToRemember)}</LightbulbCard><button className="button full" onClick={onStartQuiz}>Start this story's quiz<ArrowRight size={17} /></button></aside>
+    </div>
+    <details className="news-evidence"><summary>See checked evidence</summary><blockquote>{item.evidenceQuote}<cite>{item.evidenceLocator}</cite></blockquote></details>
+    <div className="source-list" aria-label="Verified news sources">{item.links.map(link => <a className="source-link" href={link.url} target="_blank" rel="noopener noreferrer" key={link.url}>{link.label} ↗</a>)}</div>
+  </article>;
+}
+
+function LightbulbCard({ children }: { children: string }) {
+  return <div className="remember-card"><Sparkles size={20} /><p>{children}</p></div>;
+}
+
+function DailyNewsQuiz({ questions, onReview }: { questions: { question: CurrentNewsMcq; story: CurrentNewsItem }[]; onReview: () => void }) {
+  const text = useText();
+  const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number>();
+  const [answers, setAnswers] = useState<Record<string, number>>({});
+  const [finished, setFinished] = useState(false);
+  const current = questions[index];
   const answered = selected !== undefined;
-  return <div className="news-question"><p className="eyebrow">QUESTION {number}</p><h4>{text(question.question)}</h4><div className="news-options" role="group" aria-label={`Current news question ${number}`}>{question.options.map((option, index) => <button className={answered ? index === question.correctIndex ? 'correct' : selected === index ? 'incorrect' : '' : ''} disabled={answered} onClick={() => setSelected(index)} key={index}><span className="option-letter">{String.fromCharCode(65 + index)}</span><span>{text(option)}</span></button>)}</div>{answered && <div className="news-answer" role="status"><strong>{selected === question.correctIndex ? 'Correct' : 'Answer'}: {text(question.options[question.correctIndex])}</strong><p>{text(question.explanation)}</p></div>}</div>;
+  const score = questions.filter(({ question }) => answers[question.id] === question.correctIndex).length;
+  const skipped = questions.filter(({ question }) => answers[question.id] === -1).length;
+
+  const moveForward = () => {
+    if (index + 1 >= questions.length) setFinished(true);
+    else { setIndex(value => value + 1); setSelected(undefined); }
+  };
+  const answer = (option: number) => {
+    if (!current || answered) return;
+    setSelected(option);
+    setAnswers(saved => ({ ...saved, [current.question.id]: option }));
+  };
+  const skip = () => {
+    if (!current || answered) return;
+    setAnswers(saved => ({ ...saved, [current.question.id]: -1 }));
+    moveForward();
+  };
+  const reset = () => { setIndex(0); setSelected(undefined); setAnswers({}); setFinished(false); };
+
+  if (!questions.length) return <Empty title="No quiz is available">No source-backed question is stored for this date.</Empty>;
+  if (finished) return <section className="card daily-quiz-result"><CheckCircle2 size={42} /><p className="eyebrow">DAILY QUIZ COMPLETE</p><h2>{score} / {questions.length} correct</h2><p>{skipped ? `${skipped} skipped · ` : ''}Every answer came from the checked stories shown for this date.</p><div className="actions"><button onClick={reset}><RotateCcw size={17} />Try again</button><button className="secondary" onClick={onReview}><Newspaper size={17} />Review the briefs</button></div></section>;
+  if (!current) return null;
+
+  const { question, story } = current;
+  return <section className="card daily-news-quiz">
+    <div className="daily-quiz-header"><div><span className="chip">{text(story.category)}</span><p>{text(story.title)}</p></div><strong>{index + 1} / {questions.length}</strong></div>
+    <div className="daily-quiz-progress" aria-label={`Question ${index + 1} of ${questions.length}`}><span style={{ width: `${(index + 1) / questions.length * 100}%` }} /></div>
+    <p className="eyebrow">QUESTION {index + 1}</p>
+    <h2>{text(question.question)}</h2>
+    <div className="news-options" role="group" aria-label={`Current affairs question ${index + 1}`}>{question.options.map((option, optionIndex) => <button className={answered ? optionIndex === question.correctIndex ? 'correct' : selected === optionIndex ? 'incorrect' : '' : ''} disabled={answered} onClick={() => answer(optionIndex)} key={optionIndex}><span className="option-letter">{String.fromCharCode(65 + optionIndex)}</span><span>{text(option)}</span></button>)}</div>
+    {!answered && <div className="question-forward"><button className="secondary" onClick={skip}>{index + 1 === questions.length ? 'Skip & see result' : 'Skip this one'}<ArrowRight size={18} /></button></div>}
+    {answered && <div className="news-answer" role="status"><strong>{selected === question.correctIndex ? 'Correct' : 'Answer'}: {text(question.options[question.correctIndex])}</strong><p>{text(question.explanation)}</p><div className="quiz-source-row"><span>Supported by the story above</span>{story.links.map(link => <a href={link.url} target="_blank" rel="noopener noreferrer" key={link.url}>Open official source ↗</a>)}</div><button className="button" onClick={moveForward}>{index + 1 === questions.length ? 'See result' : 'Next question'}<ArrowRight size={18} /></button></div>}
+  </section>;
 }

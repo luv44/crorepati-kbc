@@ -12,3 +12,4 @@ media/raw/
 *.tmp
 *.tmp-*
 content/checkpoints/question-batch-transaction.json
+reports/browser-*

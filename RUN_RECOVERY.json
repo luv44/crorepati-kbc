@@ -11,6 +11,8 @@
     "exactShortfall": 12075,
     "examMappingsValid": 21,
     "currentNewsRecords": 3,
+    "currentNewsOneMinuteAnalyses": 3,
+    "currentNewsAnalysisKeyPoints": 9,
     "currentNewsMcqs": 6
   },
   "exactResumeStep": "Open QUESTION_BUILD_CHECKPOINT.json, source and independently review the next listed topic batch, then run npm run apply-batch -- --input <reviewed-batch.json> --batch-size 25. Do not generate filler or publish a record with unresolved source IDs.",

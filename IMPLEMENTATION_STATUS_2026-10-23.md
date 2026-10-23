@@ -17,6 +17,8 @@ A canonical topic bank is shared by every exam that maps to that topic. The 40-q
 - Added independent **year, month, and day** selectors.
 - Dates without a checked record render exactly **“No verified news found”**.
 - Added 3 directly checked general-current-affairs records, 3 independent official source links, retained evidence excerpts, visible publication/verification dates, and 6 bilingual MCQs tied to their displayed stories.
+- Added a bilingual one-minute analysis to every story: 9 total checked key points plus a recall focus for each story.
+- Applied the referenced app's useful short-article/daily-quiz patterns as an original newsroom flow: verified-date shortcuts, story navigation, one-question-at-a-time quiz, Skip/Next, result summary, saved briefs, and visible offline availability. No third-party content or visual was copied.
 - Excluded recruitment notices and examination-result updates from Current Live.
 - Each Current Live MCQ has a bilingual stem, exactly four bilingual options, one answer, and a short bilingual explanation.
 - External source links open in a new tab with `noopener noreferrer`.
@@ -91,12 +93,12 @@ Passed:
 
 - TypeScript compilation
 - Vite production build: 1,602 transformed modules
-- Service-worker build: 16 precached URLs
+- Service-worker build: 17 precached URLs (`crorepati-f1f7af14ff912bfa`)
 - Structural validator
 - 8 deterministic Node tests
 - 21/21 exam mappings
 - 5,806 resolved exam-topic memberships
-- 3 general-current-affairs records / 6 story-linked bilingual MCQs / 3 directly checked links
+- 3 bilingual one-minute analyses / 9 checked key points / 6 story-linked bilingual MCQs / 3 directly checked links
 - 1,725/1,725 question preservation
 - 0 baseline review-label changes
 - Dev HTTP checks for `/`, exam data, Current Live data, and transformed UI modules
@@ -106,7 +108,7 @@ Expected release blockers:
 
 - `npm run audit:coverage` exits non-zero with exact shortfall **12,075**.
 - `npm run validate:strict` also blocks unresolved legacy source provenance and 28 invalid legacy concept mappings.
-- Playwright scenarios were authored, but browser execution is unavailable in this environment because the Chromium executable is not installed. The failure occurs before any test body runs.
+- All 9 Playwright desktop/mobile/tablet scenarios were invoked, but browser execution is unavailable because the Chromium executable is not installed. Every failure occurred at browser launch before any test body ran.
 
 ## Resume and checkpoint files
 
@@ -115,7 +117,7 @@ Expected release blockers:
 - `content/checkpoints/legacy-review-labels.json` — immutable baseline label snapshot.
 - `reports/question-coverage-report.json` — all 345 topic counts and subject totals.
 - `reports/exam-mapping-report.json` — complete resolved hierarchy for every exam.
-- `reports/current-news-report.json` — dated records, links, and MCQ totals.
+- `reports/current-news-report.json` — dated records, bilingual analyses, key points, links, and MCQ totals.
 - `reports/checkpoint-receipt.json` — latest checkpoint receipt.
 
 Apply a reviewed batch with:

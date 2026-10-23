@@ -10,16 +10,16 @@ Updated: **2026-10-23 (Asia/Calcutta)**
 - Baseline review-label preservation: 1,725/1,725 present; 0 lifecycle/kind/quality changes
 - Exam views: 21 total (7 legacy + 14 new)
 - Exam hierarchy validation: 21/21 valid; 5,806 resolved exam-topic memberships
-- Current Live: 3 directly checked general-current-affairs records / 3 official links / 6 story-linked bilingual MCQs
+- Current Live: 3 directly checked general-current-affairs records / 3 bilingual one-minute analyses / 9 checked key points / 3 official links / 6 story-linked bilingual MCQs
 - Target: 40 distinct, source-backed questions per canonical topic = 13,800
 - Complete topics: 0/345
 - Exact verified shortfall: **12,075**
 - Static integrity debt inherited from baseline: 1,725 questions without direct source IDs; 53 FactCards with absent/empty source references; 28 questions with concept IDs outside their topic
-- Production build: PASS (TypeScript + Vite, 1,602 modules + generated service worker)
+- Production build: PASS (TypeScript + Vite, 1,602 modules + service worker `crorepati-f1f7af14ff912bfa`, 17 precached URLs)
 - Deterministic Node tests: PASS (8/8)
 - Structural validation: PASS
 - Strict coverage/source release validation: BLOCKED by the exact gaps above
-- Browser E2E: scenarios authored; not run because this environment lacks the Playwright Chromium executable
+- Browser E2E: 9 desktop/mobile/tablet scenarios invoked; all were blocked before app execution because this environment lacks the Playwright Chromium executable
 - Live development preview: Vite on `0.0.0.0:5173`, preview host allowed
 
 ## Implemented UI/data behavior
@@ -27,7 +27,9 @@ Updated: **2026-10-23 (Asia/Calcutta)**
 - Global exam selector scopes Home, Learn, Topic, Practice, Search, Smart Revision, Performance, Downloads, and Settings.
 - Exam mappings resolve canonical subject → chapter → topic nodes; no copied hierarchy can silently diverge.
 - Current Live has separate year/month/day selectors.
-- Every published Current Live record is general current affairs, shows publication and verification dates, checked evidence, and source links; recruitment/result updates are excluded.
+- Every published Current Live record is general current affairs, shows publication and verification dates, checked evidence, source links, three bilingual key points, and a bilingual recall focus; recruitment/result updates are excluded.
+- Current Live moves from a compact one-minute brief to a one-question-at-a-time daily quiz with answer feedback, official-source access, Skip/Next, and a result summary.
+- Briefs can be saved for review in local progress, and the feed is precached with the app shell for offline reading.
 - Dates without a checked record display `No verified news found`.
 - Current Live MCQs contain bilingual stems, four bilingual options, answer keys, and short bilingual explanations.
 - External links open in a new tab with `noopener noreferrer`.

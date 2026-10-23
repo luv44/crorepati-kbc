@@ -37,7 +37,9 @@ export interface CurrentNewsMcq {
 }
 export interface CurrentNewsItem {
   id: string; publicationDate: string; verifiedAt: string; publisher: string;
-  category: Localized; title: Localized; summary: Localized; evidenceQuote: string; evidenceLocator: string; links: { label: string; url: string }[]; mcqs: CurrentNewsMcq[];
+  category: Localized; title: Localized; summary: Localized;
+  analysis: { readTimeMinutes: number; keyPoints: Localized[]; whatToRemember: Localized };
+  evidenceQuote: string; evidenceLocator: string; links: { label: string; url: string }[]; mcqs: CurrentNewsMcq[];
 }
 export interface CurrentNewsFeed { version: string; builtAt: string; policy: string; items: CurrentNewsItem[] }
 export interface ConceptProgress { attempts: number; correct: number; consecutiveCorrect: number; consecutiveWrong: number; errors: number; lastSeen: number; due: number; intervalDays: number; confidence: number; state: ConceptState }
