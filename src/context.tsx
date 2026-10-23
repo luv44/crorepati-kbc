@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import type { Catalog, CurrentNewsFeed, ExamDefinition, FactCard, LearningState, Pack, Question, Source, Subject } from './types';
-import { initialState, eligible } from './domain';
+import { initialState, eligible, focusedPracticeQuestion } from './domain';
 import { downloadedPacks, loadState, saveState } from './storage';
 
 interface Store {
@@ -102,9 +102,15 @@ export function Provider({ children }: { children: ReactNode }) {
 
   const unique = <T extends { id: string },>(items: T[]) => [...new Map(items.map(x => [x.id, x])).values()];
   const questions = unique(packs.flatMap(p => p.questions)).filter(q => eligible(q));
+  const focusedQuestions = questions.filter(question => focusedPracticeQuestion(question));
+  const focusedCountByTopic = new Map<string, number>();
+  focusedQuestions.forEach(question => focusedCountByTopic.set(question.topicId, (focusedCountByTopic.get(question.topicId) || 0) + 1));
   const selectedExam = exams.find(exam => exam.id === state.profile.exam) || exams.find(exam => exam.id === 'general-knowledge') || exams[0];
   const mappedSubjectIds = new Set(selectedExam.subjectIds);
-  const examSubjects = catalog.subjects.filter(subject => mappedSubjectIds.has(subject.id));
+  const examSubjects = catalog.subjects.filter(subject => mappedSubjectIds.has(subject.id)).map(subject => {
+    const chapters = subject.chapters.map(chapter => ({ ...chapter, topics: chapter.topics.map(topic => ({ ...topic, questionCount: focusedCountByTopic.get(topic.id) || 0 })) }));
+    return { ...subject, chapters, questionCount: chapters.reduce((total, chapter) => total + chapter.topics.reduce((count, topic) => count + topic.questionCount, 0), 0) };
+  });
   const value: Store = {
     catalog,
     exams,
@@ -112,7 +118,7 @@ export function Provider({ children }: { children: ReactNode }) {
     examSubjects,
     state,
     questions,
-    examQuestions: questions.filter(question => mappedSubjectIds.has(question.subjectId)),
+    examQuestions: focusedQuestions.filter(question => mappedSubjectIds.has(question.subjectId)),
     facts: unique(packs.flatMap(p => p.factCards)),
     sources: unique(packs.flatMap(p => p.sources)),
     currentNews,

@@ -11,7 +11,7 @@ const args = new Map(process.argv.slice(2).map((value, index, all) => value.star
 const inputName = args.get('--input');
 const batchSize = Number(args.get('--batch-size') || 25);
 if (!inputName || inputName === true) throw new Error('Usage: node scripts/question-batch.mjs --input reviewed-batch.json [--batch-size 25] [--dry-run]');
-if (!Number.isInteger(batchSize) || batchSize < 1 || batchSize > 100) throw new Error('Batch size must be an integer from 1 to 100.');
+if (!Number.isInteger(batchSize) || batchSize < 1 || batchSize > 25) throw new Error('Batch size must be an integer from 1 to 25 so progress remains durable.');
 
 const jsonText = value => `${JSON.stringify(value, null, 2)}\n`;
 const readJson = async relative => JSON.parse(await readFile(path.resolve(root, relative), 'utf8'));
@@ -19,6 +19,7 @@ const hash = value => createHash('sha256').update(typeof value === 'string' || B
 const canonicalize = value => Array.isArray(value) ? value.map(canonicalize) : value && typeof value === 'object' ? Object.fromEntries(Object.keys(value).sort().map(key => [key, canonicalize(value[key])])) : value;
 const objectHash = value => hash(JSON.stringify(canonicalize(value)));
 const normalize = value => value.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+const conciseOption = value => value.replace(/\s*\([^()]*\)/gu, '').replace(/\s+/g, ' ').trim() || value.trim();
 const hasText = value => typeof value === 'string' && Boolean(value.trim());
 const localized = value => hasText(value?.en) && hasText(value?.hi);
 
@@ -85,6 +86,7 @@ function containsAnswer(stem, answer) {
   const normalizedAnswer = normalize(answer);
   return normalizedAnswer.length >= 4 && normalizedStem.includes(` ${normalizedAnswer} `);
 }
+function tokenSet(value) { return new Set(normalize(value).split(' ').filter(token => token.length > 2)); }
 function shingles(value) {
   const tokens = normalize(value).split(' ').filter(Boolean);
   if (tokens.length < 6) return new Set();
@@ -163,7 +165,7 @@ for (const card of newFacts) {
 const fingerprintOwner = new Map(starter.questions.map(question => [question.fingerprint, question.id]).filter(([fingerprint]) => hasText(fingerprint)));
 const englishStemOwner = new Map(starter.questions.map(question => [normalize(question.question.en), question.id]));
 const hindiStemOwner = new Map(starter.questions.map(question => [normalize(question.question.hi), question.id]));
-const stemRows = starter.questions.map(question => ({ id: question.id, stem: question.question.en, shingles: shingles(question.question.en) }));
+const stemRows = starter.questions.map(question => ({ id: question.id, stem: question.question.en, shingles: shingles(question.question.en), tokens: tokenSet(question.question.en) }));
 const inputIds = new Set();
 const inputFingerprints = new Set();
 const inputEnglishStems = new Set();
@@ -190,8 +192,10 @@ for (const question of incoming.questions) {
   if (question.subjectId !== meta.subjectId || question.chapterId !== meta.chapterId) throw new Error(`${question.id}: subjectId/chapterId do not match its canonical topic`);
   if (!Array.isArray(question.conceptIds) || !question.conceptIds.length || question.conceptIds.some(id => !meta.conceptIds.has(id))) throw new Error(`${question.id}: conceptIds must resolve within its topic`);
   if (!localized(question.question)) throw new Error(`${question.id}: bilingual stem required`);
+  if (question.question.en.length > 260 || question.question.hi.length > 320) throw new Error(`${question.id}: stem is too long for focused practice`);
   if (bannedStemPatterns.some(pattern => pattern.test(question.question.en) || pattern.test(question.question.hi))) throw new Error(`${question.id}: prohibited boilerplate appears in the stem`);
   if (!Array.isArray(question.options) || question.options.length !== 4 || question.options.some(option => !localized(option))) throw new Error(`${question.id}: exactly four bilingual options required`);
+  if (question.options.some(option => conciseOption(option.en).length > 160 || conciseOption(option.hi).length > 160 || /further defined by/iu.test(conciseOption(option.en)))) throw new Error(`${question.id}: answer option is overlong or concatenated`);
   if (new Set(question.options.map(option => normalize(option.en))).size !== 4 || new Set(question.options.map(option => normalize(option.hi))).size !== 4) throw new Error(`${question.id}: duplicate options`);
   if (!Number.isInteger(question.correctIndex) || question.correctIndex < 0 || question.correctIndex > 3) throw new Error(`${question.id}: invalid correctIndex`);
   if (containsAnswer(question.question.en, question.options[question.correctIndex].en) || containsAnswer(question.question.hi, question.options[question.correctIndex].hi)) throw new Error(`${question.id}: the stem contains the correct answer`);
@@ -223,19 +227,20 @@ for (const question of incoming.questions) {
   if ((englishConflict && englishConflict !== question.id) || inputEnglishStems.has(englishStem)) throw new Error(`${question.id}: repeated normalized English stem`);
   if ((hindiConflict && hindiConflict !== question.id) || inputHindiStems.has(hindiStem)) throw new Error(`${question.id}: repeated normalized Hindi stem`);
   const questionShingles = shingles(question.question.en);
-  const near = stemRows.find(row => row.id !== question.id && similarity(questionShingles, row.shingles) >= 0.9);
+  const questionTokens = tokenSet(question.question.en);
+  const near = stemRows.find(row => row.id !== question.id && (similarity(questionShingles, row.shingles) >= 0.6 || similarity(questionTokens, row.tokens) >= 0.6));
   if (near) throw new Error(`${question.id}: near-duplicate English stem matches ${near.id}`);
   inputEnglishStems.add(englishStem);
   inputHindiStems.add(hindiStem);
-  stemRows.push({ id: question.id, stem: question.question.en, shingles: questionShingles });
+  stemRows.push({ id: question.id, stem: question.question.en, shingles: questionShingles, tokens: questionTokens });
 }
 
 const remaining = incoming.questions.filter(question => !applied.has(question.id));
 const projectedCounts = new Map();
-for (const question of starter.questions) projectedCounts.set(question.topicId, (projectedCounts.get(question.topicId) || 0) + 1);
+for (const question of starter.questions) if (question.sourceIds?.length && question.sourceIds.every(id => sourceById.has(id))) projectedCounts.set(question.topicId, (projectedCounts.get(question.topicId) || 0) + 1);
 for (const question of remaining) {
   const projected = (projectedCounts.get(question.topicId) || 0) + 1;
-  if (projected > targetPerTopic) throw new Error(`${question.id}: topic ${question.topicId} would exceed the ${targetPerTopic}-question target`);
+  if (projected > targetPerTopic) throw new Error(`${question.id}: topic ${question.topicId} would exceed the ${targetPerTopic}-question source-complete target`);
   projectedCounts.set(question.topicId, projected);
 }
 console.log(`Batch ${incoming.batchId}: ${incoming.questions.length} reviewed questions; ${remaining.length} remain after resume check.`);

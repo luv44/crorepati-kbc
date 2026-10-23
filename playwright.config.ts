@@ -1,6 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const runId = process.env.TEST_RUN_ID || new Date().toISOString().replace(/[:.]/g, '-');
+const executablePath = process.env.PLAYWRIGHT_EXECUTABLE_PATH;
 
 export default defineConfig({
   testDir: './tests',
@@ -15,6 +16,7 @@ export default defineConfig({
     baseURL: 'http://127.0.0.1:4173',
     trace: 'retain-on-failure',
     serviceWorkers: 'allow',
+    launchOptions: executablePath ? { executablePath, args: ['--no-sandbox', '--disable-dev-shm-usage'] } : undefined,
   },
   webServer: {
     command: 'npm run preview -- --host 127.0.0.1 --port 4173',

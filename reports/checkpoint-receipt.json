@@ -1,14 +1,22 @@
 {
   "schemaVersion": 1,
-  "savedAt": "2026-10-23T10:42:02.277Z",
-  "digest": "cf8f87b1bb0a26a3783ab7c359c24ac497b61540066206fd885dfa30c94be3d5",
+  "savedAt": "2026-10-23T11:50:19.737Z",
+  "digest": "b7f90a5ac8bd3316af858cc2b542301809444d37b5da9ba5b08ecb13e4203458",
   "status": "IN_PROGRESS_SOURCE_REVIEW_REQUIRED",
   "currentQuestions": 1725,
   "targetTotal": 13800,
-  "exactShortfall": 12075,
+  "rawRecordShortfall": 12075,
+  "focusedShortfall": 13455,
+  "sourceCompleteShortfall": 13800,
+  "focusedLearnerFacingQuestions": 345,
+  "withheldLegacyExpansionDrafts": 1380,
+  "exactDuplicateFocusedStems": 0,
+  "nearDuplicateFocusedStemPairs": 0,
   "topicsBelowTarget": 345,
   "examMappingsValid": true,
   "currentNewsRecords": 13,
+  "currentNewsTargetPerRun": 150,
+  "currentNewsRemainingToRunTarget": 137,
   "currentNewsOneMinuteAnalyses": 13,
   "currentNewsAnalysisKeyPoints": 39,
   "currentNewsMcqs": 26,
@@ -16,5 +24,5 @@
   "factCardsWithoutResolvableSources": 53,
   "invalidConceptMappings": 28,
   "reviewLabelChanges": 0,
-  "resumeFrom": "QUESTION_BUILD_CHECKPOINT.json and content/checkpoints/question-batches.json"
+  "resumeFrom": "QUESTION_BUILD_CHECKPOINT.json, content/checkpoints/question-batches.json, and content/checkpoints/current-news-batches.json"
 }

@@ -13,7 +13,7 @@ export interface Question {
 }
 export interface FactCard {
   id: string; topicId: string; canonicalStatement: string; canonicalStatementHindi: string;
-  conceptIds: string[]; sourceIds: string[]; evidence: { sourceId: string; quote: string; locator: string }[];
+  conceptIds: string[]; sourceIds: string[]; evidence: { sourceId: string; quote: string; locator: string }[] | string;
   verifiedAt: string; lifecycle: string; validUntil: string | null;
 }
 export interface Source { id: string; title: string; url: string; publisher: string; retrievedAt: string; license: string }
@@ -36,12 +36,12 @@ export interface CurrentNewsMcq {
   id: string; question: Localized; options: Localized[]; correctIndex: number; explanation: Localized;
 }
 export interface CurrentNewsItem {
-  id: string; publicationDate: string; verifiedAt: string; publisher: string;
+  id: string; publicationDate: string; verifiedAt: string; publisher?: string; sourceType?: string;
   category: Localized; title: Localized; summary: Localized;
   analysis: { readTimeMinutes: number; keyPoints: Localized[]; whatToRemember: Localized };
   evidenceQuote: string; evidenceLocator: string; links: { label: string; url: string }[]; mcqs: CurrentNewsMcq[];
 }
-export interface CurrentNewsFeed { version: string; builtAt: string; policy: string; items: CurrentNewsItem[] }
+export interface CurrentNewsFeed { version: string; builtAt: string; policy: string; verifiedRecordTargetPerRun: number; items: CurrentNewsItem[] }
 export interface ConceptProgress { attempts: number; correct: number; consecutiveCorrect: number; consecutiveWrong: number; errors: number; lastSeen: number; due: number; intervalDays: number; confidence: number; state: ConceptState }
 export interface Attempt { id: string; questionId: string; topicId: string; subjectId: string; correct: boolean; selected: number; at: number; elapsedMs: number; confidence: number; mode: string }
 export interface SessionResult { id: string; mode: string; at: number; questionIds: string[]; answers: Record<string, number>; correct: number; total: number; score: number; elapsedMs: number; negativeMark: number }

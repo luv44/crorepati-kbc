@@ -1,6 +1,8 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "builtAt": "2026-10-23T00:00:00+05:30",
+  "generatedAt": "2026-10-23",
+  "verifiedRecordTargetPerRun": 150,
   "policy": "Current Live contains directly checked general current affairs, not recruitment or result updates. Every story includes a bilingual one-minute analysis, retained evidence and an official link. Every MCQ must be answered by its displayed story and evidence. A date without an included record must render the exact empty-state message: No verified news found.",
   "items": [
     {
@@ -1420,6 +1422,5 @@
         }
       }
     }
-  ],
-  "generatedAt": "2026-10-23"
+  ]
 }

@@ -16,7 +16,8 @@
     "check": "npm run pipeline && npm run validate && npm test && npm run build",
     "check:release": "npm run check && npm run validate:strict && npm run test:e2e",
     "checkpoint": "node scripts/checkpoint.mjs",
-    "apply-batch": "node scripts/question-batch.mjs"
+    "apply-batch": "node scripts/question-batch.mjs",
+    "apply-news-batch": "node scripts/current-news-batch.mjs"
   },
   "dependencies": {
     "idb": "8.0.3",

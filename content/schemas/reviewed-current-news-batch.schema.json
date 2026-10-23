@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reviewed-current-news-batch.schema.json",
+  "title": "Reviewed Current Live batch",
+  "type": "object",
+  "required": ["id", "review", "items"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "review": {
+      "type": "object",
+      "required": ["reviewedAt", "reviewer", "directSourcePagesChecked"],
+      "properties": {
+        "reviewedAt": { "type": "string", "format": "date" },
+        "reviewer": { "type": "string", "minLength": 1 },
+        "directSourcePagesChecked": { "const": true }
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 150,
+      "items": {
+        "type": "object",
+        "required": ["id", "publicationDate", "verifiedAt", "category", "title", "summary", "analysis", "evidenceQuote", "evidenceLocator", "links", "mcqs"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "publicationDate": { "type": "string", "format": "date" },
+          "verifiedAt": { "type": "string", "format": "date" },
+          "category": { "$ref": "#/$defs/localized" },
+          "title": { "$ref": "#/$defs/localized" },
+          "summary": { "$ref": "#/$defs/localized" },
+          "analysis": {
+            "type": "object",
+            "required": ["readTimeMinutes", "keyPoints", "whatToRemember"],
+            "properties": {
+              "readTimeMinutes": { "const": 1 },
+              "keyPoints": { "type": "array", "minItems": 3, "items": { "$ref": "#/$defs/localized" } },
+              "whatToRemember": { "$ref": "#/$defs/localized" }
+            }
+          },
+          "evidenceQuote": { "type": "string", "minLength": 31 },
+          "evidenceLocator": { "type": "string", "minLength": 1 },
+          "links": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["label", "url"],
+              "properties": { "label": { "type": "string", "minLength": 1 }, "url": { "type": "string", "format": "uri", "pattern": "^https://" } }
+            }
+          },
+          "mcqs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "question", "options", "correctIndex", "explanation"],
+              "properties": {
+                "id": { "type": "string", "minLength": 1 },
+                "question": { "$ref": "#/$defs/localized" },
+                "options": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "$ref": "#/$defs/localized" } },
+                "correctIndex": { "type": "integer", "minimum": 0, "maximum": 3 },
+                "explanation": { "$ref": "#/$defs/localized" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "required": ["en", "hi"],
+      "properties": { "en": { "type": "string", "minLength": 1 }, "hi": { "type": "string", "minLength": 1 } }
+    }
+  }
+}

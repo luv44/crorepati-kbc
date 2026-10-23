@@ -1,11 +1,20 @@
 # Deployment state
 
-- Local production build: PASS (`npm run build`).
-- Local guest and offline question flow: verified on Chromium desktop/phone/tablet.
-- HTTPS test deployment: NOT DEPLOYED.
-- Production URL: NONE.
-- Hosting project/account: not supplied or authorized.
-- Production deploy configuration, backend/admin authorization and live hosting QA: pending subsequent work.
-- FINAL_ELIGIBLE: false.
+Updated: **23 October 2026 (Asia/Calcutta)**
 
-For local preview use `npm run preview -- --host 127.0.0.1 --port 4173`. This localhost URL is not a public or production deployment. See `README.md` for installation and resume commands.
+- Local production build: **PASS** (`npm run build`).
+- Production-bundle browser scenarios: **PASS, 9/9** across Chromium desktop/mobile/tablet viewports.
+- Current sandbox production preview: `0.0.0.0:4173` (available through Arena's live preview while this workspace is running).
+- Public HTTPS deployment: **NOT DEPLOYED**.
+- Production URL: **NONE**.
+- Hosting project/account: not supplied or authorized.
+- Production deploy configuration, backend/admin authorization, and live-host QA remain pending.
+- `FINAL_ELIGIBLE=false` because strict focused/source-complete content gates remain open.
+
+For a local preview use:
+
+```bash
+npm run preview -- --host 0.0.0.0 --port 4173
+```
+
+A localhost or sandbox preview is not a public production deployment. See `README.md` and `BUILD_STATE.md` for verification and resume commands.

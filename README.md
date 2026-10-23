@@ -16,16 +16,23 @@ The dev server binds to `0.0.0.0`. Learning progress and the selected exam are s
 - 26 subjects
 - 82 chapters
 - 345 canonical topics
-- 1,725 preserved questions
-- 21 exam views (7 legacy and 14 new)
+- 1,725 preserved question records with labels unchanged
+- 345 focused, non-repetitive learner-facing questions (one for every topic)
+- 1,380 repetitive legacy expansion drafts retained for audit but withheld from Practice, Search, Revision, and topic counts
+- 22 exam views (7 legacy and 15 new)
+- 6,151 resolved exam-topic memberships
+- KBC Crorepati mapped to all 26 subjects, 82 chapters, and 345 topics
 - 13 directly checked general-current-affairs records, including 10 on 23 October 2026
 - 26 story-linked bilingual Current Live MCQs
+- 150 directly reviewed Current Live records targeted per content-building run; exact current gap 137
 
-Exam views reuse canonical topic banks. Selecting an exam scopes every content tab without duplicating or changing the canonical hierarchy.
+Exam views reuse canonical topic banks. Selecting an exam scopes every content tab without duplicating or changing the canonical hierarchy. The onboarding screen asks only for a name and exam; subject picking happens in Learn and Practice rather than in the entry screen.
+
+Practice drafts are isolated by exam and malformed/out-of-range saved sessions are discarded safely. Learner-facing Practice/Search/Revision use the focused set: the single concise canonical legacy question for each topic plus future directly sourced questions that pass the strict batch gates. Parenthetical duplicate translations are compacted in option labels, repetitive boilerplate drafts are not served, and the complete original corpus remains unchanged for preservation/audit.
 
 ## Current Live
 
-`/current-affairs` provides separate year, month, and day selectors. It is scoped to general current affairs (such as international relations, environment, and sports), not recruitment/result updates. Each included record contains:
+`/current-affairs` provides separate year, month, day, and topic selectors, including **Any topic**. It is scoped to general current affairs (such as international relations, environment, economy, science, and sports), not recruitment/result updates. Its visible target meter reports accepted records against the 150-record reviewed-run target without generating filler. Each included record contains:
 
 - publication and verification dates;
 - one or more checked HTTPS source links;
@@ -54,7 +61,9 @@ npm run test:e2e          # Playwright browser scenarios; requires installed Chr
 npm run checkpoint        # refresh reports and save a receipt
 ```
 
-The structural suite passes. The release gate remains intentionally blocked: 13,800 questions are required for 40 per topic, 1,725 are present, and the exact shortfall is **12,075**. See `IMPLEMENTATION_STATUS_2026-10-23.md` and `reports/question-coverage-report.json`.
+`PLAYWRIGHT_EXECUTABLE_PATH=/path/to/chromium npm run test:e2e` can be used when Chromium is supplied outside Playwright's managed cache.
+
+The structural suite passes. The release gate remains intentionally blocked. The 13,800-question target currently has three explicitly separated gaps: **12,075 raw record slots**, **13,455 focused/non-repetitive slots**, and **13,800 source-complete slots**. The strict release requirement uses the source-complete gap; preserved legacy records are not misrepresented as directly sourced. See `IMPLEMENTATION_STATUS_2026-10-23.md`, `reports/question-coverage-report.json`, and `reports/practice-quality-report.json`.
 
 ## Reviewed question batches
 
@@ -74,8 +83,20 @@ Resume state:
 - `content/checkpoints/question-batches.json`
 - `content/checkpoints/legacy-review-labels.json`
 
+## Reviewed Current Live batches
+
+Only records whose direct government source pages were opened and reviewed may be applied:
+
+```bash
+npm run apply-news-batch -- --input path/to/reviewed-current-news-batch.json --save-size 25
+```
+
+The runner accepts at most 150 reviewed records, validates official HTTPS source links, publication/verification dates, bilingual Hindi content, excluded notice types, duplicate stories/URLs/MCQs, answer leakage, obvious correct-option length outliers, and exactly four distinct options. It saves at most 25 records per durable chunk and never pads a run to reach the target.
+
+Input schema and procedure: `content/schemas/reviewed-current-news-batch.schema.json` and `docs/REVIEWED_CURRENT_NEWS_WORKFLOW.md`. Resume state is recorded in `content/checkpoints/current-news-batches.json` and the canonical feed itself.
+
 ## Honesty and preservation
 
-All 1,725 baseline questions and their lifecycle/kind/quality review labels are preserved. The baseline also contains unresolved source-provenance debt and 28 concept references outside their canonical topic; these are reported separately rather than silently guessed or represented as newly verified content. Newly added content must pass stricter source and mapping gates.
+All 1,725 baseline question records and their lifecycle/kind/quality review labels are preserved. Only 345 concise canonical questions are currently learner-facing; the 1,380 repetitive expansion drafts stay auditable but no longer appear in Practice, Search, Revision, or topic availability counts. The baseline also contains unresolved source-provenance debt and 28 concept references outside their canonical topic; these are reported separately rather than silently guessed or represented as newly verified content. Newly added content must pass stricter source, uniqueness, mapping, and bilingual gates.
 
 This is an independent educational project. Official recruitment notices govern exact examination syllabi.

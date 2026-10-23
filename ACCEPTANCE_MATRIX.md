@@ -1,22 +1,26 @@
-# Acceptance matrix — current checkpoint
+# Acceptance matrix — 23 October 2026 checkpoint
 
 | Gate | Status | Evidence |
 | --- | --- | --- |
-| G1 production web project runs | PASS at last app milestone | S01-B02 build generated `dist/` plus `sw.js`; B04 source/public content has fast validation, not a fresh production build. |
-| G2 guest core flow | PASS local Chromium at S01-B02 | Historical onboarding, navigation and evidence review on desktop/phone/tablet; `reports/TESTING_REPORT.md`. |
-| G4 exactly 26 subjects | PASS | `reports/PIPELINE_VALIDATION.json`. |
-| G5–G8 structural coverage | PASS machine validation; expert depth audit open | `content-pipeline/MANIFEST_VALIDATION.md`, `MASTER_QUESTION_COVERAGE_MANIFEST.json`. |
-| G9 source/FactCard engine | PASS for current evidence set | `content-pipeline/FACTCARDS.json`, `npm run validate`. |
-| G10 PYQ provenance | BLOCKED | `content-pipeline/PYQ_REGISTRY.json` reports `actualPYQs: 0`. |
-| G11 Current Affairs freshness | BLOCKED | `content-pipeline/CURRENT_AFFAIRS_EVENTS.json` has no published events. |
-| G12 validation/dedupe | PASS for current 207-question set | `content-pipeline/DEDUPE_REPORT.json`, 30 passing Node tests; all 105 prior records retained; reusable answer-field/source links, bilingual options and distinct relations checked. |
-| G13 20,000 questions | BLOCKED | 207 verified questions; gap 19,793; 24 subjects/28 topics have questions. |
-| G15–G18 video planning/queue | PARTIAL | 3 prompt-ready, 342 evidence-blocked; 0 Flow jobs submitted. |
-| G19–G21 approved video coverage | BLOCKED | 0 approved videos and 0 MP4 bytes. |
-| G22 revision/notebook/bookmarks/search/mocks | PASS tested local subset | Revision/scoring unit tests; notebook/bookmarks/history persistence, bilingual search, mocks and challenge lifelines browser-tested. Full timed/backup interaction coverage open. |
-| G23 offline question packs | PASS integrity for current packs; browser evidence at S01-B02 | B04 JSON/gzip/catalog hashes validated. Historical selective download, tamper rejection and offline reload on three viewports covered the 25-question S01 pack. |
-| G24 selective offline video | UNVERIFIED | No approved media exists; playback, caption caching and quota/range behavior need real media tests. |
-| G25–G26 responsive/PWA | PASS tested local subset | Three Chromium viewports, screenshot/overflow checks, manifest assets and service-worker offline shell. Other engines and physical installation remain open. |
-| G28 production HTTPS | BLOCKED | No authorized hosting project. |
+| Production React/Vite app builds | PASS | `npm run build`; service-worker receipt in `BUILD_STATE.md` and `reports/checkpoint-receipt.json`. |
+| Canonical hierarchy | PASS | 26 subjects / 82 chapters / 345 topics; `reports/exam-mapping-report.json`. |
+| Exam dropdown and hierarchy mapping | PASS | 22/22 mappings valid; 6,151 resolved exam-topic memberships. |
+| KBC Crorepati profile | PASS | Maps all 26 subjects, 82 chapters, and 345 topics in Learn and Practice. |
+| Simplified entry screen | PASS | Name + exam only; the pictured subject-interest grid and coverage-note block were removed. |
+| Focused question behavior | PASS | Exactly 345 concise canonical questions are learner-facing—one for every topic; 0 exact or near-duplicate focused stems, 0 prohibited stems, 0 concatenated/overlong focused option sets. See `reports/practice-quality-report.json`. |
+| Legacy preservation | PASS | All 1,725 records and lifecycle/kind/quality labels remain present; 0 label changes. The 1,380 repetitive expansion drafts are preserved for audit but withheld from learner-facing surfaces. |
+| Practice session reliability | PASS | Exam-scoped draft keys, draft content/index/answer validation, safe reset, visible Skip/Next, exact session count, and no blank-screen crash on legacy evidence. |
+| Current Live selectors | PASS | Separate Year, Month, Day, and Topic selectors, including Any topic. |
+| Current Live integrity | PASS for accepted feed | 13 directly checked general-current-affairs records, 13 unique official links, visible dates/evidence, 26 complete bilingual MCQs, and exact empty state. |
+| Current Live uncapped display | PASS | All 10 checked stories and all 20 linked questions for 23 October render without an item cap. |
+| Current Live 150/run target | IN PROGRESS | 13/150 directly checked records; exact gap 137. No filler accepted. |
+| Reviewed news ingestion | PASS | `scripts/current-news-batch.mjs`, schema, 25-record durable saves, ledger, idempotence/rejection smoke checks. |
+| 40 distinct questions per topic — raw arithmetic | BLOCKED | 1,725/13,800 preserved records; raw gap 12,075. |
+| 40 focused non-repetitive questions per topic | BLOCKED | 345/13,800 focused questions; gap 13,455. |
+| 40 source-complete questions per topic | BLOCKED | 0/13,800 source-complete legacy questions; strict gap 13,800. |
+| Mapping/source legacy debt | BLOCKED | 1,725 questions without direct sources, 53 unresolved FactCards, and 28 invalid concept mappings. |
+| Deterministic tests | PASS | 10/10 Node tests. |
+| Real-browser tests | PASS | 9/9 Playwright scenarios across desktop, mobile, and tablet Chromium. |
+| Public HTTPS deployment | BLOCKED | No authorized hosting target or production URL is configured. |
 
-`FINAL_ELIGIBLE=false` remains intentional.
+`FINAL_ELIGIBLE=false` remains intentional until the focused, source-complete 40-per-topic gate and inherited mapping/source debt are resolved.

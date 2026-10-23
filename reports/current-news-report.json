@@ -1,6 +1,8 @@
 {
   "generatedAt": "2026-10-23T00:00:00+05:30",
   "records": 13,
+  "verifiedRecordTargetPerRun": 150,
+  "remainingToRunTarget": 137,
   "publicationDates": [
     "2026-10-15",
     "2026-10-20",

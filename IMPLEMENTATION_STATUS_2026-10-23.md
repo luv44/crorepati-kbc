@@ -10,11 +10,13 @@ A canonical topic bank is shared by every exam that maps to that topic. The 40-q
 
 ## Implemented
 
-- Added **21 exam views**: 7 preserved legacy choices and 14 new, separately selectable exams.
+- Added **22 exam views**: 7 preserved legacy choices and 15 new, separately selectable exams.
+- Added **KBC Crorepati / केबीसी करोड़पति**, mapped to all 26 subjects, 82 chapters, and 345 topics.
 - Every exam resolves from exam → subject → chapter → topic against the canonical 26-subject catalogue.
 - The selected exam consistently scopes Home, Learn, Topic, Practice, Smart Revision, Search, Performance, Downloads, and Settings.
 - Added **Current Live** to desktop and mobile navigation.
-- Added independent **year, month, and day** selectors.
+- Added independent **year, month, day, and topic** selectors, including **Any topic**.
+- Added a visible **150 directly reviewed records per content-building run** target. The current accepted count is 13 and the honestly reported gap is 137; no filler was generated.
 - Dates without a checked record render exactly **“No verified news found”**.
 - Added 13 directly checked general-current-affairs records, 13 independent official source links, retained evidence excerpts, visible publication/verification dates, and 26 bilingual MCQs tied to their displayed stories.
 - Added a bilingual one-minute analysis to every story: 39 total checked key points plus a recall focus for each story.
@@ -25,9 +27,13 @@ A canonical topic bank is shared by every exam that maps to that topic. The 40-q
 - Each Current Live MCQ has a bilingual stem, exactly four bilingual options, one answer, and a short bilingual explanation.
 - External source links open in a new tab with `noopener noreferrer`.
 - Preserved all 1,725 existing questions and all baseline lifecycle/kind/quality review labels (0 changed).
-- Restored a visible forward control for unanswered and answered practice questions.
+- Removed the optional subject-interest button grid from onboarding. The entry screen now asks only for a name and exam; subject/chapter/topic filtering remains in Learn and Practice.
+- Restored a visible forward control for unanswered and answered practice questions, isolated draft sessions by exam, and rejected malformed, duplicated, cross-exam, or out-of-range saved drafts.
+- Audited every preserved question by topic. Practice, Search, Revision, and displayed topic counts now serve **345 concise canonical questions—exactly one for every topic**. The **1,380 repetitive legacy expansion drafts remain byte-preserved for audit but are not learner-facing**.
+- Compacted duplicated parenthetical translations in answer labels, suppressed generic distractor/memory boilerplate, and fixed the legacy evidence-shape crash that could blank the screen after an answer.
 - Added a resumable reviewed-question batch runner. It rejects absent source IDs, incomplete evidence, duplicate IDs/fingerprints/stems, invalid bilingual options, and changed legacy review labels. It saves every 25 accepted questions by default.
-- Added deterministic mapping, news, coverage, and checkpoint reports.
+- Added a reviewed Current Live batch runner capped at 150 direct-source records per run and 25 records per durable save. It rejects unchecked input, excluded notices, non-government links, duplicate stories/URLs/MCQs, incomplete Hindi, answer leakage, and obvious answer-length clues.
+- Added deterministic mapping, news, focused-practice quality, coverage, and checkpoint reports.
 
 ## Verified Current Live records
 
@@ -53,10 +59,16 @@ No record is synthesized for an unrepresented date. Recruitment/result material 
 
 - Canonical topics: **345**
 - Required at 40/topic: **13,800**
-- Preserved existing questions: **1,725**
+- Preserved raw question records: **1,725**
+- Focused non-repetitive learner-facing questions: **345** (one per topic)
+- Direct-source-complete legacy questions: **0**
 - Topics already at 40: **0**
 - Topics below 40: **345**
-- Exact remaining shortfall: **12,075**
+- Raw record shortfall: **12,075**
+- Focused/non-repetitive shortfall: **13,455**
+- Strict source-complete shortfall: **13,800**
+
+The subject table below shows preserved raw-record arithmetic. It is not a claim that all 1,725 records are distinct enough for learner-facing use or source-complete. The strict release gate uses the source-complete status.
 
 | Subject | Topics | Current | Target | Remaining |
 |---|---:|---:|---:|---:|
@@ -97,7 +109,7 @@ Preservation and source-completeness are reported separately:
 - Existing question text and review labels were not silently rewritten.
 - The new batch runner will not accept this condition for newly added questions.
 
-These records cannot honestly be described as newly source-verified. Filling the 12,075-question shortfall requires actual source extraction plus bilingual editorial review, not templated paraphrase generation.
+These records cannot honestly be described as newly source-verified. Filling the strict 13,800 source-complete slots requires actual source extraction plus bilingual editorial review, not templated paraphrase generation. The smaller 12,075 number is retained only as raw record arithmetic.
 
 ## Verification results
 
@@ -105,11 +117,12 @@ Passed:
 
 - TypeScript compilation
 - Vite production build: 1,602 transformed modules
-- Service-worker build: 17 precached URLs (`crorepati-af85b22be4512f94`; 18,281,074-byte build)
+- Service-worker build: 17 precached URLs (`crorepati-ef1e4c7b02f81226`; 18,288,212-byte build)
 - Structural validator
-- 8 deterministic Node tests
-- 21/21 exam mappings
-- 5,806 resolved exam-topic memberships
+- 10 deterministic Node tests
+- 22/22 exam mappings
+- 6,151 resolved exam-topic memberships
+- 345/345 topics have exactly one focused canonical learner-facing question; 0 exact or near-duplicate focused stems; 0 prohibited focused stems; 0 overlong/concatenated focused option sets
 - 13 bilingual one-minute analyses / 39 checked key points / 26 story-linked bilingual MCQs / 13 directly checked links
 - 10 same-date records and 20 associated questions render for 23 October without an item cap; every selected brief displays its own full MCQ set
 - 1,725/1,725 question preservation
@@ -119,18 +132,22 @@ Passed:
 
 Expected release blockers:
 
-- `npm run audit:coverage` exits non-zero with exact shortfall **12,075**.
+- `npm run audit:coverage` exits non-zero with source-complete shortfall **13,800** (focused shortfall **13,455**; raw record shortfall **12,075**).
 - `npm run validate:strict` also blocks unresolved legacy source provenance and 28 invalid legacy concept mappings.
-- All 9 Playwright desktop/mobile/tablet scenarios were invoked, but browser execution is unavailable because the Chromium executable is not installed. Every failure occurred at browser launch before any test body ran.
+- All **9/9 Playwright desktop/mobile/tablet scenarios pass** in actual Chromium, including the removed onboarding subject grid, focused question length/boilerplate checks, stale/cross-exam draft recovery, KBC mapping, uncapped Current Live stories, topic filtering, and story-linked quizzes.
+
+Latest checkpoint receipt prefix: **`b7f90a5ac8bd`**.
 
 ## Resume and checkpoint files
 
 - `QUESTION_BUILD_CHECKPOINT.json` — exact current count, target, remaining total, hashes, and next 25 topics.
 - `content/checkpoints/question-batches.json` — idempotent batch ledger.
 - `content/checkpoints/legacy-review-labels.json` — immutable baseline label snapshot.
-- `reports/question-coverage-report.json` — all 345 topic counts and subject totals.
+- `content/checkpoints/current-news-batches.json` — 150-target reviewed-news ledger, seeded with the 13 directly checked records.
+- `reports/question-coverage-report.json` — all 345 topic counts plus raw, focused, and source-complete gaps.
+- `reports/practice-quality-report.json` — the exact 345-question focused publication set and 1,380 withheld legacy drafts.
 - `reports/exam-mapping-report.json` — complete resolved hierarchy for every exam.
-- `reports/current-news-report.json` — dated records, bilingual analyses, key points, links, and MCQ totals.
+- `reports/current-news-report.json` — dated records, target/gap, bilingual analyses, key points, links, and MCQ totals.
 - `reports/checkpoint-receipt.json` — latest checkpoint receipt.
 
 Apply a reviewed batch with:
@@ -140,3 +157,11 @@ npm run apply-batch -- --input path/to/reviewed-batch.json --batch-size 25
 ```
 
 The runner resumes by question ID after interruption and rewrites the checkpoint after every small save.
+
+Apply a directly reviewed Current Live bundle with:
+
+```bash
+npm run apply-news-batch -- --input path/to/reviewed-current-news-batch.json --save-size 25
+```
+
+The news runner never treats the 150-record target as permission to fabricate or duplicate content. See `docs/REVIEWED_CURRENT_NEWS_WORKFLOW.md`.

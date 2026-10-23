@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "targetPerRun": 150,
+  "appliedItems": [
+    {
+      "id": "news-2026-10-23-indra-2026",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327353&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "news-2026-10-23-steel-h1-demand",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327351&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "news-2026-10-23-fisheries-conclave",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327340&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "news-2026-10-23-cdot-iit-bhu-coe",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327317&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "news-2026-10-23-cdac-boi-quantum",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327274&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "news-2026-10-23-cotton-picking-gloves",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327349&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "news-2026-10-23-civil-defence-network",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327332&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "news-2026-10-23-iprd-2026",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327189&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "news-2026-10-23-naas-youth-award",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327138&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "news-2026-10-23-agrivoltaics",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327125&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "NEWS-2026-10-22-INDIA-POLAND-TRADE",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2326568&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "NEWS-2026-10-20-DEEPTHI-JEEVANJI-GOLD",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2325496&reg=3&lang=1"
+      ]
+    },
+    {
+      "id": "NEWS-2026-10-15-RAMSAR-103",
+      "runId": "baseline-direct-review-2026-10-23",
+      "reviewedAt": "2026-10-23",
+      "sourceUrls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2324120&reg=3&lang=1"
+      ]
+    }
+  ]
+}

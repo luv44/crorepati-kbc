@@ -21,7 +21,7 @@ const optionLengthOutlier = (options, correctIndex, language) => {
   return correct >= longestDistractor + 18 && correct > longestDistractor * 1.45;
 };
 
-const { catalog, starter, examCatalog, currentNews, baseline, topicMap, examReport, coverageReport } = await auditContent();
+const { catalog, starter, examCatalog, currentNews, baseline, topicMap, examReport, coverageReport, practiceQualityReport } = await auditContent();
 const baselineQuestionIds = new Set(baseline.labels.map(label => label.id));
 const legacyConceptMappingGaps = [];
 
@@ -29,6 +29,13 @@ assert(catalog.subjects.length > 0, 'catalog has no subjects');
 assert(topicMap.size === catalog.counts.topics, `catalog topic count ${catalog.counts.topics} does not match ${topicMap.size}`);
 assert(starter.questions.length === catalog.counts.questions, `catalog question count ${catalog.counts.questions} does not match starter ${starter.questions.length}`);
 assert(starter.factCards.length === catalog.counts.factCards, `catalog FactCard count ${catalog.counts.factCards} does not match starter ${starter.factCards.length}`);
+assert(practiceQualityReport.focusedLearnerFacingQuestions === catalog.counts.topics, `focused practice must publish one canonical question for every topic; found ${practiceQualityReport.focusedLearnerFacingQuestions}/${catalog.counts.topics}`);
+assert(practiceQualityReport.topicsWithFocusedQuestions === catalog.counts.topics && !practiceQualityReport.topicsMissingFocusedQuestions.length, 'one or more topics lack a focused learner-facing question');
+assert(practiceQualityReport.exactDuplicateFocusedStems === 0, 'focused practice repeats an exact normalized question stem');
+assert(!practiceQualityReport.nearDuplicateFocusedStemPairs.length, `focused practice contains near-duplicate stems: ${practiceQualityReport.nearDuplicateFocusedStemPairs.flat().join(', ')}`);
+assert(!practiceQualityReport.prohibitedFocusedStemIds.length, `focused practice contains prohibited boilerplate: ${practiceQualityReport.prohibitedFocusedStemIds.join(', ')}`);
+assert(!practiceQualityReport.concatenatedFocusedOptionIds.length, `focused practice contains concatenated answer options: ${practiceQualityReport.concatenatedFocusedOptionIds.join(', ')}`);
+assert(!practiceQualityReport.overlongFocusedOptionIds.length, `focused practice contains overlong answer options: ${practiceQualityReport.overlongFocusedOptionIds.join(', ')}`);
 const starterBytes = await readFile(new URL('../public/data/starter.json', import.meta.url));
 const starterMeta = catalog.packs.find(pack => pack.id === starter.id);
 assert(Boolean(starterMeta), `catalog pack metadata for ${starter.id} is missing`);
@@ -97,13 +104,16 @@ for (const subject of catalog.subjects) {
   assert(subject.questionCount === expected, `subject ${subject.id} catalog count ${subject.questionCount} does not match ${expected}`);
 }
 assert(!coverageReport.changedReviewLabels.length, `${coverageReport.changedReviewLabels.length} preserved review labels changed or disappeared`);
-if (coverageReport.shortfall) gaps.push(`${coverageReport.shortfall} questions remain to reach 40 per topic across ${coverageReport.topicsBelowTarget} topics`);
+if (coverageReport.shortfall) gaps.push(`${coverageReport.shortfall} raw record slots remain to reach 40 per topic across ${coverageReport.topicsBelowTarget} topics`);
+if (coverageReport.focusedShortfall) gaps.push(`${coverageReport.focusedShortfall} focused, non-repetitive question slots remain to reach 40 per topic`);
+if (coverageReport.sourceCompleteShortfall) gaps.push(`${coverageReport.sourceCompleteShortfall} source-complete question slots remain to satisfy the release requirement`);
 if (coverageReport.questionsWithoutDirectSources) gaps.push(`${coverageReport.questionsWithoutDirectSources} preserved legacy questions do not carry resolvable direct source IDs`);
 const factSourceGaps = starter.factCards.filter(card => !card.sourceIds?.length || card.sourceIds.some(id => !sourceIds.has(id)));
 if (factSourceGaps.length) gaps.push(`${factSourceGaps.length} preserved FactCards reference absent or empty source IDs`);
 if (legacyConceptMappingGaps.length) gaps.push(`${legacyConceptMappingGaps.length} preserved questions reference concept IDs outside their topic`);
 
 assert(currentNews.items.length > 0, 'Current Live has no verified records');
+assert(currentNews.verifiedRecordTargetPerRun === 150, 'Current Live verified-record target must be 150 per reviewed run');
 assert(/general current affairs/i.test(currentNews.policy) && /not recruitment or result updates/i.test(currentNews.policy), 'Current Live policy does not enforce general-current-affairs scope');
 assert(currentNews.policy.includes('No verified news found'), 'Current Live policy does not preserve the exact empty-state text');
 const newsIds = new Set();
@@ -154,13 +164,14 @@ for (const item of currentNews.items) {
 console.log(`Structure: ${catalog.subjects.length} subjects / ${topicMap.size} topics / ${starter.questions.length} preserved questions`);
 console.log(`Exam mapping: ${examCatalog.exams.length} exams / ${examReport.mappings.reduce((total, exam) => total + exam.topicCount, 0)} resolved exam-topic memberships`);
 console.log(`Current Live: ${currentNews.items.length} records / ${mcqIds.size} bilingual MCQs / ${currentNews.items.reduce((total, item) => total + item.links.length, 0)} source links`);
-console.log(`40/topic gate: ${coverageReport.completeTopics}/${topicMap.size} topics complete; exact shortfall ${coverageReport.shortfall}`);
+console.log(`Focused practice: ${practiceQualityReport.focusedLearnerFacingQuestions} unique topic questions served / ${practiceQualityReport.withheldLegacyExpansionDrafts} repetitive drafts withheld`);
+console.log(`40/topic gate: ${coverageReport.completeTopics}/${topicMap.size} topics complete; raw shortfall ${coverageReport.shortfall}; focused shortfall ${coverageReport.focusedShortfall}; source-complete shortfall ${coverageReport.sourceCompleteShortfall}`);
 console.log(`Preservation: ${coverageReport.preservedBaselineQuestions} baseline questions; ${coverageReport.changedReviewLabels.length} review-label changes`);
 if (gaps.length) {
   console.log('\nVERIFIED GAPS:');
   for (const gap of gaps) console.log(`- ${gap}`);
 }
-if (strictCoverage && coverageReport.shortfall) errors.push(`strict coverage gate failed: exact shortfall ${coverageReport.shortfall}`);
+if (strictCoverage && coverageReport.sourceCompleteShortfall) errors.push(`strict coverage gate failed: source-complete shortfall ${coverageReport.sourceCompleteShortfall} (focused shortfall ${coverageReport.focusedShortfall}; raw record shortfall ${coverageReport.shortfall})`);
 if (strictSources && (coverageReport.questionsWithoutDirectSources || factSourceGaps.length || legacyConceptMappingGaps.length)) errors.push('strict source/mapping gate failed for preserved static content');
 if (errors.length) {
   console.error('\nVALIDATION FAILED:');

@@ -33,6 +33,41 @@ export function eligible(q: Question, now = Date.now()) {
     && (!q.dynamic || (!!q.validUntil && !!q.verifiedAt));
 }
 
+const prohibitedStem = /advanced\s+exam\s+perspective|assessing\s+syllabus|\bsyllabus\b|\bcurriculum\b|\bbenchmarks?\b|\bevaluat(?:e|es|ed|ing|ion)\b|\bscrutiny\b|पाठ्यक्रम|मूल्यांकन/iu;
+
+// The preserved legacy bank contains four templated expansion drafts after each topic's
+// concise canonical question. Keep every record in storage/audits, but do not serve those
+// repetitive drafts in learner-facing practice. Newly reviewed, directly sourced questions
+// remain eligible without relying on the legacy ID convention.
+export function focusedPracticeQuestion(q: Question, now = Date.now()) {
+  if (!eligible(q, now)) return false;
+  const conciseOptions = q.options.map(option => ({ en: conciseOptionText(option.en), hi: conciseOptionText(option.hi) }));
+  const presentable = q.options.length === 4
+    && q.question.en.length <= 260 && q.question.hi.length <= 320
+    && !prohibitedStem.test(q.question.en) && !prohibitedStem.test(q.question.hi)
+    && conciseOptions.every(option => option.en.length > 0 && option.en.length <= 160 && option.hi.length > 0 && option.hi.length <= 160 && !/further defined by/iu.test(option.en))
+    && new Set(conciseOptions.map(option => option.en.toLocaleLowerCase())).size === 4
+    && new Set(conciseOptions.map(option => option.hi.toLocaleLowerCase())).size === 4;
+  const canonicalLegacyQuestion = q.id === `Q_${q.topicId}`;
+  const directlySourcedQuestion = q.sourceIds.length > 0;
+  return presentable && (canonicalLegacyQuestion || directlySourcedQuestion);
+}
+
+// Legacy options often carry a second translation or a long supplementary aside inside
+// parentheses. The shorter learner-facing label removes that aside; the original option
+// remains unchanged in the content pack and is available in audit exports.
+export function conciseOptionText(value: string) {
+  const concise = value.replace(/\s*\([^()]*\)/gu, '').replace(/\s+/g, ' ').trim();
+  return concise || value.trim();
+}
+
+export function usefulLearningNote(value: string) {
+  const normalized = value.normalize('NFKC').trim();
+  return Boolean(normalized)
+    && !/^(incorrect distractor\.?|गलत विकल्प।?|high_yield_competitive_exam)$/iu.test(normalized)
+    && !prohibitedStem.test(normalized);
+}
+
 export function revisionQuestions(questions: Question[], state: LearningState, now = Date.now()) {
   const lastAnswered = new Map(state.attempts.map(a => [a.questionId, a.at]));
   return questions.filter(q => eligible(q, now) && q.conceptIds.some(id => state.progress[id]?.due <= now))

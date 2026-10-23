@@ -1,17 +1,19 @@
 # Known failures and open gaps
 
-- The machine-valid manifest is not an expert completeness audit. Atomic granularity, contested interpretations, and full Harappan-depth reconciliation remain open.
-- Only 170 of 1,748 concepts currently have direct reviewed source evidence. The remaining 1,578 concepts are explicitly marked `MISSING`; 342 topic video plans remain `BLOCKED`. B03/B04 add narrow atoms rather than falsely completing original broad requirements.
-- The verified question corpus is 207, with a gap of 19,793 to 20,000; 317 topics and two subjects still have no questions (S02 Current Affairs and S25 Visual GK). Translations and restatements are not counted as unique questions.
-- S01 India basics has 25 narrow supported concepts but four broad requirements remain open. Southern-extremity distinctions, local-time reasoning, selected border relationships and scoped administrative definitions now have evidence. Other extremities/island details, full land/maritime relationship coverage, standard-meridian passage and the complete primary State/UT/local framework remain open. See `reports/S01_EVIDENCE_REPORT.md`.
-- NIOS Lesson 16 contains dated material outside the selected stable claims. Population, coastline length, administrative divisions and border inventory were excluded. Failed/empty/blocked fetches remain in `content-pipeline/SOURCE_FETCH_FAILURES.json` and were not accepted as evidence.
-- The MHA border inventory is attributed to the retrieved official list, not asserted to describe de facto control or mutually settled boundaries. The MHA UT landing page mixes older and newer counts, so those counts remain excluded. The accepted UT Act question covers only section 2(1)(a); the retrieved older consolidation is not a certified complete current legal framework. Part IX/IXA definitions retain their scope and exceptions.
-- No actual PYQs, Current Affairs events, approved videos, generated MP4s, subtitles for approved media, deployment URL, or account synchronization are present.
-- Initial browser runtime failures were resolved for Chromium using user-local extracted libraries. Guest, persistence and offline checks last passed at the 57-question S01-B02 milestone on desktop/phone/tablet Chromium. B03/B04 content-only batches passed fast checks; the old production dist/ does not contain the 207-question corpus. Native WebKit/Safari/Edge/Firefox, full accessibility, timed-expiry interaction and physical-device PWA installation remain unverified. See `reports/TESTING_REPORT.md`.
-- B03 scopes chess questions to FIDE's 2023 edition and DNS concepts to RFC 1034. Modern DNS extensions, current tournament regulations, clinical advice, live WHO burden figures and NASA's stale solar-cycle forecast are excluded from authored claims. The CERN birth-web URL returned 404 and supplied no evidence.
-- The existing option normalizer strips punctuation. B03 initially rejected decimal distractors `2.5 µm` and `25 µm` as equivalent; the distractor was replaced and the batch passed. New-row authoring now checks normalized uniqueness in both languages before generation. The general normalizer retains its existing behaviour.
+Updated: **23 October 2026 (Asia/Calcutta)**
 
-<!-- B04-CURRENT -->
-## B04 evidence and remaining topic blockers
-
-S02 needs dated official events and freshness review. S25 needs provenance/licence-checked visual assets and genuine identification questions. Full named lists of 317 question-empty topics and 342 evidence-blocked video plans are in `reports/B04_BLOCKED_TOPICS.json`. RBI policy/design details are scoped to the April 2025 FAQ, Nobel instructions to the original will, Greek associations to the cited tradition, and the Declaration to its text. Tagore's Bengali/English Gitanjali contents differ. Exact Buddha birth-year chronology, stale circulation data, worldwide-first cinema overclaims and current site management are excluded. Oscars returned 403 and Getty 404; neither supplied evidence.
+- The strict 40-per-topic release target is not complete. Across 345 topics, the target is 13,800 source-complete, distinct bilingual questions. Current gaps are separated honestly:
+  - **12,075** raw record slots;
+  - **13,455** focused/non-repetitive learner-facing slots;
+  - **13,800** source-complete slots.
+- All 1,725 legacy question records and review labels remain preserved, but only the single concise canonical question for each topic is currently served. The 1,380 templated expansion drafts are withheld from Practice, Search, Revision, and displayed availability counts rather than shown as repetitive content.
+- The preserved corpus has no resolvable direct `sourceIds` on its 1,725 questions. It also has 53 FactCards with absent/empty source references and 28 questions with concept IDs outside their canonical topic. These records are not represented as newly source-verified.
+- Some preserved raw question text still contains prohibited boilerplate and truncated concatenated options. Those bytes remain for preservation requirements; the focused learner-facing gate prevents those drafts from rendering. New batches cannot pass with those defects.
+- Current Live contains 13 directly checked general-current-affairs records against the 150-record reviewed-run target. The exact current gap is **137**. Recruitment/results, duplicate links, unreviewed snippets, and fabricated filler remain excluded.
+- The current-news ledger covers the 13 checked baseline records and future reviewed chunks. Reaching 150 still requires opening and reviewing 137 additional qualifying direct source pages and authoring their bilingual analyses/MCQs.
+- No provenance-complete actual PYQs are published. Legacy `ACTUAL_PYQ` labels are explicitly shown as provenance pending and are preserved rather than silently relabelled.
+- No approved video media is published. No paid video-generation call, credential handling, or provider submission was performed.
+- `npm run audit:coverage` and `npm run validate:strict` intentionally exit non-zero until the strict gaps are resolved.
+- There is no configured public HTTPS deployment or production URL. Local preview is not a deployment.
+- The package audit previously reported three high-severity dependency findings. No breaking `--force` upgrade was applied without a separate compatibility review.
+- Browser scenarios pass in Chromium desktop/mobile/tablet viewports. Native Safari/WebKit/Firefox, physical-device installation, and assistive-technology certification remain outside this checkpoint.
