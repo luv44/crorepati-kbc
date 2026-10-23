@@ -1,8 +1,553 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "builtAt": "2026-10-23T00:00:00+05:30",
   "policy": "Current Live contains directly checked general current affairs, not recruitment or result updates. Every story includes a bilingual one-minute analysis, retained evidence and an official link. Every MCQ must be answered by its displayed story and evidence. A date without an included record must render the exact empty-state message: No verified news found.",
   "items": [
+    {
+      "id": "news-2026-10-23-indra-2026",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "Defence",
+        "hi": "रक्षा"
+      },
+      "title": {
+        "en": "India and Russia conclude bilateral naval exercise INDRA 2026",
+        "hi": "भारत और रूस ने द्विपक्षीय नौसैनिक अभ्यास INDRA 2026 पूरा किया"
+      },
+      "summary": {
+        "en": "INS Sahyadri left Vladivostok after the India–Russia exercise, whose harbour and sea phases practised professional exchanges, coordinated manoeuvres, communications, helicopter operations and medical evacuation.",
+        "hi": "भारत–रूस अभ्यास के बाद आईएनएस सह्याद्रि व्लादिवोस्तोक से रवाना हुआ। अभ्यास के हार्बर और समुद्री चरणों में पेशेवर आदान-प्रदान, समन्वित युद्धाभ्यास, संचार, हेलीकॉप्टर संचालन और चिकित्सा निकासी का अभ्यास किया गया।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "INS Sahyadri departed Vladivostok on 20 October after INDRA 2026 concluded.",
+            "hi": "INDRA 2026 पूरा होने के बाद आईएनएस सह्याद्रि 20 अक्टूबर को व्लादिवोस्तोक से रवाना हुआ।"
+          },
+          {
+            "en": "The bilateral exercise had two parts: a Harbour Phase and a Sea Phase.",
+            "hi": "इस द्विपक्षीय अभ्यास के दो भाग थे—हार्बर चरण और समुद्री चरण।"
+          },
+          {
+            "en": "Sea drills covered coordinated manoeuvring, integrated communications, helicopter operations and medical evacuation.",
+            "hi": "समुद्री अभ्यास में समन्वित युद्धाभ्यास, एकीकृत संचार, हेलीकॉप्टर संचालन और चिकित्सा निकासी शामिल थे।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Remember the partner countries, the two phases and the exercise's focus on naval interoperability.",
+          "hi": "साझेदार देशों, दो चरणों और नौसैनिक अंतरसंचालनीयता पर अभ्यास के जोर को याद रखें।"
+        }
+      },
+      "sourceType": "Government press release",
+      "evidenceQuote": "Indian Naval Ship Sahyadri departed Vladivostok, Russian Federation, on 20 Oct 2026, following the successful conclusion of the bilateral naval exercise INDRA 2026, conducted between the Indian Navy and the Russian Federation Navy (RuFN).",
+      "evidenceLocator": "Opening paragraph below the 23 OCT 2026 posting line",
+      "links": [
+        {
+          "label": "PIB — Ministry of Defence release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327353&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-indra-01",
+          "question": {
+            "en": "INDRA 2026 was conducted between the navies of which two countries?",
+            "hi": "INDRA 2026 किन दो देशों की नौसेनाओं के बीच आयोजित हुआ?"
+          },
+          "options": [
+            {
+              "en": "India and Russia",
+              "hi": "भारत और रूस"
+            },
+            {
+              "en": "India and France",
+              "hi": "भारत और फ्रांस"
+            },
+            {
+              "en": "India and Japan",
+              "hi": "भारत और जापान"
+            },
+            {
+              "en": "India and Australia",
+              "hi": "भारत और ऑस्ट्रेलिया"
+            }
+          ],
+          "correctIndex": 0,
+          "explanation": {
+            "en": "PIB identifies INDRA 2026 as a bilateral exercise of the Indian Navy and the Russian Federation Navy.",
+            "hi": "PIB ने INDRA 2026 को भारतीय नौसेना और रूसी संघ की नौसेना का द्विपक्षीय अभ्यास बताया है।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-indra-02",
+          "question": {
+            "en": "Which pair correctly names the two parts of INDRA 2026?",
+            "hi": "INDRA 2026 के दो भागों का सही नाम किस विकल्प में है?"
+          },
+          "options": [
+            {
+              "en": "Air and Space",
+              "hi": "वायु और अंतरिक्ष"
+            },
+            {
+              "en": "Harbour and Sea",
+              "hi": "हार्बर और समुद्र"
+            },
+            {
+              "en": "Desert and Mountain",
+              "hi": "मरुस्थल और पर्वत"
+            },
+            {
+              "en": "River and Coastal",
+              "hi": "नदी और तट"
+            }
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "The official release states that the exercise comprised Harbour and Sea phases.",
+            "hi": "आधिकारिक विज्ञप्ति के अनुसार अभ्यास में हार्बर और समुद्री चरण शामिल थे।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-2026-10-23-steel-h1-demand",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "Economy",
+        "hi": "अर्थव्यवस्था"
+      },
+      "title": {
+        "en": "Domestic demand leads India's steel sector in H1 FY 2026–27",
+        "hi": "वित्त वर्ष 2026–27 की पहली छमाही में घरेलू मांग ने भारत के इस्पात क्षेत्र को गति दी"
+      },
+      "summary": {
+        "en": "Finished-steel consumption reached 85.0 million tonnes in April–September 2026, up 7.6% from a year earlier, while India remained a net importer of finished steel by quantity.",
+        "hi": "अप्रैल–सितंबर 2026 में तैयार इस्पात की खपत 8.50 करोड़ टन रही, जो एक वर्ष पहले से 7.6% अधिक थी; मात्रा के आधार पर भारत तैयार इस्पात का शुद्ध आयातक रहा।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "April–September crude-steel output was 85.1 Mt and finished-steel output was 82.0 Mt.",
+            "hi": "अप्रैल–सितंबर में कच्चे इस्पात का उत्पादन 8.51 करोड़ टन और तैयार इस्पात का उत्पादन 8.20 करोड़ टन रहा।"
+          },
+          {
+            "en": "Finished-steel consumption grew 7.6% year on year to 85.0 Mt in the half-year.",
+            "hi": "छमाही में तैयार इस्पात की खपत सालाना 7.6% बढ़कर 8.50 करोड़ टन हुई।"
+          },
+          {
+            "en": "Finished-steel imports were 4.14 Mt and exports 3.55 Mt, leaving India a net importer by quantity.",
+            "hi": "तैयार इस्पात का आयात 41.4 लाख टन और निर्यात 35.5 लाख टन रहा, इसलिए मात्रा के आधार पर भारत शुद्ध आयातक था।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Link the 7.6% consumption growth with India's net-importer position in April–September 2026.",
+          "hi": "अप्रैल–सितंबर 2026 में 7.6% खपत वृद्धि को भारत की शुद्ध-आयातक स्थिति से जोड़कर याद रखें।"
+        }
+      },
+      "sourceType": "Government statistical release",
+      "evidenceQuote": "Finished Steel Consumption: Sep 2026 14.4; Sep 2025 13.3; YoY 7.7%; Apr-Sep 2026 85.0; Apr-Sep 2025 79.0; CPLY 7.6%.",
+      "evidenceLocator": "Section 2, Demand table, followed by Section 3a net trade position",
+      "links": [
+        {
+          "label": "PIB — Ministry of Steel release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327351&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-steel-01",
+          "question": {
+            "en": "By how much did finished-steel consumption grow in April–September 2026 over the same period a year earlier?",
+            "hi": "अप्रैल–सितंबर 2026 में तैयार इस्पात की खपत एक वर्ष पहले की समान अवधि से कितनी बढ़ी?"
+          },
+          "options": [
+            {
+              "en": "2.9%",
+              "hi": "2.9%"
+            },
+            {
+              "en": "4.1%",
+              "hi": "4.1%"
+            },
+            {
+              "en": "7.6%",
+              "hi": "7.6%"
+            },
+            {
+              "en": "23.8%",
+              "hi": "23.8%"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "The demand table reports half-year finished-steel consumption growth of 7.6%, from 79.0 Mt to 85.0 Mt.",
+            "hi": "मांग तालिका में छमाही तैयार इस्पात खपत 7.6% बढ़कर 7.90 करोड़ टन से 8.50 करोड़ टन दर्ज है।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-steel-02",
+          "question": {
+            "en": "What was India's finished-steel trade position by quantity in April–September 2026?",
+            "hi": "अप्रैल–सितंबर 2026 में मात्रा के आधार पर तैयार इस्पात में भारत की व्यापार स्थिति क्या थी?"
+          },
+          "options": [
+            {
+              "en": "Net exporter",
+              "hi": "शुद्ध निर्यातक"
+            },
+            {
+              "en": "Net importer",
+              "hi": "शुद्ध आयातक"
+            },
+            {
+              "en": "Exactly balanced",
+              "hi": "पूरी तरह संतुलित"
+            },
+            {
+              "en": "No recorded trade",
+              "hi": "कोई दर्ज व्यापार नहीं"
+            }
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "Imports of 4.14 Mt exceeded exports of 3.55 Mt, so India was a net importer by quantity.",
+            "hi": "41.4 लाख टन आयात, 35.5 लाख टन निर्यात से अधिक था; इसलिए भारत मात्रा के आधार पर शुद्ध आयातक था।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-2026-10-23-fisheries-conclave",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "Agriculture & Economy",
+        "hi": "कृषि और अर्थव्यवस्था"
+      },
+      "title": {
+        "en": "Fisheries conclave targets inland investment, value addition and exports",
+        "hi": "मत्स्य सम्मेलन का जोर अंतर्देशीय निवेश, मूल्य संवर्धन और निर्यात पर"
+      },
+      "summary": {
+        "en": "A Bhopal conclave released Madhya Pradesh's 2026 fisheries investment and export guidelines and national SOPs intended to connect inland production with processing, cold chains and overseas markets.",
+        "hi": "भोपाल सम्मेलन में मध्य प्रदेश की 2026 मत्स्य निवेश एवं निर्यात दिशानिर्देश और राष्ट्रीय मानक संचालन प्रक्रियाएं जारी की गईं, ताकि अंतर्देशीय उत्पादन को प्रसंस्करण, शीत-श्रृंखला और विदेशी बाजारों से जोड़ा जा सके।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "India produced 197.75 lakh tonnes of fish in 2024–25; inland fisheries supplied 151.60 lakh tonnes, nearly three-fourths.",
+            "hi": "भारत ने 2024–25 में 197.75 लाख टन मछली उत्पादित की; अंतर्देशीय मत्स्य क्षेत्र ने 151.60 लाख टन, यानी लगभग तीन-चौथाई योगदान दिया।"
+          },
+          {
+            "en": "Madhya Pradesh released state investment and export guidelines, while the Union department issued Inland State Export Potential SOPs.",
+            "hi": "मध्य प्रदेश ने राज्य निवेश एवं निर्यात दिशानिर्देश जारी किए, जबकि केंद्रीय विभाग ने अंतर्देशीय राज्यों की निर्यात क्षमता के लिए मानक प्रक्रियाएं जारी कीं।"
+          },
+          {
+            "en": "PMMSY approval covered development of 49 reservoirs and five Amrit Sarovars in Madhya Pradesh.",
+            "hi": "PMMSY की स्वीकृति में मध्य प्रदेश के 49 जलाशयों और पांच अमृत सरोवरों का विकास शामिल है।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Remember Bhopal, inland fisheries' nearly three-fourths share, and the processing-to-export objective.",
+          "hi": "भोपाल, अंतर्देशीय मत्स्य क्षेत्र का लगभग तीन-चौथाई हिस्सा और प्रसंस्करण से निर्यात तक का उद्देश्य याद रखें।"
+        }
+      },
+      "sourceType": "Government press release",
+      "evidenceQuote": "India's fish production reached 197.75 lakh MT in 2024–25, of which inland fisheries contributed 151.60 lakh tonnes, accounting for nearly three-fourths of the country's total fish production.",
+      "evidenceLocator": "Fourth paragraph under the 23 OCT 2026 posting line",
+      "links": [
+        {
+          "label": "PIB — Department of Fisheries release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327340&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-fisheries-01",
+          "question": {
+            "en": "Which city hosted the Fisheries Investors & Exporters Conclave 2026?",
+            "hi": "मत्स्य निवेशक एवं निर्यातक सम्मेलन 2026 किस शहर में आयोजित हुआ?"
+          },
+          "options": [
+            {
+              "en": "Indore",
+              "hi": "इंदौर"
+            },
+            {
+              "en": "Bhopal",
+              "hi": "भोपाल"
+            },
+            {
+              "en": "Jabalpur",
+              "hi": "जबलपुर"
+            },
+            {
+              "en": "Gwalior",
+              "hi": "ग्वालियर"
+            }
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "The Madhya Pradesh and Union fisheries departments organised the conclave in Bhopal on 23 October 2026.",
+            "hi": "मध्य प्रदेश और केंद्रीय मत्स्य विभागों ने 23 अक्टूबर 2026 को भोपाल में सम्मेलन आयोजित किया।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-fisheries-02",
+          "question": {
+            "en": "About what share of India's 2024–25 fish production came from inland fisheries?",
+            "hi": "भारत के 2024–25 के मछली उत्पादन में अंतर्देशीय मत्स्य क्षेत्र का लगभग कितना हिस्सा था?"
+          },
+          "options": [
+            {
+              "en": "One-fourth",
+              "hi": "एक-चौथाई"
+            },
+            {
+              "en": "One-half",
+              "hi": "आधा"
+            },
+            {
+              "en": "Two-thirds",
+              "hi": "दो-तिहाई"
+            },
+            {
+              "en": "Three-fourths",
+              "hi": "तीन-चौथाई"
+            }
+          ],
+          "correctIndex": 3,
+          "explanation": {
+            "en": "Inland fisheries contributed 151.60 lakh tonnes out of 197.75 lakh tonnes, described by PIB as nearly three-fourths.",
+            "hi": "197.75 लाख टन में से 151.60 लाख टन अंतर्देशीय मत्स्य क्षेत्र का था, जिसे PIB ने लगभग तीन-चौथाई बताया।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-2026-10-23-cdot-iit-bhu-coe",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "Science & Technology",
+        "hi": "विज्ञान और प्रौद्योगिकी"
+      },
+      "title": {
+        "en": "C-DOT establishes its sixth telecom Centre of Excellence at IIT (BHU)",
+        "hi": "C-DOT ने IIT (BHU) में छठा दूरसंचार उत्कृष्टता केंद्र स्थापित किया"
+      },
+      "summary": {
+        "en": "C-DOT and IIT (BHU), Varanasi signed an MoU for joint research and skills development in 5G-Advanced/6G, AI-native communications, quantum and post-quantum technologies, cybersecurity and advanced wireless systems.",
+        "hi": "C-DOT और IIT (BHU), वाराणसी ने 5G-एडवांस्ड/6G, AI-आधारित संचार, क्वांटम एवं पोस्ट-क्वांटम तकनीक, साइबर सुरक्षा और उन्नत वायरलेस प्रणालियों में संयुक्त अनुसंधान व कौशल विकास के लिए समझौता किया।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "The IIT (BHU), Varanasi facility is C-DOT's sixth Centre of Excellence.",
+            "hi": "IIT (BHU), वाराणसी का यह केंद्र C-DOT का छठा उत्कृष्टता केंद्र है।"
+          },
+          {
+            "en": "Its research areas include 5G-Advanced/6G, large-scale MIMO, integrated sensing, AI-native networks and quantum communications.",
+            "hi": "इसके शोध क्षेत्रों में 5G-एडवांस्ड/6G, बड़े पैमाने का MIMO, एकीकृत सेंसिंग, AI-आधारित नेटवर्क और क्वांटम संचार शामिल हैं।"
+          },
+          {
+            "en": "The partnership is designed to connect academic research with real-world telecom requirements and indigenous development.",
+            "hi": "साझेदारी का उद्देश्य अकादमिक शोध को वास्तविक दूरसंचार जरूरतों और स्वदेशी विकास से जोड़ना है।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Associate the sixth C-DOT CoE with IIT (BHU), Varanasi and next-generation communications.",
+          "hi": "C-DOT के छठे उत्कृष्टता केंद्र को IIT (BHU), वाराणसी और अगली पीढ़ी के संचार से जोड़कर याद रखें।"
+        }
+      },
+      "sourceType": "Government press release",
+      "evidenceQuote": "The Centre for Development of Telematics (C-DOT) ... has signed a Memorandum of Understanding (MoU) with the Indian Institute of Technology (BHU), Varanasi ... for establishing C-DOT’s sixth Centre of Excellence (CoE).",
+      "evidenceLocator": "Opening paragraph and technology-focus paragraph below the posting line",
+      "links": [
+        {
+          "label": "PIB — Ministry of Communications release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327317&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-cdot-01",
+          "question": {
+            "en": "At which institution did C-DOT establish its newest Centre of Excellence?",
+            "hi": "C-DOT ने अपना नया उत्कृष्टता केंद्र किस संस्थान में स्थापित किया?"
+          },
+          "options": [
+            {
+              "en": "IIT (BHU), Varanasi",
+              "hi": "IIT (BHU), वाराणसी"
+            },
+            {
+              "en": "IIT Kanpur",
+              "hi": "IIT कानपुर"
+            },
+            {
+              "en": "IIT Hyderabad",
+              "hi": "IIT हैदराबाद"
+            },
+            {
+              "en": "IISc Bengaluru",
+              "hi": "IISc बेंगलुरु"
+            }
+          ],
+          "correctIndex": 0,
+          "explanation": {
+            "en": "The new Centre of Excellence was established with IIT (BHU), Varanasi under an MoU.",
+            "hi": "नया उत्कृष्टता केंद्र समझौता ज्ञापन के तहत IIT (BHU), वाराणसी में स्थापित किया गया।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-cdot-02",
+          "question": {
+            "en": "What number in C-DOT's national network is the new Centre of Excellence?",
+            "hi": "C-DOT के राष्ट्रीय नेटवर्क में नया उत्कृष्टता केंद्र कौन-सा क्रमांक है?"
+          },
+          "options": [
+            {
+              "en": "Fourth",
+              "hi": "चौथा"
+            },
+            {
+              "en": "Fifth",
+              "hi": "पांचवां"
+            },
+            {
+              "en": "Sixth",
+              "hi": "छठा"
+            },
+            {
+              "en": "Seventh",
+              "hi": "सातवां"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "PIB states that the IIT (BHU) facility expands C-DOT's national network to six centres.",
+            "hi": "PIB के अनुसार IIT (BHU) केंद्र के साथ C-DOT का राष्ट्रीय नेटवर्क छह केंद्रों का हो गया है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-2026-10-23-cdac-boi-quantum",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "Technology & Banking",
+        "hi": "प्रौद्योगिकी और बैंकिंग"
+      },
+      "title": {
+        "en": "C-DAC and Bank of India partner on quantum technologies for banking",
+        "hi": "C-DAC और बैंक ऑफ इंडिया ने बैंकिंग के लिए क्वांटम तकनीक पर साझेदारी की"
+      },
+      "summary": {
+        "en": "The MoU creates a framework for joint research, secure-sandbox proofs of concept and capacity building in quantum-safe systems, AI, blockchain and other technologies for financial services.",
+        "hi": "समझौता ज्ञापन वित्तीय सेवाओं के लिए क्वांटम-सुरक्षित प्रणालियों, AI, ब्लॉकचेन और अन्य तकनीकों में संयुक्त शोध, सुरक्षित सैंडबॉक्स अवधारणा-परीक्षण और क्षमता निर्माण का ढांचा बनाता है।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "C-DAC and Bank of India signed the MoU on 22 October; PIB published the release on 23 October.",
+            "hi": "C-DAC और बैंक ऑफ इंडिया ने 22 अक्टूबर को समझौता किया; PIB ने विज्ञप्ति 23 अक्टूबर को प्रकाशित की।"
+          },
+          {
+            "en": "A Quantum Ecosystem for Financial Innovation will examine quantum-inspired and quantum-safe banking technologies.",
+            "hi": "वित्तीय नवाचार के लिए क्वांटम पारितंत्र में क्वांटम-प्रेरित और क्वांटम-सुरक्षित बैंकिंग तकनीकों की जांच होगी।"
+          },
+          {
+            "en": "The partners plan use-case selection, sandbox demonstrations, feasibility assessment and adoption roadmaps.",
+            "hi": "साझेदार उपयोग-मामलों का चयन, सैंडबॉक्स प्रदर्शन, व्यवहार्यता आकलन और अपनाने की रूपरेखा तैयार करेंगे।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Remember the C-DAC–Bank of India partnership and its quantum-safe, future-ready banking focus.",
+          "hi": "C-DAC–बैंक ऑफ इंडिया साझेदारी और क्वांटम-सुरक्षित, भविष्य-तैयार बैंकिंग पर उसका जोर याद रखें।"
+        }
+      },
+      "sourceType": "Government press release",
+      "evidenceQuote": "A key focus of the partnership will be the development of a Quantum Ecosystem for Financial Innovation, aimed at preparing banking systems for the opportunities as well as emerging security challenges associated with quantum technologies.",
+      "evidenceLocator": "Fourth body paragraph below the 23 OCT 2026 posting line",
+      "links": [
+        {
+          "label": "PIB — Ministry of Electronics & IT release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327274&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-cdac-01",
+          "question": {
+            "en": "Which bank signed the quantum-technology collaboration MoU with C-DAC?",
+            "hi": "C-DAC के साथ क्वांटम-प्रौद्योगिकी सहयोग समझौता किस बैंक ने किया?"
+          },
+          "options": [
+            {
+              "en": "Bank of India",
+              "hi": "बैंक ऑफ इंडिया"
+            },
+            {
+              "en": "State Bank of India",
+              "hi": "भारतीय स्टेट बैंक"
+            },
+            {
+              "en": "Punjab National Bank",
+              "hi": "पंजाब नेशनल बैंक"
+            },
+            {
+              "en": "Union Bank of India",
+              "hi": "यूनियन बैंक ऑफ इंडिया"
+            }
+          ],
+          "correctIndex": 0,
+          "explanation": {
+            "en": "The MoU was signed by C-DAC and Bank of India to explore quantum and other emerging technologies in banking.",
+            "hi": "बैंकिंग में क्वांटम और अन्य उभरती तकनीकों की खोज के लिए C-DAC और बैंक ऑफ इंडिया ने समझौता किया।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-cdac-02",
+          "question": {
+            "en": "The planned Quantum Ecosystem for Financial Innovation primarily concerns which field?",
+            "hi": "वित्तीय नवाचार के लिए प्रस्तावित क्वांटम पारितंत्र मुख्यतः किस क्षेत्र से संबंधित है?"
+          },
+          "options": [
+            {
+              "en": "Public health",
+              "hi": "सार्वजनिक स्वास्थ्य"
+            },
+            {
+              "en": "Crop science",
+              "hi": "फसल विज्ञान"
+            },
+            {
+              "en": "Rail transport",
+              "hi": "रेल परिवहन"
+            },
+            {
+              "en": "Banking services",
+              "hi": "बैंकिंग सेवाएं"
+            }
+          ],
+          "correctIndex": 3,
+          "explanation": {
+            "en": "The partnership aims to prepare banking systems for quantum opportunities and security challenges.",
+            "hi": "साझेदारी का उद्देश्य बैंकिंग प्रणालियों को क्वांटम अवसरों और सुरक्षा चुनौतियों के लिए तैयार करना है।"
+          }
+        }
+      ]
+    },
     {
       "id": "NEWS-2026-10-22-INDIA-POLAND-TRADE",
       "publicationDate": "2026-10-22",
@@ -330,5 +875,6 @@
         }
       }
     }
-  ]
+  ],
+  "generatedAt": "2026-10-23"
 }

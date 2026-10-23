@@ -1,14 +1,15 @@
 {
   "generatedAt": "2026-10-23T00:00:00+05:30",
-  "records": 3,
+  "records": 8,
   "publicationDates": [
     "2026-10-15",
     "2026-10-20",
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-23"
   ],
-  "links": 3,
-  "bilingualOneMinuteAnalyses": 3,
-  "analysisKeyPoints": 9,
-  "bilingualMcqs": 6,
-  "latestPublicationDate": "2026-10-22"
+  "links": 8,
+  "bilingualOneMinuteAnalyses": 8,
+  "analysisKeyPoints": 24,
+  "bilingualMcqs": 16,
+  "latestPublicationDate": "2026-10-23"
 }
