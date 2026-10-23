@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "builtAt": "2026-10-23T00:00:00+05:30",
   "policy": "Current Live contains directly checked general current affairs, not recruitment or result updates. Every story includes a bilingual one-minute analysis, retained evidence and an official link. Every MCQ must be answered by its displayed story and evidence. A date without an included record must render the exact empty-state message: No verified news found.",
   "items": [
@@ -544,6 +544,551 @@
           "explanation": {
             "en": "The partnership aims to prepare banking systems for quantum opportunities and security challenges.",
             "hi": "साझेदारी का उद्देश्य बैंकिंग प्रणालियों को क्वांटम अवसरों और सुरक्षा चुनौतियों के लिए तैयार करना है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-2026-10-23-cotton-picking-gloves",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "Agriculture & Innovation",
+        "hi": "कृषि और नवाचार"
+      },
+      "title": {
+        "en": "ICAR-CIRCOT transfers protective-glove technology for cotton workers",
+        "hi": "ICAR-CIRCOT ने कपास श्रमिकों के सुरक्षात्मक दस्तानों की तकनीक हस्तांतरित की"
+      },
+      "summary": {
+        "en": "ICAR-CIRCOT signed a technology-transfer MoU for reusable, durable gloves designed to protect cotton-picking workers from sharp bracts while preserving flexibility and comfort.",
+        "hi": "ICAR-CIRCOT ने ऐसे पुन: उपयोग योग्य और टिकाऊ दस्तानों के तकनीक हस्तांतरण के लिए समझौता किया, जो लचीलेपन व आराम को बनाए रखते हुए कपास चुनने वाले श्रमिकों को नुकीले सहपत्रों से बचाते हैं।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "Mumbai-based ICAR-CIRCOT signed the MoU with Trust ARS Rubber Private Limited on 22 October.",
+            "hi": "मुंबई स्थित ICAR-CIRCOT ने 22 अक्टूबर को ट्रस्ट एआरएस रबर प्राइवेट लिमिटेड के साथ समझौता किया।"
+          },
+          {
+            "en": "Technology transfer is intended to commercialise the gloves and make them more widely available.",
+            "hi": "तकनीक हस्तांतरण का उद्देश्य दस्तानों का व्यावसायीकरण और उनकी व्यापक उपलब्धता सुनिश्चित करना है।"
+          },
+          {
+            "en": "The reusable gloves protect against sharp cotton bracts while retaining flexibility and comfort in field work.",
+            "hi": "पुन: उपयोग योग्य दस्ताने खेत में लचीलापन और आराम बनाए रखते हुए नुकीले कपास सहपत्रों से सुरक्षा देते हैं।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Connect ICAR-CIRCOT in Mumbai with occupational safety for cotton-picking workers.",
+          "hi": "मुंबई के ICAR-CIRCOT को कपास चुनने वाले श्रमिकों की व्यावसायिक सुरक्षा से जोड़कर याद रखें।"
+        }
+      },
+      "sourceType": "Government press release",
+      "evidenceQuote": "The specially designed gloves protect workers’ hands against injuries caused by sharp cotton bracts while ensuring flexibility and comfort.",
+      "evidenceLocator": "Third body paragraph below the 23 OCT 2026 posting line",
+      "links": [
+        {
+          "label": "PIB — Ministry of Agriculture release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327349&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-cotton-gloves-01",
+          "question": {
+            "en": "The transferred glove technology is intended to prevent hand injuries mainly from what?",
+            "hi": "हस्तांतरित दस्ताना तकनीक मुख्यतः किससे होने वाली हाथ की चोटों को रोकने के लिए है?"
+          },
+          "options": [
+            {
+              "en": "Sharp cotton bracts",
+              "hi": "नुकीले कपास सहपत्र"
+            },
+            {
+              "en": "Wet field soil",
+              "hi": "गीली खेत की मिट्टी"
+            },
+            {
+              "en": "Loud tractor noise",
+              "hi": "ट्रैक्टर का तेज शोर"
+            },
+            {
+              "en": "Heavy grain sacks",
+              "hi": "भारी अनाज की बोरियां"
+            }
+          ],
+          "correctIndex": 0,
+          "explanation": {
+            "en": "ICAR-CIRCOT designed the gloves to protect hands from injuries caused by sharp cotton bracts during picking.",
+            "hi": "ICAR-CIRCOT ने कपास चुनते समय नुकीले सहपत्रों से होने वाली हाथ की चोटों से सुरक्षा के लिए दस्ताने बनाए।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-cotton-gloves-02",
+          "question": {
+            "en": "In which city is the ICAR institute that developed the gloves located?",
+            "hi": "दस्ताने विकसित करने वाला ICAR संस्थान किस शहर में स्थित है?"
+          },
+          "options": [
+            {
+              "en": "Chennai",
+              "hi": "चेन्नई"
+            },
+            {
+              "en": "Mumbai",
+              "hi": "मुंबई"
+            },
+            {
+              "en": "Nagpur",
+              "hi": "नागपुर"
+            },
+            {
+              "en": "Surat",
+              "hi": "सूरत"
+            }
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "The release identifies ICAR–Central Institute for Research on Cotton Technology as a Mumbai institute.",
+            "hi": "विज्ञप्ति में ICAR–केंद्रीय कपास प्रौद्योगिकी अनुसंधान संस्थान को मुंबई स्थित बताया गया है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-2026-10-23-civil-defence-network",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "National & Security",
+        "hi": "राष्ट्रीय और सुरक्षा"
+      },
+      "title": {
+        "en": "Civil Defence master-trainer programme begins with 12 States and UTs",
+        "hi": "नागरिक सुरक्षा मास्टर-प्रशिक्षक कार्यक्रम 12 राज्यों और केंद्रशासित प्रदेशों से शुरू होगा"
+      },
+      "summary": {
+        "en": "The Home Ministry and Indian Army plan to train 600 Civil Defence master trainers in the first phase; each will then train 100 volunteers, giving the model a potential reach of 60,000.",
+        "hi": "गृह मंत्रालय और भारतीय सेना पहले चरण में 600 नागरिक सुरक्षा मास्टर प्रशिक्षकों को प्रशिक्षित करेंगे; प्रत्येक आगे 100 स्वयंसेवकों को प्रशिक्षण देगा, जिससे मॉडल की संभावित पहुंच 60,000 होगी।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "The three-day first phase covers 600 master trainers—50 from each of 12 participating States and UTs.",
+            "hi": "तीन दिवसीय पहले चरण में 600 मास्टर प्रशिक्षक होंगे—12 सहभागी राज्यों और केंद्रशासित प्रदेशों में से प्रत्येक से 50।"
+          },
+          {
+            "en": "Training spans threat awareness, protection and emergency response, plus communication and coordination.",
+            "hi": "प्रशिक्षण में खतरे की समझ, सुरक्षा व आपात प्रतिक्रिया तथा संचार व समन्वय शामिल हैं।"
+          },
+          {
+            "en": "With each master trainer teaching 100 volunteers, the cascade could reach 60,000 Civil Defence volunteers.",
+            "hi": "प्रत्येक मास्टर प्रशिक्षक द्वारा 100 स्वयंसेवकों को सिखाने से यह श्रृंखला 60,000 नागरिक सुरक्षा स्वयंसेवकों तक पहुंच सकती है।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Use the multiplier: 600 master trainers × 100 volunteers equals a potential reach of 60,000.",
+          "hi": "गुणक याद रखें: 600 मास्टर प्रशिक्षक × 100 स्वयंसेवक = 60,000 की संभावित पहुंच।"
+        }
+      },
+      "sourceType": "Government press release",
+      "evidenceQuote": "Following the specialised training, each Master Trainer will impart further training to 100 Civil Defence Volunteers in their respective State/UT. This cascading mechanism has the potential to extend specialised preparedness skills to 60,000 Civil Defence Volunteers.",
+      "evidenceLocator": "Master Trainer model paragraph below the training-area list",
+      "links": [
+        {
+          "label": "PIB — Ministry of Home Affairs release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327332&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-civil-defence-01",
+          "question": {
+            "en": "How many Civil Defence master trainers are proposed for the programme's first phase?",
+            "hi": "कार्यक्रम के पहले चरण में कितने नागरिक सुरक्षा मास्टर प्रशिक्षक प्रस्तावित हैं?"
+          },
+          "options": [
+            {
+              "en": "300",
+              "hi": "300"
+            },
+            {
+              "en": "450",
+              "hi": "450"
+            },
+            {
+              "en": "600",
+              "hi": "600"
+            },
+            {
+              "en": "1,200",
+              "hi": "1,200"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "The first phase proposes 600 master trainers, calculated as 50 from each of 12 States and UTs.",
+            "hi": "पहले चरण में 600 मास्टर प्रशिक्षक प्रस्तावित हैं—12 राज्यों और केंद्रशासित प्रदेशों में से प्रत्येक से 50।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-civil-defence-02",
+          "question": {
+            "en": "What is the potential volunteer reach of the programme's cascading training model?",
+            "hi": "कार्यक्रम के चरणबद्ध प्रशिक्षण मॉडल की संभावित स्वयंसेवक पहुंच कितनी है?"
+          },
+          "options": [
+            {
+              "en": "6,000",
+              "hi": "6,000"
+            },
+            {
+              "en": "30,000",
+              "hi": "30,000"
+            },
+            {
+              "en": "60,000",
+              "hi": "60,000"
+            },
+            {
+              "en": "1,20,000",
+              "hi": "1,20,000"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "Each of 600 master trainers is to train 100 volunteers, producing a potential reach of 60,000.",
+            "hi": "600 मास्टर प्रशिक्षकों में से प्रत्येक 100 स्वयंसेवकों को प्रशिक्षण देगा, जिससे संभावित पहुंच 60,000 होती है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-2026-10-23-iprd-2026",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "International & Maritime",
+        "hi": "अंतरराष्ट्रीय और समुद्री"
+      },
+      "title": {
+        "en": "Indian Navy announces Indo-Pacific Regional Dialogue 2026",
+        "hi": "भारतीय नौसेना ने हिंद-प्रशांत क्षेत्रीय संवाद 2026 की घोषणा की"
+      },
+      "summary": {
+        "en": "IPRD 2026 will convene experts from 18 countries in New Delhi from 3–5 November to discuss academic networks, maritime awareness, climate resilience, ocean governance and emerging technologies.",
+        "hi": "IPRD 2026 में 3–5 नवंबर को नई दिल्ली में 18 देशों के विशेषज्ञ अकादमिक नेटवर्क, समुद्री जागरूकता, जलवायु सहनशीलता, महासागर शासन और उभरती तकनीकों पर चर्चा करेंगे।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "The Indian Navy will hold its annual strategic dialogue in New Delhi from 3 to 5 November 2026.",
+            "hi": "भारतीय नौसेना 3 से 5 नवंबर 2026 तक नई दिल्ली में अपना वार्षिक रणनीतिक संवाद आयोजित करेगी।"
+          },
+          {
+            "en": "The National Maritime Foundation is the knowledge partner and principal organiser.",
+            "hi": "नेशनल मैरीटाइम फाउंडेशन ज्ञान साझेदार और प्रमुख आयोजक है।"
+          },
+          {
+            "en": "Five thematic sessions and participants from 18 countries will examine science, technology and academic cooperation.",
+            "hi": "पांच विषयगत सत्रों और 18 देशों के प्रतिभागियों के साथ विज्ञान, प्रौद्योगिकी और अकादमिक सहयोग पर विचार होगा।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Remember New Delhi, 3–5 November, 18 countries and the National Maritime Foundation partnership.",
+          "hi": "नई दिल्ली, 3–5 नवंबर, 18 देश और नेशनल मैरीटाइम फाउंडेशन की साझेदारी याद रखें।"
+        }
+      },
+      "sourceType": "Government press release",
+      "evidenceQuote": "Three-day conference in New Delhi from 03 to 05 Nov 2026 to bring together experts from 18 countries; deliberations to focus on academic networks, maritime science, ocean governance, climate resilience, and emerging technologies.",
+      "evidenceLocator": "Subheading and opening paragraph below the 23 OCT 2026 posting line",
+      "links": [
+        {
+          "label": "PIB — Ministry of Defence IPRD release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327189&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-iprd-01",
+          "question": {
+            "en": "Experts from how many countries are expected at IPRD 2026?",
+            "hi": "IPRD 2026 में कितने देशों के विशेषज्ञों के भाग लेने की अपेक्षा है?"
+          },
+          "options": [
+            {
+              "en": "12",
+              "hi": "12"
+            },
+            {
+              "en": "15",
+              "hi": "15"
+            },
+            {
+              "en": "18",
+              "hi": "18"
+            },
+            {
+              "en": "21",
+              "hi": "21"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "The official announcement says experts from 18 Indo-Pacific countries will contribute.",
+            "hi": "आधिकारिक घोषणा के अनुसार हिंद-प्रशांत के 18 देशों के विशेषज्ञ योगदान देंगे।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-iprd-02",
+          "question": {
+            "en": "Which body is the Indian Navy's knowledge partner for IPRD 2026?",
+            "hi": "IPRD 2026 के लिए भारतीय नौसेना का ज्ञान साझेदार कौन-सा निकाय है?"
+          },
+          "options": [
+            {
+              "en": "NITI Aayog",
+              "hi": "नीति आयोग"
+            },
+            {
+              "en": "National Maritime Foundation",
+              "hi": "नेशनल मैरीटाइम फाउंडेशन"
+            },
+            {
+              "en": "Indian Council of Agricultural Research",
+              "hi": "भारतीय कृषि अनुसंधान परिषद"
+            },
+            {
+              "en": "Centre for Development of Telematics",
+              "hi": "सेंटर फॉर डेवलपमेंट ऑफ टेलीमैटिक्स"
+            }
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "The National Maritime Foundation is identified as the Navy's knowledge partner and principal organiser.",
+            "hi": "नेशनल मैरीटाइम फाउंडेशन को नौसेना का ज्ञान साझेदार और प्रमुख आयोजक बताया गया है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-2026-10-23-naas-youth-award",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "Agriculture & Awards",
+        "hi": "कृषि और पुरस्कार"
+      },
+      "title": {
+        "en": "Indian student wins Global Youth Institute award at World Food Prize event",
+        "hi": "भारतीय छात्रा ने विश्व खाद्य पुरस्कार कार्यक्रम में ग्लोबल यूथ इंस्टीट्यूट पुरस्कार जीता"
+      },
+      "summary": {
+        "en": "Seven Indian high-school students presented food-security research at the Global Youth Institute in Iowa; Ameena Nazreen A S received a US$500 award, while NAAS and CAST signed a cooperation MoU.",
+        "hi": "सात भारतीय स्कूली विद्यार्थियों ने आयोवा के ग्लोबल यूथ इंस्टीट्यूट में खाद्य-सुरक्षा शोध प्रस्तुत किया; अमीना नाज़रीन ए एस को 500 अमेरिकी डॉलर का पुरस्कार मिला और NAAS व CAST ने सहयोग समझौता किया।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "Seven students selected through NAAS-YUVA presented global research papers on food-security challenges.",
+            "hi": "NAAS-YUVA से चुने गए सात विद्यार्थियों ने खाद्य-सुरक्षा चुनौतियों पर वैश्विक शोधपत्र प्रस्तुत किए।"
+          },
+          {
+            "en": "Ameena Nazreen A S won the Global Youth Institute award carrying a US$500 cash prize.",
+            "hi": "अमीना नाज़रीन ए एस ने 500 अमेरिकी डॉलर की नकद राशि वाला ग्लोबल यूथ इंस्टीट्यूट पुरस्कार जीता।"
+          },
+          {
+            "en": "NAAS and the US-based Council for Agricultural Science and Technology signed an MoU for research and knowledge exchange.",
+            "hi": "NAAS और अमेरिका स्थित काउंसिल फॉर एग्रीकल्चरल साइंस एंड टेक्नोलॉजी ने शोध व ज्ञान आदान-प्रदान के लिए समझौता किया।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Recall seven participants, the US$500 youth award and the NAAS–CAST partnership.",
+          "hi": "सात प्रतिभागी, 500 अमेरिकी डॉलर का युवा पुरस्कार और NAAS–CAST साझेदारी याद रखें।"
+        }
+      },
+      "sourceType": "Government press release",
+      "evidenceQuote": "Seven high school students from different parts of India, selected through the NAAS-YUVA selection drive, participated in the GYI programme ... Ms. Ameena Nazreen A S won GYI Award of US$500 cash prize.",
+      "evidenceLocator": "Third body paragraph below the 23 OCT 2026 posting line",
+      "links": [
+        {
+          "label": "PIB — Ministry of Agriculture NAAS release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327138&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-naas-01",
+          "question": {
+            "en": "How many Indian high-school students took part in the Global Youth Institute programme?",
+            "hi": "ग्लोबल यूथ इंस्टीट्यूट कार्यक्रम में कितने भारतीय स्कूली विद्यार्थियों ने भाग लिया?"
+          },
+          "options": [
+            {
+              "en": "Five",
+              "hi": "पांच"
+            },
+            {
+              "en": "Seven",
+              "hi": "सात"
+            },
+            {
+              "en": "Nine",
+              "hi": "नौ"
+            },
+            {
+              "en": "Twelve",
+              "hi": "बारह"
+            }
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "Seven students selected through the NAAS-YUVA drive presented research papers at the programme.",
+            "hi": "NAAS-YUVA अभियान से चुने गए सात विद्यार्थियों ने कार्यक्रम में शोधपत्र प्रस्तुत किए।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-naas-02",
+          "question": {
+            "en": "What cash prize accompanied the Global Youth Institute award won by the Indian student?",
+            "hi": "भारतीय छात्रा द्वारा जीते गए ग्लोबल यूथ इंस्टीट्यूट पुरस्कार के साथ कितनी नकद राशि थी?"
+          },
+          "options": [
+            {
+              "en": "US$250",
+              "hi": "250 अमेरिकी डॉलर"
+            },
+            {
+              "en": "US$500",
+              "hi": "500 अमेरिकी डॉलर"
+            },
+            {
+              "en": "US$750",
+              "hi": "750 अमेरिकी डॉलर"
+            },
+            {
+              "en": "US$1,000",
+              "hi": "1,000 अमेरिकी डॉलर"
+            }
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "PIB reports that Ameena Nazreen A S received the GYI award with a US$500 cash prize.",
+            "hi": "PIB के अनुसार अमीना नाज़रीन ए एस को 500 अमेरिकी डॉलर की नकद राशि वाला GYI पुरस्कार मिला।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-2026-10-23-agrivoltaics",
+      "publicationDate": "2026-10-23",
+      "verifiedAt": "2026-10-23",
+      "category": {
+        "en": "Environment & Agriculture",
+        "hi": "पर्यावरण और कृषि"
+      },
+      "title": {
+        "en": "Agrivoltaics combines farming and solar generation on the same land",
+        "hi": "एग्रीवोल्टाइक्स एक ही भूमि पर खेती और सौर ऊर्जा उत्पादन को जोड़ता है"
+      },
+      "summary": {
+        "en": "A PIB backgrounder explains how elevated or inter-row solar panels can support continued cultivation, reduce moisture loss in suitable settings and diversify farm income through electricity generation.",
+        "hi": "PIB पृष्ठभूमि लेख बताता है कि ऊंचे या फसल-पंक्तियों के बीच लगे सौर पैनल खेती जारी रखने, उपयुक्त परिस्थितियों में नमी की हानि घटाने और बिजली उत्पादन से कृषि आय में विविधता लाने में मदद कर सकते हैं।"
+      },
+      "analysis": {
+        "readTimeMinutes": 1,
+        "keyPoints": [
+          {
+            "en": "Agrivoltaics—also called agrisolar or dual-use solar—uses the same land for crops and solar electricity.",
+            "hi": "एग्रीवोल्टाइक्स—जिसे एग्रीसोलर या द्वि-उपयोग सौर भी कहते हैं—एक ही भूमि पर फसल और सौर बिजली उत्पादन करता है।"
+          },
+          {
+            "en": "Panels may be elevated or placed between crop rows, allowing farming to continue while producing power.",
+            "hi": "पैनल ऊंचाई पर या फसल की पंक्तियों के बीच लगाए जा सकते हैं, जिससे बिजली उत्पादन के साथ खेती जारी रहती है।"
+          },
+          {
+            "en": "As of August 2025, India had 36 operational projects with 37.54 MW capacity and 10 pilots under development.",
+            "hi": "अगस्त 2025 तक भारत में 37.54 मेगावाट क्षमता वाली 36 चालू परियोजनाएं और विकासाधीन 10 पायलट थे।"
+          }
+        ],
+        "whatToRemember": {
+          "en": "Remember the dual use of land and the August 2025 baseline of 36 operational projects.",
+          "hi": "भूमि के दोहरे उपयोग और अगस्त 2025 की 36 चालू परियोजनाओं की आधार संख्या को याद रखें।"
+        }
+      },
+      "sourceType": "Government backgrounder",
+      "evidenceQuote": "Agrivoltaics takes this integration further by bringing together crop cultivation and solar electricity generation on the same land.",
+      "evidenceLocator": "Introductory section and 'Agrivoltaics Development in India' section",
+      "links": [
+        {
+          "label": "PIB Backgrounder — Agri-Voltaics",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2327125&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "ca-2026-10-23-agrivoltaics-01",
+          "question": {
+            "en": "Which description best matches an agrivoltaic system?",
+            "hi": "कौन-सा वर्णन एग्रीवोल्टाइक प्रणाली से सबसे अच्छी तरह मेल खाता है?"
+          },
+          "options": [
+            {
+              "en": "Crops and solar power share land",
+              "hi": "फसल और सौर ऊर्जा एक भूमि साझा करते हैं"
+            },
+            {
+              "en": "Wind turbines replace crop fields",
+              "hi": "पवन टर्बाइन फसल के खेतों को बदलते हैं"
+            },
+            {
+              "en": "Biomass plants end farm activity",
+              "hi": "बायोमास संयंत्र खेती समाप्त करते हैं"
+            },
+            {
+              "en": "Urban roofs support factory panels",
+              "hi": "शहरी छतों पर कारखाने के पैनल लगते हैं"
+            }
+          ],
+          "correctIndex": 0,
+          "explanation": {
+            "en": "Agrivoltaics combines crop cultivation with solar electricity generation on the same land.",
+            "hi": "एग्रीवोल्टाइक्स एक ही भूमि पर फसल की खेती और सौर बिजली उत्पादन को जोड़ता है।"
+          }
+        },
+        {
+          "id": "ca-2026-10-23-agrivoltaics-02",
+          "question": {
+            "en": "How many operational agrivoltaics projects did India have as of August 2025?",
+            "hi": "अगस्त 2025 तक भारत में कितनी चालू एग्रीवोल्टाइक परियोजनाएं थीं?"
+          },
+          "options": [
+            {
+              "en": "24",
+              "hi": "24"
+            },
+            {
+              "en": "30",
+              "hi": "30"
+            },
+            {
+              "en": "36",
+              "hi": "36"
+            },
+            {
+              "en": "42",
+              "hi": "42"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "The backgrounder records 36 operational projects with 37.54 MW installed capacity as of August 2025.",
+            "hi": "पृष्ठभूमि लेख में अगस्त 2025 तक 37.54 मेगावाट क्षमता वाली 36 चालू परियोजनाएं दर्ज हैं।"
           }
         }
       ]
