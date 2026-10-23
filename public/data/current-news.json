@@ -1,0 +1,271 @@
+{
+  "version": "1.1.0",
+  "builtAt": "2026-10-23T00:00:00+05:30",
+  "policy": "Current Live contains general current affairs, not recruitment or result updates. Only records whose publication date and claim were directly checked against the linked publisher are included. Every MCQ must be answered by the displayed news record and retained evidence. A date without an included record must render the exact empty-state message: No verified news found.",
+  "items": [
+    {
+      "id": "NEWS-2026-10-22-INDIA-POLAND-TRADE",
+      "publicationDate": "2026-10-22",
+      "verifiedAt": "2026-10-23",
+      "publisher": "Press Information Bureau, Prime Minister's Office",
+      "category": {
+        "en": "International Relations",
+        "hi": "अंतरराष्ट्रीय संबंध"
+      },
+      "title": {
+        "en": "India and Poland set a goal to double bilateral trade by 2030",
+        "hi": "भारत और पोलैंड ने 2030 तक द्विपक्षीय व्यापार दोगुना करने का लक्ष्य रखा"
+      },
+      "summary": {
+        "en": "The 22 October joint statement set a target to double bilateral trade by 2030 and recorded plans for closer cooperation in artificial intelligence, semiconductors and quantum technologies.",
+        "hi": "22 अक्टूबर के संयुक्त वक्तव्य में 2030 तक द्विपक्षीय व्यापार दोगुना करने तथा कृत्रिम बुद्धिमत्ता, सेमीकंडक्टर और क्वांटम प्रौद्योगिकियों में सहयोग बढ़ाने का लक्ष्य दर्ज किया गया।"
+      },
+      "links": [
+        {
+          "label": "Official PIB India–Poland joint statement",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2326568&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "NEWSQ-2026-10-22-POLAND-01",
+          "question": {
+            "en": "What bilateral trade goal did India and Poland set in their joint statement?",
+            "hi": "भारत और पोलैंड ने अपने संयुक्त वक्तव्य में द्विपक्षीय व्यापार के लिए क्या लक्ष्य रखा?"
+          },
+          "options": [
+            {
+              "en": "Raise it by 25% by 2028",
+              "hi": "2028 तक 25% बढ़ाना"
+            },
+            {
+              "en": "Double it by 2030",
+              "hi": "2030 तक दोगुना करना"
+            },
+            {
+              "en": "Triple it by 2032",
+              "hi": "2032 तक तीन गुना करना"
+            },
+            {
+              "en": "Keep it unchanged until 2035",
+              "hi": "2035 तक इसे अपरिवर्तित रखना"
+            }
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "The joint statement says the leaders set a target of doubling bilateral trade by 2030.",
+            "hi": "संयुक्त वक्तव्य के अनुसार नेताओं ने 2030 तक द्विपक्षीय व्यापार दोगुना करने का लक्ष्य रखा।"
+          }
+        },
+        {
+          "id": "NEWSQ-2026-10-22-POLAND-02",
+          "question": {
+            "en": "In which year was the India–Poland relationship elevated to a Strategic Partnership?",
+            "hi": "भारत–पोलैंड संबंध को किस वर्ष रणनीतिक साझेदारी का दर्जा दिया गया था?"
+          },
+          "options": [
+            {
+              "en": "2022",
+              "hi": "2022"
+            },
+            {
+              "en": "2023",
+              "hi": "2023"
+            },
+            {
+              "en": "2024",
+              "hi": "2024"
+            },
+            {
+              "en": "2025",
+              "hi": "2025"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "The statement recalls that the relationship was elevated to a Strategic Partnership during the Indian Prime Minister's visit to Poland in August 2024.",
+            "hi": "वक्तव्य में दर्ज है कि अगस्त 2024 में भारतीय प्रधानमंत्री की पोलैंड यात्रा के दौरान संबंध को रणनीतिक साझेदारी का दर्जा दिया गया था।"
+          }
+        }
+      ],
+      "evidenceQuote": "The Prime Ministers recalled Prime Minister Modi’s landmark visit to Poland in August 2024, when the bilateral relationship was elevated to a Strategic Partnership and the India-Poland Action Plan for 2024-2028 was adopted. The Leaders set the target of doubling bilateral trade by 2030.",
+      "evidenceLocator": "Official PIB joint statement, Strategic Partnership and Trade, Economic Cooperation and Investment sections"
+    },
+    {
+      "id": "NEWS-2026-10-20-DEEPTHI-JEEVANJI-GOLD",
+      "publicationDate": "2026-10-20",
+      "verifiedAt": "2026-10-23",
+      "publisher": "Press Information Bureau, Prime Minister's Office",
+      "category": {
+        "en": "Sports",
+        "hi": "खेल"
+      },
+      "title": {
+        "en": "Deepthi Jeevanji defended her Asian Para Games title with gold",
+        "hi": "दीप्ति जीवनजी ने स्वर्ण के साथ अपना एशियाई पैरा खेल खिताब बरकरार रखा"
+      },
+      "summary": {
+        "en": "Deepthi Jeevanji won the Women's 400m T20 gold at the Asian Para Games, defended her title and set a Games Record.",
+        "hi": "दीप्ति जीवनजी ने एशियाई पैरा खेलों में महिला 400 मीटर T20 का स्वर्ण जीता, अपना खिताब बचाया और खेल रिकॉर्ड बनाया।"
+      },
+      "links": [
+        {
+          "label": "Official PIB sports release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2325496&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "NEWSQ-2026-10-20-DEEPTHI-01",
+          "question": {
+            "en": "In which event did Deepthi Jeevanji win gold at the Asian Para Games?",
+            "hi": "दीप्ति जीवनजी ने एशियाई पैरा खेलों में किस स्पर्धा में स्वर्ण पदक जीता?"
+          },
+          "options": [
+            {
+              "en": "Women's 100m T20",
+              "hi": "महिला 100 मीटर T20"
+            },
+            {
+              "en": "Women's 200m T20",
+              "hi": "महिला 200 मीटर T20"
+            },
+            {
+              "en": "Women's 400m T20",
+              "hi": "महिला 400 मीटर T20"
+            },
+            {
+              "en": "Women's 800m T20",
+              "hi": "महिला 800 मीटर T20"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "The PIB release identifies her gold-medal event as the Women's 400m T20.",
+            "hi": "पीआईबी विज्ञप्ति में उनकी स्वर्ण पदक स्पर्धा महिला 400 मीटर T20 बताई गई है।"
+          }
+        },
+        {
+          "id": "NEWSQ-2026-10-20-DEEPTHI-02",
+          "question": {
+            "en": "What additional achievement accompanied Deepthi Jeevanji's gold medal?",
+            "hi": "दीप्ति जीवनजी के स्वर्ण पदक के साथ कौन-सी अतिरिक्त उपलब्धि जुड़ी थी?"
+          },
+          "options": [
+            {
+              "en": "A national record in her debut appearance",
+              "hi": "अपनी पहली भागीदारी में राष्ट्रीय रिकॉर्ड"
+            },
+            {
+              "en": "A relay record achieved with teammates",
+              "hi": "साथी खिलाड़ियों के साथ बनाया गया रिले रिकॉर्ड"
+            },
+            {
+              "en": "A Games Record while defending her title",
+              "hi": "खिताब बचाते हुए बनाया गया खेल रिकॉर्ड"
+            },
+            {
+              "en": "A qualification mark in another event",
+              "hi": "दूसरी स्पर्धा में हासिल किया गया क्वालिफिकेशन अंक"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "She defended her title and improved her performance with a Games Record.",
+            "hi": "उन्होंने अपना खिताब बरकरार रखते हुए खेल रिकॉर्ड के साथ प्रदर्शन में सुधार किया।"
+          }
+        }
+      ],
+      "evidenceQuote": "Deepthi Jeevanji has once again won Gold in the Women's 400m T20 at the Asian Para Games, defending her title with a phenomenal Games Record.",
+      "evidenceLocator": "Official PIB release, opening paragraph and quoted Prime Minister's Office post"
+    },
+    {
+      "id": "NEWS-2026-10-15-RAMSAR-103",
+      "publicationDate": "2026-10-15",
+      "verifiedAt": "2026-10-23",
+      "publisher": "Press Information Bureau, Ministry of Environment, Forest and Climate Change",
+      "category": {
+        "en": "Environment",
+        "hi": "पर्यावरण"
+      },
+      "title": {
+        "en": "India's Ramsar Site tally reached 103 with two new additions",
+        "hi": "दो नए स्थलों के जुड़ने से भारत के रामसर स्थलों की संख्या 103 हुई"
+      },
+      "summary": {
+        "en": "Sukhna Wetland in Chandigarh and Sauj Jheel in Uttar Pradesh were designated as Ramsar Sites, taking India's total to 103.",
+        "hi": "चंडीगढ़ के सुखना वेटलैंड और उत्तर प्रदेश की सौज झील को रामसर स्थल घोषित किए जाने से भारत की कुल संख्या 103 हो गई।"
+      },
+      "links": [
+        {
+          "label": "Official PIB environment release",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2324120&reg=3&lang=1"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "NEWSQ-2026-10-15-RAMSAR-01",
+          "question": {
+            "en": "What total number of Ramsar Sites did India reach after the two additions?",
+            "hi": "दो नए स्थलों के जुड़ने के बाद भारत में रामसर स्थलों की कुल संख्या कितनी हुई?"
+          },
+          "options": [
+            {
+              "en": "99",
+              "hi": "99"
+            },
+            {
+              "en": "101",
+              "hi": "101"
+            },
+            {
+              "en": "103",
+              "hi": "103"
+            },
+            {
+              "en": "105",
+              "hi": "105"
+            }
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "The official release says the additions raised India's Ramsar Site tally to 103.",
+            "hi": "आधिकारिक विज्ञप्ति के अनुसार नए स्थलों के जुड़ने से भारत के रामसर स्थलों की संख्या 103 हुई।"
+          }
+        },
+        {
+          "id": "NEWSQ-2026-10-15-RAMSAR-02",
+          "question": {
+            "en": "Which two wetlands were the latest additions to India's Ramsar list?",
+            "hi": "भारत की रामसर सूची में नवीनतम जोड़े गए दो आर्द्रभूमि स्थल कौन-से थे?"
+          },
+          "options": [
+            {
+              "en": "Loktak Lake and Chilika Lake",
+              "hi": "लोकटक झील और चिलिका झील"
+            },
+            {
+              "en": "Sukhna Wetland and Sauj Jheel",
+              "hi": "सुखना वेटलैंड और सौज झील"
+            },
+            {
+              "en": "Wular Lake and Sambhar Lake",
+              "hi": "वुलर झील और सांभर झील"
+            },
+            {
+              "en": "Deepor Beel and Ashtamudi Lake",
+              "hi": "दीपोर बील और अष्टमुडी झील"
+            }
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "The two additions were Sukhna Wetland in Chandigarh and Sauj Jheel in Uttar Pradesh.",
+            "hi": "दो नए स्थल चंडीगढ़ का सुखना वेटलैंड और उत्तर प्रदेश की सौज झील थे।"
+          }
+        }
+      ],
+      "evidenceQuote": "India’s Ramsar site tally has reached 103, with the designation of Sukhna Wetland in Chandigarh and Sauj Jheel in Uttar Pradesh as the latest additions to the list.",
+      "evidenceLocator": "Official PIB release, opening paragraph"
+    }
+  ]
+}

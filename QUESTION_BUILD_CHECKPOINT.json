@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-23T00:00:00+05:30",
+  "status": "IN_PROGRESS_SOURCE_REVIEW_REQUIRED",
+  "policy": "Only source-backed, bilingual, four-option questions that pass review may be applied. The runner saves after each small batch and resumes idempotently from its ledger.",
+  "targetPerTopic": 40,
+  "targetTotal": 13800,
+  "currentQuestions": 1725,
+  "preservedBaselineQuestions": 1725,
+  "shortfall": 12075,
+  "completeTopics": 0,
+  "topicsBelowTarget": 345,
+  "questionsWithDirectSources": 0,
+  "questionsWithoutDirectSources": 1725,
+  "factCardsWithoutResolvableSources": 53,
+  "invalidConceptMappings": 28,
+  "changedReviewLabels": [],
+  "batchSize": 25,
+  "batchLedger": "content/checkpoints/question-batches.json",
+  "nextTopics": [
+    {
+      "topicId": "S01-C8994e811-T60e40ec2",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Geographical Coordinates, Latitudinal & Longitudinal Extent of India",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C8994e811-T3e34ee56",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Indian Standard Time (IST) & 82°30' E Meridian",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C8994e811-T08108e0a",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Geographical Extremities: Indira Col, Indira Point, Kibithu & Ghuar Moti",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C8994e811-T2831b63d",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Tropic of Cancer in India: States & Alignment",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C8994e811-Te3d2bcad",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Coastal Boundaries, Island Territories & Maritime Zones",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-Cac567568-T4bd530b2",
+      "subjectId": "S01",
+      "chapterId": "S01-Cac567568",
+      "title": "Himalayan Mountain System: Trans, Greater, Lesser Himalayas & Shiwaliks",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-Cac567568-T0c81bfa6",
+      "subjectId": "S01",
+      "chapterId": "S01-Cac567568",
+      "title": "Major Himalayan Mountain Passes: Strategic & Geographical Routes",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-Cac567568-Td6b3a21e",
+      "subjectId": "S01",
+      "chapterId": "S01-Cac567568",
+      "title": "Peninsular Plateau, Western Ghats & Eastern Ghats",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-Cac567568-T1926c9af",
+      "subjectId": "S01",
+      "chapterId": "S01-Cac567568",
+      "title": "Indus River Basin & Tributaries (Panchnad)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C4d19bee9-Tc78825d7",
+      "subjectId": "S01",
+      "chapterId": "S01-C4d19bee9",
+      "title": "Ganga-Brahmaputra River System & Water Divides",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C4d19bee9-T35a8071f",
+      "subjectId": "S01",
+      "chapterId": "S01-C4d19bee9",
+      "title": "Peninsular River Systems: Godavari, Krishna & Cauvery",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C4d19bee9-T3359b180",
+      "subjectId": "S01",
+      "chapterId": "S01-C4d19bee9",
+      "title": "West Flowing Rivers: Narmada, Tapti & Rift Valley Drainage",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C4d19bee9-T0132a4d2",
+      "subjectId": "S01",
+      "chapterId": "S01-C4d19bee9",
+      "title": "Indian Climate, Monsoons & Western Disturbances",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cda5068db-Tf0293276",
+      "subjectId": "S02",
+      "chapterId": "S02-Cda5068db",
+      "title": "PM Gati Shakti National Master Plan & Multimodal Connectivity",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cda5068db-T32608e97",
+      "subjectId": "S02",
+      "chapterId": "S02-Cda5068db",
+      "title": "G20 New Delhi Leaders' Declaration & African Union Induction",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cda5068db-Tb44b8624",
+      "subjectId": "S02",
+      "chapterId": "S02-Cda5068db",
+      "title": "Chandrayaan-3 Mission: Lunar South Pole Soft Landing & Pragyan Rover",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cd08481ed-Tacff6a2e",
+      "subjectId": "S02",
+      "chapterId": "S02-Cd08481ed",
+      "title": "India-Middle East-Europe Economic Corridor (IMEC)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cd08481ed-T84b59d27",
+      "subjectId": "S02",
+      "chapterId": "S02-Cd08481ed",
+      "title": "Quad Leaders' Summit & Indo-Pacific Maritime Domain Awareness (IPMDA)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cd08481ed-T7c794ec0",
+      "subjectId": "S02",
+      "chapterId": "S02-Cd08481ed",
+      "title": "COP28 Climate Summit: Loss and Damage Fund & Global Stocktake",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T29719707",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "Aditya-L1 Solar Observatory Mission & Sun-Earth Lagrange Point 1",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T02046d38",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "INS Vikrant & Indigenous Aircraft Carrier Capabilities",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T5c89c160",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "Digital Public Infrastructure: UPI Global Expansion & ONDC",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T125d28b6",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "National Quantum Mission & Quantum Technologies",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T1fbcc754",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "Deep Ocean Mission & Matsya 6000 Submersible",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-Cf57dd5c3-T80b6a594",
+      "subjectId": "S03",
+      "chapterId": "S03-Cf57dd5c3",
+      "title": "Prehistoric Rock Art & Paleolithic to Neolithic Sites (Bhimbetka, Burzahom)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    }
+  ],
+  "hashes": {
+    "starter": "74af9ae12dcd2ba11996d3304f5ef4eabb7041086309e6e7396912e32787e8f4",
+    "catalog": "0f3284c142fcb6e0537986dc3bd027d7cfd14f603d93a896653d595e59380155",
+    "exams": "3c6e432fdec389e3253b5beb7e4aed9db9fbaa13d250210a52f20c1aa91a3ad5",
+    "currentNews": "cadb143bab6644bd4209604e6ab31c1c46a7957ce60cdc1cf85c67d0fbf9f58f"
+  }
+}

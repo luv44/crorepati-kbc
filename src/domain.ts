@@ -2,7 +2,7 @@ import type { ConceptProgress, LearningState, Question, SessionResult } from './
 
 export const DAY = 86_400_000;
 export const initialState = (): LearningState => ({
-  profile: { name: 'Learner', interests: [], exam: 'General knowledge', language: 'en', onboarded: false, dailyGoal: 10 },
+  profile: { name: 'Learner', interests: [], exam: 'general-knowledge', language: 'en', onboarded: false, dailyGoal: 10 },
   attempts: [], progress: {}, bookmarks: [], wrongIds: [], results: [], videoEvents: [],
 });
 

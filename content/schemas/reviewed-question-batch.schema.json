@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crorepati.local/schema/reviewed-question-batch.schema.json",
+  "title": "Reviewed source-backed question batch",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["batchId", "reviewedBy", "reviewedAt", "sources", "factCards", "questions"],
+  "properties": {
+    "batchId": { "type": "string", "minLength": 1 },
+    "reviewedBy": { "type": "string", "minLength": 1 },
+    "reviewedAt": { "type": "string", "format": "date-time" },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "factCards": { "type": "array", "items": { "$ref": "#/$defs/factCard" } },
+    "questions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/question" } }
+  },
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "required": ["en", "hi"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "hi": { "type": "string", "minLength": 1 },
+        "hinglish": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "url", "publisher", "retrievedAt", "license"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "publisher": { "type": "string", "minLength": 1 },
+        "retrievedAt": { "type": "string", "format": "date-time" },
+        "license": { "type": "string", "minLength": 1 }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "quote", "locator"],
+      "properties": {
+        "sourceId": { "type": "string", "minLength": 1 },
+        "quote": { "type": "string", "minLength": 20 },
+        "locator": { "type": "string", "minLength": 1 }
+      }
+    },
+    "factCard": {
+      "type": "object",
+      "required": ["id", "topicId", "canonicalStatement", "canonicalStatementHindi", "conceptIds", "sourceIds", "evidence", "verifiedAt", "lifecycle", "validUntil"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "topicId": { "type": "string", "minLength": 1 },
+        "canonicalStatement": { "type": "string", "minLength": 1 },
+        "canonicalStatementHindi": { "type": "string", "minLength": 1 },
+        "conceptIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "sourceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/evidence" } },
+        "verifiedAt": { "type": "string", "format": "date-time" },
+        "lifecycle": { "const": "VERIFIED" },
+        "validUntil": { "type": ["string", "null"], "format": "date-time" }
+      },
+      "additionalProperties": true
+    },
+    "pyqProvenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["exam", "stage", "year", "paper", "questionNumber", "officialPaperSourceId", "officialAnswerKeySourceId"],
+      "properties": {
+        "exam": { "type": "string", "minLength": 1 },
+        "stage": { "type": "string", "minLength": 1 },
+        "year": { "type": "integer", "minimum": 1900 },
+        "paper": { "type": "string", "minLength": 1 },
+        "questionNumber": { "type": "string", "minLength": 1 },
+        "officialPaperSourceId": { "type": "string", "minLength": 1 },
+        "officialAnswerKeySourceId": { "type": "string", "minLength": 1 }
+      }
+    },
+    "question": {
+      "type": "object",
+      "required": ["id", "subjectId", "chapterId", "topicId", "conceptIds", "question", "options", "correctIndex", "difficulty", "angle", "explanation", "detailedExplanation", "wrongReasons", "memoryCue", "factCardIds", "sourceIds", "fingerprint", "lifecycle", "qualityScore", "dynamic", "validUntil", "verifiedAt", "kind"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "subjectId": { "type": "string", "minLength": 1 },
+        "chapterId": { "type": "string", "minLength": 1 },
+        "topicId": { "type": "string", "minLength": 1 },
+        "conceptIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "question": { "$ref": "#/$defs/localized" },
+        "options": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "$ref": "#/$defs/localized" } },
+        "correctIndex": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "difficulty": { "enum": ["EASY", "MEDIUM", "HARD", "EXPERT"] },
+        "angle": { "type": "string", "minLength": 1 },
+        "explanation": { "$ref": "#/$defs/localized" },
+        "detailedExplanation": { "$ref": "#/$defs/localized" },
+        "wrongReasons": { "type": "array", "minItems": 3, "maxItems": 4, "items": { "$ref": "#/$defs/localized" } },
+        "memoryCue": { "$ref": "#/$defs/localized" },
+        "factCardIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "sourceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "fingerprint": { "type": "string", "minLength": 1 },
+        "lifecycle": { "const": "VERIFIED" },
+        "qualityScore": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "dynamic": { "type": "boolean" },
+        "validUntil": { "type": ["string", "null"], "format": "date-time" },
+        "validFrom": { "type": ["string", "null"], "format": "date-time" },
+        "verifiedAt": { "type": "string", "format": "date-time" },
+        "kind": { "type": "string", "minLength": 1 },
+        "pyqProvenance": { "$ref": "#/$defs/pyqProvenance" }
+      },
+      "additionalProperties": true
+    }
+  }
+}

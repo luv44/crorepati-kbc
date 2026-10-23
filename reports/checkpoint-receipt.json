@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "savedAt": "2026-10-23T09:17:07.581Z",
+  "digest": "a4a6759cb589e3ca5db92a3061b5e013ea503db3a836539def0eb3c4417824df",
+  "status": "IN_PROGRESS_SOURCE_REVIEW_REQUIRED",
+  "currentQuestions": 1725,
+  "targetTotal": 13800,
+  "exactShortfall": 12075,
+  "topicsBelowTarget": 345,
+  "examMappingsValid": true,
+  "currentNewsRecords": 3,
+  "currentNewsMcqs": 6,
+  "questionsWithoutDirectSources": 1725,
+  "factCardsWithoutResolvableSources": 53,
+  "invalidConceptMappings": 28,
+  "reviewLabelChanges": 0,
+  "resumeFrom": "QUESTION_BUILD_CHECKPOINT.json and content/checkpoints/question-batches.json"
+}

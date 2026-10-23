@@ -8,3 +8,7 @@ playwright-report/
 deliverables/
 .firebase/
 media/raw/
+*.next
+*.tmp
+*.tmp-*
+content/checkpoints/question-batch-transaction.json

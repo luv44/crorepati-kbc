@@ -9,6 +9,7 @@ export interface Question {
   memoryCue: Localized; factCardIds: string[]; sourceIds: string[];
   fingerprint: string; lifecycle: string; qualityScore: number;
   dynamic: boolean; validUntil: string | null; validFrom?: string | null; verifiedAt?: string; kind: string;
+  pyqProvenance?: { exam: string; stage: string; year: number; paper: string; questionNumber: string; officialPaperSourceId: string; officialAnswerKeySourceId: string };
 }
 export interface FactCard {
   id: string; topicId: string; canonicalStatement: string; canonicalStatementHindi: string;
@@ -18,7 +19,7 @@ export interface FactCard {
 export interface Source { id: string; title: string; url: string; publisher: string; retrievedAt: string; license: string }
 export interface Topic {
   id: string; title: string; titleHindi?: string; subjectId: string; chapterId: string;
-  concepts: { id: string; title: string }[]; questionCount: number; factCardIds: string[];
+  concepts: { id: string; title: string; titleHindi?: string }[]; questionCount: number; factCardIds: string[];
   videoLessonId: string; videoStatus: string; visualType: string;
 }
 export interface Chapter { id: string; title: string; titleHindi?: string; topics: Topic[] }
@@ -26,6 +27,19 @@ export interface Subject { id: string; title: string; shortTitle: string; titleH
 export interface PackMeta { id: string; title: string; subjectId: string; chapterId?: string; url: string; sha256: string; size: number; questionCount: number; version: string }
 export interface Pack { id: string; questions: Question[]; factCards: FactCard[]; sources: Source[] }
 export interface Catalog { version: string; subjects: Subject[]; packs: PackMeta[]; counts: { questions: number; factCards: number; topics: number; videos: number }; builtAt: string }
+export interface ExamDefinition {
+  id: string; name: string; nameHindi: string; group: string; legacy: boolean;
+  officialUrl: string | null; coverageNote: string; subjectIds: string[];
+}
+export interface ExamCatalog { version: string; verifiedAt: string; mappingPolicy: string; exams: ExamDefinition[] }
+export interface CurrentNewsMcq {
+  id: string; question: Localized; options: Localized[]; correctIndex: number; explanation: Localized;
+}
+export interface CurrentNewsItem {
+  id: string; publicationDate: string; verifiedAt: string; publisher: string;
+  category: Localized; title: Localized; summary: Localized; evidenceQuote: string; evidenceLocator: string; links: { label: string; url: string }[]; mcqs: CurrentNewsMcq[];
+}
+export interface CurrentNewsFeed { version: string; builtAt: string; policy: string; items: CurrentNewsItem[] }
 export interface ConceptProgress { attempts: number; correct: number; consecutiveCorrect: number; consecutiveWrong: number; errors: number; lastSeen: number; due: number; intervalDays: number; confidence: number; state: ConceptState }
 export interface Attempt { id: string; questionId: string; topicId: string; subjectId: string; correct: boolean; selected: number; at: number; elapsedMs: number; confidence: number; mode: string }
 export interface SessionResult { id: string; mode: string; at: number; questionIds: string[]; answers: Record<string, number>; correct: number; total: number; score: number; elapsedMs: number; negativeMark: number }

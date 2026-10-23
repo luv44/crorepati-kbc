@@ -1,0 +1,3736 @@
+{
+  "generatedAt": "2026-10-23T00:00:00+05:30",
+  "targetPerTopic": 40,
+  "subjects": 26,
+  "topics": 345,
+  "questions": 1725,
+  "targetTotal": 13800,
+  "shortfall": 12075,
+  "completeTopics": 0,
+  "topicsBelowTarget": 345,
+  "questionsWithDirectSources": 0,
+  "questionsWithoutDirectSources": 1725,
+  "factCardsWithoutResolvableSources": 53,
+  "invalidConceptMappings": 28,
+  "invalidConceptMappingIds": [
+    "Q_S04-C511c1907-T919a3be3_4",
+    "Q_S04-C511c1907-Te5f7cc87_4",
+    "Q_S07-C81cde124-T0b22f40b_4",
+    "Q_S08-C062cef1d-T78496f25_4",
+    "Q_S12-C60e112b2-Tae0c7200_4",
+    "Q_S14-C268685b0-Tfad3ec7f_4",
+    "Q_S15-Cc19ffbe1-Tfb10e1e8_4",
+    "Q_S15-C8922c19d-T392007b1_4",
+    "Q_S16-C865f07fa-Teba15d08_4",
+    "Q_S17-C47d03ca3-T28de89d3_4",
+    "Q_S17-C47d03ca3-T3fa11251_3",
+    "Q_S17-C47d03ca3-T3fa11251_4",
+    "Q_S18-C19aab9fd-T9f78a6f5_3",
+    "Q_S18-C19aab9fd-T9f78a6f5_4",
+    "Q_S18-C19aab9fd-T8633e350_4",
+    "Q_S19-C03e5a72a-T68a81807_4",
+    "Q_S19-C03e5a72a-T15cba103_4",
+    "Q_S19-Cb1b9a7ce-T47c7f241_4",
+    "Q_S22-C8e2684ea-T5cdda78c_4",
+    "Q_S24-Cf8311828-Td5a6a224_4",
+    "Q_S24-Cf8311828-T33677d09_4",
+    "Q_S24-Cff6d924e-Tf273e9e9_3",
+    "Q_S24-Cff6d924e-Tf273e9e9_4",
+    "Q_S24-Cff6d924e-T9d289bc5_4",
+    "Q_S25-Cebd32d28-T9a1f2a00_4",
+    "Q_S25-Cebd32d28-T434b2816_4",
+    "Q_S26-C2d838fe4-T74ac4255_4",
+    "Q_S26-Ce9261bae-T01fa0e46_4"
+  ],
+  "duplicateQuestionIds": 0,
+  "preservedBaselineQuestions": 1725,
+  "changedReviewLabels": [],
+  "bySubject": [
+    {
+      "subjectId": "S01",
+      "title": "India Basics & Physical Geography",
+      "topics": 13,
+      "questions": 65,
+      "target": 520,
+      "shortfall": 455,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S02",
+      "title": "Current Affairs & Contemporary Events",
+      "topics": 11,
+      "questions": 55,
+      "target": 440,
+      "shortfall": 385,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S03",
+      "title": "Ancient Indian History & Archaeology",
+      "topics": 30,
+      "questions": 150,
+      "target": 1200,
+      "shortfall": 1050,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S04",
+      "title": "Medieval & Modern Indian History",
+      "topics": 32,
+      "questions": 160,
+      "target": 1280,
+      "shortfall": 1120,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S05",
+      "title": "Indian Polity & Constitutional Framework",
+      "topics": 17,
+      "questions": 85,
+      "target": 680,
+      "shortfall": 595,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S06",
+      "title": "Governance, Panchayati Raj & Administration",
+      "topics": 17,
+      "questions": 85,
+      "target": 680,
+      "shortfall": 595,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S07",
+      "title": "Indian Economy, Banking & Public Finance",
+      "topics": 16,
+      "questions": 80,
+      "target": 640,
+      "shortfall": 560,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S08",
+      "title": "World Geography & Physical Landforms",
+      "topics": 18,
+      "questions": 90,
+      "target": 720,
+      "shortfall": 630,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S09",
+      "title": "Environment, Ecology & Biodiversity",
+      "topics": 13,
+      "questions": 65,
+      "target": 520,
+      "shortfall": 455,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S10",
+      "title": "General Science: Physics",
+      "topics": 14,
+      "questions": 70,
+      "target": 560,
+      "shortfall": 490,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S11",
+      "title": "General Science: Chemistry",
+      "topics": 10,
+      "questions": 50,
+      "target": 400,
+      "shortfall": 350,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S12",
+      "title": "Biology & Human Physiology",
+      "topics": 24,
+      "questions": 120,
+      "target": 960,
+      "shortfall": 840,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S13",
+      "title": "Information Technology & Computer Science",
+      "topics": 10,
+      "questions": 50,
+      "target": 400,
+      "shortfall": 350,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S14",
+      "title": "Space Science, Astronomy & ISRO Missions",
+      "topics": 7,
+      "questions": 35,
+      "target": 280,
+      "shortfall": 245,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S15",
+      "title": "World History & Major Revolutions",
+      "topics": 9,
+      "questions": 45,
+      "target": 360,
+      "shortfall": 315,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S16",
+      "title": "International Organizations & Treaties",
+      "topics": 9,
+      "questions": 45,
+      "target": 360,
+      "shortfall": 315,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S17",
+      "title": "Indian Art, Architecture & Heritage",
+      "topics": 8,
+      "questions": 40,
+      "target": 320,
+      "shortfall": 280,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S18",
+      "title": "World & Indian Literature",
+      "topics": 9,
+      "questions": 45,
+      "target": 360,
+      "shortfall": 315,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S19",
+      "title": "Sports, Games & International Championships",
+      "topics": 15,
+      "questions": 75,
+      "target": 600,
+      "shortfall": 525,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S20",
+      "title": "Cinema, Theatre & Performing Arts",
+      "topics": 8,
+      "questions": 40,
+      "target": 320,
+      "shortfall": 280,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S21",
+      "title": "Awards, Honors & National Distinctions",
+      "topics": 8,
+      "questions": 40,
+      "target": 320,
+      "shortfall": 280,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S22",
+      "title": "World Religions & Philosophies",
+      "topics": 7,
+      "questions": 35,
+      "target": 280,
+      "shortfall": 245,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S23",
+      "title": "Global Currencies, Trade & Commerce",
+      "topics": 12,
+      "questions": 60,
+      "target": 480,
+      "shortfall": 420,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S24",
+      "title": "Defence Forces, Paramilitary & Security",
+      "topics": 9,
+      "questions": 45,
+      "target": 360,
+      "shortfall": 315,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S25",
+      "title": "Visual & Identification GK",
+      "topics": 9,
+      "questions": 45,
+      "target": 360,
+      "shortfall": 315,
+      "completeTopics": 0
+    },
+    {
+      "subjectId": "S26",
+      "title": "Metrology, SI Units & Standard Measures",
+      "topics": 10,
+      "questions": 50,
+      "target": 400,
+      "shortfall": 350,
+      "completeTopics": 0
+    }
+  ],
+  "byTopic": [
+    {
+      "topicId": "S01-C8994e811-T60e40ec2",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Geographical Coordinates, Latitudinal & Longitudinal Extent of India",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C8994e811-T3e34ee56",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Indian Standard Time (IST) & 82°30' E Meridian",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C8994e811-T08108e0a",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Geographical Extremities: Indira Col, Indira Point, Kibithu & Ghuar Moti",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C8994e811-T2831b63d",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Tropic of Cancer in India: States & Alignment",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C8994e811-Te3d2bcad",
+      "subjectId": "S01",
+      "chapterId": "S01-C8994e811",
+      "title": "Coastal Boundaries, Island Territories & Maritime Zones",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-Cac567568-T4bd530b2",
+      "subjectId": "S01",
+      "chapterId": "S01-Cac567568",
+      "title": "Himalayan Mountain System: Trans, Greater, Lesser Himalayas & Shiwaliks",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-Cac567568-T0c81bfa6",
+      "subjectId": "S01",
+      "chapterId": "S01-Cac567568",
+      "title": "Major Himalayan Mountain Passes: Strategic & Geographical Routes",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-Cac567568-Td6b3a21e",
+      "subjectId": "S01",
+      "chapterId": "S01-Cac567568",
+      "title": "Peninsular Plateau, Western Ghats & Eastern Ghats",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-Cac567568-T1926c9af",
+      "subjectId": "S01",
+      "chapterId": "S01-Cac567568",
+      "title": "Indus River Basin & Tributaries (Panchnad)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C4d19bee9-Tc78825d7",
+      "subjectId": "S01",
+      "chapterId": "S01-C4d19bee9",
+      "title": "Ganga-Brahmaputra River System & Water Divides",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C4d19bee9-T35a8071f",
+      "subjectId": "S01",
+      "chapterId": "S01-C4d19bee9",
+      "title": "Peninsular River Systems: Godavari, Krishna & Cauvery",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C4d19bee9-T3359b180",
+      "subjectId": "S01",
+      "chapterId": "S01-C4d19bee9",
+      "title": "West Flowing Rivers: Narmada, Tapti & Rift Valley Drainage",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S01-C4d19bee9-T0132a4d2",
+      "subjectId": "S01",
+      "chapterId": "S01-C4d19bee9",
+      "title": "Indian Climate, Monsoons & Western Disturbances",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cda5068db-Tf0293276",
+      "subjectId": "S02",
+      "chapterId": "S02-Cda5068db",
+      "title": "PM Gati Shakti National Master Plan & Multimodal Connectivity",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cda5068db-T32608e97",
+      "subjectId": "S02",
+      "chapterId": "S02-Cda5068db",
+      "title": "G20 New Delhi Leaders' Declaration & African Union Induction",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cda5068db-Tb44b8624",
+      "subjectId": "S02",
+      "chapterId": "S02-Cda5068db",
+      "title": "Chandrayaan-3 Mission: Lunar South Pole Soft Landing & Pragyan Rover",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cd08481ed-Tacff6a2e",
+      "subjectId": "S02",
+      "chapterId": "S02-Cd08481ed",
+      "title": "India-Middle East-Europe Economic Corridor (IMEC)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cd08481ed-T84b59d27",
+      "subjectId": "S02",
+      "chapterId": "S02-Cd08481ed",
+      "title": "Quad Leaders' Summit & Indo-Pacific Maritime Domain Awareness (IPMDA)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-Cd08481ed-T7c794ec0",
+      "subjectId": "S02",
+      "chapterId": "S02-Cd08481ed",
+      "title": "COP28 Climate Summit: Loss and Damage Fund & Global Stocktake",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T29719707",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "Aditya-L1 Solar Observatory Mission & Sun-Earth Lagrange Point 1",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T02046d38",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "INS Vikrant & Indigenous Aircraft Carrier Capabilities",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T5c89c160",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "Digital Public Infrastructure: UPI Global Expansion & ONDC",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T125d28b6",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "National Quantum Mission & Quantum Technologies",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S02-C4b3f8fdc-T1fbcc754",
+      "subjectId": "S02",
+      "chapterId": "S02-C4b3f8fdc",
+      "title": "Deep Ocean Mission & Matsya 6000 Submersible",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-Cf57dd5c3-T80b6a594",
+      "subjectId": "S03",
+      "chapterId": "S03-Cf57dd5c3",
+      "title": "Prehistoric Rock Art & Paleolithic to Neolithic Sites (Bhimbetka, Burzahom)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-Cf57dd5c3-T160839f2",
+      "subjectId": "S03",
+      "chapterId": "S03-Cf57dd5c3",
+      "title": "Indus Valley Civilization: Urban Planning, Great Bath & Drainage System",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-Cf57dd5c3-T45a487ce",
+      "subjectId": "S03",
+      "chapterId": "S03-Cf57dd5c3",
+      "title": "Mohenjo-daro & Harappa: Great Bath, Granaries & Bronze Artifacts",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-Cf57dd5c3-Tf30465e3",
+      "subjectId": "S03",
+      "chapterId": "S03-Cf57dd5c3",
+      "title": "Lothal, Kalibangan, Dholavira & Rakhigarhi: Special Architectural Features",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-Cf57dd5c3-T9f2b0316",
+      "subjectId": "S03",
+      "chapterId": "S03-Cf57dd5c3",
+      "title": "Harappan Script, Seals, Weights, Measures & Craft Production",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-Cf57dd5c3-T650d525d",
+      "subjectId": "S03",
+      "chapterId": "S03-Cf57dd5c3",
+      "title": "Decline Theories of the Indus Valley Civilization",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C6d03bcc2-Tf654b176",
+      "subjectId": "S03",
+      "chapterId": "S03-C6d03bcc2",
+      "title": "Rigvedic Society, Tribes (Janas), Sabha & Samiti",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C6d03bcc2-Tdf7d8836",
+      "subjectId": "S03",
+      "chapterId": "S03-C6d03bcc2",
+      "title": "Later Vedic Period: Painted Grey Ware, Varna System & Sacrificial Rituals",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C6d03bcc2-Tacfae539",
+      "subjectId": "S03",
+      "chapterId": "S03-C6d03bcc2",
+      "title": "Vedic Literature: Four Vedas, Brahmanas, Aranyakas & Upanishads",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C6d03bcc2-Te8ae9127",
+      "subjectId": "S03",
+      "chapterId": "S03-C6d03bcc2",
+      "title": "Rise of 16 Mahajanapadas & Magadha Hegemony (Haryanka, Shishunaga, Nanda)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C6d03bcc2-Tb9257690",
+      "subjectId": "S03",
+      "chapterId": "S03-C6d03bcc2",
+      "title": "Persian Invasions (Darius I) & Alexander's Campaign in Punjab (326 BCE)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C6d03bcc2-Ta2cf3b8f",
+      "subjectId": "S03",
+      "chapterId": "S03-C6d03bcc2",
+      "title": "Second Urbanization & Iron Metallurgy in the Middle Ganga Valley",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C4734d498-T6b7258f3",
+      "subjectId": "S03",
+      "chapterId": "S03-C4734d498",
+      "title": "Gautama Buddha: Life, Enlightenment, Four Noble Truths & Eightfold Path",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C4734d498-Te8567d69",
+      "subjectId": "S03",
+      "chapterId": "S03-C4734d498",
+      "title": "The Four Buddhist Councils: Patrons, Venues, Presiding Monks & Outcomes",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C4734d498-T55ed059c",
+      "subjectId": "S03",
+      "chapterId": "S03-C4734d498",
+      "title": "Vardhamana Mahavira & Jain Philosophy: Triratna, Anekantavada & Syadvada",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C4734d498-Tb6237732",
+      "subjectId": "S03",
+      "chapterId": "S03-C4734d498",
+      "title": "Sects of Jainism: Digambaras, Svetambaras & Sacred Agamas",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C4734d498-T51ef0a90",
+      "subjectId": "S03",
+      "chapterId": "S03-C4734d498",
+      "title": "Heterodox Philosophies: Charvaka (Lokayata) & Ajivika Sect",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C4734d498-T037c8c7a",
+      "subjectId": "S03",
+      "chapterId": "S03-C4734d498",
+      "title": "Buddhist Art: Stupas, Chaityas, Viharas & Sanchi",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C4734d498-T411b56c7",
+      "subjectId": "S03",
+      "chapterId": "S03-C4734d498",
+      "title": "Spread of Buddhism to Central, East & Southeast Asia",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C8a2f389f-T77eee160",
+      "subjectId": "S03",
+      "chapterId": "S03-C8a2f389f",
+      "title": "Chandragupta Maurya, Chanakya & Kautilya's Arthashastra Administration",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C8a2f389f-T6249a1fe",
+      "subjectId": "S03",
+      "chapterId": "S03-C8a2f389f",
+      "title": "Megasthenes' Indica & Mauryan Municipal Administration of Pataliputra",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C8a2f389f-Teaae757a",
+      "subjectId": "S03",
+      "chapterId": "S03-C8a2f389f",
+      "title": "Ashoka's Kalinga War (261 BCE), Dhamma Policy & Rock/Pillar Edicts",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C8a2f389f-T3dc7df45",
+      "subjectId": "S03",
+      "chapterId": "S03-C8a2f389f",
+      "title": "Mauryan Art & Architecture: Ashokan Pillars, Lion Capital & Barabar Caves",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C9ba1a621-T15f9dac8",
+      "subjectId": "S03",
+      "chapterId": "S03-C9ba1a621",
+      "title": "Shungas, Kanvas & Indo-Greeks: Menander & Milinda Panha",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C9ba1a621-T7dfc8df1",
+      "subjectId": "S03",
+      "chapterId": "S03-C9ba1a621",
+      "title": "Kushana Empire: Kanishka, Gandhara & Mathura Art Schools",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C9ba1a621-T8ca4debf",
+      "subjectId": "S03",
+      "chapterId": "S03-C9ba1a621",
+      "title": "Satavahana Dynasty: Gautamiputra Satakarni & Deccan Trade",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C9ba1a621-T5e9c6cf0",
+      "subjectId": "S03",
+      "chapterId": "S03-C9ba1a621",
+      "title": "Gupta Empire: Samudragupta's Prayag Prashasti & Military Campaigns",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C9ba1a621-T9bfb202d",
+      "subjectId": "S03",
+      "chapterId": "S03-C9ba1a621",
+      "title": "Golden Age of Guptas: Sciences, Mathematics, Metallurgy & Nalanda University",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C9ba1a621-T875737ad",
+      "subjectId": "S03",
+      "chapterId": "S03-C9ba1a621",
+      "title": "Harshavardhana: Kannauj Assembly, Prayag Mahamoksha Parishad & Xuanzang",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S03-C9ba1a621-T70616f19",
+      "subjectId": "S03",
+      "chapterId": "S03-C9ba1a621",
+      "title": "Sangam Age: Cheras, Cholas, Pandyas, Tolkappiyam & Tamil Epics",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C4112654a-Te2dd2157",
+      "subjectId": "S04",
+      "chapterId": "S04-C4112654a",
+      "title": "Tripartite Struggle for Kannauj: Gurjara-Pratiharas, Palas & Rashtrakutas",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C4112654a-T2b03c6b8",
+      "subjectId": "S04",
+      "chapterId": "S04-C4112654a",
+      "title": "Imperial Cholas: Navy, Brihadisvara Temple & Uttaramerur Inscription",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C4112654a-T4c7718ba",
+      "subjectId": "S04",
+      "chapterId": "S04-C4112654a",
+      "title": "Mahmud of Ghazni, Muhammad Ghori & Battles of Tarain (1191, 1192)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C4112654a-Tb3ada9a2",
+      "subjectId": "S04",
+      "chapterId": "S04-C4112654a",
+      "title": "Slave Dynasty (Mamluks): Qutbuddin Aibak, Iltutmish & Razia Sultana",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C4112654a-T22edf736",
+      "subjectId": "S04",
+      "chapterId": "S04-C4112654a",
+      "title": "Khalji Dynasty: Alauddin Khalji's Market Reforms, Price Control & Military Expansion",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C4112654a-Tebba800a",
+      "subjectId": "S04",
+      "chapterId": "S04-C4112654a",
+      "title": "Tughlaq Dynasty: Muhammad bin Tughlaq's Projects & Firoz Shah's Public Works",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Ccead5806-T3eee5a53",
+      "subjectId": "S04",
+      "chapterId": "S04-Ccead5806",
+      "title": "Foundations: Babur (Panipat 1526), Humayun & Sur Interregnum (Sher Shah)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Ccead5806-T693bb1d9",
+      "subjectId": "S04",
+      "chapterId": "S04-Ccead5806",
+      "title": "Akbar's Administrative Innovations: Mansabdari System & Dahsala Revenue System",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Ccead5806-T1791a311",
+      "subjectId": "S04",
+      "chapterId": "S04-Ccead5806",
+      "title": "Akbar's Religious Policy: Sulh-i-Kul, Ibadat Khana & Din-i-Ilahi",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Ccead5806-T70e81ce9",
+      "subjectId": "S04",
+      "chapterId": "S04-Ccead5806",
+      "title": "Mughal Architecture: Humayun's Tomb, Fatehpur Sikri, Taj Mahal & Red Fort",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Ccead5806-T885f966c",
+      "subjectId": "S04",
+      "chapterId": "S04-Ccead5806",
+      "title": "Aurangzeb's Reign, Deccan Campaigns & Decline of the Mughal Empire",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C780a1737-T356696a1",
+      "subjectId": "S04",
+      "chapterId": "S04-C780a1737",
+      "title": "Vijayanagara Empire: Harihara & Bukka, Four Dynasties & Krishnadeva Raya",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C780a1737-Td70bc8b4",
+      "subjectId": "S04",
+      "chapterId": "S04-C780a1737",
+      "title": "Battle of Talikota (1565) & Decline of Vijayanagara",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C780a1737-Ta16777e7",
+      "subjectId": "S04",
+      "chapterId": "S04-C780a1737",
+      "title": "Chhatrapati Shivaji Maharaj: Swarajya, Ashtapradhan Council & Guerilla Warfare",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C780a1737-T02743591",
+      "subjectId": "S04",
+      "chapterId": "S04-C780a1737",
+      "title": "Peshwas, Maratha Confederacy & Third Battle of Panipat (1761)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C780a1737-T8123fc57",
+      "subjectId": "S04",
+      "chapterId": "S04-C780a1737",
+      "title": "Regional Kingdoms: Sikh Empire of Maharaja Ranjit Singh & Nawabs of Bengal and Awadh",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C511c1907-T85fc68d9",
+      "subjectId": "S04",
+      "chapterId": "S04-C511c1907",
+      "title": "Arrival of European Trading Companies: Portuguese, Dutch, English, Danes & French",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C511c1907-Tc3d40b77",
+      "subjectId": "S04",
+      "chapterId": "S04-C511c1907",
+      "title": "Battle of Plassey (1757), Battle of Buxar (1764) & Treaty of Allahabad (1765)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C511c1907-Tee366cf4",
+      "subjectId": "S04",
+      "chapterId": "S04-C511c1907",
+      "title": "Anglo-Mysore Wars: Hyder Ali, Tipu Sultan & the Fall of Srirangapatna (1799)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C511c1907-T919a3be3",
+      "subjectId": "S04",
+      "chapterId": "S04-C511c1907",
+      "title": "British Expansionist Policies: Subsidiary Alliance System & Doctrine of Lapse",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C511c1907-Te5f7cc87",
+      "subjectId": "S04",
+      "chapterId": "S04-C511c1907",
+      "title": "Colonial Land Revenue Systems: Permanent Settlement, Ryotwari & Mahalwari",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C2a69d8ec-T6d64f4b8",
+      "subjectId": "S04",
+      "chapterId": "S04-C2a69d8ec",
+      "title": "Revolt of 1857: Outbreak at Meerut, Causes & Key Centers of Resistance",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C2a69d8ec-T90ebca31",
+      "subjectId": "S04",
+      "chapterId": "S04-C2a69d8ec",
+      "title": "Government of India Act 1858 & Queen Victoria's Proclamation",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C2a69d8ec-T52cfe34e",
+      "subjectId": "S04",
+      "chapterId": "S04-C2a69d8ec",
+      "title": "Raja Ram Mohan Roy, Brahmo Samaj & Social Reforms (Abolition of Sati 1829)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C2a69d8ec-Tc75f4bd5",
+      "subjectId": "S04",
+      "chapterId": "S04-C2a69d8ec",
+      "title": "Ishwar Chandra Vidyasagar & Hindu Widows' Remarriage Act (1856)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C2a69d8ec-T59ddfdad",
+      "subjectId": "S04",
+      "chapterId": "S04-C2a69d8ec",
+      "title": "Jyotirao Phule (Satyashodhak Samaj) & Swami Dayananda Saraswati (Arya Samaj)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-C2a69d8ec-Tba7463ed",
+      "subjectId": "S04",
+      "chapterId": "S04-C2a69d8ec",
+      "title": "Swami Vivekananda, Ramakrishna Mission & Theosophical Movement",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Cacadfdde-Tecff8b64",
+      "subjectId": "S04",
+      "chapterId": "S04-Cacadfdde",
+      "title": "Formation of Indian National Congress (1885) & Moderate Phase",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Cacadfdde-T1026c24e",
+      "subjectId": "S04",
+      "chapterId": "S04-Cacadfdde",
+      "title": "Partition of Bengal (1905), Swadeshi Movement & Surat Split (1907)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Cacadfdde-Tdc02f467",
+      "subjectId": "S04",
+      "chapterId": "S04-Cacadfdde",
+      "title": "Mahatma Gandhi's Early Satyagrahas: Champaran (1917), Ahmedabad & Kheda (1918)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Cacadfdde-Tdc155499",
+      "subjectId": "S04",
+      "chapterId": "S04-Cacadfdde",
+      "title": "Non-Cooperation Movement (1920–22), Khilafat & Chauri Chaura Incident",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S04-Cacadfdde-T2e661757",
+      "subjectId": "S04",
+      "chapterId": "S04-Cacadfdde",
+      "title": "Civil Disobedience Movement (Dandi March 1930) to Independence (1947)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-Cd1fc9546-Td2a9d7d4",
+      "subjectId": "S05",
+      "chapterId": "S05-Cd1fc9546",
+      "title": "Constitutional Evolution: Regulating Act 1773 to Government of India Act 1935",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-Cd1fc9546-T27ca1ebe",
+      "subjectId": "S05",
+      "chapterId": "S05-Cd1fc9546",
+      "title": "Constituent Assembly: Formation, Committees, Drafting & Adoption (26 Nov 1949)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-Cd1fc9546-T5d2f806b",
+      "subjectId": "S05",
+      "chapterId": "S05-Cd1fc9546",
+      "title": "The Preamble to the Constitution: Philosophy, Key Terms & 42nd Amendment",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C2da5cfd3-T3948cd23",
+      "subjectId": "S05",
+      "chapterId": "S05-C2da5cfd3",
+      "title": "Concept of State (Article 12) & Doctrine of Judicial Review (Article 13)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C2da5cfd3-Ta30f1012",
+      "subjectId": "S05",
+      "chapterId": "S05-C2da5cfd3",
+      "title": "Right to Equality: Articles 14 to 18 (Equality before Law & Abolition of Untouchability)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C2da5cfd3-T0f437662",
+      "subjectId": "S05",
+      "chapterId": "S05-C2da5cfd3",
+      "title": "Right to Freedom: Article 19 Freedoms & Protection in Conviction (Article 20)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C2da5cfd3-Tbfd5a8ed",
+      "subjectId": "S05",
+      "chapterId": "S05-C2da5cfd3",
+      "title": "Right to Life & Personal Liberty (Article 21), Right to Privacy & Right to Education (Article 21A)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C2da5cfd3-T10db6998",
+      "subjectId": "S05",
+      "chapterId": "S05-C2da5cfd3",
+      "title": "Right to Freedom of Religion (Articles 25 to 28) & Cultural/Educational Rights (Articles 29-30)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C2da5cfd3-T9bf258e9",
+      "subjectId": "S05",
+      "chapterId": "S05-C2da5cfd3",
+      "title": "Right to Constitutional Remedies (Article 32): The Five High Prerogative Writs",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C2da5cfd3-T6d1dd231",
+      "subjectId": "S05",
+      "chapterId": "S05-C2da5cfd3",
+      "title": "Directive Principles of State Policy (Part IV) & Fundamental Duties (Article 51A)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C4d9a5be9-Ta42bcf2e",
+      "subjectId": "S05",
+      "chapterId": "S05-C4d9a5be9",
+      "title": "The President of India: Election, Powers, Ordinance Making (Art 123) & Pardoning Power (Art 72)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C4d9a5be9-T8be9b1ac",
+      "subjectId": "S05",
+      "chapterId": "S05-C4d9a5be9",
+      "title": "The Vice-President of India: Qualifications, Election & Role as Rajya Sabha Chairman",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-C4d9a5be9-Tec321beb",
+      "subjectId": "S05",
+      "chapterId": "S05-C4d9a5be9",
+      "title": "Prime Minister & Union Council of Ministers: Collective Responsibility & Art 75",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-Cc13f58d9-T5189973c",
+      "subjectId": "S05",
+      "chapterId": "S05-Cc13f58d9",
+      "title": "Union Parliament: Composition, Presiding Officers & Money Bills (Article 110)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-Cc13f58d9-Tf3dff13a",
+      "subjectId": "S05",
+      "chapterId": "S05-Cc13f58d9",
+      "title": "Parliamentary Procedures, Motions, Sessions & Key Committees (PAC & Estimates)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-Cc13f58d9-Tb9480244",
+      "subjectId": "S05",
+      "chapterId": "S05-Cc13f58d9",
+      "title": "The Supreme Court of India: Jurisdiction (Original, Appellate, Advisory) & Judicial Review",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S05-Cc13f58d9-T6a8a152b",
+      "subjectId": "S05",
+      "chapterId": "S05-Cc13f58d9",
+      "title": "High Courts & Subordinate Judiciary: Appointment, Transfer & Writ Jurisdiction (Article 226)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C4397a951-T1c0849a9",
+      "subjectId": "S06",
+      "chapterId": "S06-C4397a951",
+      "title": "Evolution of Panchayati Raj: Balwant Rai Mehta, Ashok Mehta & L.M. Singhvi Committees",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C4397a951-Tcf748189",
+      "subjectId": "S06",
+      "chapterId": "S06-C4397a951",
+      "title": "73rd Constitutional Amendment Act 1992 & Eleventh Schedule (29 Functional Items)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C4397a951-T119dfc36",
+      "subjectId": "S06",
+      "chapterId": "S06-C4397a951",
+      "title": "Three-Tier Structure: Gram Panchayat, Panchayat Samiti & Zila Parishad",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C4397a951-Tc4d588a0",
+      "subjectId": "S06",
+      "chapterId": "S06-C4397a951",
+      "title": "PESA Act 1996 (Panchayats Extension to Scheduled Areas) & Tribal Self-Rule",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C5c3ba939-Ta362f257",
+      "subjectId": "S06",
+      "chapterId": "S06-C5c3ba939",
+      "title": "74th Constitutional Amendment Act 1992 & Twelfth Schedule (18 Functions)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C5c3ba939-T7ee162f2",
+      "subjectId": "S06",
+      "chapterId": "S06-C5c3ba939",
+      "title": "Urban Local Bodies: Municipal Corporations, Councils & Nagar Panchayats",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C5c3ba939-T0c99b1ad",
+      "subjectId": "S06",
+      "chapterId": "S06-C5c3ba939",
+      "title": "Urban Governance: Mayor, Municipal Commissioner & District Planning Committee (Art 243ZD)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C5c3ba939-T995fd621",
+      "subjectId": "S06",
+      "chapterId": "S06-C5c3ba939",
+      "title": "Urban Renewal Missions: Smart Cities Mission, AMRUT & Swachh Bharat Urban",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-Cbd122131-Tbbd84dc0",
+      "subjectId": "S06",
+      "chapterId": "S06-Cbd122131",
+      "title": "Administration of Union Territories: Articles 239 to 241 & Lieutenant Governors",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-Cbd122131-Tabe7f08b",
+      "subjectId": "S06",
+      "chapterId": "S06-Cbd122131",
+      "title": "Special Constitutional Provisions for Delhi: Article 239AA & NCT Administration",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-Cbd122131-T14b62587",
+      "subjectId": "S06",
+      "chapterId": "S06-Cbd122131",
+      "title": "Fifth Schedule Areas: Tribal Advisory Councils & Governor's Legislative Powers",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-Cbd122131-Tc4ffc3bf",
+      "subjectId": "S06",
+      "chapterId": "S06-Cbd122131",
+      "title": "Sixth Schedule: Autonomous District Councils (ADCs) in Assam, Meghalaya, Tripura & Mizoram",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-Cbd122131-T3ca0de2d",
+      "subjectId": "S06",
+      "chapterId": "S06-Cbd122131",
+      "title": "Special Provisions for States: Article 371 Series (371A Nagaland, 371J Karnataka)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-Cbd122131-Tf617176b",
+      "subjectId": "S06",
+      "chapterId": "S06-Cbd122131",
+      "title": "Inter-State Council (Article 263) & Zonal Councils (States Reorganisation Act 1956)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-Cbd122131-Tb12804d8",
+      "subjectId": "S06",
+      "chapterId": "S06-Cbd122131",
+      "title": "Finance Commission of India (Article 280): Tax Devolution & Horizontal Criteria",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C22b72712-Tedf550c0",
+      "subjectId": "S06",
+      "chapterId": "S06-C22b72712",
+      "title": "Comptroller and Auditor General of India (CAG, Article 148): Guardian of the Public Purse",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S06-C22b72712-T2c2fb2da",
+      "subjectId": "S06",
+      "chapterId": "S06-C22b72712",
+      "title": "Constitutional Watchdogs & Statutory Bodies: Election Commission, UPSC & NHRC",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-C81cde124-T323fe647",
+      "subjectId": "S07",
+      "chapterId": "S07-C81cde124",
+      "title": "Gross Domestic Product (GDP), GNP, NNP & Factor Cost vs Market Price",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-C81cde124-T8ce1b739",
+      "subjectId": "S07",
+      "chapterId": "S07-C81cde124",
+      "title": "GDP Calculation Approaches: Production, Income & Expenditure Methods",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-C81cde124-T91de7c3a",
+      "subjectId": "S07",
+      "chapterId": "S07-C81cde124",
+      "title": "Inflation Metrics: Consumer Price Index (CPI) vs Wholesale Price Index (WPI)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-C81cde124-T6d731a5e",
+      "subjectId": "S07",
+      "chapterId": "S07-C81cde124",
+      "title": "Types of Inflation: Demand-Pull, Cost-Push, Stagflation & Deflation",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-C81cde124-T0b22f40b",
+      "subjectId": "S07",
+      "chapterId": "S07-C81cde124",
+      "title": "Human Development Index (HDI), Multidimensional Poverty Index (MPI) & Gini Coefficient",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cef3bcdf8-T8d2ac8b5",
+      "subjectId": "S07",
+      "chapterId": "S07-Cef3bcdf8",
+      "title": "Reserve Bank of India: History, Hilton Young Commission & Statutory Functions",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cef3bcdf8-T7215c876",
+      "subjectId": "S07",
+      "chapterId": "S07-Cef3bcdf8",
+      "title": "Monetary Policy Committee (MPC) & Flexible Inflation Targeting Framework",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cef3bcdf8-T68ba9b33",
+      "subjectId": "S07",
+      "chapterId": "S07-Cef3bcdf8",
+      "title": "Quantitative Monetary Instruments: Repo Rate, Reverse Repo, SDF, MSF, CRR & SLR",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cef3bcdf8-Td0f882bc",
+      "subjectId": "S07",
+      "chapterId": "S07-Cef3bcdf8",
+      "title": "Commercial Banking Structure & Resolution of Non-Performing Assets (NPAs, IBC 2016)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cef3bcdf8-Te0b0bd3d",
+      "subjectId": "S07",
+      "chapterId": "S07-Cef3bcdf8",
+      "title": "Priority Sector Lending (PSL) & Regional Rural Banks (RRBs)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cef3bcdf8-T9a28ff6b",
+      "subjectId": "S07",
+      "chapterId": "S07-Cef3bcdf8",
+      "title": "Differentiated Banks: Small Finance Banks, Payments Banks & Financial Inclusion (PMJDY)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cd8d761ef-Tbfeeeeaf",
+      "subjectId": "S07",
+      "chapterId": "S07-Cd8d761ef",
+      "title": "Union Budget Framework: Revenue Deficit, Fiscal Deficit & Primary Deficit",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cd8d761ef-T2392c837",
+      "subjectId": "S07",
+      "chapterId": "S07-Cd8d761ef",
+      "title": "Direct Taxation Architecture: Income Tax, Corporate Tax & STT",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cd8d761ef-Ta4e019f6",
+      "subjectId": "S07",
+      "chapterId": "S07-Cd8d761ef",
+      "title": "Goods and Services Tax (GST): 101st Amendment, Structure & GST Council (Article 279A)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cd8d761ef-Td7f28529",
+      "subjectId": "S07",
+      "chapterId": "S07-Cd8d761ef",
+      "title": "Fiscal Responsibility and Budget Management (FRBM) Act 2003 & NK Singh Committee",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S07-Cd8d761ef-Tdc413a39",
+      "subjectId": "S07",
+      "chapterId": "S07-Cd8d761ef",
+      "title": "External Sector: Balance of Payments, Current Account Deficit & Foreign Direct Investment (FDI)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C9270c63f-Te9c942c8",
+      "subjectId": "S08",
+      "chapterId": "S08-C9270c63f",
+      "title": "Interior Structure of the Earth: Crust, Mantle, Asthenosphere & Core",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C9270c63f-Ta60b7a9c",
+      "subjectId": "S08",
+      "chapterId": "S08-C9270c63f",
+      "title": "Seismic Discontinuities: Mohorovicic, Gutenberg & Lehmann Transitions",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C9270c63f-T41d32629",
+      "subjectId": "S08",
+      "chapterId": "S08-C9270c63f",
+      "title": "Continental Drift Theory (Alfred Wegener) & Sea Floor Spreading (Harry Hess)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C9270c63f-T9526e8f6",
+      "subjectId": "S08",
+      "chapterId": "S08-C9270c63f",
+      "title": "Plate Tectonics: Convergent, Divergent & Transform Plate Boundaries",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C9270c63f-T5f5f5018",
+      "subjectId": "S08",
+      "chapterId": "S08-C9270c63f",
+      "title": "Earthquakes: Focus, Epicenter, Primary (P) & Secondary (S) Seismic Waves",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C9270c63f-T9369e240",
+      "subjectId": "S08",
+      "chapterId": "S08-C9270c63f",
+      "title": "Volcanism: Shield Volcanoes, Composite Cones & Pacific Ring of Fire",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C9270c63f-T65eaef94",
+      "subjectId": "S08",
+      "chapterId": "S08-C9270c63f",
+      "title": "Weathering, Mass Wasting & Fluvial/Glacial Landforms",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-Cde0152f9-T7e532e59",
+      "subjectId": "S08",
+      "chapterId": "S08-Cde0152f9",
+      "title": "Ocean Floor Topography: Continental Shelf, Slope, Abyssal Plain & Trenches",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-Cde0152f9-T78aa32d4",
+      "subjectId": "S08",
+      "chapterId": "S08-Cde0152f9",
+      "title": "Ocean Currents: Warm and Cold Circulation Systems & Gyres",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-Cde0152f9-T8fd7190e",
+      "subjectId": "S08",
+      "chapterId": "S08-Cde0152f9",
+      "title": "Ocean Salinity, Temperature Profiles & Tides (Spring and Neap Tides)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C062cef1d-T8a2d6fc7",
+      "subjectId": "S08",
+      "chapterId": "S08-C062cef1d",
+      "title": "Atmospheric Layers: Troposphere, Stratosphere, Mesosphere & Thermosphere",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C062cef1d-Tc009d126",
+      "subjectId": "S08",
+      "chapterId": "S08-C062cef1d",
+      "title": "Atmospheric Insolation, Heat Budget & Temperature Inversion",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C062cef1d-Tec586a22",
+      "subjectId": "S08",
+      "chapterId": "S08-C062cef1d",
+      "title": "Planetary Pressure Belts: Doldrums, Subtropical Highs & Polar Highs",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C062cef1d-T2681ac13",
+      "subjectId": "S08",
+      "chapterId": "S08-C062cef1d",
+      "title": "Global Wind Systems: Trade Winds, Westerlies & Polar Easterlies",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C062cef1d-T5e361578",
+      "subjectId": "S08",
+      "chapterId": "S08-C062cef1d",
+      "title": "Jet Streams: Subtropical Westerly & Polar Front Jet Streams",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C062cef1d-T78496f25",
+      "subjectId": "S08",
+      "chapterId": "S08-C062cef1d",
+      "title": "Cyclones: Tropical Cyclones vs Temperate Mid-Latitude Cyclones",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C062cef1d-T853ce66c",
+      "subjectId": "S08",
+      "chapterId": "S08-C062cef1d",
+      "title": "Koeppen's Climate Classification System (A, B, C, D, E & H Groups)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S08-C062cef1d-T88e2fced",
+      "subjectId": "S08",
+      "chapterId": "S08-C062cef1d",
+      "title": "El Niño, La Niña & Southern Oscillation (ENSO) Phenomena",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-C3ee11016-Tf99f996d",
+      "subjectId": "S09",
+      "chapterId": "S09-C3ee11016",
+      "title": "Ecosystem Structure: Biotic, Abiotic Components, Food Chains & Webs",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-C3ee11016-T31f3c4c1",
+      "subjectId": "S09",
+      "chapterId": "S09-C3ee11016",
+      "title": "Trophic Levels & Lindeman's 10% Energy Transfer Law",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-C3ee11016-T6154f56b",
+      "subjectId": "S09",
+      "chapterId": "S09-C3ee11016",
+      "title": "Ecological Pyramids: Numbers, Biomass & Always-Upright Pyramid of Energy",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-C327a7380-Tb2547aa0",
+      "subjectId": "S09",
+      "chapterId": "S09-C327a7380",
+      "title": "Biodiversity Levels, Megadiverse Countries & Global Biodiversity Hotspots",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-C327a7380-Ted49013c",
+      "subjectId": "S09",
+      "chapterId": "S09-C327a7380",
+      "title": "In-situ vs Ex-situ Conservation: National Parks, Wildlife Sanctuaries & Biosphere Reserves",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-C327a7380-T5396f2da",
+      "subjectId": "S09",
+      "chapterId": "S09-C327a7380",
+      "title": "Wildlife Conservation Projects: Project Tiger (1973), Project Elephant (1992) & Cheetah Reintroduction",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-C327a7380-T23154d1e",
+      "subjectId": "S09",
+      "chapterId": "S09-C327a7380",
+      "title": "Ramsar Convention on Wetlands (1971) & Montreux Record",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-Cba335bae-Tdac31d7f",
+      "subjectId": "S09",
+      "chapterId": "S09-Cba335bae",
+      "title": "Greenhouse Effect, Global Warming Potential (GWP) & Major Greenhouse Gases",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-Cba335bae-T5925c1a9",
+      "subjectId": "S09",
+      "chapterId": "S09-Cba335bae",
+      "title": "UNFCCC, Kyoto Protocol (1997) & Paris Agreement (2015)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-Cba335bae-T25098b1d",
+      "subjectId": "S09",
+      "chapterId": "S09-Cba335bae",
+      "title": "Ozone Layer Depletion: Vienna Convention, Montreal Protocol (1987) & Kigali Amendment",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-Cba335bae-T30616e49",
+      "subjectId": "S09",
+      "chapterId": "S09-Cba335bae",
+      "title": "Wildlife (Protection) Act, 1972 & 2022 Amendment: Schedules and CITES Compliance",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-Cba335bae-Tfdb23086",
+      "subjectId": "S09",
+      "chapterId": "S09-Cba335bae",
+      "title": "Environment (Protection) Act, 1986 (Umbrella Legislation) & Forest Conservation Acts",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S09-Cba335bae-T8438ee15",
+      "subjectId": "S09",
+      "chapterId": "S09-Cba335bae",
+      "title": "National Green Tribunal (NGT) Act 2010 & Environmental Impact Assessment (EIA)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C0f1997cd-T205dd9e9",
+      "subjectId": "S10",
+      "chapterId": "S10-C0f1997cd",
+      "title": "Newton's Laws of Motion, Momentum & Rocket Propulsion",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C0f1997cd-T3aec55aa",
+      "subjectId": "S10",
+      "chapterId": "S10-C0f1997cd",
+      "title": "Universal Gravitation, Acceleration due to Gravity (g) & Escape Velocity",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C0f1997cd-T24499db5",
+      "subjectId": "S10",
+      "chapterId": "S10-C0f1997cd",
+      "title": "Work-Energy Theorem, Kinetic & Potential Energy Conservation",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C0f1997cd-T64a1e197",
+      "subjectId": "S10",
+      "chapterId": "S10-C0f1997cd",
+      "title": "Friction, Circular Motion & Centripetal vs Centrifugal Force",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-Cc1c9f435-Tf03c2ef0",
+      "subjectId": "S10",
+      "chapterId": "S10-Cc1c9f435",
+      "title": "Wave Characteristics: Longitudinal vs Transverse & Electromagnetic Waves",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-Cc1c9f435-T7793ba1a",
+      "subjectId": "S10",
+      "chapterId": "S10-Cc1c9f435",
+      "title": "Sound Waves: Speed, Frequency Spectrum (Infrasonic to Ultrasonic) & Doppler Effect",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-Cc1c9f435-Tef7797e1",
+      "subjectId": "S10",
+      "chapterId": "S10-Cc1c9f435",
+      "title": "Reflection, Refraction, Snell's Law & Total Internal Reflection (TIR)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-Cc1c9f435-T769fcfe9",
+      "subjectId": "S10",
+      "chapterId": "S10-Cc1c9f435",
+      "title": "Lenses, Mirrors, Dispersion of Light & Human Vision Defects",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C64dfa5ec-T5c4c78bc",
+      "subjectId": "S10",
+      "chapterId": "S10-C64dfa5ec",
+      "title": "Thermal Expansion, Specific Heat Capacity & Latent Heat of Phase Change",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C64dfa5ec-T9bc2b435",
+      "subjectId": "S10",
+      "chapterId": "S10-C64dfa5ec",
+      "title": "Laws of Thermodynamics: Zeroth, First, Second Laws & Absolute Zero",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C64dfa5ec-T41234f1f",
+      "subjectId": "S10",
+      "chapterId": "S10-C64dfa5ec",
+      "title": "Coulomb's Law, Electric Current, Ohm's Law & Electric Power",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C64dfa5ec-T1bf32e33",
+      "subjectId": "S10",
+      "chapterId": "S10-C64dfa5ec",
+      "title": "Electromagnetism: Oersted Experiment, Faraday's Induction & Lenz's Law",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C64dfa5ec-T7dc0291c",
+      "subjectId": "S10",
+      "chapterId": "S10-C64dfa5ec",
+      "title": "Photoelectric Effect: Quantum Nature of Light & Einstein's Photoelectric Equation",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S10-C64dfa5ec-Tb445eb33",
+      "subjectId": "S10",
+      "chapterId": "S10-C64dfa5ec",
+      "title": "Nuclear Physics: Fission, Fusion, Radioactive Decay & Half-Life",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C7bd7bee9-Tca225dcd",
+      "subjectId": "S11",
+      "chapterId": "S11-C7bd7bee9",
+      "title": "Atomic Models: Thomson, Rutherford, Bohr & Quantum Mechanical Model",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C7bd7bee9-T6e4641eb",
+      "subjectId": "S11",
+      "chapterId": "S11-C7bd7bee9",
+      "title": "Subatomic Particles: Protons, Neutrons, Electrons, Isotopes & Isobars",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C7bd7bee9-T39c65f13",
+      "subjectId": "S11",
+      "chapterId": "S11-C7bd7bee9",
+      "title": "Chemical Bonding: Ionic, Covalent, Coordinate & Hydrogen Bonding",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C7bd7bee9-Tc6a5223f",
+      "subjectId": "S11",
+      "chapterId": "S11-C7bd7bee9",
+      "title": "Modern Periodic Table: Mendeleev's Law, Moseley's Atomic Number & Periodic Trends",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C7bd7bee9-Tfabcbf03",
+      "subjectId": "S11",
+      "chapterId": "S11-C7bd7bee9",
+      "title": "Radioactivity, Nuclear Isotopes in Medicine/Industry & Carbon-14 Dating",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C917a7c20-Tde2c2dcf",
+      "subjectId": "S11",
+      "chapterId": "S11-C917a7c20",
+      "title": "Acids, Bases, pH Scale & Buffer Solutions",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C917a7c20-Tf28d567c",
+      "subjectId": "S11",
+      "chapterId": "S11-C917a7c20",
+      "title": "Common Industrial & Household Chemicals: Bleaching Powder, Plaster of Paris & Soda",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C917a7c20-Tf4873b35",
+      "subjectId": "S11",
+      "chapterId": "S11-C917a7c20",
+      "title": "Metals, Non-Metals, Metalloids & Reactivity Series (Corrosion & Galvanization)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C917a7c20-T1afcabcb",
+      "subjectId": "S11",
+      "chapterId": "S11-C917a7c20",
+      "title": "Allotropes of Carbon: Diamond, Graphite, Fullerenes & Graphene",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S11-C917a7c20-Te101c91b",
+      "subjectId": "S11",
+      "chapterId": "S11-C917a7c20",
+      "title": "Hydrocarbons, Synthetic Polymers & Soaps vs Detergents",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Ce9c56ff6-T5caddc4c",
+      "subjectId": "S12",
+      "chapterId": "S12-Ce9c56ff6",
+      "title": "Cell Theory, Prokaryotic vs Eukaryotic Cells & Cell Membrane Structure",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Ce9c56ff6-T8855e88d",
+      "subjectId": "S12",
+      "chapterId": "S12-Ce9c56ff6",
+      "title": "Cell Organelles: Mitochondria (Powerhouse), Ribosomes, Lysosomes & Golgi Apparatus",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Ce9c56ff6-Tc85a599b",
+      "subjectId": "S12",
+      "chapterId": "S12-Ce9c56ff6",
+      "title": "Cell Division: Mitosis (Equational) vs Meiosis (Reductional & Crossing Over)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Ce9c56ff6-Te52633f3",
+      "subjectId": "S12",
+      "chapterId": "S12-Ce9c56ff6",
+      "title": "Mendelian Genetics, DNA Structure (Watson & Crick) & Central Dogma",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Caa1e76e7-T1134e4f4",
+      "subjectId": "S12",
+      "chapterId": "S12-Caa1e76e7",
+      "title": "Human Digestive System: Gastrointestinal Tract, Digestive Enzymes & Liver/Pancreas",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Caa1e76e7-T6382deaf",
+      "subjectId": "S12",
+      "chapterId": "S12-Caa1e76e7",
+      "title": "Human Circulatory System: Heart Anatomy, Double Circulation & ABO/Rh Blood Groups",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Caa1e76e7-T308738b8",
+      "subjectId": "S12",
+      "chapterId": "S12-Caa1e76e7",
+      "title": "Human Respiratory System: Gas Exchange, Hemoglobin & Cellular Respiration",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Caa1e76e7-Tf02c9635",
+      "subjectId": "S12",
+      "chapterId": "S12-Caa1e76e7",
+      "title": "Human Excretory System: Kidneys, Nephron Ultrafiltration & Dialysis",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Caa1e76e7-T3580c926",
+      "subjectId": "S12",
+      "chapterId": "S12-Caa1e76e7",
+      "title": "Human Nervous System: Brain Regions, Reflex Arc & Autonomic Nervous System",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-Caa1e76e7-T03c98aac",
+      "subjectId": "S12",
+      "chapterId": "S12-Caa1e76e7",
+      "title": "Endocrine System: Pituitary, Thyroid, Pancreas & Adrenal Glands",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C7b539aa0-Tf1996a7c",
+      "subjectId": "S12",
+      "chapterId": "S12-C7b539aa0",
+      "title": "Plant Tissues: Meristematic vs Permanent Complex Tissues (Xylem & Phloem)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C7b539aa0-T99e1ff40",
+      "subjectId": "S12",
+      "chapterId": "S12-C7b539aa0",
+      "title": "Photosynthesis: Light-Dependent Reactions, Calvin Cycle & Chloroplast Anatomy",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C7b539aa0-T76c92dcf",
+      "subjectId": "S12",
+      "chapterId": "S12-C7b539aa0",
+      "title": "Transpiration, Stomatal Mechanism & Ascent of Sap (Cohesion-Tension Theory)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C7b539aa0-Tac739dcc",
+      "subjectId": "S12",
+      "chapterId": "S12-C7b539aa0",
+      "title": "Plant Hormones (Phytohormones): Auxins, Gibberellins, Cytokinins, Abscisic Acid & Ethylene",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-T59ab849d",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Bacterial Diseases: Tuberculosis, Cholera, Typhoid, Tetanus & Antibiotics",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-T114049bf",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Viral Diseases: Polio, Rabies, Hepatitis, Dengue & HIV/AIDS",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-T2a7018de",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Protozoan & Fungal Diseases: Malaria (Plasmodium Life Cycle) & Ringworm",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-Tc41faeb3",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Human Immune System: Innate vs Adaptive Immunity & B-cells and T-cells",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-T772b1793",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Vaccines: Active vs Passive Immunity & Major Vaccine Platforms",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-Tae0c7200",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Vitamins: Fat-Soluble (A, D, E, K) & Water-Soluble (B-Complex, C) Functions and Deficiencies",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-T625fe74c",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Minerals in Human Nutrition: Iron, Iodine, Calcium, Sodium & Potassium",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-T2c645a53",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Macronutrients & Protein-Energy Malnutrition: Kwashiorkor vs Marasmus",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-T7aab06cd",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Human Genetic Disorders: Down Syndrome, Sickle Cell Anemia & Hemophilia",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S12-C60e112b2-T89ed7952",
+      "subjectId": "S12",
+      "chapterId": "S12-C60e112b2",
+      "title": "Antimicrobial Resistance (AMR), Superbugs & One Health Approach",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C3b0201a3-T1f7dd233",
+      "subjectId": "S13",
+      "chapterId": "S13-C3b0201a3",
+      "title": "Computer Architecture: Von Neumann Model, CPU, ALU & Control Unit",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C3b0201a3-T8caa2167",
+      "subjectId": "S13",
+      "chapterId": "S13-C3b0201a3",
+      "title": "Memory Hierarchy: Registers, Cache (L1/L2/L3), RAM, ROM & Secondary Storage",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C3b0201a3-T4ca303a3",
+      "subjectId": "S13",
+      "chapterId": "S13-C3b0201a3",
+      "title": "Operating System Functions: Process Management, Memory Virtualization & File Systems",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C3b0201a3-T87b5d9a2",
+      "subjectId": "S13",
+      "chapterId": "S13-C3b0201a3",
+      "title": "Open Source vs Proprietary Software, Linux Kernel Architecture & File Permissions",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C8395c7f1-T789dc2d4",
+      "subjectId": "S13",
+      "chapterId": "S13-C8395c7f1",
+      "title": "Network Topologies (Star, Mesh, Ring) & Guided vs Unguided Media",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C8395c7f1-Tfc026b48",
+      "subjectId": "S13",
+      "chapterId": "S13-C8395c7f1",
+      "title": "OSI 7-Layer Reference Model vs TCP/IP 4-Layer Architecture",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C8395c7f1-T8fa1f1c3",
+      "subjectId": "S13",
+      "chapterId": "S13-C8395c7f1",
+      "title": "Internet Protocol: IPv4 vs IPv6 Addressing, Subnetting & DHCP",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C8395c7f1-T40cf8539",
+      "subjectId": "S13",
+      "chapterId": "S13-C8395c7f1",
+      "title": "Application Layer Protocols: HTTP/HTTPS, DNS Resolution, FTP & SMTP",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C21e5550f-T3f206ef3",
+      "subjectId": "S13",
+      "chapterId": "S13-C21e5550f",
+      "title": "Cybersecurity & Cryptography: Malware, Phishing, Ransomware & Public-Key Encryption",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S13-C21e5550f-T40f2741c",
+      "subjectId": "S13",
+      "chapterId": "S13-C21e5550f",
+      "title": "Cloud Computing Models (IaaS, PaaS, SaaS) & Artificial Intelligence Foundations",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S14-Cc877e372-T682eda1e",
+      "subjectId": "S14",
+      "chapterId": "S14-Cc877e372",
+      "title": "The Sun: Solar Atmosphere (Photosphere, Chromosphere, Corona), Sunspots & Solar Flares",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S14-Cc877e372-Tb2e22bd2",
+      "subjectId": "S14",
+      "chapterId": "S14-Cc877e372",
+      "title": "Planetary Characteristics: Terrestrial vs Gas/Ice Giants & Dwarf Planet Pluto (IAU 2006)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S14-Cc877e372-T2271ce30",
+      "subjectId": "S14",
+      "chapterId": "S14-Cc877e372",
+      "title": "Moons of the Solar System, Asteroids, Kuiper Belt, Oort Cloud & Comets",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S14-C268685b0-T5e219b78",
+      "subjectId": "S14",
+      "chapterId": "S14-C268685b0",
+      "title": "Historic Human Spaceflight: Yuri Gagarin, Apollo 11 Moon Landing & Neil Armstrong",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S14-C268685b0-Tfad3ec7f",
+      "subjectId": "S14",
+      "chapterId": "S14-C268685b0",
+      "title": "Deep Space Explorers & Observatories: Voyager 1 & 2, Hubble & James Webb Space Telescope (JWST)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S14-Cc150b231-Tc34ea890",
+      "subjectId": "S14",
+      "chapterId": "S14-Cc150b231",
+      "title": "ISRO Evolution & Launch Vehicle Family: SLV-3, ASLV, PSLV (Workhorse), GSLV & LVM3 (Fat Boy)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S14-Cc150b231-Tde3adf24",
+      "subjectId": "S14",
+      "chapterId": "S14-Cc150b231",
+      "title": "Lunar & Interplanetary Triumphs: Chandrayaan-3 Moon South Pole Landing, Mangalyaan & Gaganyaan",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S15-Cc19ffbe1-Tfb10e1e8",
+      "subjectId": "S15",
+      "chapterId": "S15-Cc19ffbe1",
+      "title": "Cradle of Civilization: Mesopotamia (Sumer, Babylon, Code of Hammurabi) & Nile Valley Civilization of Egypt",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S15-Cc19ffbe1-T284ff655",
+      "subjectId": "S15",
+      "chapterId": "S15-Cc19ffbe1",
+      "title": "Classical Greece: Athenian Democracy (Pericles), Spartan Oligarchy & The Persian/Peloponnesian Wars",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S15-Cc19ffbe1-Tde39961a",
+      "subjectId": "S15",
+      "chapterId": "S15-Cc19ffbe1",
+      "title": "Roman Republic to Empire: Julius Caesar, Pax Romana under Augustus & Fall of Western Rome (476 CE)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S15-C4a2b9352-Tcea0912b",
+      "subjectId": "S15",
+      "chapterId": "S15-C4a2b9352",
+      "title": "The Italian Renaissance: Humanism, Medici Patronage, Leonardo da Vinci & Michelangelo",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S15-C4a2b9352-T0b8a2387",
+      "subjectId": "S15",
+      "chapterId": "S15-C4a2b9352",
+      "title": "The European Enlightenment: Voltaire, Rousseau, Montesquieu & Social Contract Theory",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S15-C4a2b9352-T601f3945",
+      "subjectId": "S15",
+      "chapterId": "S15-C4a2b9352",
+      "title": "American Revolution (1775-1783): Boston Tea Party, Declaration of Independence & George Washington",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S15-C4a2b9352-T21a518bb",
+      "subjectId": "S15",
+      "chapterId": "S15-C4a2b9352",
+      "title": "French Revolution (1789): Storming of the Bastille, Declaration of the Rights of Man & Reign of Terror",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S15-C8922c19d-T392007b1",
+      "subjectId": "S15",
+      "chapterId": "S15-C8922c19d",
+      "title": "World War I (1914-1918), Treaty of Versailles & Russian Bolshevik Revolution (1917 - Lenin)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S15-C8922c19d-T2c24d9d0",
+      "subjectId": "S15",
+      "chapterId": "S15-C8922c19d",
+      "title": "World War II (1939-1945), The Holocaust, Hiroshima/Nagasaki Atomic Bombings & Cold War Bipolarity",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S16-Cb8158434-T69643d61",
+      "subjectId": "S16",
+      "chapterId": "S16-Cb8158434",
+      "title": "United Nations Foundation: San Francisco Conference, UN Charter & Six Principal Organs",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S16-Cb8158434-T4fd4367a",
+      "subjectId": "S16",
+      "chapterId": "S16-Cb8158434",
+      "title": "UN Security Council (UNSC): P5 Permanent Members, The Veto Power & G4 Nations Demand for Reform",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S16-Cb8158434-T204496ed",
+      "subjectId": "S16",
+      "chapterId": "S16-Cb8158434",
+      "title": "UN Specialized Agencies: UNESCO, WHO, ILO, UNICEF & UNHCR Mandates",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S16-Cb8158434-T94af9401",
+      "subjectId": "S16",
+      "chapterId": "S16-Cb8158434",
+      "title": "UN Peacekeeping Operations: 'Blue Helmets', Dag Hammarskjöld Medal & India's Historic Contributions",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S16-C3cea2eaa-Tdebe773a",
+      "subjectId": "S16",
+      "chapterId": "S16-C3cea2eaa",
+      "title": "The Bretton Woods Conference (1944): Genesis of IMF, World Bank & John Maynard Keynes",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S16-C3cea2eaa-T30ab42bf",
+      "subjectId": "S16",
+      "chapterId": "S16-C3cea2eaa",
+      "title": "The World Bank Group: Five Distinct Institutions (IBRD, IDA, IFC, MIGA & ICSID)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S16-C3cea2eaa-T77272602",
+      "subjectId": "S16",
+      "chapterId": "S16-C3cea2eaa",
+      "title": "International Monetary Fund (IMF): Quota System, Balance of Payments Crisis Lending & Special Drawing Rights",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S16-C865f07fa-T3aeb4966",
+      "subjectId": "S16",
+      "chapterId": "S16-C865f07fa",
+      "title": "The Group of Twenty (G20): Structure, Troika, New Delhi Leaders' Declaration (2023) & African Union Entry",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S16-C865f07fa-Teba15d08",
+      "subjectId": "S16",
+      "chapterId": "S16-C865f07fa",
+      "title": "BRICS, Shanghai Cooperation Organisation (SCO) & ASEAN: Geopolitical Counterweights",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S17-C0375a3bf-T6512a741",
+      "subjectId": "S17",
+      "chapterId": "S17-C0375a3bf",
+      "title": "Nagara Style Temple Architecture: Curvilinear Shikhara, Amalaka & Khajuraho/Odisha Schools",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S17-C0375a3bf-T8ca7eb18",
+      "subjectId": "S17",
+      "chapterId": "S17-C0375a3bf",
+      "title": "Dravida Style Temple Architecture: Pyramidal Vimana, Monolithic Gopuram & Chola Masterpieces",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S17-C0375a3bf-T644ad148",
+      "subjectId": "S17",
+      "chapterId": "S17-C0375a3bf",
+      "title": "Vesara Hybrid Style: Badami Chalukyas, Hoysala Stellate Temples & Rashtrakuta Monoliths",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S17-C47d03ca3-T28de89d3",
+      "subjectId": "S17",
+      "chapterId": "S17-C47d03ca3",
+      "title": "Indian Classical Dances: 8 Sangeet Natak Akademi Recognitions & Natya Shastra Roots",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S17-C47d03ca3-T321c2c76",
+      "subjectId": "S17",
+      "chapterId": "S17-C47d03ca3",
+      "title": "Hindustani vs Carnatic Music: Ragas, Talas, Gharanas & Trinity of Carnatic Music",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S17-C47d03ca3-T3fa11251",
+      "subjectId": "S17",
+      "chapterId": "S17-C47d03ca3",
+      "title": "Folk Dance & Theatre Traditions of India: Yakshagana, Nautanki, Bihu, Garba & Kalbelia",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S17-C47d03ca3-T6d3d6eab",
+      "subjectId": "S17",
+      "chapterId": "S17-C47d03ca3",
+      "title": "Indian Painting Traditions: Mural Caves (Ajanta, Bagh, Lepakshi) & Miniature Schools",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S17-C47d03ca3-Tc4804790",
+      "subjectId": "S17",
+      "chapterId": "S17-C47d03ca3",
+      "title": "UNESCO World Heritage Sites in India: Cultural, Natural & Mixed Sites (Khangchendzonga)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S18-C2b02f8ee-T3f514b82",
+      "subjectId": "S18",
+      "chapterId": "S18-C2b02f8ee",
+      "title": "Epics of Ancient India: Valmiki Ramayana, Vyasa Mahabharata & Bhagavad Gita Philosophy",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S18-C2b02f8ee-Te59db0b2",
+      "subjectId": "S18",
+      "chapterId": "S18-C2b02f8ee",
+      "title": "Kalidasa's Masterpieces: Shakuntalam, Meghaduta, Raghuvamsham & Kumarasambhavam",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S18-C2b02f8ee-T786062a1",
+      "subjectId": "S18",
+      "chapterId": "S18-C2b02f8ee",
+      "title": "Classical Sanskrit Playwrights: Bhasa (Svapnavasavadattam), Sudraka (Mrichhakatika) & Vishakhadatta (Mudrarakshasa)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S18-Cd793f594-T82048dbe",
+      "subjectId": "S18",
+      "chapterId": "S18-Cd793f594",
+      "title": "Rabindranath Tagore: Gitanjali (Nobel Prize 1913), Visva-Bharati & National Anthems",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S18-Cd793f594-Tdcec6f98",
+      "subjectId": "S18",
+      "chapterId": "S18-Cd793f594",
+      "title": "Munshi Premchand: Realism in Hindi Literature, Godan, Kafan & Social Reformation",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S18-C19aab9fd-T84094218",
+      "subjectId": "S18",
+      "chapterId": "S18-C19aab9fd",
+      "title": "William Shakespeare: Four Great Tragedies (Hamlet, Macbeth, Othello, King Lear) & Sonnets",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S18-C19aab9fd-T9f78a6f5",
+      "subjectId": "S18",
+      "chapterId": "S18-C19aab9fd",
+      "title": "Russian Realism: Leo Tolstoy (War and Peace, Anna Karenina) & Fyodor Dostoevsky (Crime and Punishment)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S18-C19aab9fd-Td39458b1",
+      "subjectId": "S18",
+      "chapterId": "S18-C19aab9fd",
+      "title": "Latin American Magical Realism: Gabriel Garcia Marquez (One Hundred Years of Solitude) & Jorge Luis Borges",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S18-C19aab9fd-T8633e350",
+      "subjectId": "S18",
+      "chapterId": "S18-C19aab9fd",
+      "title": "Modern Nobel Laureates in Literature: Ernest Hemingway, George Orwell & Post-Colonial Voices",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C03e5a72a-T68a81807",
+      "subjectId": "S19",
+      "chapterId": "S19-C03e5a72a",
+      "title": "Olympic Games: Ancient Olympia, Modern Revival (Pierre de Coubertin) & India's Olympic Odyssey",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C03e5a72a-T15cba103",
+      "subjectId": "S19",
+      "chapterId": "S19-C03e5a72a",
+      "title": "Asian Games & Commonwealth Games: Origins, Emblem & India's Historic 100+ Medals Milestone",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C8da61983-T1b4ed8e8",
+      "subjectId": "S19",
+      "chapterId": "S19-C8da61983",
+      "title": "Chess Board Anatomy, Piece Values & Special Rules (Castling, En Passant, Promotion)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C8da61983-Tf4ad845c",
+      "subjectId": "S19",
+      "chapterId": "S19-C8da61983",
+      "title": "FIDE Hierarchy, Grandmaster Title Criteria & Elo Rating System",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C8da61983-Ta38f34f9",
+      "subjectId": "S19",
+      "chapterId": "S19-C8da61983",
+      "title": "World Chess Championship Lineage: From Steinitz, Fischer, Kasparov, Anand to Carlsen & Ding Liren",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C8da61983-Tdf2e8d79",
+      "subjectId": "S19",
+      "chapterId": "S19-C8da61983",
+      "title": "Chess Olympiads: History, Hamilton-Russell Cup & India's Historic Double Gold in Budapest 2024",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C73a11e71-T9fb32bc9",
+      "subjectId": "S19",
+      "chapterId": "S19-C73a11e71",
+      "title": "Cricket World Cups: ICC ODI (1975-2023) & T20 World Cups (2007 & 2024 India Triumphs)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C73a11e71-Tfdb627b0",
+      "subjectId": "S19",
+      "chapterId": "S19-C73a11e71",
+      "title": "FIFA World Cup: History, Jules Rimet / FIFA Trophy, Brazil's 5 Titles & Qatar 2022",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C73a11e71-T3d08116e",
+      "subjectId": "S19",
+      "chapterId": "S19-C73a11e71",
+      "title": "Tennis Grand Slams: The Four Majors (Australian Open, Roland Garros, Wimbledon, US Open) & Court Surfaces",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C73a11e71-T1706429c",
+      "subjectId": "S19",
+      "chapterId": "S19-C73a11e71",
+      "title": "Athletics Track and Field: Sprints, Relays, Javelin Throw & Decathlon",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C73a11e71-T2073c4fe",
+      "subjectId": "S19",
+      "chapterId": "S19-C73a11e71",
+      "title": "Badminton & Table Tennis: Thomas & Uber Cups, BWF Tour & India's Historic 2022 Thomas Cup Triumph",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-C73a11e71-T5cae49b1",
+      "subjectId": "S19",
+      "chapterId": "S19-C73a11e71",
+      "title": "Formula One Racing, Grand Prix Circuits, FIA Regulations & Constructors Champions",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-Cb1b9a7ce-Ta0fe55e7",
+      "subjectId": "S19",
+      "chapterId": "S19-Cb1b9a7ce",
+      "title": "National Sports Awards of India: Major Dhyan Chand Khel Ratna, Arjuna & Dronacharya Awards",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-Cb1b9a7ce-T09a4eac4",
+      "subjectId": "S19",
+      "chapterId": "S19-Cb1b9a7ce",
+      "title": "Traditional Indian Martial Arts & Indigenous Games: Kalaripayattu, Gatka, Mallakhamb & Kabaddi",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S19-Cb1b9a7ce-T47c7f241",
+      "subjectId": "S19",
+      "chapterId": "S19-Cb1b9a7ce",
+      "title": "Khelo India Initiative, Target Olympic Podium Scheme (TOPS) & Sports Governance in India",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S20-Ca04b08c0-T4faa3ecf",
+      "subjectId": "S20",
+      "chapterId": "S20-Ca04b08c0",
+      "title": "Birth of Motion Pictures: Lumiere Brothers, Cinematographe & Silent Film Era",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S20-Ca04b08c0-T30c98be1",
+      "subjectId": "S20",
+      "chapterId": "S20-Ca04b08c0",
+      "title": "Dawn of Indian Cinema: Dadasaheb Phalke, Raja Harishchandra (1913) & The Silent Era",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S20-Ca04b08c0-T337bf0ba",
+      "subjectId": "S20",
+      "chapterId": "S20-Ca04b08c0",
+      "title": "Arrival of Sound (Talkies): The Jazz Singer (1927) & Alam Ara (1931 - Ardeshir Irani)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S20-C8dd4bb3c-T107bcafb",
+      "subjectId": "S20",
+      "chapterId": "S20-C8dd4bb3c",
+      "title": "Dadasaheb Phalke Award: India's Highest Cinema Honor, Devika Rani & Legendary Recipients",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S20-C8dd4bb3c-T7d9e84da",
+      "subjectId": "S20",
+      "chapterId": "S20-C8dd4bb3c",
+      "title": "National Film Awards: Golden Lotus (Swarna Kamal), Shyamchi Aayi & Feature Film Honours",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S20-C8dd4bb3c-T98017d80",
+      "subjectId": "S20",
+      "chapterId": "S20-C8dd4bb3c",
+      "title": "Satyajit Ray: The Apu Trilogy, Pather Panchali at Cannes & Honorary Lifetime Oscar (1992)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S20-C8dd4bb3c-T8fd498c5",
+      "subjectId": "S20",
+      "chapterId": "S20-C8dd4bb3c",
+      "title": "Academy Awards (Oscars): Bhanu Athaiya, AR Rahman, Resul Pookutty & Historic Wins for 'Naatu Naatu' and 'The Elephant Whisperers'",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S20-C8dd4bb3c-T206a8632",
+      "subjectId": "S20",
+      "chapterId": "S20-C8dd4bb3c",
+      "title": "Indian Submissions to Academy Awards: Mother India (1957), Salaam Bombay! & Lagaan (Top 5 Nominations)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S21-C7f420f5a-T8a915531",
+      "subjectId": "S21",
+      "chapterId": "S21-C7f420f5a",
+      "title": "Bharat Ratna: Institution, Peepal Leaf Design, First Recipients (1954) & Non-Indian Laureates",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S21-C7f420f5a-T0ac90a72",
+      "subjectId": "S21",
+      "chapterId": "S21-C7f420f5a",
+      "title": "Padma Awards Hierarchy: Padma Vibhushan, Padma Bhushan & Padma Shri Regulations",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S21-C7f420f5a-T5c9887f1",
+      "subjectId": "S21",
+      "chapterId": "S21-C7f420f5a",
+      "title": "Wartime Gallantry Awards: Param Vir Chakra (PVC), Maha Vir Chakra & Major Somnath Sharma",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S21-C7f420f5a-T00a07970",
+      "subjectId": "S21",
+      "chapterId": "S21-C7f420f5a",
+      "title": "Peacetime Gallantry Awards: Ashoka Chakra, Kirti Chakra & Shaurya Chakra",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S21-Ce927e9b3-T87123e33",
+      "subjectId": "S21",
+      "chapterId": "S21-Ce927e9b3",
+      "title": "The Nobel Foundation: Alfred Nobel's Will (1895), Six Prize Domains & Awarding Bodies",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S21-Ce927e9b3-Tc3ac0867",
+      "subjectId": "S21",
+      "chapterId": "S21-Ce927e9b3",
+      "title": "Indian & Indian-Origin Nobel Laureates: Tagore, Raman, Khurana, Mother Teresa, Chandrasekhar, Sen & Banerjee",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S21-C1ef02426-T44d79c68",
+      "subjectId": "S21",
+      "chapterId": "S21-C1ef02426",
+      "title": "Jnanpith Award & Sahitya Akademi: India's Premier Literary Honors & G. Sankara Kurup",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S21-C1ef02426-T75e3a9bd",
+      "subjectId": "S21",
+      "chapterId": "S21-C1ef02426",
+      "title": "International Honours: Booker Prize, International Booker, Fields Medal & Abel Prize in Mathematics",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S22-Cbc82f40b-T5b6f40df",
+      "subjectId": "S22",
+      "chapterId": "S22-Cbc82f40b",
+      "title": "Six Classical Orthodox Schools (Shad-Darshanas): Samkhya, Yoga, Nyaya, Vaisheshika, Mimamsa & Vedanta",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S22-Cbc82f40b-Ta459e34e",
+      "subjectId": "S22",
+      "chapterId": "S22-Cbc82f40b",
+      "title": "Advaita Vedanta of Adi Shankaracharya: Non-Dualism, Maya, Nirguna Brahman & Four Amnaya Mutts",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S22-Cbc82f40b-T417cddb0",
+      "subjectId": "S22",
+      "chapterId": "S22-Cbc82f40b",
+      "title": "Heterodox (Nastika) Systems: Charvaka Materialism, Ajivika Fatalism & Jain Anekantavada",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S22-C8e2684ea-T3cb1d618",
+      "subjectId": "S22",
+      "chapterId": "S22-C8e2684ea",
+      "title": "Buddhism: Four Noble Truths, Eightfold Path, Buddhist Councils & Mahayana vs Theravada",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S22-C8e2684ea-Tff561fd6",
+      "subjectId": "S22",
+      "chapterId": "S22-C8e2684ea",
+      "title": "Christianity: Jesus of Nazareth, Apostles, The Holy Bible & Nicene Creed",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S22-C8e2684ea-T63fc6593",
+      "subjectId": "S22",
+      "chapterId": "S22-C8e2684ea",
+      "title": "Islam: Prophet Muhammad, The Holy Quran, Five Pillars & The Hijrah Calendar",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S22-C8e2684ea-T5cdda78c",
+      "subjectId": "S22",
+      "chapterId": "S22-C8e2684ea",
+      "title": "Greek, Roman & Norse Mythologies: Olympians, Norse Pantheon (Odin, Thor) & Mythic Archetypes",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C864e59f4-T5c9c7700",
+      "subjectId": "S23",
+      "chapterId": "S23-C864e59f4",
+      "title": "Indian Rupee Currency System: Coinage Act, Legal Tender & One Rupee Note Exception",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C864e59f4-Tb6a1f720",
+      "subjectId": "S23",
+      "chapterId": "S23-C864e59f4",
+      "title": "Banknote Printing Presses & Government Mints in India: Nashik, Dewas, Salboni, Mysore",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C864e59f4-Tcd8d7b2e",
+      "subjectId": "S23",
+      "chapterId": "S23-C864e59f4",
+      "title": "Mahatma Gandhi New Banknote Series (2016): Denominations, Colors & Cultural Heritage Reverse Motifs",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C864e59f4-T48579925",
+      "subjectId": "S23",
+      "chapterId": "S23-C864e59f4",
+      "title": "Advanced Anti-Counterfeiting Security Features in Currency Notes: Watermark, Security Thread & Intaglio",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C864e59f4-T19a253ad",
+      "subjectId": "S23",
+      "chapterId": "S23-C864e59f4",
+      "title": "History of Demonetization in India: 1946, 1978 & 2016 Economic Impact",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C864e59f4-T81865cef",
+      "subjectId": "S23",
+      "chapterId": "S23-C864e59f4",
+      "title": "Central Bank Digital Currency (CBDC): Digital Rupee (e₹-R and e₹-W) & Blockchain Concepts",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C2d861ea1-T0b879d5c",
+      "subjectId": "S23",
+      "chapterId": "S23-C2d861ea1",
+      "title": "Global Reserve Currencies & IMF Special Drawing Rights (SDR) Currency Basket",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C2d861ea1-Tc72a7da9",
+      "subjectId": "S23",
+      "chapterId": "S23-C2d861ea1",
+      "title": "Major Central Banks of the World: Federal Reserve, ECB, Bank of England & Bank of Japan",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C2d861ea1-Tb40a48df",
+      "subjectId": "S23",
+      "chapterId": "S23-C2d861ea1",
+      "title": "Foreign Exchange Reserves: Foreign Currency Assets, Gold, SDRs & Reserve Tranche Position",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C2d861ea1-T9c90ab40",
+      "subjectId": "S23",
+      "chapterId": "S23-C2d861ea1",
+      "title": "Exchange Rate Regimes: Fixed, Floating, Managed Float (Dirty Float) & Currency Depreciation vs Devaluation",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C2d861ea1-Tc4acc48c",
+      "subjectId": "S23",
+      "chapterId": "S23-C2d861ea1",
+      "title": "SWIFT Financial Messaging System, IBAN, Cross-Border Payments & Sanctions",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S23-C16cbee79-T6d37e572",
+      "subjectId": "S23",
+      "chapterId": "S23-C16cbee79",
+      "title": "World Trade Organization (WTO): Marrakesh Agreement, Most Favoured Nation (MFN) & Trade Dispute Settlement",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S24-Cf8311828-Td5a6a224",
+      "subjectId": "S24",
+      "chapterId": "S24-Cf8311828",
+      "title": "Chief of Defence Staff (CDS), Department of Military Affairs & Tri-Services Theatre Commands",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S24-Cf8311828-T33677d09",
+      "subjectId": "S24",
+      "chapterId": "S24-Cf8311828",
+      "title": "Indian Army Commands, Corps Structure & Commissioned Officer Rank Hierarchy",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S24-Cf8311828-T9a0072e1",
+      "subjectId": "S24",
+      "chapterId": "S24-Cf8311828",
+      "title": "Indian Navy: Operational Commands, Aircraft Carriers (INS Vikrant/Vikramaditya) & Submarine Fleet",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S24-Cf8311828-T5799aca6",
+      "subjectId": "S24",
+      "chapterId": "S24-Cf8311828",
+      "title": "Indian Air Force (IAF): Fighter Fleet (Rafale, Su-30MKI, Tejas) & Marshal of the Air Force Arjan Singh",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S24-Cff6d924e-T2805f928",
+      "subjectId": "S24",
+      "chapterId": "S24-Cff6d924e",
+      "title": "Central Reserve Police Force (CRPF): RAF, CoBRA & Internal Security Operations",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S24-Cff6d924e-T16abb078",
+      "subjectId": "S24",
+      "chapterId": "S24-Cff6d924e",
+      "title": "Border Guarding Forces: Border Security Force (BSF), Indo-Tibetan Border Police (ITBP) & Sashastra Seema Bal (SSB)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S24-Cff6d924e-Tf273e9e9",
+      "subjectId": "S24",
+      "chapterId": "S24-Cff6d924e",
+      "title": "Assam Rifles (Sentinels of the North East) & Central Industrial Security Force (CISF)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S24-Cff6d924e-T3c86ef5b",
+      "subjectId": "S24",
+      "chapterId": "S24-Cff6d924e",
+      "title": "Special Forces of India: National Security Guard (NSG / Black Cats), MARCOS & Garud Commandos",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S24-Cff6d924e-T9d289bc5",
+      "subjectId": "S24",
+      "chapterId": "S24-Cff6d924e",
+      "title": "India's Intelligence Architecture: Research & Analysis Wing (R&AW), Intelligence Bureau (IB) & NTRO",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S25-C92a15c80-Tfa42a019",
+      "subjectId": "S25",
+      "chapterId": "S25-C92a15c80",
+      "title": "National Emblem of India: Lion Capital of Ashoka at Sarnath, Abacus Animals & 'Satyameva Jayate'",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S25-C92a15c80-Tfe27a21d",
+      "subjectId": "S25",
+      "chapterId": "S25-C92a15c80",
+      "title": "National Flag of India: Tricolor Proportions, Pingali Venkayya, 24-Spoke Ashoka Chakra & Flag Code of India",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S25-C92a15c80-T0f25592e",
+      "subjectId": "S25",
+      "chapterId": "S25-C92a15c80",
+      "title": "State Animal, Bird, Tree & Flower Symbols of India: Royal Bengal Tiger, Peacock, Banyan & Lotus",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S25-Cebd32d28-T9a1f2a00",
+      "subjectId": "S25",
+      "chapterId": "S25-Cebd32d28",
+      "title": "Mughal Architectural Wonders: Taj Mahal, Agra Fort, Fatehpur Sikri & Buland Darwaza",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S25-Cebd32d28-T434b2816",
+      "subjectId": "S25",
+      "chapterId": "S25-Cebd32d28",
+      "title": "Ancient Rock-Cut Architecture: Ajanta Caves, Ellora Kailash Temple & Elephanta Trimurti",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S25-Cebd32d28-Tb5697e54",
+      "subjectId": "S25",
+      "chapterId": "S25-Cebd32d28",
+      "title": "New Seven Wonders of the World: Great Wall of China, Petra, Colosseum, Chichen Itza, Machu Picchu, Christ the Redeemer & Taj Mahal",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S25-Cebd32d28-Ta9010072",
+      "subjectId": "S25",
+      "chapterId": "S25-Cebd32d28",
+      "title": "Statue of Unity: World's Tallest Statue, Sardar Patel, Ram V. Sutar & Engineering Marvel",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S25-Ce3c66b9e-Td9517d63",
+      "subjectId": "S25",
+      "chapterId": "S25-Ce3c66b9e",
+      "title": "United Nations Emblem & Flags of Specialized Agencies: Olive Branches & World Map",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S25-Ce3c66b9e-Tfa328350",
+      "subjectId": "S25",
+      "chapterId": "S25-Ce3c66b9e",
+      "title": "International Organization Logos & Visual Identities: Olympic Rings, Red Cross, WWF Panda & Interpol",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-C2d838fe4-Tbfe9c929",
+      "subjectId": "S26",
+      "chapterId": "S26-C2d838fe4",
+      "title": "The Seven Fundamental SI Base Units: Meter, Kilogram, Second, Ampere, Kelvin, Mole & Candela",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-C2d838fe4-T37be1d5f",
+      "subjectId": "S26",
+      "chapterId": "S26-C2d838fe4",
+      "title": "Historic 2019 Redefinition of SI Units: The Seven Defining Fundamental Constants",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-C2d838fe4-T74ac4255",
+      "subjectId": "S26",
+      "chapterId": "S26-C2d838fe4",
+      "title": "Retirement of the International Prototype of the Kilogram (Le Grand K) & The Kibble Balance",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-C2d838fe4-Tbdc77998",
+      "subjectId": "S26",
+      "chapterId": "S26-C2d838fe4",
+      "title": "Atomic Clocks: Cesium-133 Hyperfine Transitions & Coordinated Universal Time (UTC)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-C41885f6d-Te821930d",
+      "subjectId": "S26",
+      "chapterId": "S26-C41885f6d",
+      "title": "Mechanical Derived Units: Newton (Force), Pascal (Pressure), Joule (Energy) & Watt (Power)",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-C41885f6d-T3535ad6c",
+      "subjectId": "S26",
+      "chapterId": "S26-C41885f6d",
+      "title": "Electromagnetic Derived Units: Coulomb, Volt, Ohm, Farad, Tesla & Henry",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-C41885f6d-T842453b2",
+      "subjectId": "S26",
+      "chapterId": "S26-C41885f6d",
+      "title": "Nuclear & Photometric Derived Units: Becquerel, Gray, Sievert, Lumen & Lux",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-Ce9261bae-T01fa0e46",
+      "subjectId": "S26",
+      "chapterId": "S26-Ce9261bae",
+      "title": "SI Decimal Prefixes: From Micro, Nano, Pico, Femto to Yotta, Ronna and Quetta",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-Ce9261bae-T4bb10371",
+      "subjectId": "S26",
+      "chapterId": "S26-Ce9261bae",
+      "title": "Metric vs Imperial System Conversions: Inches, Feet, Miles, Pounds, Gallons & Liters",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    },
+    {
+      "topicId": "S26-Ce9261bae-Tb0799229",
+      "subjectId": "S26",
+      "chapterId": "S26-Ce9261bae",
+      "title": "Astronomical Distances & Scales: Astronomical Unit (AU), Light-Year & Parsec",
+      "count": 5,
+      "target": 40,
+      "shortfall": 35,
+      "complete": false
+    }
+  ]
+}
