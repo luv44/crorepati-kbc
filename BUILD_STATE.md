@@ -10,12 +10,12 @@ Updated: **2026-10-23 (Asia/Calcutta)**
 - Baseline review-label preservation: 1,725/1,725 present; 0 lifecycle/kind/quality changes
 - Exam views: 21 total (7 legacy + 14 new)
 - Exam hierarchy validation: 21/21 valid; 5,806 resolved exam-topic memberships
-- Current Live: 3 directly checked general-current-affairs records / 3 bilingual one-minute analyses / 9 checked key points / 3 official links / 6 story-linked bilingual MCQs
+- Current Live: 13 directly checked general-current-affairs records / 13 bilingual one-minute analyses / 39 checked key points / 13 independent official links / 26 story-linked bilingual MCQs; 10 records share 23 October 2026
 - Target: 40 distinct, source-backed questions per canonical topic = 13,800
 - Complete topics: 0/345
 - Exact verified shortfall: **12,075**
 - Static integrity debt inherited from baseline: 1,725 questions without direct source IDs; 53 FactCards with absent/empty source references; 28 questions with concept IDs outside their topic
-- Production build: PASS (TypeScript + Vite, 1,602 modules + service worker `crorepati-f1f7af14ff912bfa`, 17 precached URLs)
+- Production build: PASS (TypeScript + Vite, 1,602 modules + service worker `crorepati-af85b22be4512f94`, 17 precached URLs; 18,281,074-byte build)
 - Deterministic Node tests: PASS (8/8)
 - Structural validation: PASS
 - Strict coverage/source release validation: BLOCKED by the exact gaps above
@@ -28,7 +28,8 @@ Updated: **2026-10-23 (Asia/Calcutta)**
 - Exam mappings resolve canonical subject → chapter → topic nodes; no copied hierarchy can silently diverge.
 - Current Live has separate year/month/day selectors.
 - Every published Current Live record is general current affairs, shows publication and verification dates, checked evidence, source links, three bilingual key points, and a bilingual recall focus; recruitment/result updates are excluded.
-- Current Live moves from a compact one-minute brief to a one-question-at-a-time daily quiz with answer feedback, official-source access, Skip/Next, and a result summary.
+- Current Live renders every verified story for the selected date without an item cap; the story rail remains scrollable when the date contains many records.
+- Every brief visibly lists all of its bilingual MCQ stems and four options, then opens either that story's quiz or the uncapped all-date quiz with answer feedback, official-source access, Skip/Next, and a result summary.
 - Briefs can be saved for review in local progress, and the feed is precached with the app shell for offline reading.
 - Dates without a checked record display `No verified news found`.
 - Current Live MCQs contain bilingual stems, four bilingual options, answer keys, and short bilingual explanations.

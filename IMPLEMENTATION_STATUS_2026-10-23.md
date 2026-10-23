@@ -16,9 +16,11 @@ A canonical topic bank is shared by every exam that maps to that topic. The 40-q
 - Added **Current Live** to desktop and mobile navigation.
 - Added independent **year, month, and day** selectors.
 - Dates without a checked record render exactly **“No verified news found”**.
-- Added 3 directly checked general-current-affairs records, 3 independent official source links, retained evidence excerpts, visible publication/verification dates, and 6 bilingual MCQs tied to their displayed stories.
-- Added a bilingual one-minute analysis to every story: 9 total checked key points plus a recall focus for each story.
-- Applied the referenced app's useful short-article/daily-quiz patterns as an original newsroom flow: verified-date shortcuts, story navigation, one-question-at-a-time quiz, Skip/Next, result summary, saved briefs, and visible offline availability. No third-party content or visual was copied.
+- Added 13 directly checked general-current-affairs records, 13 independent official source links, retained evidence excerpts, visible publication/verification dates, and 26 bilingual MCQs tied to their displayed stories.
+- Added a bilingual one-minute analysis to every story: 39 total checked key points plus a recall focus for each story.
+- Ten independently verified records share 23 October 2026. Current Live maps every matching record without a count cap; it never fills the feed with fabricated or duplicated items.
+- Every selected story now exposes all of its bilingual MCQ stems and four options inside the brief, plus a story-only quiz action. The all-date quiz still covers every linked question.
+- Applied the referenced app's useful short-article/daily-quiz patterns as an original newsroom flow: verified-date shortcuts, uncapped story navigation, one-question-at-a-time story/all-date quizzes, Skip/Next, result summary, saved briefs, and visible offline availability. No third-party content or visual was copied.
 - Excluded recruitment notices and examination-result updates from Current Live.
 - Each Current Live MCQ has a bilingual stem, exactly four bilingual options, one answer, and a short bilingual explanation.
 - External source links open in a new tab with `noopener noreferrer`.
@@ -31,6 +33,16 @@ A canonical topic bank is shared by every exam that maps to that topic. The 40-q
 
 | Publication date | Category | Checked story | MCQs |
 |---|---|---|---:|
+| 23 Oct 2026 | Defence | India–Russia bilateral naval exercise INDRA 2026 | 2 |
+| 23 Oct 2026 | Economy | Domestic demand and India's H1 FY 2026–27 steel data | 2 |
+| 23 Oct 2026 | Agriculture & Economy | Fisheries Investors & Exporters Conclave 2026 | 2 |
+| 23 Oct 2026 | Science & Technology | C-DOT's sixth Centre of Excellence at IIT (BHU) | 2 |
+| 23 Oct 2026 | Technology & Banking | C-DAC–Bank of India quantum-technology partnership | 2 |
+| 23 Oct 2026 | Agriculture & Innovation | Protective gloves for cotton-picking workers | 2 |
+| 23 Oct 2026 | National & Security | Civil Defence master-trainer network | 2 |
+| 23 Oct 2026 | International & Maritime | Indo-Pacific Regional Dialogue 2026 | 2 |
+| 23 Oct 2026 | Agriculture & Awards | Indian student at the Global Youth Institute | 2 |
+| 23 Oct 2026 | Environment & Agriculture | Agrivoltaics backgrounder | 2 |
 | 22 Oct 2026 | International Relations | India–Poland joint statement and 2030 trade goal | 2 |
 | 20 Oct 2026 | Sports | Deepthi Jeevanji's Asian Para Games gold | 2 |
 | 15 Oct 2026 | Environment | India's Ramsar Site tally reached 103 | 2 |
@@ -93,12 +105,13 @@ Passed:
 
 - TypeScript compilation
 - Vite production build: 1,602 transformed modules
-- Service-worker build: 17 precached URLs (`crorepati-f1f7af14ff912bfa`)
+- Service-worker build: 17 precached URLs (`crorepati-af85b22be4512f94`; 18,281,074-byte build)
 - Structural validator
 - 8 deterministic Node tests
 - 21/21 exam mappings
 - 5,806 resolved exam-topic memberships
-- 3 bilingual one-minute analyses / 9 checked key points / 6 story-linked bilingual MCQs / 3 directly checked links
+- 13 bilingual one-minute analyses / 39 checked key points / 26 story-linked bilingual MCQs / 13 directly checked links
+- 10 same-date records and 20 associated questions render for 23 October without an item cap; every selected brief displays its own full MCQ set
 - 1,725/1,725 question preservation
 - 0 baseline review-label changes
 - Dev HTTP checks for `/`, exam data, Current Live data, and transformed UI modules

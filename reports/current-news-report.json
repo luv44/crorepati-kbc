@@ -7,6 +7,13 @@
     "2026-10-22",
     "2026-10-23"
   ],
+  "recordsByDate": {
+    "2026-10-15": 1,
+    "2026-10-20": 1,
+    "2026-10-22": 1,
+    "2026-10-23": 10
+  },
+  "maxRecordsOnOneDate": 10,
   "links": 13,
   "bilingualOneMinuteAnalyses": 13,
   "analysisKeyPoints": 39,

@@ -127,10 +127,13 @@ export async function auditContent() {
     bySubject,
     byTopic,
   };
+  const recordsByDate = Object.fromEntries([...new Set(currentNews.items.map(item => item.publicationDate))].sort().map(date => [date, currentNews.items.filter(item => item.publicationDate === date).length]));
   const newsReport = {
     generatedAt: stableTime,
     records: currentNews.items.length,
-    publicationDates: [...new Set(currentNews.items.map(item => item.publicationDate))].sort(),
+    publicationDates: Object.keys(recordsByDate),
+    recordsByDate,
+    maxRecordsOnOneDate: Math.max(0, ...Object.values(recordsByDate)),
     links: currentNews.items.reduce((total, item) => total + item.links.length, 0),
     bilingualOneMinuteAnalyses: currentNews.items.filter(item => item.analysis?.readTimeMinutes === 1 && item.analysis.keyPoints?.every(point => point.en && point.hi) && item.analysis.whatToRemember?.en && item.analysis.whatToRemember?.hi).length,
     analysisKeyPoints: currentNews.items.reduce((total, item) => total + (item.analysis?.keyPoints?.length || 0), 0),

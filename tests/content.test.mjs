@@ -34,6 +34,13 @@ test('Current Live contains directly checked general current affairs with story-
   assert.match(audit.currentNews.policy, /directly checked/);
   assert.match(audit.currentNews.policy, /No verified news found/);
   assert.ok(audit.currentNews.items.length > 0);
+  const sameDateStories = audit.currentNews.items.filter(item => item.publicationDate === '2026-10-23');
+  assert.ok(sameDateStories.length >= 10, 'expected the independently verified 23 October multi-story feed');
+  assert.equal(audit.newsReport.recordsByDate['2026-10-23'], sameDateStories.length);
+  assert.ok(audit.newsReport.maxRecordsOnOneDate >= 10);
+  assert.ok(sameDateStories.every(item => item.mcqs.length > 0), 'every same-date story must retain its questions');
+  const sourceUrls = audit.currentNews.items.flatMap(item => item.links.map(link => link.url));
+  assert.equal(new Set(sourceUrls).size, sourceUrls.length, 'each story must open its own verified source link');
   assert.equal(audit.newsReport.bilingualOneMinuteAnalyses, audit.currentNews.items.length);
   assert.ok(audit.newsReport.analysisKeyPoints >= audit.currentNews.items.length * 3);
   for (const item of audit.currentNews.items) {
@@ -113,7 +120,16 @@ test('UI contains separate year/month/day controls, complete explanations and sa
   assert.match(library, /aria-label="News day"/);
   assert.match(library, /No verified news found/);
   assert.match(library, /1-minute brief/);
-  assert.match(library, /Daily quiz/);
+  assert.match(library, /All questions/);
+  assert.match(library, /Showing all.*no story limit/);
+  assert.match(library, /ALL VERIFIED STORIES FOR THIS DATE/);
+  assert.match(library, /QUESTIONS FOR THIS STORY/);
+  assert.match(library, /\{items\.map\(item =>/);
+  assert.doesNotMatch(library, /items\.slice/);
+  assert.match(library, /item\.mcqs\.map/);
+  assert.match(library, /quizStory\.mcqs\.map/);
+  assert.match(library, /verifiedDates\.map/);
+  assert.doesNotMatch(library, /verifiedDates\.slice/);
   assert.match(library, /Save brief/);
   assert.match(library, /offline reading/);
   assert.match(library, /Skip this one/);

@@ -107,6 +107,7 @@ assert(currentNews.items.length > 0, 'Current Live has no verified records');
 assert(/general current affairs/i.test(currentNews.policy) && /not recruitment or result updates/i.test(currentNews.policy), 'Current Live policy does not enforce general-current-affairs scope');
 assert(currentNews.policy.includes('No verified news found'), 'Current Live policy does not preserve the exact empty-state text');
 const newsIds = new Set();
+const newsSourceUrls = new Set();
 const mcqIds = new Set();
 for (const item of currentNews.items) {
   assert(!newsIds.has(item.id), `duplicate news ID: ${item.id}`);
@@ -128,6 +129,8 @@ for (const item of currentNews.items) {
   for (const link of item.links || []) {
     try { assert(new URL(link.url).protocol === 'https:', `news ${item.id} source is not HTTPS`); }
     catch { errors.push(`news ${item.id} source URL is invalid`); }
+    assert(!newsSourceUrls.has(link.url), `news ${item.id} reuses another story's source link`);
+    newsSourceUrls.add(link.url);
   }
   assert(Array.isArray(item.mcqs) && item.mcqs.length > 0, `news ${item.id} has no MCQs`);
   for (const question of item.mcqs || []) {

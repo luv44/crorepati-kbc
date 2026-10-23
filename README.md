@@ -18,8 +18,8 @@ The dev server binds to `0.0.0.0`. Learning progress and the selected exam are s
 - 345 canonical topics
 - 1,725 preserved questions
 - 21 exam views (7 legacy and 14 new)
-- 3 directly checked general-current-affairs records
-- 6 story-linked bilingual Current Live MCQs
+- 13 directly checked general-current-affairs records, including 10 on 23 October 2026
+- 26 story-linked bilingual Current Live MCQs
 
 Exam views reuse canonical topic banks. Selecting an exam scopes every content tab without duplicating or changing the canonical hierarchy.
 
@@ -31,8 +31,9 @@ Exam views reuse canonical topic banks. Selecting an exam scopes every content t
 - one or more checked HTTPS source links;
 - a retained evidence excerpt and locator;
 - a bilingual one-minute analysis with three checked key points and a recall focus;
-- a short story list organized by date and category;
-- a one-question-at-a-time daily quiz with Skip/Next, answer feedback, source access, and a result summary;
+- every independently verified story for the selected date, with no display-count cap;
+- every story's complete question stems and four options shown directly in its brief;
+- story-only or all-date one-question-at-a-time quizzes with Skip/Next, answer feedback, source access, and a result summary;
 - a saved-brief review strip stored with local progress;
 - offline reading through the precached Current Live feed;
 - bilingual MCQs with four options, answer, and short explanation, each answered by that displayed story.

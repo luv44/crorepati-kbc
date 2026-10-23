@@ -10,10 +10,12 @@
     "topicsAt40": 0,
     "exactShortfall": 12075,
     "examMappingsValid": 21,
-    "currentNewsRecords": 3,
-    "currentNewsOneMinuteAnalyses": 3,
-    "currentNewsAnalysisKeyPoints": 9,
-    "currentNewsMcqs": 6
+    "currentNewsRecords": 13,
+    "currentNewsOneMinuteAnalyses": 13,
+    "currentNewsAnalysisKeyPoints": 39,
+    "currentNewsMcqs": 26,
+    "currentNewsLinks": 13,
+    "latestDateCurrentNewsRecords": 10
   },
   "exactResumeStep": "Open QUESTION_BUILD_CHECKPOINT.json, source and independently review the next listed topic batch, then run npm run apply-batch -- --input <reviewed-batch.json> --batch-size 25. Do not generate filler or publish a record with unresolved source IDs.",
   "resumeFiles": [
@@ -35,6 +37,7 @@
     "A bilingual translation is one question, not two.",
     "A question is not source-backed merely because a URL exists elsewhere in the pack.",
     "Dates with no checked Current Live record must show No verified news found.",
+    "All independently verified records for a selected date must render without an arbitrary story-count limit; every record must visibly expose its linked questions.",
     "The 40-per-topic requirement is not complete while the strict gate reports a shortfall."
   ]
 }

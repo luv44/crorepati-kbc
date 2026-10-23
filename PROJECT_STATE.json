@@ -2,7 +2,7 @@
   "project": "Crorepati Revision",
   "updatedAt": "2026-10-23T00:00:00+05:30",
   "branchBaseline": "2e93cc1a981e7515787fe59ee9f33828fd65d636",
-  "milestone": "Exam-scoped catalogue and analyzed, source-checked Current Live implemented; 40-per-topic gate remains open",
+  "milestone": "Exam-scoped catalogue and uncapped, source-checked multi-story Current Live implemented; 40-per-topic gate remains open",
   "counts": {
     "subjects": 26,
     "chapters": 82,
@@ -14,11 +14,12 @@
     "targetQuestions": 13800,
     "questionShortfall": 12075,
     "topicsAtTarget": 0,
-    "currentNewsRecords": 3,
-    "currentNewsOneMinuteAnalyses": 3,
-    "currentNewsAnalysisKeyPoints": 9,
-    "currentNewsLinks": 3,
-    "currentNewsMcqs": 6
+    "currentNewsRecords": 13,
+    "currentNewsOneMinuteAnalyses": 13,
+    "currentNewsAnalysisKeyPoints": 39,
+    "currentNewsLinks": 13,
+    "currentNewsMcqs": 26,
+    "latestDateCurrentNewsRecords": 10
   },
   "preservation": {
     "baselineQuestions": 1725,
@@ -28,9 +29,9 @@
   },
   "verification": {
     "examMapping": "PASS: 21/21 mappings, 5,806 resolved exam-topic memberships",
-    "currentNewsIntegrity": "PASS: 3 general-current-affairs stories have bilingual one-minute analyses, 9 checked key points, dates, retained evidence and official links; all 6 bilingual MCQs are answered by their displayed story; recruitment/result updates are excluded",
+    "currentNewsIntegrity": "PASS: 13 general-current-affairs stories have bilingual one-minute analyses, 39 checked key points, dates, retained evidence and independent official links; 10 records and 20 MCQs share 23 October; every story exposes its own complete MCQ set and the UI applies no story-count cap",
     "nodeTests": "PASS: 8/8",
-    "productionBuild": "PASS: TypeScript, Vite 1,602 modules, service worker crorepati-f1f7af14ff912bfa with 17 precached URLs",
+    "productionBuild": "PASS: TypeScript, Vite 1,602 modules, service worker crorepati-af85b22be4512f94 with 17 precached URLs (18,281,074 bytes)",
     "httpSmoke": "PASS: app, exam data, Current Live data and transformed modules returned correct content types",
     "browserE2E": "BLOCKED_AT_LAUNCH: all 9 scenarios were invoked, but the Playwright Chromium executable is not installed",
     "strictCoverage": "FAIL_EXPECTED: 12,075-question shortfall",
